@@ -258,360 +258,264 @@ figures, automatically generate a table of contents, index, references,
 table of figures, etc. should make it of great benefit to nearly anyone
 writing a thesis project.
 
-\hypertarget{rmd-basics}{\chapter{R Markdown Basics}\label{rmd-basics}}
+\chapter{Riparian soil nitrogen cycling and isotopic enrichment in
+response to a long-term salmon carcass manipulation
+experiment}\label{riparian-soil-nitrogen-cycling-and-isotopic-enrichment-in-response-to-a-long-term-salmon-carcass-manipulation-experiment}
 
-Here is a brief introduction into using \emph{R Markdown}.
-\emph{Markdown} is a simple formatting syntax for authoring HTML, PDF,
-and MS Word documents. \emph{R Markdown} provides the flexibility of
-\emph{Markdown} with the implementation of \textbf{R} input and output.
-For more details on using \emph{R Markdown} see
-\url{http://rmarkdown.rstudio.com}.
+1.1 ABSTRACT
 
-Be careful with your spacing in \emph{Markdown} documents. While
-whitespace largely is ignored, it does at times give \emph{Markdown}
-signals as to how to proceed. As a habit, try to keep everything left
-aligned whenever possible, especially as you type a new paragraph. In
-other words, there is no need to indent basic text in the Rmd document
-(in fact, it might cause your text to do funny things if you do).
+Pacific salmon acquire most of their biomass in the ocean before
+returning to spawn and die in coastal streams and lakes, thus providing
+subsidies of marine-derived nitrogen (MDN) to freshwater and terrestrial
+ecosystems. Recent declines in salmon abundance have raised questions of
+whether managers should mitigate for losses of salmon MDN subsidies. To
+test the long-term importance of salmon subsidies to riparian ecosystems
+we measured soil N cycling in response to a 20-year manipulation where
+salmon carcasses were systematically removed from one bank and deposited
+on the opposite bank along a 2 km stream in southwestern Alaska. Soil
+samples were taken at different distances from the stream bank along
+nine paired transects and measured for organic and inorganic nitrogen
+concentrations, and nitrogen transformation rates. MDN was measured
+using \textsuperscript{15}N/\textsuperscript{14}N for bulk soils, and
+NH\textsubscript{4}\textsuperscript{+} and
+NO\textsubscript{3}\textsuperscript{-} soil pools. Stable isotope
+analyses confirmed \textsuperscript{15}N/\textsuperscript{14}N was
+elevated on the salmon enhanced bank compared to the salmon depleted
+bank. However, \textsuperscript{15}N/\textsuperscript{14}N values of
+plant-available inorganic nitrogen exceeded the
+\textsuperscript{15}N/\textsuperscript{14}N of salmon inputs,
+highlighting N isotope fractionation in soils that raises significant
+methodological issues with standard MDN assessments in riparian systems.
+Surprisingly, despite 20 years of salmon supplementation, the presence
+of MDN did not cause a long-term increase in soil N availability. This
+finding indicates the importance of MDN to ecosystem N biogeochemistry
+and riparian vegetation may be overestimated for some systems. Given
+that essential nutrients can also be pollutants, we urge more critical
+analyses of the role of MDN to inform compensatory mitigation programs
+targeting salmon nutrient enhancement.
 
-\section{Lists}\label{lists}
+1.2 INTRODUCTION
 
-It's easy to create a list. It can be unordered like
-\begin{itemize}
-\tightlist
-\item
-  Item 1
-\item
-  Item 2
-\end{itemize}
-or it can be ordered like
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Item 1
-\item
-  Item 2
-\end{enumerate}
-Notice that I intentionally mislabeled Item 2 as number 4.
-\emph{Markdown} automatically figures this out! You can put any numbers
-in the list and it will create the list. Check it out below.
+Pacific salmon (\emph{Oncorhynchus spp.}) migration from marine
+environments to freshwater spawning grounds is a textbook case of
+cross-ecosystem nutrient subsidies, and dozens of studies have
+identified the presence of marine-derived nitrogen (MDN) from salmon as
+crossing ecosystem boundaries from oceans to freshwaters and into the
+terrestrial environment (sensu, (Polis, Power, \& Huxel,
+\protect\hyperlink{ref-Polis2004}{2004}; Schindler et al.,
+\protect\hyperlink{ref-Schindler2003}{2003}; Scott M, Richard T, Mary F,
+\& Mark S, \protect\hyperlink{ref-Gende2002}{2002}). Declines in Pacific
+salmon populations in many areas, caused by human activities
+(overharvest, habitat degradation, dams) (Richard et al.,
+\protect\hyperlink{ref-Gustafson2007}{2007}), and the concern over loss
+of MDN to coastal watersheds has made restoration of salmon nutrients a
+focal point for many management and mitigation strategies. For example,
+in the Columbia River Basin where Pacific salmon populations have
+declined, legislation requiring compensatory mitigation has led to
+nutrient enhancement programs, on the foundation that habitats have lost
+critical nutrients from salmon and therefore augmentation is necessary
+to maintain ecosystem function (Collins, Marcarelli, Baxter, \& Wipfli,
+\protect\hyperlink{ref-Collins2015}{2015}).
 
-To create a sublist, just indent the values a bit (at least four spaces
-or a tab). (Here's one case where indentation is key!)
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Item 1
-\item
-  Item 2
-\item
-  Item 3
-  \begin{itemize}
-  \tightlist
-  \item
-    Item 3a
-  \item
-    Item 3b
-  \end{itemize}
-\end{enumerate}
-\section{Line breaks}\label{line-breaks}
+Salmon bring nutrients, including phosphorus (P) and other compounds in
+addition to nitrogen (N), into freshwater and terrestrial food webs
+through two pathways: 1) direct consumption of tissues by predators and
+scavengers, and 2) autotrophic or heterotrophic assimilation of
+nutrients released as salmon spawn, die, and eventually decay (Scott M
+et al., \protect\hyperlink{ref-Gende2002}{2002}). Salmon are enriched in
+the heavy isotope of nitrogen (\textsuperscript{15}N) relative to the
+light isotope (\textsuperscript{14}N) when compared to terrestrial and
+watershed-derived N. This isotopic enrichment has been used to
+quantitatively trace the presence of salmon derived nutrients into
+watersheds (Schindler et al.,
+\protect\hyperlink{ref-Schindler2003}{2003}). For example, the
+proportion of N derived from salmon ranges from approximately 30\% --
+75\% in fish and aquatic invertebrates (Naiman, Bilby, Schindler, \&
+Helfield, \protect\hyperlink{ref-Naiman2002}{2002}), 10 -- 90\% in
+piscivorous mammals such as bears, and 20 -- 40\% in piscivorous fishes
+near salmon spawning grounds (Bilby, Fransen, \& Bisson,
+\protect\hyperlink{ref-Bilby1996}{1996}; Chaloner, Martin, Wipfli,
+Ostrom, \& Lamberti, \protect\hyperlink{ref-Chaloner2002}{2002};
+Claeson, Li, Compton, \& Bisson,
+\protect\hyperlink{ref-Claeson2006}{2006}; Hilderbrand et al.,
+\protect\hyperlink{ref-Hilderbrand1999}{1999}).
 
-Make sure to add white space between lines if you'd like to start a new
-paragraph. Look at what happens below in the outputted document if you
-don't:
+The annual return of this predictable and abundant, yet temporally
+limited, high quality resource drives the foraging ecology of both
+terrestrial and aquatic consumers (Quinn, Helfield, Austin, Hovel, \&
+Bunn, \protect\hyperlink{ref-Quinn2018}{2018}; Schindler et al.,
+\protect\hyperlink{ref-Schindler2013}{2013}). Carcasses and roe are
+documented food sources for over 22 species of mammals, birds
+({\textbf{???}}), fishes (Scheuerell, Moore, Schindler, \& Harvey,
+\protect\hyperlink{ref-Scheuerell2007}{2007}), and invertebrates
+({\textbf{???}}; Meehan, Seminet-Reneau, \& Quinn,
+\protect\hyperlink{ref-Meehan2005}{2005}; Winder, Schindler, Moore,
+Johnson, \& Palen, \protect\hyperlink{ref-Winder2005}{2005}). Bear
+population density, body size, and reproductive output has been
+correlated with meat (primarily salmon) consumption, with piscivorous
+populations having 55 times higher density than their meat-limited
+counterparts (Hilderbrand et al.,
+\protect\hyperlink{ref-Hilderbrand1999}{1999}). In aquatic ecosystems,
+salmon carcass abundance has been correlated with elevated growth rates
+of invertebrates, and with size, density, and condition factor of
+juvenile salmonids ({\textbf{???}}; R. E. Bilby, Fransen, Bisson, \&
+Walter, \protect\hyperlink{ref-Bilby1998}{1998}; Wipfli, Hudson,
+Caouette, \& Chaloner, \protect\hyperlink{ref-Wipfli2003}{2003}).
 
-Here is the first sentence. Here is another sentence. Here is the last
-sentence to end the paragraph. This should be a new paragraph.
+The presence of MDN has been documented in aquatic primary producers,
+though its overall ecological importance remains ambiguous. Via this
+bottom-up pathway, salmon supply critical limiting nutrients that can
+increase primary and/or bacterial productivity, which are subsequently
+transferred to consumers and up through the food web (Chaloner et al.,
+\protect\hyperlink{ref-Chaloner2002}{2002}; Holtgrieve \& Schindler,
+\protect\hyperlink{ref-Holtgrieve2011}{2011}; M. S. Wipfli, Hudson, \&
+Caouette, \protect\hyperlink{ref-Wipfli1998}{1998}). Higher salmon
+returns are correlated with MDN signatures in lower trophic levels
+including zooplankton and periphyton (Finney,
+\protect\hyperlink{ref-Finney2000}{2000}; Holtgrieve, Schindler, Gowell,
+Ruff, \& Lisi, \protect\hyperlink{ref-Holtgrieve2010}{2010}; Kline Jr et
+al., \protect\hyperlink{ref-Kline1993}{1993}). Both direct ecological
+and paleolimnological evidence suggest MDN and P positively influence
+primary production in lakes (Moore et al.,
+\protect\hyperlink{ref-Moore2007}{2007}). For example, commercial
+fisheries remove upwards of two-thirds of MDN which would otherwise
+enter some freshwater lakes in Alaska, resulting in a 3-fold decline in
+algal production (Schindler, Leavitt, Brock, Johnson, \& Quay,
+\protect\hyperlink{ref-Schindler2005}{2005}). In stream ecosystems, the
+decomposition of salmon increases dissolved organic and inorganic
+nutrients, including highly available forms such as orthophosphate
+(PO\textsubscript{4}\textsuperscript{3-}) and ammonia/ammonium
+(NH\textsubscript{3}/NH\textsubscript{4}\textsuperscript{+}). These
+nutrients can stimulate epilithon growth (bacteria and algae), though
+the magnitude of this response is highly variable, and dependent on
+other growth limiting factors such as sunlight and disturbance
+(Janetski, Chaloner, Tiegs, \& Lamberti,
+\protect\hyperlink{ref-Janetski2009}{2009}; Johnston, MacIsaac,
+Tschaplinski, \& Hall, \protect\hyperlink{ref-Johnston2004}{2004};
+Mitchell \& Lamberti, \protect\hyperlink{ref-Mitchell2005}{2005}).
 
-\emph{Now for the correct way:}
+In the terrestrial realm, bottom-up effects of MDN from salmon are also
+thought to be ecologically important, though this has been difficult to
+demonstrate rigorously. Studies across the range of salmon in North
+America have inferred that up to 26\% of foliar N in riparian plants is
+marine derived, with foliar N levels often correlating with salmon
+abundance and distance from the salmon spawning location (e.g., Hocking
+\& Reynolds, \protect\hyperlink{ref-Hocking2012}{2012}; Reimchen \& Fox,
+\protect\hyperlink{ref-Reimchen2013}{2013}). While MDN is clearly
+present in terrestrial producers, direct evidence of the importance of
+MDN for ecosystem function and productivity is much less evident.
+Helfield \& Naiman (\protect\hyperlink{ref-Helfield2001}{2001}) measured
+tree growth increments in areas with and without salmon and found higher
+growth in one species (Sitka spruce) in areas where salmon nutrients
+were present, although these findings were later contested on
+statistical grounds (Kirchhoff,
+\protect\hyperlink{ref-Kirchoff2003}{2003}). Hocking \& Reynolds
+(\protect\hyperlink{ref-Hocking2012}{2012}) observed decreased
+understory plant diversity with increasing salmon abundance, though this
+pattern was largely attributed to increased dominance of a single N
+tolerant species (salmonberry). Reimchen \& Fox
+(\protect\hyperlink{ref-Reimchen2013}{2013}) suggested that salmon
+abundance increased tree growth, but tree ring
+\textsuperscript{15}N/\textsuperscript{14}N values were not related to
+salmon abundance; other growth limiting factors such as temperature and
+location were important covariates. Most recently, Quinn et al.
+(\protect\hyperlink{ref-Quinn2018}{2018}) examined tree growth
+increments in the riparian zone of a small Alaskan stream before and
+after a 20-year, \textgreater{} 200,000 kg, salmon carcass manipulation.
+In the two decades prior to manipulation, white spruce (\emph{Picea
+glauca}) on average grew faster on one bank compared to the other. The
+subsequent decades of carcass manipulation enriched the naturally slower
+growing side, and were associated with increased growth. However, the
+growth effect of the carcasses was smaller than the natural side-to-side
+variation, and other important site and landscape factors such as forest
+demography, climate, aspect, and water availability were not fully
+considered, a common trend in MDN studies of riparian vegetation.
 
-Here is the first sentence. Here is another sentence. Here is the last
-sentence to end the paragraph.
+Interpreting the contributions of MDN to terrestrial producers using
+stable isotopes is often highly simplified, and does not consider how
+variability of N sources and overall N availability may confound
+results. MDN analyses apply simple two-source mixing models to infer the
+proportion of total N derived from salmon. When applied to terrestrial
+vegetation, the terrestrial end-member for the mixing models is
+typically determined by sampling the
+\textsuperscript{15}N/\textsuperscript{14}N of the same species of plant
+either laterally away from the stream (where MDN contribution is
+expected to be small), upstream of barriers to salmon migration, or in
+watersheds without salmon. For the salmon end-member, a single value
+equal to the average \textsuperscript{15}N/\textsuperscript{14}N of
+salmon (12.62 ± 0.31 per mille for sockeye salmon) is typically used
+(S1). Inherent assumptions with these models therefore include: 1)
+reference sites are biogeochemically similar to salmon sites and 2) the
+isotopic signature of salmon is unchanged in the soils prior to plant
+uptake. N cycling in soils is strongly controlled by position in the
+landscape and contains a number of chemical reactions which fractionate
+N isotopically {[}({\textbf{???}}); Wheeler, Kavanagh, \& Daanen
+(\protect\hyperlink{ref-Wheeler2014}{2014}); Figure 1{]}, therefore
+these assumptions may not be valid.
 
-This should be a new paragraph.
+Experiments examining the contributions of MDN are often limited by
+short timescales, and relatively few experiments investigate changes in
+plant-available soil N pools important to plant nutrient uptake and
+growth (Collins et al., \protect\hyperlink{ref-Collins2015}{2015}).
+Studies examining spatial and temporal impacts of salmon on soil
+inorganic N have identified highly localized responses (effects only
+observed \textless{} 30 cm from carcasses) where soil ammonium
+(NH\textsubscript{4}\textsuperscript{+}) and nitrate
+(NO\textsubscript{3}\textsuperscript{-}) increase for weeks to months
+({\textbf{???}}; Gende, Miller, \& Hood,
+\protect\hyperlink{ref-Gende2007}{2007}; Holtgrieve, Schindler, \&
+Jewett, \protect\hyperlink{ref-Holtgrieve2009}{2009}) and rarely
+consider long-term N retention in the system. Experiments typically
+examine the contributions of MDN by nutrient addition not nutrient
+removal; however, nutrient removal is important for understanding the
+effects of lower numbers of salmon returning to coastal watersheds due
+to fishing, habitat reduction, and climate change. In addition, previous
+research observed a strong effect of watershed slope on
+\textsuperscript{15}N/\textsuperscript{14}N in riparian plants and
+attributed this to topography concentrating carcasses near streams
+({\textbf{???}}). However, watershed topography also influences soil
+water content and N cycling, which affect N isotopes ({\textbf{???}})
+and therefore complicates MDN assessments.
 
-\hypertarget{r-chunks}{\section{R chunks}\label{r-chunks}}
+To resolve the extent to which salmon carcasses contributed MDN to
+plant-available N pools and the long-term ecological response to this
+subsidy, we present a second study of the 20-year carcass manipulation
+experiment described in Quinn et al.
+(\protect\hyperlink{ref-Quinn2018}{2018}). While Quinn et al.
+(\protect\hyperlink{ref-Quinn2018}{2018}) focused on tree growth before
+and after the manipulation, the objective of this work was to determine
+whether prolonged enhancement and reduction of salmon subsidies altered
+long-term soil N cycling, similar to that documented in forests
+receiving N fertilizer additions ({\textbf{???}}; Prescott, Corbin, \&
+Parkinson, \protect\hyperlink{ref-Prescott1992}{1992}; Prescott,
+Kishchuk, \& Weetman, \protect\hyperlink{ref-Prescott1995}{1995}). If
+long-term changes in N availability due to salmon enhancement or
+reduction were observed, compensatory nutrient subsidies may be valuable
+for maintaining critical ecosystem functions in riparian areas with
+reduced salmon returns. If not, then the addition of nutrients as a
+management response to low salmon returns may have unintended negative
+consequences (sensu Compton et al.,
+\protect\hyperlink{ref-Compton2006}{2006}). Specifically, the importance
+of MDN to riparian ecosystems was assessed by 1) evaluating the presence
+of MDN in soils enhanced and depleted in salmon carcasses through bulk
+stable isotope analysis of N, 2) quantifying the response of
+plant-available N pools ({[}NH\textasciitilde{}4\textsuperscript{+}{]}
+and {[}NO\textasciitilde{}3\textsuperscript{-}{]}) and their rate of
+supply via mineralization and nitrification, 3) considering how
+fractionation in soils may impact mixing model results by measuring
+\textsuperscript{15}N/\textsuperscript{14}N of
+NH\textasciitilde{}4\textsuperscript{+} and 4) comparing these results
+to the vegetation responses measured by Quinn et al.
+(\protect\hyperlink{ref-Quinn2018}{2018}) at the same site. This
+research fills key knowledge gaps by examining the long-term legacy of
+inorganic N pools, both salmon addition and removal, and considering
+site variability that may impact the assumption of biogeochemical
+similarity between test and control sites, following a 20-year
+manipulation.
 
-When you click the \textbf{Knit} button above a document will be
-generated that includes both content as well as the output of any
-embedded \textbf{R} code chunks within the document. You can embed an
-\textbf{R} code chunk like this (\texttt{cars} is a built-in \textbf{R}
-dataset):
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{summary}\NormalTok{(cars)}
-\end{Highlighting}
-\end{Shaded}
-\begin{verbatim}
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-\end{verbatim}
-\section{Inline code}\label{inline-code}
+\chapter{Mathematics and Science}\label{math-sci}
 
-If you'd like to put the results of your analysis directly into your
-discussion, add inline code like this:
-\begin{quote}
-The \texttt{cos} of \(2 \pi\) is 1.
-\end{quote}
-Another example would be the direct calculation of the standard
-deviation:
-\begin{quote}
-The standard deviation of \texttt{speed} in \texttt{cars} is 5.2876444.
-\end{quote}
-One last neat feature is the use of the \texttt{ifelse} conditional
-statement which can be used to output text depending on the result of an
-\textbf{R} calculation:
-\begin{quote}
-The standard deviation is less than 6.
-\end{quote}
-Note the use of \texttt{\textgreater{}} here, which signifies a
-quotation environment that will be indented.
-
-As you see with \texttt{\$2\ \textbackslash{}pi\$} above, mathematics
-can be added by surrounding the mathematical text with dollar signs.
-More examples of this are in \protect\hyperlink{math-sci}{Mathematics
-and Science} if you uncomment the code in
-\protect\hyperlink{math}{Math}.
-
-\section{Including plots}\label{including-plots}
-
-You can also embed plots. For example, here is a way to use the base
-\textbf{R} graphics package to produce a plot using the built-in
-\texttt{pressure} dataset:
-
-\includegraphics{thesis_files/figure-latex/pressure-1.pdf}
-
-Note that the \texttt{echo=FALSE} parameter was added to the code chunk
-to prevent printing of the \textbf{R} code that generated the plot.
-There are plenty of other ways to add chunk options. More information is
-available at \url{http://yihui.name/knitr/options/}.
-
-Another useful chunk option is the setting of \texttt{cache=TRUE} as you
-see here. If document rendering becomes time consuming due to long
-computations or plots that are expensive to generate you can use knitr
-caching to improve performance. Later in this file, you'll see a way to
-reference plots created in \textbf{R} or external figures.
-
-\hypertarget{loading-and-exploring-data}{\section{Loading and exploring
-data}\label{loading-and-exploring-data}}
-
-Included in this template is a file called \texttt{flights.csv}. This
-file includes a subset of the larger dataset of information about all
-flights that departed from Seattle and Portland in 2014. More
-information about this dataset and its \textbf{R} package is available
-at \url{http://github.com/ismayc/pnwflights14}. This subset includes
-only Portland flights and only rows that were complete with no missing
-values. Merges were also done with the \texttt{airports} and
-\texttt{airlines} data sets in the \texttt{pnwflights14} package to get
-more descriptive airport and airline names.
-
-We can load in this data set using the following command:
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{flights <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"data/flights.csv"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-The data is now stored in the data frame called \texttt{flights} in
-\textbf{R}. To get a better feel for the variables included in this
-dataset we can use a variety of functions. Here we can see the
-dimensions (rows by columns) and also the names of the columns.
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{dim}\NormalTok{(flights)}
-\end{Highlighting}
-\end{Shaded}
-\begin{verbatim}
-[1] 52808    16
-\end{verbatim}
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{names}\NormalTok{(flights)}
-\end{Highlighting}
-\end{Shaded}
-\begin{verbatim}
- [1] "month"        "day"          "dep_time"     "dep_delay"    "arr_time"    
- [6] "arr_delay"    "carrier"      "tailnum"      "flight"       "dest"        
-[11] "air_time"     "distance"     "hour"         "minute"       "carrier_name"
-[16] "dest_name"   
-\end{verbatim}
-Another good idea is to take a look at the dataset in table form. With
-this dataset having more than 50,000 rows, we won't explicitly show the
-results of the command here. I recommend you enter the command into the
-Console \textbf{\emph{after}} you have run the \textbf{R} chunks above
-to load the data into \textbf{R}.
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{View}\NormalTok{(flights)}
-\end{Highlighting}
-\end{Shaded}
-While not required, it is highly recommended you use the \texttt{dplyr}
-package to manipulate and summarize your data set as needed. It uses a
-syntax that is easy to understand using chaining operations. Below I've
-created a few examples of using \texttt{dplyr} to get information about
-the Portland flights in 2014. You will also see the use of the
-\texttt{ggplot2} package, which produces beautiful, high-quality
-academic visuals.
-
-We begin by checking to ensure that needed packages are installed and
-then we load them into our current working environment:
-\begin{Shaded}
-\begin{Highlighting}[]
-\CommentTok{# List of packages required for this analysis}
-\NormalTok{pkg <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"knitr"}\NormalTok{, }\StringTok{"bookdown"}\NormalTok{, }\StringTok{"devtools"}\NormalTok{)}
-\CommentTok{# Check if packages are not installed and assign the}
-\CommentTok{# names of the packages not installed to the variable new.pkg}
-\NormalTok{new.pkg <-}\StringTok{ }\NormalTok{pkg[}\OperatorTok{!}\NormalTok{(pkg }\OperatorTok{%in%}\StringTok{ }\KeywordTok{installed.packages}\NormalTok{())]}
-\CommentTok{# If there are any packages in the list that aren't installed,}
-\CommentTok{# install them}
-\ControlFlowTok{if}\NormalTok{ (}\KeywordTok{length}\NormalTok{(new.pkg))}
-  \KeywordTok{install.packages}\NormalTok{(new.pkg, }\DataTypeTok{repos =} \StringTok{"http://cran.rstudio.com"}\NormalTok{)}
-\CommentTok{# Load packages (huskydown will load all of the packages as well)}
-\KeywordTok{library}\NormalTok{(huskydown)}
-\end{Highlighting}
-\end{Shaded}
-\clearpage
-
-The example we show here does the following:
-\begin{itemize}
-\item
-  Selects only the \texttt{carrier\_name} and \texttt{arr\_delay} from
-  the \texttt{flights} dataset and then assigns this subset to a new
-  variable called \texttt{flights2}.
-\item
-  Using \texttt{flights2}, we determine the largest arrival delay for
-  each of the carriers.
-\end{itemize}
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{library}\NormalTok{(dplyr)}
-\end{Highlighting}
-\end{Shaded}
-\begin{verbatim}
-
-Attaching package: 'dplyr'
-\end{verbatim}
-\begin{verbatim}
-The following objects are masked from 'package:stats':
-
-    filter, lag
-\end{verbatim}
-\begin{verbatim}
-The following objects are masked from 'package:base':
-
-    intersect, setdiff, setequal, union
-\end{verbatim}
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{flights2 <-}\StringTok{ }\NormalTok{flights }\OperatorTok{%>%}\StringTok{ }
-\StringTok{  }\KeywordTok{select}\NormalTok{(carrier_name, arr_delay)}
-\NormalTok{max_delays <-}\StringTok{ }\NormalTok{flights2 }\OperatorTok{%>%}\StringTok{ }
-\StringTok{  }\KeywordTok{group_by}\NormalTok{(carrier_name) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{summarize}\NormalTok{(}\DataTypeTok{max_arr_delay =} \KeywordTok{max}\NormalTok{(arr_delay, }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
-\begin{verbatim}
-`summarise()` ungrouping output (override with `.groups` argument)
-\end{verbatim}
-A useful function in the \texttt{knitr} package for making nice tables
-in \emph{R Markdown} is called \texttt{kable}. It is much easier to use
-than manually entering values into a table by copying and pasting values
-into Excel or LaTeX. This again goes to show how nice reproducible
-documents can be! (Note the use of \texttt{results="asis"}, which will
-produce the table instead of the code to create the table.) The
-\texttt{caption.short} argument is used to include a shorter title to
-appear in the List of Tables.
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{library}\NormalTok{(knitr)}
-\KeywordTok{kable}\NormalTok{(max_delays, }
-      \DataTypeTok{col.names =} \KeywordTok{c}\NormalTok{(}\StringTok{"Airline"}\NormalTok{, }\StringTok{"Max Arrival Delay"}\NormalTok{),}
-      \DataTypeTok{caption =} \StringTok{"Maximum Delays by Airline"}\NormalTok{,}
-      \DataTypeTok{caption.short =} \StringTok{"Max Delays by Airline"}\NormalTok{,}
-      \DataTypeTok{longtable =} \OtherTok{TRUE}\NormalTok{,}
-      \DataTypeTok{booktabs =} \OtherTok{TRUE}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-\begin{longtable}[t]{lr}
-\caption[Max Delays by Airline]{\label{tab:maxdelays}Maximum Delays by Airline}\\
-\toprule
-Airline & Max Arrival Delay\\
-\midrule
-Alaska Airlines Inc. & 338\\
-American Airlines Inc. & 1539\\
-Delta Air Lines Inc. & 651\\
-Frontier Airlines Inc. & 575\\
-Hawaiian Airlines Inc. & 407\\
-\addlinespace
-JetBlue Airways & 273\\
-SkyWest Airlines Inc. & 421\\
-Southwest Airlines Co. & 694\\
-United Air Lines Inc. & 472\\
-US Airways Inc. & 347\\
-\addlinespace
-Virgin America & 366\\
-\bottomrule
-\end{longtable}
-The last two options make the table a little easier-to-read.
-
-We can further look into the properties of the largest value here for
-American Airlines Inc. To do so, we can isolate the row corresponding to
-the arrival delay of 1539 minutes for American in our original
-\texttt{flights} dataset.
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{flights }\OperatorTok{%>%}\StringTok{ }
-\StringTok{  }\KeywordTok{filter}\NormalTok{(arr_delay }\OperatorTok{==}\StringTok{ }\DecValTok{1539}\NormalTok{, }
-\NormalTok{         carrier_name }\OperatorTok{==}\StringTok{ "American Airlines Inc."}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{select}\NormalTok{(}\OperatorTok{-}\KeywordTok{c}\NormalTok{(month, day, carrier, dest_name, hour, }
-\NormalTok{            minute, carrier_name, arr_delay))}
-\end{Highlighting}
-\end{Shaded}
-\begin{verbatim}
-  dep_time dep_delay arr_time tailnum flight dest air_time distance
-1     1403      1553     1934  N595AA   1568  DFW      182     1616
-\end{verbatim}
-We see that the flight occurred on March 3rd and departed a little after
-2 PM on its way to Dallas/Fort Worth. Lastly, we show how we can
-visualize the arrival delay of all departing flights from Portland on
-March 3rd against time of departure.
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{library}\NormalTok{(ggplot2)}
-\NormalTok{flights }\OperatorTok{%>%}\StringTok{ }
-\StringTok{  }\KeywordTok{filter}\NormalTok{(month }\OperatorTok{==}\StringTok{ }\DecValTok{3}\NormalTok{, day }\OperatorTok{==}\StringTok{ }\DecValTok{3}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{ggplot}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ dep_time, }
-             \DataTypeTok{y =}\NormalTok{ arr_delay)) }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
-\includegraphics{thesis_files/figure-latex/march3plot-1.pdf}
-
-\section{Additional resources}\label{additional-resources}
-\begin{itemize}
-\item
-  \emph{Markdown} Cheatsheet -
-  \url{https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet}
-\item
-  \emph{R Markdown} Reference Guide -
-  \url{https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf}
-\item
-  Introduction to \texttt{dplyr} -
-  \url{https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html}
-\item
-  \texttt{ggplot2} Documentation -
-  \url{http://docs.ggplot2.org/current/}
-\end{itemize}
-\hypertarget{math-sci}{\chapter{Mathematics and
-Science}\label{math-sci}}
-
-\hypertarget{math}{\section{Math}\label{math}}
+\section{Math}\label{math}
 
 \TeX~is the best way to typeset mathematics. Donald Knuth designed
 \TeX~when he got frustrated at how long it was taking the typesetters to
@@ -701,10 +605,9 @@ with the \texttt{kable} function, or functions in the
 pacakge.
 
 In addition to the tables that can be automatically generated from a
-data frame in \textbf{R} that you saw in
-\protect\hyperlink{rmd-basics}{R Markdown Basics} using the
-\texttt{kable} function, you can also create tables using \emph{pandoc}.
-(More information is available at
+data frame in \textbf{R} that you saw in {[}R Markdown Basics{]} using
+the \texttt{kable} function, you can also create tables using
+\emph{pandoc}. (More information is available at
 \url{http://pandoc.org/README.html\#tables}.) This might be useful if
 you don't have values specifically stored in \textbf{R}, but you'd like
 to display them in table form. Below is an example. Pay careful
@@ -772,12 +675,11 @@ Slight\strut
 \bottomrule
 \end{longtable}
 We can also create a link to the table by doing the following: Table
-\ref{tab:inher}. If you go back to
-\protect\hyperlink{loading-and-exploring-data}{Loading and exploring
-data} and look at the \texttt{kable} table, we can create a reference to
-this max delays table too: Table \ref{tab:maxdelays}. The addition of
-the \texttt{(\textbackslash{}\#tab:inher)} option to the end of the
-table caption allows us to then make a reference to Table
+\ref{tab:inher}. If you go back to {[}Loading and exploring data{]} and
+look at the \texttt{kable} table, we can create a reference to this max
+delays table too: Table \ref{tab:maxdelays}. The addition of the
+\texttt{(\textbackslash{}\#tab:inher)} option to the end of the table
+caption allows us to then make a reference to Table
 \texttt{\textbackslash{}@ref(tab:label)}. Note that this reference could
 appear anywhere throughout the document after the table has appeared.
 
@@ -803,7 +705,7 @@ Make note of the different \textbf{R} chunk options that are given in
 the R Markdown file (not shown in the knitted document).
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{include_graphics}\NormalTok{(}\DataTypeTok{path =} \StringTok{"figure/uw.png"}\NormalTok{)}
+\NormalTok{knitr}\OperatorTok{::}\KeywordTok{include_graphics}\NormalTok{(}\DataTypeTok{path =} \StringTok{"figure/uw.png"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 \begin{figure}
@@ -955,18 +857,17 @@ a second compile to load in references as standard LaTeX requires. To
 cite references in your thesis (after creating your bibliography
 database), place the reference name inside square brackets and precede
 it by the ``at'' symbol. For example, here's a reference to a book about
-worrying: (Molina \& Borkovec, 1994). This \texttt{Molina1994} entry
-appears in a file called \texttt{thesis.bib} in the \texttt{bib} folder.
-This bibliography database file was created by a program called BibTeX.
-You can call this file something else if you like (look at the YAML
-header in the main .Rmd file) and, by default, is to placed in the
-\texttt{bib} folder.
+worrying: ({\textbf{???}}). This \texttt{Molina1994} entry appears in a
+file called \texttt{thesis.bib} in the \texttt{bib} folder. This
+bibliography database file was created by a program called BibTeX. You
+can call this file something else if you like (look at the YAML header
+in the main .Rmd file) and, by default, is to placed in the \texttt{bib}
+folder.
 
 For more information about BibTeX and bibliographies, see
-(\url{http://web.reed.edu/cis/help/latex/index.html})\footnote{Reed~College
-  (2007)}. There are three pages on this topic: \emph{bibtex} (which
-talks about using BibTeX, at
-\url{http://web.reed.edu/cis/help/latex/bibtex.html}),
+(\url{http://web.reed.edu/cis/help/latex/index.html})\footnote{({\textbf{???}})}.
+There are three pages on this topic: \emph{bibtex} (which talks about
+using BibTeX, at \url{http://web.reed.edu/cis/help/latex/bibtex.html}),
 \emph{bibtexstyles} (about how to find and use the bibliography style
 that best suits your needs, at
 \url{http://web.reed.edu/cis/help/latex/bibtexstyles.html}) and
@@ -1101,7 +1002,7 @@ been organised into an R package, xxx, which is available at
 \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found
 in the University of Washington library.
 
-This version of the thesis was generated on 2021-05-16 12:18:33. The
+This version of the thesis was generated on 2021-05-22 15:09:49. The
 repository is currently at this commit:
 
 The computational environment that was used to generate this version is
@@ -1117,15 +1018,15 @@ as follows:
  collate  en_US.UTF-8                 
  ctype    en_US.UTF-8                 
  tz       America/Los_Angeles         
- date     2021-05-16                  
+ date     2021-05-22                  
 
 - Packages -------------------------------------------------------------------
  package     * version date       lib source                               
  assertthat    0.2.1   2019-03-21 [1] CRAN (R 4.0.0)                       
  backports     1.1.6   2020-04-05 [1] CRAN (R 4.0.0)                       
- bookdown      0.22.2  2021-05-16 [1] Github (rstudio/bookdown@e293790)    
- callr         3.4.3   2020-03-28 [1] CRAN (R 4.0.0)                       
- cli           2.0.2   2020-02-28 [1] CRAN (R 4.0.0)                       
+ bookdown      0.22.3  2021-05-22 [1] Github (rstudio/bookdown@aa75b5f)    
+ callr         3.7.0   2021-04-20 [1] CRAN (R 4.0.2)                       
+ cli           2.5.0   2021-04-26 [1] CRAN (R 4.0.2)                       
  colorspace    1.4-1   2019-03-18 [1] CRAN (R 4.0.0)                       
  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)                       
  desc          1.2.0   2018-05-01 [1] CRAN (R 4.0.0)                       
@@ -1134,7 +1035,6 @@ as follows:
  dplyr       * 1.0.2   2020-08-18 [1] CRAN (R 4.0.2)                       
  ellipsis      0.3.0   2019-09-20 [1] CRAN (R 4.0.0)                       
  evaluate      0.14    2019-05-28 [1] CRAN (R 4.0.0)                       
- fansi         0.4.1   2020-01-08 [1] CRAN (R 4.0.0)                       
  farver        2.0.3   2020-01-16 [1] CRAN (R 4.0.0)                       
  fs            1.5.0   2020-07-31 [1] CRAN (R 4.0.2)                       
  generics      0.0.2   2018-11-29 [1] CRAN (R 4.0.0)                       
@@ -1145,7 +1045,7 @@ as follows:
  highr         0.9     2021-04-16 [1] CRAN (R 4.0.2)                       
  htmltools     0.5.1.1 2021-01-22 [1] CRAN (R 4.0.2)                       
  huskydown   * 0.0.5   2021-05-16 [1] Github (benmarwick/huskydown@addb48e)
- knitr       * 1.33    2021-04-24 [1] CRAN (R 4.0.2)                       
+ knitr         1.33    2021-04-24 [1] CRAN (R 4.0.2)                       
  labeling      0.3     2014-08-23 [1] CRAN (R 4.0.0)                       
  lifecycle     0.2.0   2020-03-06 [1] CRAN (R 4.0.0)                       
  magrittr      2.0.1   2020-11-17 [1] CRAN (R 4.0.2)                       
@@ -1157,8 +1057,8 @@ as follows:
  pkgload       1.0.2   2018-10-29 [1] CRAN (R 4.0.0)                       
  png           0.1-7   2013-12-03 [1] CRAN (R 4.0.2)                       
  prettyunits   1.1.1   2020-01-24 [1] CRAN (R 4.0.0)                       
- processx      3.4.2   2020-02-09 [1] CRAN (R 4.0.0)                       
- ps            1.3.2   2020-02-13 [1] CRAN (R 4.0.0)                       
+ processx      3.5.2   2021-04-30 [1] CRAN (R 4.0.2)                       
+ ps            1.6.0   2021-02-28 [1] CRAN (R 4.0.2)                       
  purrr         0.3.4   2020-04-17 [1] CRAN (R 4.0.0)                       
  R6            2.4.1   2019-11-12 [1] CRAN (R 4.0.0)                       
  remotes       2.2.0   2020-07-21 [1] CRAN (R 4.0.2)                       
@@ -1168,14 +1068,14 @@ as follows:
  rstudioapi    0.11    2020-02-07 [1] CRAN (R 4.0.0)                       
  scales        1.1.0   2019-11-18 [1] CRAN (R 4.0.0)                       
  sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 4.0.2)                       
- stringi       1.6.1   2021-05-10 [1] CRAN (R 4.0.2)                       
+ stringi       1.6.2   2021-05-17 [1] CRAN (R 4.0.2)                       
  stringr       1.4.0   2019-02-10 [1] CRAN (R 4.0.0)                       
- testthat      2.3.2   2020-03-02 [1] CRAN (R 4.0.0)                       
+ testthat      3.0.2   2021-02-14 [1] CRAN (R 4.0.2)                       
  tibble        3.0.1   2020-04-20 [1] CRAN (R 4.0.0)                       
  tidyselect    1.1.0   2020-05-11 [1] CRAN (R 4.0.0)                       
  usethis     * 1.6.1   2020-04-29 [1] CRAN (R 4.0.2)                       
  vctrs         0.3.4   2020-08-29 [1] CRAN (R 4.0.2)                       
- withr         2.2.0   2020-04-20 [1] CRAN (R 4.0.0)                       
+ withr         2.4.2   2021-04-18 [1] CRAN (R 4.0.2)                       
  xfun          0.23    2021-05-15 [1] CRAN (R 4.0.2)                       
  yaml          2.2.1   2020-02-01 [1] CRAN (R 4.0.0)                       
 
@@ -1194,25 +1094,258 @@ as follows:
 \setlength{\parskip}{8pt}
 
 \hypertarget{refs}{}
-\hypertarget{ref-angel2000}{}
-Angel, E. (2000). \emph{Interactive computer graphics : A top-down
-approach with opengl}. Boston, MA: Addison Wesley Longman.
+\hypertarget{ref-Bilby1996}{}
+Bilby, R. E., Fransen, B. R., \& Bisson, P. A. (1996). Incorporation of
+nitrogen and carbon from spawning coho salmon into the trophic system of
+small streams: Evidence from stable isotopes. \emph{Canadian Journal of
+Fisheries and Aquatic Sciences}, \emph{53}(1), 164--173. Journal
+Article. \url{http://doi.org/10.1139/f95-159}
 
-\hypertarget{ref-angel2001}{}
-Angel, E. (2001a). \emph{Batch-file computer graphics : A bottom-up
-approach with quicktime}. Boston, MA: Wesley Addison Longman.
+\hypertarget{ref-Bilby1998}{}
+Bilby, R. E., Fransen, B. R., Bisson, P. A., \& Walter, J. K. (1998).
+Response of juvenile coho salmon (oncorhynchus kisutch) and steelhead
+(oncorhynchus mykiss) to the addition of salmon carcasses to two streams
+in southwestern washington, u.S.A. \emph{Canadian Journal of Fisheries
+and Aquatic Sciences}, \emph{55}(8), 1909--1918. Journal Article.
+\url{http://doi.org/10.1139/cjfas-55-8-1909}
 
-\hypertarget{ref-angel2002a}{}
-Angel, E. (2001b). \emph{Test second book by angel}. Boston, MA: Wesley
-Addison Longman.
+\hypertarget{ref-Chaloner2002}{}
+Chaloner, D. T., Martin, K. M., Wipfli, M. S., Ostrom, P. H., \&
+Lamberti, G. A. (2002). Marine carbon and nitrogen in southeastern
+alaska stream food webs: Evidence from artificial and natural streams.
+\emph{Canadian Journal of Fisheries and Aquatic Sciences}, \emph{59}(8),
+1257--1265. Journal Article. \url{http://doi.org/10.1139/f02-084}
 
-\hypertarget{ref-Molina1994}{}
-Molina, S. T., \& Borkovec, T. D. (1994). The Penn State worry
-questionnaire: Psychometric properties and associated characteristics.
-In G. C. L. Davey \& F. Tallis (Eds.), \emph{Worrying: Perspectives on
-theory, assessment and treatment} (pp. 265--283). New York: Wiley.
+\hypertarget{ref-Claeson2006}{}
+Claeson, S. M., Li, J. L., Compton, J. E., \& Bisson, P. A. (2006).
+Response of nutrients, biofilm, and benthic insects to salmon carcass
+addition. \emph{Canadian Journal of Fisheries and Aquatic Sciences},
+\emph{63}(6), 1230--1241. Journal Article.
+\url{http://doi.org/10.1139/f06-029}
 
-\hypertarget{ref-reedweb2007}{}
-Reed~College. (2007, March). LaTeX your document. Retrieved from
-\url{http://web.reed.edu/cis/help/LaTeX/index.html}
+\hypertarget{ref-Collins2015}{}
+Collins, S. F., Marcarelli, A. M., Baxter, C. V., \& Wipfli, M. S.
+(2015). A critical assessment of the ecological assumptions underpinning
+compensatory mitigation of salmon-derived nutrients. \emph{Environmental
+Management (New York)}, \emph{56}(3), 571--586. Journal Article.
+\url{http://doi.org/10.1007/s00267-015-0538-5}
+
+\hypertarget{ref-Compton2006}{}
+Compton, J. E., Andersen, C. P., Phillips, D. L., Brooks, J. R.,
+Johnson, M. G., Church, M. R., \ldots{} Shaff, C. D. (2006). Ecological
+and water quality consequences of nutrient addition for salmon
+restoration in the pacific northwest. \emph{Frontiers in Ecology and the
+Environment}, \emph{4}(1), 18--26. Journal Article.
+\href{http://doi.org/10.1890/1540-9295(2006)004\%5B0018:EAWQCO\%5D2.0.CO;2}{http://doi.org/10.1890/1540-9295(2006)004{[}0018:EAWQCO{]}2.0.CO;2}
+
+\hypertarget{ref-Finney2000}{}
+Finney, B. P. (2000). Impacts of climatic change and fishing on pacific
+salmon abundance over the past 300 years. \emph{Science (American
+Association for the Advancement of Science)}, \emph{290}(5492),
+795--799. Journal Article.
+\url{http://doi.org/10.1126/science.290.5492.795}
+
+\hypertarget{ref-Gende2007}{}
+Gende, S. M., Miller, A. E., \& Hood, E. (2007). The effects of salmon
+carcasses on soil nitrogen pools in a riparian forest of southeastern
+alaska. \emph{Canadian Journal of Forest Research}, \emph{37}(7),
+1194--1202. Journal Article. \url{http://doi.org/10.1139/X06-318}
+
+\hypertarget{ref-Helfield2001}{}
+Helfield, J. M., \& Naiman, R. J. (2001). Effects of salmon-derived
+nitrogen on riparian forest growth and implications for stream
+productivity. \emph{Ecology (Durham)}, \emph{82}(9), 2403--2409. Journal
+Article.
+\href{http://doi.org/10.1890/0012-9658(2001)082\%5B2403:EOSDNO\%5D2.0.CO;2}{http://doi.org/10.1890/0012-9658(2001)082{[}2403:EOSDNO{]}2.0.CO;2}
+
+\hypertarget{ref-Hilderbrand1999}{}
+Hilderbrand, G. V., Schwartz, C. C., Robbins, C. T., Jacoby, M. E.,
+Hanley, T. A., Arthur, S. M., \& Servheen, C. (1999). The importance of
+meat, particularly salmon, to body size, population productivity, and
+conservation of north american brown bears. \emph{Canadian Journal of
+Zoology}, \emph{77}(1), 132--138. Journal Article.
+\url{http://doi.org/10.1139/z98-195}
+
+\hypertarget{ref-Hocking2012}{}
+Hocking, M. D., \& Reynolds, J. D. (2012). Nitrogen uptake by plants
+subsidized by pacific salmon carcasses: A hierarchical experiment.
+\emph{Canadian Journal of Forest Research}, \emph{42}(5), 908--917.
+Journal Article. \url{http://doi.org/10.1139/x2012-045}
+
+\hypertarget{ref-Holtgrieve2011}{}
+Holtgrieve, G. W., \& Schindler, D. E. (2011). Marine-derived nutrients,
+bioturbation, and ecosystem metabolism: Reconsidering the role of salmon
+in streams. \emph{Ecology (Durham)}, \emph{92}(2), 373--385. Journal
+Article. \url{http://doi.org/10.1890/09-1694.1}
+
+\hypertarget{ref-Holtgrieve2009}{}
+Holtgrieve, G. W., Schindler, D. E., \& Jewett, P. K. (2009). Large
+predators and biogeochemical hotspots: Brown bear (ursus arctos)
+predation on salmon alters nitrogen cycling in riparian soils.
+\emph{Ecological Research}, \emph{24}(5), 1125--1135. Journal Article.
+\url{http://doi.org/10.1007/s11284-009-0591-8}
+
+\hypertarget{ref-Holtgrieve2010}{}
+Holtgrieve, G. W., Schindler, D. E., Gowell, C. P., Ruff, C. P., \&
+Lisi, P. J. (2010). Stream geomorphology regulates the effects on
+periphyton of ecosystem engineering and nutrient enrichment by pacific
+salmon. \emph{Freshwater Biology}, \emph{55}(12), 2598--2611. Journal
+Article. \url{http://doi.org/10.1111/j.1365-2427.2010.02489.x}
+
+\hypertarget{ref-Janetski2009}{}
+Janetski, D. J., Chaloner, D. T., Tiegs, S. D., \& Lamberti, G. A.
+(2009). Pacific salmon effects on stream ecosystems: A quantitative
+synthesis. \emph{Oecologia}, \emph{159}(3), 583--595. Journal Article.
+\url{http://doi.org/10.1007/s00442-008-1249-x}
+
+\hypertarget{ref-Johnston2004}{}
+Johnston, N. T., MacIsaac, E. A., Tschaplinski, P. J., \& Hall, K. J.
+(2004). Effects of the abundance of spawning sockeye salmon
+(oncorhynchus nerka) on nutrients and algal biomass in forested streams.
+\emph{Canadian Journal of Fisheries and Aquatic Sciences}, \emph{61}(3),
+384--403. Journal Article. \url{http://doi.org/10.1139/f03-172}
+
+\hypertarget{ref-Kirchoff2003}{}
+Kirchhoff, M. D. (2003). Effects of salmon-derived nitrogen on riparian
+forest growth and implications for stream productivity: Comment.
+\emph{Ecology (Durham)}, \emph{84}(12), 3396--3399. Journal Article.
+\url{http://doi.org/10.1890/02-3121}
+
+\hypertarget{ref-Kline1993}{}
+Kline Jr, T. C., Goering, J. J., Mathisen, O. A., Poe, P. H., Parker, P.
+L., \& Scalan, R. S. (1993). Recycling of elements transported upstream
+by runs of pacific salmon: II. δ15N and δ13C evidence in the kvichak
+river watershed, bristol bay, southwestern alaska. \emph{Canadian
+Journal of Fisheries and Aquatic Sciences}, \emph{50}(11), 2350--2365.
+Journal Article. \url{http://doi.org/10.1139/f93-259}
+
+\hypertarget{ref-Meehan2005}{}
+Meehan, E. P., Seminet-Reneau, E. E., \& Quinn, T. P. (2005). Bear
+predation on pacific salmon facilitates colonization of carcasses by fly
+maggots. \emph{The American Midland Naturalist}, \emph{153}(1),
+142--151. Journal Article.
+\href{http://doi.org/10.1674/0003-0031(2005)153\%5B0142:BPOPSF\%5D2.0.CO;2}{http://doi.org/10.1674/0003-0031(2005)153{[}0142:BPOPSF{]}2.0.CO;2}
+
+\hypertarget{ref-Mitchell2005}{}
+Mitchell, N. L., \& Lamberti, G. A. (2005). Responses in dissolved
+nutrients and epilithon abundance to spawning salmon in southeast alaska
+streams. \emph{Limnology and Oceanography}, \emph{50}(1), 217--227.
+Journal Article. \url{http://doi.org/10.4319/lo.2005.50.1.0217}
+
+\hypertarget{ref-Moore2007}{}
+Moore, J. W., Schindler, D. E., Carter, J. L., Fox, J., Griffiths, J.,
+\& Holtgrieve, G. W. (2007). Biotic control of stream fluxes: Spawning
+salmon drive nutrient and matter export. \emph{Ecology (Durham)},
+\emph{88}(5), 1278--1291. Journal Article.
+\url{http://doi.org/10.1890/06-0782}
+
+\hypertarget{ref-Naiman2002}{}
+Naiman, R. J., Bilby, R. E., Schindler, D. E., \& Helfield, J. M.
+(2002). Pacific salmon, nutrients, and the dynamics of freshwater and
+riparian ecosystems. \emph{Ecosystems (New York)}, \emph{5}(4),
+399--417. Journal Article.
+\url{http://doi.org/10.1007/s10021-001-0083-3}
+
+\hypertarget{ref-Polis2004}{}
+Polis, G. A., Power, M. E., \& Huxel, G. R. (2004). \emph{Food webs at
+the landscape level}. Book, Chicago: Chicago : University of Chicago
+Press.
+
+\hypertarget{ref-Prescott1992}{}
+Prescott, C. E., Corbin, J. P., \& Parkinson, D. (1992). Immobilization
+and availability of n and p in the forest floors of fertilized rocky
+mountain coniferous forests. \emph{Plant and Soil}, \emph{143}(1),
+1--10. Journal Article. \url{http://doi.org/10.1007/BF00009123}
+
+\hypertarget{ref-Prescott1995}{}
+Prescott, C. E., Kishchuk, B. E., \& Weetman, G. F. (1995). Long-term
+effects of repeated n fertilization and straw application in a jack pine
+forest. 3. nitrogen availability in the forest floor. \emph{Canadian
+Journal of Forest Research}, \emph{25}(12), 1991--1996. Journal Article.
+\url{http://doi.org/10.1139/x95-215}
+
+\hypertarget{ref-Quinn2018}{}
+Quinn, T. P., Helfield, J. M., Austin, C. S., Hovel, R. A., \& Bunn, A.
+G. (2018). A multidecade experiment shows that fertilization by salmon
+carcasses enhanced tree growth in the riparian zone. \emph{Ecology
+(Durham)}, \emph{99}(11), 2433--2441. Journal Article.
+\url{http://doi.org/10.1002/ecy.2453}
+
+\hypertarget{ref-Reimchen2013}{}
+Reimchen, T. E., \& Fox, C. H. (2013). Fine-scale spatiotemporal
+influences of salmon on growth and nitrogen signatures of sitka spruce
+tree rings. \emph{BMC Ecology}, \emph{13}(1), 38--38. Journal Article.
+\url{http://doi.org/10.1186/1472-6785-13-38}
+
+\hypertarget{ref-Gustafson2007}{}
+Richard, G. G., Robin, S. W., James, M. M., Laurie, A. W., Gregory, J.
+B., Orlay, W. J., \& Jeffrey, J. H. (2007). Pacific salmon extinctions:
+Quantifying lost and remaining diversity. \emph{Conservation Biology},
+\emph{21}(4), 1009--1020. Journal Article.
+\url{http://doi.org/10.1111/j.1523-1739.2007.00693.x}
+
+\hypertarget{ref-Scheuerell2007}{}
+Scheuerell, M. D., Moore, J. W., Schindler, D. E., \& Harvey, C. J.
+(2007). Varying effects of anadromous sockeye salmon on the trophic
+ecology of two species of resident salmonids in southwest alaska.
+\emph{Freshwater Biology}, \emph{52}(10), 1944--1956. Journal Article.
+\url{http://doi.org/10.1111/j.1365-2427.2007.01823.x}
+
+\hypertarget{ref-Schindler2013}{}
+Schindler, D. E., Armstrong, J. B., Bentley, K. T., Jankowski, K., Lisi,
+P. J., \& Payne, L. X. (2013). Riding the crimson tide: Mobile
+terrestrial consumers track phenological variation in spawning of an
+anadromous fish. \emph{Biology Letters (2005)}, \emph{9}(3),
+20130048--20130048. Journal Article.
+\url{http://doi.org/10.1098/rsbl.2013.0048}
+
+\hypertarget{ref-Schindler2005}{}
+Schindler, D. E., Leavitt, P. R., Brock, C. S., Johnson, S. P., \& Quay,
+P. D. (2005). Marine-derived nutrients, commercial fisheries, and
+production of salmon and lake algae in alaska. \emph{Ecology (Durham)},
+\emph{86}(12), 3225--3231. Journal Article.
+\url{http://doi.org/10.1890/04-1730}
+
+\hypertarget{ref-Schindler2003}{}
+Schindler, D. E., Scheuerell, M. D., Moore, J. W., Gende, S. M.,
+Francis, T. B., \& Palen, W. J. (2003). Pacific salmon and the ecology
+of coastal ecosystems. \emph{Frontiers in Ecology and the Environment},
+\emph{1}(1), 31. Journal Article. \url{http://doi.org/10.2307/3867962}
+
+\hypertarget{ref-Gende2002}{}
+Scott M, G., Richard T, E., Mary F, W., \& Mark S, W. (2002). Pacific
+salmon in aquatic and terrestrial ecosystems: Pacific salmon subsidize
+freshwater and terrestrial ecosystems through several pathways, which
+generates unique management and conservation issues but also provides
+valuable research opportunities. \emph{Bioscience}, \emph{52}(10),
+917--928. Journal Article.
+\href{http://doi.org/10.1641/0006-3568(2002)052\%5B0917:PSIAAT\%5D2.0.CO;2}{http://doi.org/10.1641/0006-3568(2002)052{[}0917:PSIAAT{]}2.0.CO;2}
+
+\hypertarget{ref-Wheeler2014}{}
+Wheeler, T. A., Kavanagh, K. L., \& Daanen, S. A. (2014). Terrestrial
+salmon carcass decomposition: Nutrient and isotopic dynamics in central
+idaho. \emph{Northwest Science}, \emph{88}(2), 106--119. Journal
+Article. \url{http://doi.org/10.3955/046.088.0206}
+
+\hypertarget{ref-Winder2005}{}
+Winder, M., Schindler, D. E., Moore, J. W., Johnson, S. P., \& Palen, W.
+J. (2005). Do bears facilitate transfer of salmon resources to aquatic
+macroinvertebrates? \emph{Canadian Journal of Fisheries and Aquatic
+Sciences}, \emph{62}(10), 2285--2293. Journal Article.
+\url{http://doi.org/10.1139/f05-136}
+
+\hypertarget{ref-Wipfli2003}{}
+Wipfli, M. S., Hudson, J. P., Caouette, J. P., \& Chaloner, D. T.
+(2003). Marine subsidies in freshwater ecosystems: Salmon carcasses
+increase the growth rates of stream‐Resident salmonids.
+\emph{Transactions of the American Fisheries Society (1900)},
+\emph{132}(2), 371--381. Journal Article.
+\href{http://doi.org/10.1577/1548-8659(2003)132\%3C0371:MSIFES\%3E2.0.CO;2}{http://doi.org/10.1577/1548-8659(2003)132\textless{}0371:MSIFES\textgreater{}2.0.CO;2}
+
+\hypertarget{ref-Wipfli1998}{}
+Wipfli, M. S., Hudson, J., \& Caouette, J. (1998). Influence of salmon
+carcasses on stream productivity : Response of biofilm and benthic
+macroinvertebrates in southeastern alaska, u.S.A. \emph{Canadian Journal
+of Fisheries and Aquatic Sciences}, \emph{55}(6), 1503--1511. Journal
+Article. \url{http://doi.org/10.1139/cjfas-55-6-1503}
 \end{document}
