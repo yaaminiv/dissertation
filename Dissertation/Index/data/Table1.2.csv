@@ -1,0 +1,32 @@
+﻿Response Variable,Model Hypothesis,ΔAIC,Covariates Included in Models with Relative Support
+Bulk δ15N,2,0,"Bank, ln(Distance), Bank:ln(Distance), Bank:ln(Distance)2"
+,2,0.41,"Bank, ln(Distance), Bank:ln(Distance), Bank:ln(Distance)2, [Ntot]"
+Bulk δ13C,1,0,ln(Distance)
+,1,0.22,"Bank, ln(Distance)"
+,1,0.62,"ln(Distance), [Ntot]"
+,1,1.23,"Bank, ln(Distance), [Ntot]"
+δ15N of NH4+,2,0,"Bank, ln(Distance), Bank:ln(Distance), Bank:ln(Distance)2"
+[NH4+],1,0,"Bank, ln(Distance)"
+,1,0.69,"Bank, ln(Distance), Bank:ln(Distance)"
+,1,0.69,Bank
+,1,0.95,"Bank, GW"
+,1,1.1,"Bank, ln(Distance), GW"
+,,,
+,1,1.87,"Bank, ln(Distance), Bank:ln(Distance), GW"
+[NO3-],1,0,"Bank, GW "
+,1,1.72,"Bank, ln(Distance), GW"
+,2,1.87,"Bank, ln(Distance), Bank:ln(Distance), Bank:ln(Distance)2, GW"
+Net Mineralization,3,0,[NOrg] 
+,3,0.61,"GW, [NOrg] "
+,1,0.74,"Bank, [NOrg]"
+,1,1.61,"Bank, GW, [NOrg]"
+Net Nitrification,3,0,"[NH4+], GW "
+,,,
+,1,1.02,"Bank, [NH4+], GW"
+[NOrg],1,0,"ln(Distance), GW "
+,1,0.22,"Bank, ln(Distance), Bank:ln(Distance), GW"
+,2,0.33,"Bank, ln(Distance), Bank:ln(Distance), Bank:ln(Distance)2, GW"
+,1,1.94,"Bank, ln(Distance), GW"
+Gravimetric Water Content (GW),1,0,"ln(Distance), Bank"
+,1,1,ln(Distance)
+,1,1.8,"Bank, ln(Distance), Bank:ln(Distance)"

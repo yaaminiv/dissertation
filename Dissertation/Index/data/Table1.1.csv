@@ -1,0 +1,24 @@
+﻿Candidate Model Set,Hypothesis
+*Response Variable = bank + ε,1
+*Response Variable = bank + GW + ε,1
+*Response Variable = ln(distance) + GW + ε,1
+*Response Variable = ln(distance) + ε,1
+*Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW + ε,2
+*Response Variable = bank + ln(distance) + bank:ln(distance) + ε,1
+*Response Variable = bank + ln(distance) + bank:ln(distance) + GW + ε,1
+*Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + ε,2
+*Response Variable = bank + ln(distance) + bank+ ε,1
+*Response Variable = bank + ln(distance) + bank + GW+ ε,1
+*Response Variable = GW + ε,3
+Response Variable = bank + substrate + ε,1
+Response Variable = ln(distance) + substrate + ε,1
+Response Variable = bank + GW + substrate + ε,1
+Response Variable = bank + ln(distance) + bank:ln(distance) + GW + substrate + ε,2
+Response Variable = bank + ln(distacne) + bank:ln(distance) + substrate + ε,1
+Response Variable = bank + ln(distance) + bank:ln(distance) + GW + substrate + ε,2
+Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW+ substrate + ε,2
+Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + substrate + ε,2
+Response Variable = bank + ln(distance)  + GW+ substrate + ε,1
+Response Variable = bank + ln(distance)  +  substrate + ε,1
+Response Variable = substrate + ε,3
+Response Variable = GW + substrate + ε,3

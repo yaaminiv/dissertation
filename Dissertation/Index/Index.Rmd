@@ -22,6 +22,7 @@ site: bookdown::bookdown_site
 output: 
   huskydown::thesis_pdf: 
     latex_engine: xelatex
+    extra_dependencies: ["flafter"]
 #  huskydown::thesis_gitbook: default
 #  huskydown::thesis_word: default
 #  huskydown::thesis_epub: default

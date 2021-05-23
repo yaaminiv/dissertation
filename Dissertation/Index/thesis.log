@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.16)  22 MAY 2021 15:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.22)  23 MAY 2021 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-07> (./uwthesis.cls
+L3 programming layer <2021-05-11> (./uwthesis.cls
 Document Class: uwthesis 2020/02/24
 \tf@not=\write3
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
@@ -475,7 +475,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse
 .sty (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-05-07 L3 programming layer (loader) 
+Package: expl3 2021-05-11 L3 programming layer (loader) 
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xete
 x.def
@@ -715,7 +715,7 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2021-05-07 L3 programming layer (loader) 
+(biblatex)             2021-05-11 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -869,90 +869,187 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [6]
-Underfull \vbox (badness 3815) has occurred while \output is active []
+File: figure/fig1.1.pdf Graphic file (type pdf)
+<use figure/fig1.1.pdf>
+
+Overfull \hbox (3.30663pt too wide) in paragraph at lines 475--476
+[][] 
+ []
 
 [7] [8]
-<<2>>
-[9
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [10] [11]
+[9] [10] [11]
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+[12] [13]
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
+x-text;!
+[14] [15] [16]
+Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
+x-text;!
+
+Overfull \hbox (41.8091pt too wide) in alignment at lines 872--898
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (41.8091pt too wide) in alignment at lines 898--915
+ [] [] [] [] 
+ []
+
+[17]
+File: figure/Figure2_Feddernetal.pdf Graphic file (type pdf)
+<use figure/Figure2_Feddernetal.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 952--968
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18]
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+[19]
+File: figure/Figure3_Feddernetal.pdf Graphic file (type pdf)
+<use figure/Figure3_Feddernetal.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--1003
+
+ []
+
+[20] [21]
+<<2>>
+[22
+
+] [23] [24]
 <<3>>
-[12
+[25
 
 ]
 
-LaTeX Warning: Reference `tab:maxdelays' on page 13 undefined on input line 680
-.
+LaTeX Warning: Reference `tab:maxdelays' on page 26 undefined on input line 119
+2.
 
-[13]
+[26]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 708.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1220.
 File: figure/uw.png Graphic file (type bmp)
 <figure/uw.png>
-[14
+[27
 
-] [15]
+] [28]
 
-LaTeX Warning: Reference `rmd-basics' on page 16 undefined on input line 724.
+LaTeX Warning: Reference `rmd-basics' on page 29 undefined on input line 1236.
 
 File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/delaysboxplot-1.pdf>
-[16
+[29
 
-] [17]
+] [30]
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
-[18
+[31
 
-] [19]
+] [32]
 
-LaTeX Warning: Reference `rmd-basics' on page 20 undefined on input line 834.
-
-
-LaTeX Warning: Reference `r-chunks' on page 20 undefined on input line 841.
+LaTeX Warning: Reference `rmd-basics' on page 33 undefined on input line 1346.
 
 
-LaTeX Warning: Reference `rmd-basics' on page 20 undefined on input line 841.
+LaTeX Warning: Reference `r-chunks' on page 33 undefined on input line 1353.
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 867--878
+LaTeX Warning: Reference `rmd-basics' on page 33 undefined on input line 1353.
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 1379--1390
 \TU/lmr/m/n/12 talks about using BibTeX, at [][]$[][][][] [] [] [] [][][] [] []
 [][][] [] [][][] [] [][][] [] [][][][] [] [][][][][] [] [][][][][][] [] [][][][
 ]$[][]),
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 867--878
+Underfull \hbox (badness 5345) in paragraph at lines 1379--1390
 \TU/lmr/m/n/12 needs, at [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] []
  [][][] [] [][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][]$[][])
  and \TU/lmr/m/it/12 bibman
  []
 
-[20]
+[33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[21] [22] [23
+[34] [35] [36
 
 ]
 <<A>>
-[24
+[37
 
-] [25]
+] [38]
 <<B>>
-[26
+[39
 
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1083--1083
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1603--1603
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[27
+[40
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1083--1083
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1603--1603
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -960,16 +1057,19 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1083--1083
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[28]
+[41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[29] [30] [31
+[42] [43] [44
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[32]
+[45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[46]
 Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
@@ -977,29 +1077,29 @@ ex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[33]
+[47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[34]
+[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[35] [36] (./thesis.aux)
+[49] [50] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 450CFA47D470450C58D64287EA1C0599;1424.
+(rerunfilecheck)             Checksum: 797FECA8E4AC49B7DF19C8DAD2CEDE41;1646.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22784 strings out of 478774
- 421839 string characters out of 5863328
- 1187883 words of memory out of 5000000
- 42476 multiletter control sequences out of 15000+600000
- 411593 words of font info for 78 fonts, out of 8000000 for 9000
+ 22833 strings out of 478764
+ 422766 string characters out of 5863071
+ 1190469 words of memory out of 5000000
+ 42534 multiletter control sequences out of 15000+600000
+ 411601 words of font info for 79 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,12n,81p,1151b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (45 pages).
+Output written on thesis.pdf (59 pages).
