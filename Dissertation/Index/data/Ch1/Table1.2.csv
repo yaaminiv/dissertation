@@ -11,7 +11,6 @@ Bulk δ13C,1,0,ln(Distance)
 ,1,0.69,Bank
 ,1,0.95,"Bank, GW"
 ,1,1.1,"Bank, ln(Distance), GW"
-,,,
 ,1,1.87,"Bank, ln(Distance), Bank:ln(Distance), GW"
 [NO3-],1,0,"Bank, GW "
 ,1,1.72,"Bank, ln(Distance), GW"
@@ -21,7 +20,6 @@ Net Mineralization,3,0,[NOrg]
 ,1,0.74,"Bank, [NOrg]"
 ,1,1.61,"Bank, GW, [NOrg]"
 Net Nitrification,3,0,"[NH4+], GW "
-,,,
 ,1,1.02,"Bank, [NH4+], GW"
 [NOrg],1,0,"ln(Distance), GW "
 ,1,0.22,"Bank, ln(Distance), Bank:ln(Distance), GW"
