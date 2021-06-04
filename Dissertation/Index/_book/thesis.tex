@@ -1151,42 +1151,42 @@ bulk soil, \(\delta^{15}N\) of NH\textsubscript{4}\textsuperscript{+},
 nitrification, {[}N\textsubscript{org}{]}, gravimetric water content
 (GW), and C:N.
 
-\begingroup\fontsize{6}{8}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{lr}
 \caption{\label{tab:candmod1}The candidate model set tested for each response variable using AIC analysis}\\
 \toprule
 Candidate Model Set & Hypothesis\\
 \midrule
-*Response Variable = bank + ε & 1\\
-*Response Variable = bank + GW + ε & 1\\
-*Response Variable = ln(distance) + GW + ε & 1\\
-*Response Variable = ln(distance) + ε & 1\\
-*Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW + ε & 2\\
+*y = bank & 1\\
+*y = bank + GW & 1\\
+*y = ln(distance) + GW & 1\\
+*y = ln(distance) & 1\\
+*y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW & 2\\
 \addlinespace
-*Response Variable = bank + ln(distance) + bank:ln(distance) + ε & 1\\
-*Response Variable = bank + ln(distance) + bank:ln(distance) + GW + ε & 1\\
-*Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + ε & 2\\
-*Response Variable = bank + ln(distance) + bank+ ε & 1\\
-*Response Variable = bank + ln(distance) + bank + GW+ ε & 1\\
+*y = bank + ln(distance) + bank:ln(distance) & 1\\
+*y = bank + ln(distance) + bank:ln(distance) + GW & 1\\
+*y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank & 2\\
+*y = bank + ln(distance) + bank & 1\\
+*y = bank + ln(distance) + bank + GW & 1\\
 \addlinespace
-*Response Variable = GW + ε & 3\\
-Response Variable = bank + substrate + ε & 1\\
-Response Variable = ln(distance) + substrate + ε & 1\\
-Response Variable = bank + GW + substrate + ε & 1\\
-Response Variable = bank + ln(distance) + bank:ln(distance) + GW + substrate + ε & 2\\
+*y = GW & 3\\
+y = bank + substrate & 1\\
+y = ln(distance) + substrate & 1\\
+y = bank + GW + substrate & 1\\
+y = bank + ln(distance) + bank:ln(distance) + GW + substrate & 2\\
 \addlinespace
-Response Variable = bank + ln(distacne) + bank:ln(distance) + substrate + ε & 1\\
-Response Variable = bank + ln(distance) + bank:ln(distance) + GW + substrate + ε & 2\\
-Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW+ substrate + ε & 2\\
-Response Variable = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + substrate + ε & 2\\
-Response Variable = bank + ln(distance)  + GW+ substrate + ε & 1\\
+y = bank + ln(distacne) + bank:ln(distance) + substrate & 1\\
+y = bank + ln(distance) + bank:ln(distance) + GW + substrate & 2\\
+y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW+ substrate & 2\\
+y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + substrate & 2\\
+y = bank + ln(distance) + GW+ substrate & 1\\
 \addlinespace
-Response Variable = bank + ln(distance)  +  substrate + ε & 1\\
-Response Variable = substrate + ε & 3\\
-Response Variable = GW + substrate + ε & 3\\
+y = bank + ln(distance) + substrate & 1\\
+y = substrate & 3\\
+y = GW + substrate & 3\\
 \bottomrule
 \end{longtable}
-\endgroup{}
+\endgroup{} \clearpage
 
 \textbf{Table} \ref{tab:suppmod1}: Competing models with relative
 support (ΔAIC \textless{} 2) using AIC analysis for each response
@@ -1239,21 +1239,17 @@ Gravimetric Water Content (GW) & 1 & 0.00 & ln(Distance), Bank\\
  & 1 & 1.80 & Bank, ln(Distance), Bank:ln(Distance)\\
 \bottomrule
 \end{longtable}
-\endgroup{} Table \ref{tab:suppsumm}: Competing models with relative
-support (ΔAIC \textless{} 2) using AIC analysis for each response
-variable, where the most parsimonious models with the most support are
-shown in bold. Reported are ΔAIC and the hypothesis supported by each
-model: H1 is a bank effect not caused by salmon manipulation, H2 is a
-distance effect not caused by salmon manipulation, H3 is both a bank and
-distance effect indicating a response to salmon manipulation, and H4
-indicates support for the other covariates tested.
+\endgroup{} \clearpage
+\begin{landscape}
+
+Table 1.3: Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable, where the most parsimonious models with the most support are shown in bold. Reported are ΔAIC and the hypothesis supported by each model: H1 is a bank effect not caused by salmon manipulation, H2 is a distance effect not caused by salmon manipulation, H3 is both a bank and distance effect indicating a response to salmon manipulation, and H4 indicates support for the other covariates tested. 
 \begingroup\fontsize{8}{10}\selectfont
 \begin{longtable}[t]{lllllllllll}
 \caption{\label{tab:suppsumm}Summary Statistics of Best Models}\\
 \toprule
-Distance & X1 m & X & X3 m & X 1 & X6 m & X 2 & X10 m & X 3 & X20 m & X 4\\
+Bank & Enhanced & Depleted & Enhanced 1 & Depleted 1 & Enhanced 2 & Depleted 2 & Enhanced 3 & Depleted 3 & Enhanced 4 & Depleted 4\\
 \midrule
-Bank & Enhanced & Depleted & Enhanced & Depleted & Enhanced & Depleted & Enhanced & Depleted & Enhanced & Depleted\\
+Distancw & 1m & 1m & 3m & 3m & 6m & 6m & 10m & 10m & 20m & 20m\\
 Bulk δ 15N (‰) & 7.4(2.3) & 7.2(1.9) & 9.2(1.0) & 7.8(2.2) & 8.5(1.9) & 6.9(1.2) & 8.2(1.5) & 7.3(1.6) & 6.5(1.0) & 6.6(1.2)\\
 Bulk δ 13C (‰) & -27.1(0.6) & -27.2(0.4) & -26.9(0.5) & -27.1(0.6) & -26.6(0.5) & -26.7(0.3) & -26.5(0.5) & -26.6(0.3) & -26.4(0.5) & -26.4(0.4)\\
 δ 15N of NH4+ (‰) & 10.1(1.8) & 8.7(2.8) & 16.2(10.7) & 8.5(2.5) & 13.3(10.5) & 6.3(2.8) & 8.4(2.5) & 5.8(2.9) & 6.1(2.3) & 6.5(3.3)\\
@@ -1272,6 +1268,8 @@ C:N & 11.9(1.4) & 11.2(1.1) & 11.7(1.6) & 10.9(1.5) & 12.8(2.2) & 12.1(2.7) & 14
 \end{longtable}
 \endgroup{}
 
+
+\end{landscape}
 \clearpage
 
 \section{Figures}\label{figures}
@@ -1821,7 +1819,7 @@ been organised into an R package, xxx, which is available at
 \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found
 in the University of Washington library.
 
-This version of the thesis was generated on 2021-05-24 09:42:25. The
+This version of the thesis was generated on 2021-06-04 14:46:43. The
 repository is currently at this commit:
 
 The computational environment that was used to generate this version is
@@ -1837,7 +1835,7 @@ as follows:
  collate  en_US.UTF-8                 
  ctype    en_US.UTF-8                 
  tz       America/Los_Angeles         
- date     2021-05-24                  
+ date     2021-06-04                  
 
 - Packages -------------------------------------------------------------------
  package     * version date       lib source                               

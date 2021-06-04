@@ -28,42 +28,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Tables}{23}{section.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Figures}{26}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Figures}{28}{section.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Mathematics and Science}{31}{chapter.2}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Mathematics and Science}{33}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Math}{31}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Math}{33}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Chemistry 101: Symbols}{31}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Chemistry 101: Symbols}{33}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Typesetting reactions}{32}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Typesetting reactions}{34}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Other examples of reactions}{32}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Other examples of reactions}{34}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Physics}{32}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Physics}{34}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Biology}{32}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Biology}{34}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{34}{chapter.3}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{36}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Tables}{34}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Tables}{36}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Figures}{36}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Figures}{38}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{40}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{42}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{41}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{43}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Bibliographies}{42}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Bibliographies}{44}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Anything else?}{44}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Anything else?}{46}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{45}{chapter*.7}%
+\contentsline {chapter}{Conclusion}{47}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}The First Appendix}{46}{appendix.A}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}The First Appendix}{48}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{48}{appendix.B}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{50}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Colophon}{49}{appendix*.8}%
+\contentsline {chapter}{Colophon}{51}{appendix*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{53}{appendix*.9}%
+\contentsline {chapter}{References}{55}{appendix*.9}%

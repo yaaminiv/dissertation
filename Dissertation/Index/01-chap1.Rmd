@@ -122,9 +122,10 @@ Salmon provide critical food resources to many of terrestrial and aquatic consum
 candidate1 <- read.csv("data/Ch1/Table1.1.csv")
   kableExtra:::kable_styling(knitr::kable(candidate1, "latex",col.names = gsub("[.]", " ", names(candidate1)), 
                   caption = "The candidate model set tested for each response variable using AIC analysis",
-                  longtable = TRUE, booktabs = TRUE), font_size = 6)
+                  longtable = TRUE, booktabs = TRUE), font_size = 10, bootstrap_options = c("striped"))
 
 ```
+\clearpage
 
 **Table** \@ref(tab:suppmod1): Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable, where the most parsimonious models with the most support are shown in bold. Reported are ΔAIC and the hypothesis supported by each model: H1 is a bank effect not caused by salmon manipulation, H2 is a distance effect not caused by salmon manipulation, H3 is both a bank and distance effect indicating a response to salmon manipulation, and H4 indicates support for the other covariates tested. 
 
@@ -135,7 +136,12 @@ supp1 <- read.csv("data/Ch1/Table1.2.csv")
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 
 ```
-Table \@ref(tab:suppsumm): Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable, where the most parsimonious models with the most support are shown in bold. Reported are ΔAIC and the hypothesis supported by each model: H1 is a bank effect not caused by salmon manipulation, H2 is a distance effect not caused by salmon manipulation, H3 is both a bank and distance effect indicating a response to salmon manipulation, and H4 indicates support for the other covariates tested. 
+\clearpage
+
+
+\begin{landscape}
+
+Table 1.3: Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable, where the most parsimonious models with the most support are shown in bold. Reported are ΔAIC and the hypothesis supported by each model: H1 is a bank effect not caused by salmon manipulation, H2 is a distance effect not caused by salmon manipulation, H3 is both a bank and distance effect indicating a response to salmon manipulation, and H4 indicates support for the other covariates tested. 
 ```{r suppsumm, echo=FALSE}
 suppsumm <- read.csv("data/Ch1/SuppSummTable1.csv")
   kableExtra:::kable_styling(knitr::kable(suppsumm, "latex",col.names = gsub("[.]", " ", names(suppsumm)), 
@@ -144,6 +150,8 @@ suppsumm <- read.csv("data/Ch1/SuppSummTable1.csv")
 
 ```
 
+
+\end{landscape}
 
 \clearpage
 

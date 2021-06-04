@@ -1,56 +1,56 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.22)  24 MAY 2021 09:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.6.4)  4 JUN 2021 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-11> (./uwthesis.cls
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (./uwthesis.cls
 Document Class: uwthesis 2020/02/24
 \tf@not=\write3
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: bk12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@chapter=\count176
-\c@section=\count177
-\c@subsection=\count178
-\c@subsubsection=\count179
-\c@paragraph=\count180
-\c@subparagraph=\count181
-\c@figure=\count182
-\c@table=\count183
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 Formatting for ProQuest
 \botmargin=\dimen139
-\@@wholepage=\box47
-\@Chair=\count184
-\@Sign=\count185
-\abs@savebox=\box48
+\@@wholepage=\box50
+\@Chair=\count187
+\@Sign=\count188
+\abs@savebox=\box51
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 147.
+Package color Info: Driver file: xetex.def on input line 149.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 )) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
-\FV@CodeLineNo=\count186
+\FV@CodeLineNo=\count189
 \FV@InFile=\read2
-\FV@TabBox=\box49
-\c@FancyVerbLine=\count187
-\FV@StepNumber=\count188
+\FV@TabBox=\box52
+\c@FancyVerbLine=\count190
+\FV@StepNumber=\count191
 \FV@OutFile=\write4
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -61,7 +61,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen143
 )
 \cslhangindent=\skip50
-\c@theorem=\count189
+\c@theorem=\count192
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/draftwatermark/draftwate
 rmark.sty
@@ -76,9 +76,9 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 y
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
@@ -86,7 +86,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
@@ -97,15 +97,15 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count190
-\calc@Bcount=\count191
+\calc@Acount=\count193
+\calc@Bcount=\count194
 \calc@Adimen=\dimen146
 \calc@Bdimen=\dimen147
 \calc@Askip=\skip51
 \calc@Bskip=\skip52
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count192
+\calc@Ccount=\count195
 \calc@Cskip=\skip53
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -114,25 +114,25 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen148
-\ar@mcellbox=\box50
+\ar@mcellbox=\box53
 \extrarowheight=\dimen149
-\NC@list=\toks16
+\NC@list=\toks17
 \extratabsurround=\skip54
 \backup@length=\skip55
-\ar@cellbox=\box51
+\ar@cellbox=\box54
 )
 \TX@col@width=\dimen150
 \TX@old@table=\dimen151
 \TX@old@col=\dimen152
 \TX@target=\dimen153
 \TX@delta=\dimen154
-\TX@cols=\count193
-\TX@ftn=\toks17
+\TX@cols=\count196
+\TX@ftn=\toks18
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count194
+\etb@tempcnta=\count197
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen155
@@ -145,30 +145,31 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen162
 \cmidrulekern=\dimen163
 \defaultaddspace=\dimen164
-\@cmidla=\count195
-\@cmidlb=\count196
+\@cmidla=\count198
+\@cmidlb=\count199
 \@aboverulesep=\dimen165
 \@belowrulesep=\dimen166
-\@thisruleclass=\count197
-\@lastruleclass=\count198
+\@thisruleclass=\count266
+\@lastruleclass=\count267
 \@thisrulewidth=\dimen167
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \LTleft=\skip56
 \LTright=\skip57
 \LTpre=\skip58
 \LTpost=\skip59
-\LTchunksize=\count199
+\LTchunksize=\count268
 \LTcapwidth=\dimen168
-\LT@head=\box52
-\LT@firsthead=\box53
-\LT@foot=\box54
-\LT@lastfoot=\box55
-\LT@cols=\count266
-\LT@rows=\count267
-\c@LT@tables=\count268
-\c@LT@chunks=\count269
-\LT@p@ftn=\toks18
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count269
+\LT@rows=\count270
+\c@LT@tables=\count271
+\c@LT@chunks=\count272
+\LT@p@ftn=\toks19
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
@@ -188,57 +189,57 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count270
+\lrq@indent=\count273
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count271
-\c@listtotal=\count272
-\c@listcount=\count273
-\c@liststart=\count274
-\c@liststop=\count275
-\c@citecount=\count276
-\c@citetotal=\count277
-\c@multicitecount=\count278
-\c@multicitetotal=\count279
-\c@instcount=\count280
-\c@maxnames=\count281
-\c@minnames=\count282
-\c@maxitems=\count283
-\c@minitems=\count284
-\c@citecounter=\count285
-\c@maxcitecounter=\count286
-\c@savedcitecounter=\count287
-\c@uniquelist=\count288
-\c@uniquename=\count289
-\c@refsection=\count290
-\c@refsegment=\count291
-\c@maxextratitle=\count292
-\c@maxextratitleyear=\count293
-\c@maxextraname=\count294
-\c@maxextradate=\count295
-\c@maxextraalpha=\count296
-\c@abbrvpenalty=\count297
-\c@highnamepenalty=\count298
-\c@lownamepenalty=\count299
-\c@maxparens=\count300
-\c@parenlevel=\count301
-\blx@tempcnta=\count302
-\blx@tempcntb=\count303
-\blx@tempcntc=\count304
-\blx@maxsection=\count305
-\blx@maxsegment@0=\count306
-\blx@notetype=\count307
-\blx@parenlevel@text=\count308
-\blx@parenlevel@foot=\count309
-\blx@sectionciteorder@0=\count310
-\blx@entrysetcounter=\count311
-\blx@biblioinstance=\count312
+\c@tabx@nest=\count274
+\c@listtotal=\count275
+\c@listcount=\count276
+\c@liststart=\count277
+\c@liststop=\count278
+\c@citecount=\count279
+\c@citetotal=\count280
+\c@multicitecount=\count281
+\c@multicitetotal=\count282
+\c@instcount=\count283
+\c@maxnames=\count284
+\c@minnames=\count285
+\c@maxitems=\count286
+\c@minitems=\count287
+\c@citecounter=\count288
+\c@maxcitecounter=\count289
+\c@savedcitecounter=\count290
+\c@uniquelist=\count291
+\c@uniquename=\count292
+\c@refsection=\count293
+\c@refsegment=\count294
+\c@maxextratitle=\count295
+\c@maxextratitleyear=\count296
+\c@maxextraname=\count297
+\c@maxextradate=\count298
+\c@maxextraalpha=\count299
+\c@abbrvpenalty=\count300
+\c@highnamepenalty=\count301
+\c@lownamepenalty=\count302
+\c@maxparens=\count303
+\c@parenlevel=\count304
+\blx@tempcnta=\count305
+\blx@tempcntb=\count306
+\blx@tempcntc=\count307
+\blx@maxsection=\count308
+\blx@maxsegment@0=\count309
+\blx@notetype=\count310
+\blx@parenlevel@text=\count311
+\blx@parenlevel@foot=\count312
+\blx@sectionciteorder@0=\count313
+\blx@entrysetcounter=\count314
+\blx@biblioinstance=\count315
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -250,9 +251,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write5
 \blx@langwohyphens=\language3
-\c@mincomprange=\count313
-\c@maxcomprange=\count314
-\c@mincompwidth=\count315
+\c@mincomprange=\count316
+\c@maxcomprange=\count317
+\c@mincompwidth=\count318
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -260,74 +261,74 @@ File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count316
-\c@savedafterword=\count317
-\c@annotator=\count318
-\c@savedannotator=\count319
-\c@author=\count320
-\c@savedauthor=\count321
-\c@bookauthor=\count322
-\c@savedbookauthor=\count323
-\c@commentator=\count324
-\c@savedcommentator=\count325
-\c@editor=\count326
-\c@savededitor=\count327
-\c@editora=\count328
-\c@savededitora=\count329
-\c@editorb=\count330
-\c@savededitorb=\count331
-\c@editorc=\count332
-\c@savededitorc=\count333
-\c@foreword=\count334
-\c@savedforeword=\count335
-\c@holder=\count336
-\c@savedholder=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@namea=\count340
-\c@savednamea=\count341
-\c@nameb=\count342
-\c@savednameb=\count343
-\c@namec=\count344
-\c@savednamec=\count345
-\c@translator=\count346
-\c@savedtranslator=\count347
-\c@shortauthor=\count348
-\c@savedshortauthor=\count349
-\c@shorteditor=\count350
-\c@savedshorteditor=\count351
-\c@labelname=\count352
-\c@savedlabelname=\count353
-\c@institution=\count354
-\c@savedinstitution=\count355
-\c@lista=\count356
-\c@savedlista=\count357
-\c@listb=\count358
-\c@savedlistb=\count359
-\c@listc=\count360
-\c@savedlistc=\count361
-\c@listd=\count362
-\c@savedlistd=\count363
-\c@liste=\count364
-\c@savedliste=\count365
-\c@listf=\count366
-\c@savedlistf=\count367
-\c@location=\count368
-\c@savedlocation=\count369
-\c@organization=\count370
-\c@savedorganization=\count371
-\c@origlocation=\count372
-\c@savedoriglocation=\count373
-\c@origpublisher=\count374
-\c@savedorigpublisher=\count375
-\c@publisher=\count376
-\c@savedpublisher=\count377
-\c@language=\count378
-\c@savedlanguage=\count379
-\c@origlanguage=\count380
-\c@savedoriglanguage=\count381
-\c@pageref=\count382
-\c@savedpageref=\count383
+\c@afterword=\count319
+\c@savedafterword=\count320
+\c@annotator=\count321
+\c@savedannotator=\count322
+\c@author=\count323
+\c@savedauthor=\count324
+\c@bookauthor=\count325
+\c@savedbookauthor=\count326
+\c@commentator=\count327
+\c@savedcommentator=\count328
+\c@editor=\count329
+\c@savededitor=\count330
+\c@editora=\count331
+\c@savededitora=\count332
+\c@editorb=\count333
+\c@savededitorb=\count334
+\c@editorc=\count335
+\c@savededitorc=\count336
+\c@foreword=\count337
+\c@savedforeword=\count338
+\c@holder=\count339
+\c@savedholder=\count340
+\c@introduction=\count341
+\c@savedintroduction=\count342
+\c@namea=\count343
+\c@savednamea=\count344
+\c@nameb=\count345
+\c@savednameb=\count346
+\c@namec=\count347
+\c@savednamec=\count348
+\c@translator=\count349
+\c@savedtranslator=\count350
+\c@shortauthor=\count351
+\c@savedshortauthor=\count352
+\c@shorteditor=\count353
+\c@savedshorteditor=\count354
+\c@labelname=\count355
+\c@savedlabelname=\count356
+\c@institution=\count357
+\c@savedinstitution=\count358
+\c@lista=\count359
+\c@savedlista=\count360
+\c@listb=\count361
+\c@savedlistb=\count362
+\c@listc=\count363
+\c@savedlistc=\count364
+\c@listd=\count365
+\c@savedlistd=\count366
+\c@liste=\count367
+\c@savedliste=\count368
+\c@listf=\count369
+\c@savedlistf=\count370
+\c@location=\count371
+\c@savedlocation=\count372
+\c@organization=\count373
+\c@savedorganization=\count374
+\c@origlocation=\count375
+\c@savedoriglocation=\count376
+\c@origpublisher=\count377
+\c@savedorigpublisher=\count378
+\c@publisher=\count379
+\c@savedpublisher=\count380
+\c@language=\count381
+\c@savedlanguage=\count382
+\c@origlanguage=\count383
+\c@savedoriglanguage=\count384
+\c@pageref=\count385
+\c@savedpageref=\count386
 \shorthandwidth=\skip68
 \shortjournalwidth=\skip69
 \shortserieswidth=\skip70
@@ -356,19 +357,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count384
-\c@textcitetotal=\count385
-\c@textcitemaxnames=\count386
-\c@biburlbigbreakpenalty=\count387
-\c@biburlbreakpenalty=\count388
-\c@biburlnumpenalty=\count389
-\c@biburlucpenalty=\count390
-\c@biburllcpenalty=\count391
+\c@textcitecount=\count387
+\c@textcitetotal=\count388
+\c@textcitemaxnames=\count389
+\c@biburlbigbreakpenalty=\count390
+\c@biburlbreakpenalty=\count391
+\c@biburlnumpenalty=\count392
+\c@biburlucpenalty=\count393
+\c@biburllcpenalty=\count394
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count392
+\c@smartand=\count395
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -381,8 +382,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bb
 x
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count393
-\c@bbx:relatedtotal=\count394
+\c@bbx:relatedcount=\count396
+\c@bbx:relatedtotal=\count397
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -409,21 +410,21 @@ File: biblatex.cfg
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks19
+\@emptytoks=\toks20
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip82
 For additional information on amsmath, use the `?' option.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks21
 \ex@=\dimen169
 )) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -431,41 +432,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count395
+\inf@bad=\count398
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count396
-\leftroot@=\count397
+\uproot@=\count399
+\leftroot@=\count400
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count398
-\DOTSCASE@=\count399
+\classnum@=\count401
+\DOTSCASE@=\count402
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box56
-\strutbox@=\box57
+\Mathstrutbox@=\box60
+\strutbox@=\box61
 \big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count400
-\c@MaxMatrixCols=\count401
+\macc@depth=\count403
+\c@MaxMatrixCols=\count404
 \dotsspace@=\muskip21
-\c@parentequation=\count402
-\dspbrk@lvl=\count403
-\tag@help=\toks21
-\row@=\count404
-\column@=\count405
-\maxfields@=\count406
-\andhelp@=\toks22
+\c@parentequation=\count405
+\dspbrk@lvl=\count406
+\tag@help=\toks22
+\row@=\count407
+\column@=\count408
+\maxfields@=\count409
+\andhelp@=\toks23
 \eqnshift@=\dimen172
 \alignsep@=\dimen173
 \tagshift@=\dimen174
 \tagwidth@=\dimen175
 \totwidth@=\dimen176
 \lineht@=\dimen177
-\@envbody=\toks23
+\@envbody=\toks24
 \multlinegap=\skip83
 \multlinetaggap=\skip84
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -475,47 +476,45 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse
 .sty (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-05-11 L3 programming layer (loader) 
+Package: expl3 2021-06-01 L3 programming layer (loader) 
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xete
 x.def
 File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count407
-\l__color_backend_stack_int=\count408
-\g__color_backend_stack_int=\count409
-\g__graphics_track_int=\count410
-\l__pdf_internal_box=\box58
-\g__pdf_backend_object_int=\count411
-\g__pdf_backend_annotation_int=\count412
-\g__pdf_backend_link_int=\count413
+\c__kernel_sys_dvipdfmx_version_int=\count410
+\l__color_backend_stack_int=\count411
+\g__color_backend_stack_int=\count412
+\g__graphics_track_int=\count413
+\l__pdf_internal_box=\box62
+\g__pdf_backend_object_int=\count414
+\g__pdf_backend_annotation_int=\count415
+\g__pdf_backend_link_int=\count416
 ))
-(/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse
--2020-10-01.sty
-(/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse
--generic.tex)))
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.
 sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count414
-\l__fontspec_language_int=\count415
-\l__fontspec_strnum_int=\count416
-\l__fontspec_tmp_int=\count417
-\l__fontspec_tmpa_int=\count418
-\l__fontspec_tmpb_int=\count419
-\l__fontspec_tmpc_int=\count420
-\l__fontspec_em_int=\count421
-\l__fontspec_emdef_int=\count422
-\l__fontspec_strong_int=\count423
-\l__fontspec_strongdef_int=\count424
+\l__fontspec_script_int=\count417
+\l__fontspec_language_int=\count418
+\l__fontspec_strnum_int=\count419
+\l__fontspec_tmp_int=\count420
+\l__fontspec_tmpa_int=\count421
+\l__fontspec_tmpb_int=\count422
+\l__fontspec_tmpc_int=\count423
+\l__fontspec_em_int=\count424
+\l__fontspec_emdef_int=\count425
+\l__fontspec_strong_int=\count426
+\l__fontspec_strongdef_int=\count427
 \l__fontspec_tmpa_dim=\dimen178
 \l__fontspec_tmpb_dim=\dimen179
 \l__fontspec_tmpc_dim=\dimen180
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg)
 )) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
@@ -527,16 +526,16 @@ ts
 \subsupersep=\dimen181
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks25
-\xl@@everylogo=\toks26
+\xl@everylogo=\toks26
+\xl@@everylogo=\toks27
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-\l__xetex_show_hyphens_wrapping_box=\box59
-\l__xetex_show_hyphens_temp_box=\box60
-\l__xetex_show_hyphens_final_box=\box61
-\g__xetex_show_hyphens_word_box=\box62
+\l__xetex_show_hyphens_wrapping_box=\box63
+\l__xetex_show_hyphens_temp_box=\box64
+\l__xetex_show_hyphens_final_box=\box65
+\g__xetex_show_hyphens_word_box=\box66
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/xelatex/xunicode/xunicode.st
 y
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
@@ -544,9 +543,9 @@ other characters in Unicode lower plane
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 )
-\tipaTiiicode=\count425
-\tipasavetokens=\toks27
-\tipachecktokens=\toks28
+\tipaTiiicode=\count428
+\tipasavetokens=\toks28
+\tipachecktokens=\toks29
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
@@ -567,8 +566,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen182
-\Hy@linkcounter=\count426
-\Hy@pagecounter=\count427
+\Hy@linkcounter=\count429
+\Hy@pagecounter=\count430
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 )
@@ -582,7 +581,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 y
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count428
+\Hy@SavedSpaceFactor=\count431
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 
@@ -601,7 +600,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count429
+\c@Hy@tempcnt=\count432
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen183
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
@@ -612,7 +611,7 @@ sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count430
+\Fld@menulength=\count433
 \Field@Width=\dimen184
 \Fld@charsize=\dimen185
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -625,13 +624,16 @@ Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count431
-\c@Item=\count432
-\c@Hfootnote=\count433
+\Hy@abspage=\count434
+\c@Item=\count435
+\c@Hfootnote=\count436
+
+LaTeX Warning: Command \LT@p@ftntext  has changed.
+               Check if current package is valid.
+
 )
 Package hyperref Info: Driver: hxetex.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -642,11 +644,11 @@ y
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box63
-\c@Hy@AnnotLevel=\count434
-\HyField@AnnotCount=\count435
-\Fld@listcount=\count436
-\c@bookmark@seq@number=\count437
+\pdfm@box=\box67
+\c@Hy@AnnotLevel=\count437
+\HyField@AnnotCount=\count438
+\Fld@listcount=\count439
+\c@bookmark@seq@number=\count440
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfile
 check.sty
@@ -666,8 +668,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip85
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 188.
-\@quotelevel=\count438
-\@quotereset=\count439
+\@quotelevel=\count441
+\@quotereset=\count442
 (./thesis.aux
 
 LaTeX Warning: Label `tables' multiply defined.
@@ -719,7 +721,7 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2021-05-11 L3 programming layer (loader) 
+(biblatex)             2021-06-01 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -801,7 +803,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 estring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count440
+\c@section@level=\count443
 )
 LaTeX Info: Redefining \ref on input line 194.
 LaTeX Info: Redefining \pageref on input line 194.
@@ -907,54 +909,7 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[22]
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman6-regular]:mapping=te
-x-text;!
-[23]
+[22] [23] [24]
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
@@ -962,16 +917,13 @@ x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 
-Overfull \hbox (41.8091pt too wide) in alignment at lines 1201--1227
+Overfull \hbox (41.8091pt too wide) in alignment at lines 1201--1241
  [] [] [] [] 
  []
 
+[25
 
-Overfull \hbox (41.8091pt too wide) in alignment at lines 1227--1241
- [] [] [] [] 
- []
-
-[24]
+] [26]
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
@@ -979,29 +931,33 @@ x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 
-Overfull \hbox (158.48126pt too wide) in alignment at lines 1251--1272
+Overfull \hbox (61.20624pt too wide) in alignment at lines 1247--1268
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[25]
+[27
+
+
+]
 File: figure/Ch1/fig1.1.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.1.pdf>
 
-Overfull \hbox (3.30663pt too wide) in paragraph at lines 1286--1287
+Overfull \hbox (3.30663pt too wide) in paragraph at lines 1284--1285
 [][] 
  []
 
-[26
+[28
+
 
 ]
 File: figure/Ch1/Figure2_Feddernetal.pdf Graphic file (type pdf)
 <use figure/Ch1/Figure2_Feddernetal.pdf>
-[27
+[29
 
 ]
 File: figure/Ch1/Figure3_Feddernetal.pdf Graphic file (type pdf)
 <use figure/Ch1/Figure3_Feddernetal.pdf>
-[28
+[30
 
 ]
 File: figure/Ch1/ch1residuals.pdf Graphic file (type pdf)
@@ -1009,90 +965,90 @@ File: figure/Ch1/ch1residuals.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29
-
-] [30]
-<<2>>
 [31
 
-] [32] [33]
+] [32]
+<<2>>
+[33
+
+] [34] [35]
 <<3>>
-[34
+[36
 
 ]
 
-LaTeX Warning: Reference `tab:maxdelays' on page 35 undefined on input line 149
-9.
+LaTeX Warning: Reference `tab:maxdelays' on page 37 undefined on input line 149
+7.
 
-[35]
+[37]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1527.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1525.
 File: figure/uw.png Graphic file (type bmp)
 <figure/uw.png>
-[36
-
-] [37]
-
-LaTeX Warning: Reference `rmd-basics' on page 38 undefined on input line 1543.
-
-File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
-<use thesis_files/figure-latex/delaysboxplot-1.pdf>
 [38
 
 ] [39]
-File: figure/subdivision.pdf Graphic file (type pdf)
-<use figure/subdivision.pdf>
-File: figure/subdivision.pdf Graphic file (type pdf)
-<use figure/subdivision.pdf>
+
+LaTeX Warning: Reference `rmd-basics' on page 40 undefined on input line 1541.
+
+File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/delaysboxplot-1.pdf>
 [40
 
 ] [41]
+File: figure/subdivision.pdf Graphic file (type pdf)
+<use figure/subdivision.pdf>
+File: figure/subdivision.pdf Graphic file (type pdf)
+<use figure/subdivision.pdf>
+[42
 
-LaTeX Warning: Reference `rmd-basics' on page 42 undefined on input line 1653.
+] [43]
+
+LaTeX Warning: Reference `rmd-basics' on page 44 undefined on input line 1651.
 
 
-LaTeX Warning: Reference `r-chunks' on page 42 undefined on input line 1660.
+LaTeX Warning: Reference `r-chunks' on page 44 undefined on input line 1658.
 
 
-LaTeX Warning: Reference `rmd-basics' on page 42 undefined on input line 1660.
+LaTeX Warning: Reference `rmd-basics' on page 44 undefined on input line 1658.
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1686--1697
+Underfull \hbox (badness 1509) in paragraph at lines 1684--1695
 \TU/lmr/m/n/12 talks about using BibTeX, at [][]$[][][][] [] [] [] [][][] [] []
 [][][] [] [][][] [] [][][] [] [][][][] [] [][][][][] [] [][][][][][] [] [][][][
 ]$[][]),
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 1686--1697
+Underfull \hbox (badness 5345) in paragraph at lines 1684--1695
 \TU/lmr/m/n/12 needs, at [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] []
  [][][] [] [][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][]$[][])
  and \TU/lmr/m/it/12 bibman
  []
 
-[42]
+[44]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43] [44] [45
+[45] [46] [47
 
 ]
 <<A>>
-[46
-
-] [47]
-<<B>>
 [48
 
+] [49]
+<<B>>
+[50
+
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1910--1910
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1908--1908
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[49
+[51
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1910--1910
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1908--1908
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1100,33 +1056,27 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1910--1910
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[50]
+[52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[51] [52] [53
+[53] [54] [55
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [56]
-Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [58]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [59]
@@ -1135,7 +1085,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[61] [62] (./thesis.aux)
+[61]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[63] [64] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1149,12 +1105,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22849 strings out of 478764
- 423189 string characters out of 5863071
- 1194808 words of memory out of 5000000
- 42548 multiletter control sequences out of 15000+600000
+ 22909 strings out of 478489
+ 424095 string characters out of 5858581
+ 1199461 words of memory out of 5000000
+ 42893 multiletter control sequences out of 15000+600000
  411601 words of font info for 79 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,12n,81p,1151b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (71 pages).
+Output written on thesis.pdf (73 pages).
