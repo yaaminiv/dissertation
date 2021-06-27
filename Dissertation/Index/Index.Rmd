@@ -1,6 +1,6 @@
 ---
 # UW thesis fields
-title: "My thesis title - edit in index.Rmd"
+title: "Applied ecosystem chemistry: linking biogeochemical and physiological processes to ecological interactions and management practices"
 author: "Megan L Feddern"
 year: "2021"
 program: "School of Aquatic and Fishery Sciences"
@@ -65,10 +65,13 @@ library(huskydown)
 
 # Introduction {.unnumbered}
 
-Welcome to the _R Markdown_ thesis template. This template is based on (and in many places copied directly from) the UW LaTeX template, but hopefully it will provide a nicer interface for those that have never used TeX or LaTeX before. Using _R Markdown_ will also allow you to easily keep track of your analyses in **R** chunks of code, with the resulting plots and output included as well. The hope is this _R Markdown_ template gets you in the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build onto your results down the road.
-
-Hopefully, you won't have much of a learning period to go through and you will reap the benefits of a nicely formatted thesis. The use of LaTeX in combination with _Markdown_ is more consistent than the output of a word processor, much less prone to corruption or crashing, and the resulting file is smaller than a Word file. While you may have never had problems using Word in the past, your thesis is likely going to be at least twice as large and complex as anything you've written before, taxing Word's capabilities. After working with _Markdown_ and **R** together for a few weeks, we are confident this will be your reporting style of choice going forward.
-
+- The enviornment is changing
+-In order to understand how the environment is changing, we need data from the past
+-Historical data for species abundance is usually avaialble and how the environment is changing species abundance is well documented across ecosystems globally
+-Abundance is not the only important ecosystem component, we know species interactions are just as important for shaping and influencing ecosystems
+-But historical indices of ecosystem interactions are rare and can be challenging to reproduce for modern datasets.
+-Chemical tracers can be a useful tool for measuring ecological interactions especially on long timescales.
+Here we use CSSIA of amino acids and inorganic nitrogen to assess changes in species interactions in teperate marine and riparian ecosystems.
 <!--  If you're still on the fence about using _R Markdown_, check out the resource for newbies available at <https://ismayc.github.io/rbasics-book/> .  -->
 
 **Why use it?**

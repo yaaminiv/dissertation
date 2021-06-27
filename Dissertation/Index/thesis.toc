@@ -2,7 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\@textofLoF }{iii}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\@textofLoT }{iv}{chapter*.3}%
+\contentsline {chapter}{\@textofLoT }{v}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
@@ -30,40 +30,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.7}Figures}{28}{section.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Mathematics and Science}{33}{chapter.2}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change}{33}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Math}{33}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Abstract}{33}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Chemistry 101: Symbols}{33}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Introduction}{34}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Typesetting reactions}{34}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Methods}{37}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Other examples of reactions}{34}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3.1}Sample Collection and Analysis}{37}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Physics}{34}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.2}Quantifying effects of ocean condition on food web isotope indices}{40}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Biology}{34}{section.2.4}%
+\contentsline {subsection}{\numberline {2.3.3}Gaussian Process Dynamic Factor Analysis (GPDFA)}{42}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{36}{chapter.3}%
+\contentsline {section}{\numberline {2.4}Results}{45}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Tables}{36}{section.3.1}%
+\contentsline {section}{\numberline {2.5}Discussion}{48}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Figures}{38}{section.3.2}%
+\contentsline {subsection}{\numberline {2.5.1}Spatial variation in stable isotope indices}{49}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{42}{section.3.3}%
+\contentsline {subsection}{\numberline {2.5.2}Ocean condition and stable isotope indices}{50}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{43}{section.3.4}%
+\contentsline {subsection}{\numberline {2.5.3}Using stable isotopes as food web indicators}{53}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Bibliographies}{44}{section.3.5}%
+\contentsline {section}{\numberline {2.6}Tables}{56}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Anything else?}{46}{section.3.6}%
+\contentsline {section}{\numberline {2.7}Figures}{62}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{47}{chapter*.7}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{79}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}The First Appendix}{48}{appendix.A}%
+\contentsline {section}{\numberline {3.1}Tables}{79}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{50}{appendix.B}%
+\contentsline {section}{\numberline {3.2}Figures}{81}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Colophon}{51}{appendix*.8}%
+\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{85}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{55}{appendix*.9}%
+\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{86}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Bibliographies}{87}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Anything else?}{89}{section.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{90}{chapter*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{91}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{91}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{93}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Colophon}{94}{appendix*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{98}{appendix*.9}%

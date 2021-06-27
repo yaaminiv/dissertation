@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.6.4)  4 JUN 2021 14:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.6.22)  26 JUN 2021 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (./uwthesis.cls
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-06-18> (./uwthesis.cls
 Document Class: uwthesis 2020/02/24
 \tf@not=\write3
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
@@ -476,7 +476,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse
 .sty (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-06-01 L3 programming layer (loader) 
+Package: expl3 2021-06-18 L3 programming layer (loader) 
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xete
 x.def
@@ -491,7 +491,7 @@ File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
 \g__pdf_backend_annotation_int=\count415
 \g__pdf_backend_link_int=\count416
 ))
-Package: xparse 2021-06-01 L3 Experimental document command parser
+Package: xparse 2021-06-18 L3 Experimental document command parser
 )
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 
@@ -547,7 +547,7 @@ File: t3enc.def 2001/12/31 T3 encoding
 \tipasavetokens=\toks28
 \tipachecktokens=\toks29
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinek
 eys.sty
@@ -569,11 +569,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 \Hy@linkcounter=\count429
 \Hy@pagecounter=\count430
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 )
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-langpa
 tches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 ) (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -583,11 +583,11 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count431
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc-greekbasi
 c.def
-File: puenc-greekbasic.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (
+File: puenc-greekbasic.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (
 greek block) (HO)
 ))
 Package hyperref Info: Option `setpagesize' set `false' on input line 4073.
@@ -614,15 +614,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count433
 \Field@Width=\dimen184
 \Fld@charsize=\dimen185
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring ON on input line 6093.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -630,14 +630,10 @@ package with kernel methods
 \Hy@abspage=\count434
 \c@Item=\count435
 \c@Hfootnote=\count436
-
-LaTeX Warning: Command \LT@p@ftntext  has changed.
-               Check if current package is valid.
-
 )
 Package hyperref Info: Driver: hxetex.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
 
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.st
 y
@@ -667,7 +663,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 188.
+Package hyperref Info: Option `breaklinks' set `true' on input line 189.
 \@quotelevel=\count441
 \@quotereset=\count442
 (./thesis.aux
@@ -677,38 +673,38 @@ LaTeX Warning: Label `tables' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-94.
+95.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 195.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 19
-4.
+5.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -721,7 +717,7 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             2021-06-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -734,66 +730,66 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' not found.
 No file thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 194.
-Package biblatex Info: Reference segment=0 on input line 194.
+Package biblatex Info: Reference section=0 on input line 195.
+Package biblatex Info: Reference segment=0 on input line 195.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 194.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 194.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 194.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 194.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 194.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 194.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 194.
-LaTeX Font Info:    Redeclaring math accent \check on input line 194.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 194.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 194.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 194.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 194.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 195.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 195.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 195.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 195.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 195.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 195.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 195.
+LaTeX Font Info:    Redeclaring math accent \check on input line 195.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 195.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 195.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 195.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 195.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 194.
+(Font)              `operators' in the math version `normal' on input line 195.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 194.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 195.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 194.
+(Font)              `operators' in the math version `bold' on input line 195.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 194.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 195.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 194.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 194.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 194.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 194.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 194.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 195.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 194.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 194.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 194.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 195.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 194.
-Package hyperref Info: Link coloring ON on input line 194.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 195.
+Package hyperref Info: Link coloring ON on input line 195.
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/megansmac/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -805,9 +801,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count443
 )
-LaTeX Info: Redefining \ref on input line 194.
-LaTeX Info: Redefining \pageref on input line 194.
-LaTeX Info: Redefining \nameref on input line 194.
+LaTeX Info: Redefining \ref on input line 195.
+LaTeX Info: Redefining \pageref on input line 195.
+LaTeX Info: Redefining \nameref on input line 195.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
@@ -844,21 +840,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
-[2] (./thesis.lof)
+[2] (./thesis.lof [3
+
+])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
-[3
-
-] (./thesis.lot)
+[4] (./thesis.lot)
 \tf@lot=\write9
 \openout9 = `thesis.lot'.
 
-[4
-
-] [5
+[5
 
 ] [6
+
+] [7
 
 ] [1
 
@@ -884,7 +880,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1490) has occurred while \output is active []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 852--868
+Underfull \hbox (badness 10000) in paragraph at lines 847--863
 
  []
 
@@ -917,7 +913,7 @@ x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 
-Overfull \hbox (41.8091pt too wide) in alignment at lines 1201--1241
+Overfull \hbox (41.8091pt too wide) in alignment at lines 1196--1236
  [] [] [] [] 
  []
 
@@ -931,7 +927,7 @@ x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 
-Overfull \hbox (61.20624pt too wide) in alignment at lines 1247--1268
+Overfull \hbox (61.20624pt too wide) in alignment at lines 1242--1263
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -942,7 +938,7 @@ Overfull \hbox (61.20624pt too wide) in alignment at lines 1247--1268
 File: figure/Ch1/fig1.1.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.1.pdf>
 
-Overfull \hbox (3.30663pt too wide) in paragraph at lines 1284--1285
+Overfull \hbox (3.30663pt too wide) in paragraph at lines 1279--1280
 [][] 
  []
 
@@ -971,84 +967,265 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <<2>>
 [33
 
-] [34] [35]
+] [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[35]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[36] [37]
+
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 1582
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[38]
+
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 1587
+.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 1628.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 1628.
+
+[39] [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[41] [42]
+Missing character: There is no θ (U+03B8) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[43] [44] [45]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[47] [48]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[49] [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[52] [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[54] [55]
+Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
+x-text;!
+[56
+
+]
+Overfull \hbox (43.29405pt too wide) in alignment at lines 2340--2357
+ [] [] [] [] 
+ []
+
+[57
+
+
+] [58] [59
+
+] [60
+
+] [61
+
+] [62
+
+]
+File: figure/Ch2/Figure1.pdf Graphic file (type pdf)
+<use figure/Ch2/Figure1.pdf>
+[63
+
+]
+File: figure/Ch2/Fig2_Map.pdf Graphic file (type pdf)
+<use figure/Ch2/Fig2_Map.pdf>
+
+Overfull \hbox (94.05756pt too wide) in paragraph at lines 2446--2447
+ [][] 
+ []
+
+[64
+
+
+]
+File: figure/Ch2/Figure3_SexLocation.pdf Graphic file (type pdf)
+<use figure/Ch2/Figure3_SexLocation.pdf>
+[65
+
+]
+File: figure/Ch2/hiermod.pdf Graphic file (type pdf)
+<use figure/Ch2/hiermod.pdf>
+[66
+
+]
+File: figure/Ch2/Figure5_CoefPlot.pdf Graphic file (type pdf)
+<use figure/Ch2/Figure5_CoefPlot.pdf>
+[67
+
+]
+File: figure/Ch2/Figure6_AK.GDFA.pdf Graphic file (type pdf)
+<use figure/Ch2/Figure6_AK.GDFA.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2495--2518
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[68
+
+] [69]
+File: figure/Ch2/Figure7_WA.GDFA.pdf Graphic file (type pdf)
+<use figure/Ch2/Figure7_WA.GDFA.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2520--2534
+
+ []
+
+[70
+
+]
+File: figure/Ch2/figures2.png Graphic file (type bmp)
+<figure/Ch2/figures2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2536--2547
+
+ []
+
+[71
+
+]
+File: figure/Ch2/FigureS2.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS2.pdf>
+[72
+
+]
+File: figure/Ch2/FigureS3.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS3.pdf>
+[73
+
+]
+File: figure/Ch2/FigureS4.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS4.pdf>
+[74
+
+]
+File: figure/Ch2/FigureS5.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS5.pdf>
+[75
+
+]
+File: figure/Ch2/FigureS6.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS6.pdf>
+[76
+
+]
+File: figure/Ch2/FigureS7.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS7.pdf>
+[77
+
+]
+File: figure/Ch2/FigureS8.pdf Graphic file (type pdf)
+<use figure/Ch2/FigureS8.pdf>
+
+Overfull \hbox (31.35918pt too wide) in paragraph at lines 2625--2626
+ [][] 
+ []
+
+[78
+
+]
 <<3>>
-[36
+[79
 
 ]
 
-LaTeX Warning: Reference `tab:maxdelays' on page 37 undefined on input line 149
-7.
+LaTeX Warning: Reference `tab:maxdelays' on page 80 undefined on input line 271
+4.
 
-[37]
+[80]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1525.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2742.
 File: figure/uw.png Graphic file (type bmp)
 <figure/uw.png>
-[38
+[81
 
-] [39]
+] [82]
 
-LaTeX Warning: Reference `rmd-basics' on page 40 undefined on input line 1541.
+LaTeX Warning: Reference `rmd-basics' on page 83 undefined on input line 2758.
 
 File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/delaysboxplot-1.pdf>
-[40
+[83
 
-] [41]
+] [84]
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
-[42
+[85
 
-] [43]
+] [86]
 
-LaTeX Warning: Reference `rmd-basics' on page 44 undefined on input line 1651.
-
-
-LaTeX Warning: Reference `r-chunks' on page 44 undefined on input line 1658.
+LaTeX Warning: Reference `rmd-basics' on page 87 undefined on input line 2868.
 
 
-LaTeX Warning: Reference `rmd-basics' on page 44 undefined on input line 1658.
+LaTeX Warning: Reference `r-chunks' on page 87 undefined on input line 2875.
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1684--1695
+LaTeX Warning: Reference `rmd-basics' on page 87 undefined on input line 2875.
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 2901--2912
 \TU/lmr/m/n/12 talks about using BibTeX, at [][]$[][][][] [] [] [] [][][] [] []
 [][][] [] [][][] [] [][][] [] [][][][] [] [][][][][] [] [][][][][][] [] [][][][
 ]$[][]),
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 1684--1695
+Underfull \hbox (badness 5345) in paragraph at lines 2901--2912
 \TU/lmr/m/n/12 needs, at [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] []
  [][][] [] [][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][]$[][])
  and \TU/lmr/m/it/12 bibman
  []
 
-[44]
+[87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45] [46] [47
+[88] [89] [90
 
 ]
 <<A>>
-[48
+[91
 
-] [49]
+] [92]
 <<B>>
-[50
+[93
 
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1908--1908
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 3155--3155
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[51
+[94
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1908--1908
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 3155--3155
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1056,22 +1233,46 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1908--1908
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[52]
+[95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[53] [54] [55
+[96] [97] [98
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[56]
+[99]
+Underfull \hbox (badness 1052) in paragraph at lines 3296--3302
+ \TU/lmr/m/n/12 … Ohkouchi, N. (2009). Determination of aquatic food‐web struct
+ure based on
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 3296--3302
+ \TU/lmr/m/n/12 compound‐specific nitrogen isotopic composition of amino acids.
+ \TU/lmr/m/it/12 Limnology and
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[57]
+[100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[58]
+[101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[105]
 Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
@@ -1079,19 +1280,48 @@ ex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[59]
+[106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[60]
+[107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[61]
+[108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[62]
+[109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[63] [64] (./thesis.aux)
+[110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[112]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[114]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[115]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[116] [117] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1099,18 +1329,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 973A1316F35CFC5B22DFB42B2E95D321;1810.
+(rerunfilecheck)             Checksum: 4CEC69FDCBF07C1A412BFAFCD0433CAE;2243.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22909 strings out of 478489
- 424095 string characters out of 5858581
- 1199461 words of memory out of 5000000
- 42893 multiletter control sequences out of 15000+600000
- 411601 words of font info for 79 fonts, out of 8000000 for 9000
+ 23132 strings out of 478442
+ 429199 string characters out of 5857255
+ 1203571 words of memory out of 5000000
+ 43135 multiletter control sequences out of 15000+600000
+ 414606 words of font info for 91 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 73i,12n,81p,1151b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,10n,81p,1151b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (73 pages).
+Output written on thesis.pdf (127 pages).

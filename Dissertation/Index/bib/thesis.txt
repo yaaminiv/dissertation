@@ -1108,7 +1108,7 @@
    type = {Journal Article}
 }
 
-@article{DiLorenza2008,
+@article{DiLorenzo2008,
    author = {Di Lorenzo, E. and Schneider, N. and Cobb, K. M. and Franks, P. J. S. and Chhak, K. and Miller, A. J. and McWilliams, J. C. and Bograd, S. J. and Arango, H. and Curchitser, E. and Powell, T. M. and Rivière, P.},
    title = {North Pacific Gyre Oscillation links ocean climate and ecosystem change},
    journal = {Geophysical research letters},

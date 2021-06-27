@@ -1,123 +1,405 @@
-# Mathematics and Science {#math-sci}
+# Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change 
 
-<!-- Required to number equations in HTML files -->
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
+##Abstract
 
-## Math
+Anthropogenic climate change will impact nutrient cycles, primary production, and ecosystem structure in the world’s oceans, although considerable uncertainty exists regarding the magnitude and spatial variability of these changes. Understanding how regional-scale ocean conditions control nutrient availability and ultimately nutrient assimilation into food webs will inform how marine resources will change in response to climate. To evaluate how ocean conditions influence the assimilation of nitrogen and carbon into coastal marine food webs, we applied a novel dimension reduction analysis to a century of newly acquired molecular isotope data derived from historic harbor seal bone specimens. By measuring bulk $\delta^{13}C$ and $\delta^{15}N$ values of source amino acids of these top predators from 1928-2014, we derive indices of primary production and nitrogen resources that are assimilated into food webs. We determined coastal food webs responded to climate regimes, coastal upwelling, and freshwater discharge, yet the strength of responses to individual drivers varied across the northeast Pacific. Indices of primary production and nitrogen availability in the Gulf of Alaska were dependent on regional climate indices (i.e., North Pacific Gyre Oscillation) and upwelling. In contrast, the coastal Washington and Salish Sea food webs were associated with local indices of freshwater discharge. For some regions (eastern Bering Sea, northern Gulf of Alaska) food web assimilated production was coupled with nitrogen sources, however other regions demonstrated no production-nitrogen coupling (Salish Sea). Temporal patterns of environmental indices and isotopic data from Washington state varied about the long-term mean with no directional trend. Data from the Gulf of Alaska, however, showed below average harbor seal $\delta^{13}C$ values and above average ocean conditions since 1975, indicating a change in primary production in recent decades. Altogether, these findings demonstrate stable isotope data can provide useful indices of nitrogen resources and phytoplankton dynamics specific to what is assimilated by food webs.
 
-\TeX\ is the best way to typeset mathematics. Donald Knuth designed \TeX\ when he got frustrated at how long it was taking the typesetters to finish his book, which contained a lot of mathematics.  One nice feature of _R Markdown_ is its ability to read LaTeX code directly.
+##Introduction
 
-If you are doing a thesis that will involve lots of math, you will want to read the following section which has been commented out. If you're not going to use math, skip over or delete this next commented section.
+Changing ocean conditions are reshaping the structure and function of marine food webs on regional scales. Ocean temperature [@Hoegh2010], oxygen availability [@Brietburg2018], and climatic regimes such as El Niño Southern Oscillation (ENSO) [@Vecchi2010] alter nutrient availability and cycling, and thus, the ecological structure of marine systems. Projected global redistribution of nutrients suggests net primary production in the ocean is likely to change both spatially and temporally. Yet, substantial uncertainty remains, with predictions suggesting both increases and decreases in global net primary productivity of up to 20% by 2100 [@Bopp2013; @Kwiatkowski2017; @Gregg2003]. An important contributor to this uncertainty is regional variability in phytoplankton response to ocean conditions and how that variability will impact other trophic levels and dependent fisheries [@Moore2018; @Brander2010]. Ocean conditions (i.e., sea surface temperature, freshwater discharge, wind, and ice cover) have been associated with abundance and recruitment of many fish species in the Northeast Pacific [@Cunningham2018; @Puerta2019; @Stachura2014]. Nonetheless, these studies rarely include indicators of nutrient availability or primary production linking the ecosystem response to its environment. Understanding how regional and local scale physical drivers control nutrient availability and ultimately nutrient assimilation into food webs will be important for predicting the future availability of marine resources.
 
+<p>A strong empirical understanding of food web response to changing ocean conditions and nutrient constraints requires time series data that span multiple climate regimes to decouple natural variability with long-term anthropogenic changes. Currently, quantitative methods are also limited in their ability to scale primary production trends to ecosystem-level responses. Stable isotope measures of $\delta^{15}N$ (^15^N/^14^N) of individual amino acids is an emerging tool for reconstructing trends in nitrogen sources from historic specimens [@McMahon2019; @Sherwood2011; @Sherwood2014; @Whitney2019]. The $\delta^{15}N$ signature at the base of the food web is primarily controlled by utilization and the isotopic signatures of different nitrogen sources, particularly urea, nitrate, and ammonium, by primary producers [@Graham2010; @Ohkouchi2017]. Measurements of bulk $\delta^{15}N$ values from consumers can be difficult to attribute to changes at the base of the food web because trophic level shifts also effect the isotopic composition of bulk nitrogen [@Fry2006]. Amino acid specific $\delta^{15}N$ data addresses this challenge, as amino acids exhibit two distinct patterns in isotopic enrichment: trophic amino acids (i.e., glutamic acid, alanine, proline) become enriched in $\delta^{15}N$ with each trophic transfer and source amino acids (i.e., phenylalanine, lysine, methionine) show minimal change and thus are reflective of the base of the food web [@McClelland2002; @Chikaraishi2009; @Ohkouchi2017].</p>
+	
+<p>Similar to the nitrogen stable isotope composition of amino acids as a proxy for nitrogen sources, carbon isotopic composition has emerged as a useful tool for assessing historic changes in phytoplankton [@McMahon2019; @Lorrain2020]. However, cellular growth rates, phytoplankton community composition, the isotopic composition of carbon in CO~2~, and CO~2~ concentration all affect the $\delta^{13}C$ (^13^C/^12^C) values of phytoplankton in tandem [@Lorrain2020; @Burkhardt1999]. The relative effects of these factors remain difficult to discern from carbon isotope data alone. Nonetheless, carbon stable isotope data is highly correlated with copepod biomass in the northeast Pacific and thus can be a useful combined index of ocean productivity [@Espinasse2020]. While both source amino acid $\delta^{15}N$ and bulk $\delta^{13}C$ values can be influenced by a number of biogeochemical and physiological processes (Figure 2.1), they are useful indicators of nitrogen utilization (source amino acid $\delta^{15}N$) and phytoplankton dynamics (bulk $\delta^{13}C$), despite the difficulty in identifying specific mechanisms of fractionation.</p>
+	
+<p>Here we use source amino acid $\delta^{15}N$ and bulk $\delta^{13}C$ values of consumer bone collagen as indicators of change in food web-assimilated nitrogen (nitrogen utilization and isotopic composition at the base of the food web) and food web-assimilated production (phytoplankton composition, [CO~2~], cellular growth, and physiology). These definitions assume major changes in nitrogen utilization and phytoplankton dynamics are recorded in the stable isotope composition of nitrogen and carbon in phytoplankton [@McMahon2019; @Sherwood2011; @delaVega2021; @Ohkouchi2017], scaled to the spatial and temporal resource use of consumers, and conserved with minimal trophic fractionation [@Chikaraishi2009]. Bulk $\delta^{13}C$ and $\delta^{15}N$ values of source amino acids such as phenylalanine ($\delta^{15}N_{Phe}$) from long-lived, generalist consumers provide ecosystem-level information of carbon and nitrogen dynamics that are integrated over space, time, and multiple energy pathways in the food web [@McCann2005; @delaVega2021]. As a result, these data sources are more relevant to questions of food web responses to large-scale environmental forcing than discrete measurements of inorganic nutrients or phytoplankton. Ultimately these data can be used to understand how ecosystems have responded to environmental variability in the past and glean insights into food web responses to oceanic conditions in the future.</p>
+	
+<p>Harbor seals (*Phoca vitulina*) are a particularly well-suited predator to understand food web shifts through time because of their primarily piscivorous diet, generalist foraging strategies, high site fidelity, and frequent occurrence in museum specimen collections. Adult harbor seals typically forage 5 - 10 km from haul out sites and at depths < 200 m and are opportunistic feeders [@Lance2012]. Therefore, the nitrogen and carbon stable isotope composition of harbor seals offer a robust representation of the isotopic composition of carbon and nitrogen assimilated into coastal food webs. Harbor seal specific trophic enrichment factors for nitrogen have been quantified in controlled feeding studies, confirming minimal trophic enrichment for phenylalanine between seals and their prey [@Germain2013]. Environmentally induced shifts in foraging patterns, specifically nearshore verse offshore feeding, has the potential to affect the carbon isotope composition in harbor seal tissues (Figure 2.1). We assume these behavioral effects are minimal on annual time scales compared to changes in the carbon and nitrogen isotope composition at the base of the food web given their restricted foraging ranges.</p>
+	
+<p>We aim to identify how archived $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values vary regionally across the northeast Pacific on ecologically relevant scales (integrated annually and regionally) and through time using museum harbor seal specimens from 1928-2014 (Figure \@ref(fig:map)). Additionally, we characterize abiotic factors that influence harbor seal $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values to identify ocean conditions important for food web assimilation of nitrogen and carbon. The effect of regional ocean condition on the stable isotope signature of source amino acids limits the application of short-term datasets for productivity studies, as short-term environmental perturbations are difficult to decouple from longer term trends such as climate regimes [@Vokshoori2014]. We therefore identify long-term environmental drivers that are important for interpreting reconstructed isotope data.</p>
 
-<!-- MATH and PHYSICS majors: Uncomment the following section -->
-<!--
-$$\sum_{j=1}^n (\delta\theta_j)^2 \leq {{\beta_i^2}\over{\delta_i^2 + \rho_i^2}}
-\left[ 2\rho_i^2 + {\delta_i^2\beta_i^2\over{\delta_i^2 + \rho_i^2}} \right] \equiv \omega_i^2
-$$
+##Methods
+###Sample Collection and Analysis
+<p>Harbor seal bone samples were obtained from specimens curated at the Burke Museum (University of Washington), the Slater Museum (University of Puget Sound), the Museum of the North (University of Alaska Fairbanks), the Royal British Columbia Museum, the Smithsonian Institute, and the National Marine Mammal Laboratory (NOAA). Specimens were either treated by maceration in warm water or cleaned by beetles and soaked in a dilute ammonia solution then stored in acid free boxes. Adult specimens were sampled from three regions: eastern Bering Sea, the Gulf of Alaska, and Washington state, which also included 18 specimens from the southern British Columbia coast (Figure \@ref(fig:map)). We further stratified samples from the Gulf of Alaska into two subregions (northern and southeast) and Washington state into two subregions (coastal and Salish Sea) for a total of five subregions. Sampling prioritized long-term temporal coverage, specifically focusing on climate regimes shifts (i.e., PDO). Additionally, samples with sex and size metadata were prioritized, although it was not available for most specimens. Metadata was accessed through [VertNet](http://www.vertnet.org/index.html) using catalogue numbers and institution codes.</p>
+	
+Bone samples were decalcified with the resulting collagen acid hydrolyzed, derivatized, and analyzed for compound-specific nitrogen stable isotope analysis (CSSIA) of 11 individual amino acids, including one source amino acid, phenylalanine (phe). Of the 11 amino acids, phenylalanine was the only discernable source amino acid and phenylalanine is the only amino acid data are reported in this manuscript (Appendix S1). CSSIA samples were analyzed by GC-C-irMS at the University of Washington Facility for Compound-Specific Stable Isotope Analysis of Environmental Samples using a Thermo Scientific Trace GC + GC IsoLink coupled to a Delta V irMS following the procedures developed by @Chikaraishi2007 and protocols by Rachel Jeffrey’s lab at University of Liverpool UK (full analytical details are provided in Appendix 1). Individual collagen samples were analyzed in triplicate along with a mixed amino acid standard of known isotopic composition (Sigma-Aldrich Co.) (mean precision of analytical standard for phenylalanine = 0.3‰). Internal and external standards were used and data processing included a drift correction. A total of 215 specimens were sampled from the time period of 1928-2014 for CSSIA, making this the largest CSSIA dataset of a mammal to date. Decalcified collagen of 190 specimens was analyzed for bulk ^13^C/^12^C and bulk ^15^N/^14^N at the University of Washington’s IsoLab using a Costech ElementalAnalyzer, ConFlo III, MAT253 for continuous flow-based measurements. ^15^N/^14^N and ^13^C/^12^C are reported in standard delta notation:
+	
+\begin{equation} 
+  \delta^{15}N_ ( \textperthousand vs. air) =   
+  [(\frac{^{15}N/^{14}N_{Sample}}{^{15}N/^{14}N_{Air}} -1)*1000]
+  (\#eq:deltN)
+\end{equation} 
 
-From Informational Dynamics, we have the following (Dave Braden):
-
-After _n_ such encounters the posterior density for $\theta$ is
-
-$$
-\pi(\theta|X_1< y_1,\dots,X_n<y_n) \varpropto \pi(\theta) \prod_{i=1}^n\int_{-\infty}^{y_i}
-   \exp\left(-{(x-\theta)^2\over{2\sigma^2}}\right)\ dx
-$$
-
-Another equation:
-
-$$\det\left|\,\begin{matrix}%
-c_0&c_1\hfill&c_2\hfill&\ldots&c_n\hfill\cr
-c_1&c_2\hfill&c_3\hfill&\ldots&c_{n+1}\hfill\cr
-c_2&c_3\hfill&c_4\hfill&\ldots&c_{n+2}\hfill\cr
-\,\vdots\hfill&\,\vdots\hfill&
-  \,\vdots\hfill&&\,\vdots\hfill\cr
-c_n&c_{n+1}\hfill&c_{n+2}\hfill&\ldots&c_{2n}\hfill\cr
-\end{matrix}\right|>0$$
-
-
-Lapidus and Pindar, Numerical Solution of Partial Differential Equations in Science and
-Engineering.  Page 54
-
-$$
-\int_t\left\{\sum_{j=1}^3 T_j \left({d\phi_j\over dt}+k\phi_j\right)-kT_e\right\}w_i(t)\ dt=0,
-   \qquad\quad i=1,2,3.
-$$
-
-L\&P  Galerkin method weighting functions.  Page 55
-
-$$
-\sum_{j=1}^3 T_j\int_0^1\left\{{d\phi_j\over dt} + k\phi_j\right\} \phi_i\ dt
-   = \int_{0}^1k\,T_e\phi_idt, \qquad i=1,2,3 $$
-
-Another L\&P (p145)
-
-$$
-\int_{-1}^1\!\int_{-1}^1\!\int_{-1}^1 f\big(\xi,\eta,\zeta\big)
-   = \sum_{k=1}^n\sum_{j=1}^n\sum_{i=1}^n w_i w_j w_k f\big( \xi,\eta,\zeta\big).
-$$
-
-Another L\&P (p126)
-
-$$
-\int_{A_e} (\,\cdot\,) dx dy = \int_{-1}^1\!\int_{-1}^1 (\,\cdot\,) \det[J] d\xi d\eta.
-$$
--->
-
-## Chemistry 101: Symbols
-
-Chemical formulas will look best if they are not italicized. Get around math mode's automatic italicizing in LaTeX by using the argument `$\mathrm{formula here}$`, with your formula inside the curly brackets.  (Notice the use of the backticks here which enclose text that acts as code.)
-
-So, $\mathrm{Fe_2^{2+}Cr_2O_4}$ is written `$\mathrm{Fe_2^{2+}Cr_2O_4}$`.
-
-<!--
-The \noindent command below does what you'd expect:  it forces the current line/paragraph to not indent. This was done here to match the format of the LaTeX thesis PDF.
--->
-
-\noindent Exponent or Superscript: $\mathrm{O^-}$
-
-\noindent Subscript: $\mathrm{CH_4}$
-
-To stack numbers or letters as in $\mathrm{Fe_2^{2+}}$, the subscript is defined first, and then the superscript is defined.
-
-\noindent Bullet: CuCl $\bullet$ $\mathrm{7H_{2}O}$
-
-
-\noindent Delta: $\Delta$
-
-\noindent Reaction Arrows: $\longrightarrow$ or  $\xrightarrow{solution}$
-
-\noindent Resonance Arrows: $\leftrightarrow$
-
-\noindent Reversible Reaction Arrows: $\rightleftharpoons$
-
-### Typesetting reactions
-
-You may wish to put your reaction in an equation environment, which means that LaTeX will place the reaction where it fits and will number the equations for you. 
-
-\begin{equation}
-  \mathrm{C_6H_{12}O_6  + 6O_2} \longrightarrow \mathrm{6CO_2 + 6H_2O}
-  (\#eq:reaction)
+\begin{equation} 
+  \delta^{13}C_ ( \textperthousand vs. VPBD) =   
+  [(\frac{^{13}C/^{13}C_{Sample}}{^{13}C/^{13}C_{VPBD}} -1)*1000]
+  (\#eq:deltC)
 \end{equation}
 
-We can reference this combustion of glucose reaction via Equation \@ref(eq:reaction).
+Internal laboratory standards (Bristol Bay salmon and glutamic acid) were interspersed with samples for a two-point calibration and blank correction (mean standard precision 0.09‰ for $\delta^{15}N$ and 0.04‰ for $\delta^{13}C$). A linear drift correction was also applied using IsoDat software. The collagen C:N ratio was used to verify the integrity of collagen for stable isotope analysis following specimen treatment and storage [@vanKlinken1999].
 
-### Other examples of reactions
+The isotopic composition of marine dissolved organic carbon has been steadily depleted in ^13^C over the past 100 years due to increases in anthropogenic CO_2 in the atmosphere (referred to as the Oceanic Seuss Effect) [@Quay1992]. $\delta^{13}C$ data were therefore corrected for the Seuss Effect using the following equation [@Misarti2009]:
 
-$\mathrm{NH_4Cl_{(s)}}$ $\rightleftharpoons$ $\mathrm{NH_{3(g)}+HCl_{(g)}}$
+\begin{equation} 
+ \mbox {Seuss Effect Correction Factor} =   
+  d * e^{0.027*(t-1850)}
+  (\#eq:seuss)
+\end{equation}
 
-\noindent $\mathrm{MeCH_2Br + Mg}$ $\xrightarrow[below]{above}$ $\mathrm{MeCH_2\bullet Mg \bullet Br}$
+Where *d* is the maximum annual rate of $\delta^{13}C$ decrease specific to the North Pacific (-0.014 derived from @Quay1992), *t* is the year represented by the year of specimen collection with a one-year lag. The Seuss effect varies regionally [@Tagliabue2008] and we applied a northeast Pacific parameterization [@Misarti2009].
 
-## Physics
+Standard linear models were used to identify whether size (standard length, cm), sex, and subregion of the harbor seals sampled were related to isotopic composition and to test whether these parameters needed to be standardized in environmental models. $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values were modelled independently as univariate continuous response variables using the following equation:
 
-Many of the symbols you will need can be found on the math page <http://web.reed.edu/cis/help/latex/math.html> and the Comprehensive LaTeX Symbol Guide (<http://mirror.utexas.edu/ctan/info/symbols/comprehensive/symbols-letter.pdf>).
+\begin{equation} 
+ y_i \sim N(\boldsymbol{\alpha} + \boldsymbol{\beta X}_i, \sigma^2_y)
+  (\#eq:linmods)
+\end{equation}
 
-## Biology
+where *y* is the mean triplicate value for each individual *i* for either $\delta^{15}N_{Phe}$ or $\delta^{13}C$ values. **X** represents the matrix of predictors (sex, length, subregion), $\boldsymbol{\alpha}$ is a scalar and $\boldsymbol{\beta}$ is a vector of coefficients for the predictors. Length (n = 116) was modelled as a continuous variable and was natural log transformed; subregion and sex (n = 190) were modelled as factors. Individual models were used to test whether a predictor was significant as opposed to a multivariate framework because, 1) sample sizes for $\delta^{15}N_{Phe}$ (n = 215) and $\delta^{13}C$ (n = 190) data varied, and 2) predictor metadata was incomplete for specimens. A pairwise t-test using the Bonferroni correction and non-pooled standard deviation was also used to compare differences in mean isotope signature between subregions and sex (Figure \@ref(fig:dist), Tables \@ref(tab:ttestN) & \@ref(tab:ttestC)).
 
-You will probably find the resources at <http://www.lecb.ncifcrf.gov/~toms/latex.html> helpful, particularly the links to bsts for various journals. You may also be interested in TeXShade for nucleotide typesetting (<http://homepages.uni-tuebingen.de/beitz/txe.html>).  Be sure to read the proceeding chapter on graphics and tables.
+To understand the extent of coupling between indices of food web assimilated production and nitrogen resources, a linear model representing the basin wide relationship was fit to $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values as continuous variables assuming normal errors. To understand spatial variation in this relationship, a hierarchical model was fit to the same dataset with varying slope and varying intercept based on subregion as a random effect. This model took the following form:
 
+\begin{equation} 
+ y_i \sim N(\boldsymbol{\alpha}_{j[i]} + \boldsymbol{\beta}_{j[i]}\boldsymbol{x}_i, \sigma^2_y)
+  (\#eq:hiermods)
+\end{equation}
+
+Where *y* represents $\delta^{13}C$ values as a continuous variable and x represents $\delta^{15}N_{Phe}$ values as a continuous variable and j represents the group level predictor, subregion. $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ are each vectors of coefficients that vary by subregion. 
+
+###Quantifying effects of ocean condition on food web isotope indices
+
+Linear models were used to identify environmental drivers of $\delta^{13}C$ and $\delta^{15}N_{Phe}$ values using a suite of environmental indices as covariates. A total of 42 environmental time series were compiled as potential predictor variables (Table 2.2) based on previous evidence for food web importance in the northeast Pacific [@Stachura2014;@DiLorenzo2008]. Each environmental time series was standardized around a mean of 0 and standard deviation of 1 and discharge data was also natural log transformed. We divided these environmental covariates a priori into four main mechanistic properties based on the expected effect on nutrient assimilation into the food web: climate regime, freshwater discharge, circulation (wind and upwelling), and sea surface temperature (Figure 2.1). Given the three regions in our analysis, each of these hypotheses were also divided according to our regional geographic breaks (eastern Bering Sea, Gulf of Alaska, and Washington). To reduce collinearity between environmental time series and reduce the total number of candidate models, a subset of 7 environmental times series were selected for each region based on the temporal overlap with stable isotope data. Each subset contained at least one time series for each of the four mechanistic properties and all possible combinations of predictors were tested (Table 2.3). While reduction of the number of times series provides analytical benefits, it comes at the cost of potentially conservative estimates of which covariates are important, meaning important components of ocean condition to the food webs may be missed.
+
+$\delta^{15}N_{Phe}$ and $\delta^{13}C$ values were independently considered as response variables to evaluate relationships between predictors (environmental indices and location) and stable isotope data using Figure \@ref(eq:linmods) where X is a matrix of predictors using the 7 standardized environmental time series (continuous) and subregion (factor) as covariates. We treated carbon and nitrogen isotopes as response variables separately in linear models, rather than in a combined multivariate model due to differences in sample size and differences in the strength of correlation between for $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values for each subregion. Time series data prior to 1950 and after 2014 was excluded from this analysis as data for some covariates did not extend beyond 1950. Candidate models (n = 53) were compared using Akaike Information Criteria with a small sample size correction [AICc] and included all combinations of the environmental indices. In addition, a subregion factor was included with two levels for Washington (Salish Sea and coastal Washington) and the Gulf of Alaska (southcentral and southeast) and a null model (intercept only) was also tested. Tissue turnover time of bone collagen has not been measured in mammals of this size to our knowledge but is approximately 173 days for birds [@Hobson1992]. Thus, a lag of one year was applied to the stable isotope datasets to account for the timing of tissue turnover in bone collagen. To validate this approach of applying a 1-year lag, 0- and 2-year lags were also applied to the best models of each region an compared to the 1-year lag using AIC. Additionally, month was tested as a smoothed predictor with 12 knots for stable isotope data in Washington samples using a generalized additive model (GAM). Support for a significant smoothing term would identify and seasonality in the data, which would be expected if tissue turnover time is less than a year. A one-year tissue turnover time was confirmed as a suitable assumption for harbor seal bone collagen, as 0- and 2- year lags had similar or less model support. There was no support for a smoothing effect by month in generalized additive models of $\delta^{15}N_{Phe}$ and $\delta^{13}C$ which would have indicated any seasonal variability in isotope composition and thus a turnover time of less than or greater than a year (p < 0.05; Figure \@ref(fig:Length)) and thus a 1-year lag was applied to isotope data for all temporal analyses.
+
+  For each model with relatively high support (ΔAICc < 2) the AICc weight and the coefficient for each covariate is reported (Figure \@ref(fig:dist). To confirm collinearity was not problematic in the candidate models that included more than one environmental covariate, matrix scatterplots and variance inflation factors (vif) were used from the car package (Fox et al. 2019) in R (R Development Core Team, 2020). 
+
+###Gaussian Process Dynamic Factor Analysis (GPDFA)
+To further understand how the environment, $\delta^{13}C$, and $\delta^{15}N_{Phe}$ values covary through time in the Northeast Pacific, we developed a novel extension of conventional Dynamic Factor Analysis (DFA). DFA is a dimension reduction technique that identifies common processes underlying a set of multivariate time series. This technique has been applied to multivariate time series problems in fisheries and ecology to identify patterns of oceanographic variability that drive Pacific salmon stocks [@Stachura2014; @Jorgensen2016; @Ohlberger2016].
+
+DFA models identify common trends across multiple time series ("latent trends") and estimates the importance of that trend for each individual time series as a coefficient ("factor loading"). The two equations describing DFA take on the following form:
+
+
+\begin{equation} 
+ \boldsymbol{y}_t = \boldsymbol{Zx}_t + \boldsymbol{v}_t,\mbox{ where }\boldsymbol{v}_t \sim MVN(0,\boldsymbol{R})
+  (\#eq:gdfa1)
+\end{equation}
+
+
+\begin{equation} 
+ \boldsymbol{x}_t = \boldsymbol{x}_{t-1} + \boldsymbol{w}_t,\mbox{ where }\boldsymbol{w}_t \sim MVN(0,\boldsymbol{I})
+  (\#eq:gdfa2)
+\end{equation}
+
+The observed data **y**~t~ are modeled as combinations of latent trends **x**~t~ at time *t* (the dimensions of **x**~t~ matching the number of trends which are also referred to as states) and factor loadings (**Z**) (a coefficient for each time series for each trend) at time *t*, which are modeled as a random walk (Zuur et al. 2003). In addition there is an optional random observation error (**v**~t~) and process error (**w**~t~) which are multivariate normal
+
+Our extension of DFA adopts an alternative model of the latent trends, modeling them with Gaussian Processes rather than random walks.Gaussian Processes (GP) have been widely used in fisheries and other fields [@Munch2018]. Instead of modeling a time series as an autoregressive process, GPs model a time series via a mean and variance function, *x~*$MVN(u,\Sigma)$ where *u* represents and optional mean vector and **Σ** a covariance matrix. For GPDFA, we assume the mean to be zero, letting just the covariance function determine the GP smoothing. GPs are flexible in that the covariance matrix can be described by a wide range of flexible functions; for this application we use a Gaussian kernel (squared exponential) so that $\Sigma_{i,j}=\sigma^2 exp(-d_{i,j}/\sigma)$, where $\sigma^2$ is a variance parameter controlling the magnitude, θ is a shape parameter controlling how quickly covariance declines, and $d_{i,j}$ is the known distance between time points *i* and *j*. A benefit of modeling **Σ** with a covariance function is that regardless of the dimensionality, all elements of **Σ** can be described by a small number of parameters. For GPDFA, we choose to use a GP predictive process model, because the number of time points may be large [@Latimer2009]. This predictive model estimates the function values at a subset of locations (knots), and combines these estimates with the distance to locations at which data are observed to make predictions. More specifically, the values of the time series at the knot locations are $x^*$~$MVN(0,\Sigma^*)$. Given the known distances between the locations of knots and locations of data, the covariance matrix between the two can be calculated, $\Sigma_{(x,x^*)}$. Finally, the predictions of the time series at the observed data can be calculated as $\hat{x}=\Sigma'_{(x,x^*)}\Sigma^{*-1}x^*$. In this extension of DFA, all other model components are identical to the conventional time series version with latent trends modeled as a random walk. 
+
+With the Gaussian Process DFA model, a decision needs to be made a priori about selecting the number and location of knots, where the function parameters are estimated at. There are multiple approaches for doing this; we adopted a model with 15 knots (more knots resulting in a smoother function), and estimated the knot location by performing a clustering approach of the years corresponding to the raw observations (partitioning around medoids, using the 'pamk' function in the fpc library in R).
+
+With conventional DFA using an autoregressive model, long gaps in time series data result in large, overestimations of the variance of the latent trends. Gaussian Processes model time series as a multivariate normal distribution, with estimated mean vector **u** and covariance matrix **Σ** [@Munch2018]. To constrain the number of estimated parameters, elements of **Σ** were modeled with a Gaussian or squared covariance exponential function such that $\Sigma_{(i,j)}= \sigma^2 exp(-(t_i-t_j )^2/\theta)$. In this parameterization, $\sigma^2$ controls the variability of the stochastic process, $\theta$ controls the rate of decay in correlation between time steps, and t~i~ and t~j~ are the time variables (e.g. years) for locations *i* and *j*. 
+
+We considered models with 1- 4 underlying trends. Each trend was modelled separately (different means) but models with multiple trends to have a shared covariance matrix amongst trends. The GPDFA approach was applied to time series from each region and the best model was selected using leave-one-out cross-validation (LOOIC) from the loo package in R [@Vehtari2017]. The choice of knots affects the degree of smoothness, with more knots creating more smooth functions. We tested several different numbers of knots and found results to be qualitatively similar. Similar to the previous analysis, time series data prior to 1948 for Washington state and prior to 1940 and after 2008 for the Gulf of Alaska was excluded from this analysis. We fit GPDFA to data from each region including all of the initial 42 identified environmental time series for that region (Table 2.2), $\delta^{15}N_{Phe}$  and $\delta^{13}C$  values, with location as a factor. We implemented GPDFA using the Stan language [Stan Development Team 2019, @Carpenter2017], and R (R Core Development Team 2019, version 3.6.2) via R package rstan (Stan Development Team 2019, version 2.21.2). Code to implement GPDFA is available [here](https://github.com/mfeddern/CSIA-AA/blob/master/SourceData/Src/Analysis/gpdfa.stan)
+
+##Results
+
+$\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values did not vary by sex (p > 0.05, Figure \@ref(fig:dist) or size for the individuals sampled (p > 0 .05; Figure \@ref(fig:Length)). Spatial variation in harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values were observed on subregional scales. $\delta^{15}N_{Phe}$ values were similar for harbor seals in the northern Gulf of Alaska (11.9  ± 2.9, mean ± 1SD), southeast Gulf of Alaska (10.8 ± 1.7), and coastal Washington (11.3 ± 1.9). The eastern Bering Sea had significantly higher $\delta^{15}N_{Phe}$ values compared to other subregions (15.2 ± 1.8) followed by the Salish Sea (12.2 ± 2.3) which had similar $\delta^{15}N_{Phe}$ values compared to the northern Gulf of Alaska (Figure \@ref(fig:dist), Table \@ref(tab:ttestN)). $\delta^{13}C$ values varied by subregion (p < 0.05) with the exception of the Gulf of Alaska, where the northern (-14.6 ± 0.9) and southeast (-14.4 ± 1.1) subregions were not significantly different, and the eastern Bering Sea (-13.4 ± 0.9) and coastal Washington (-13.6 ± 0.9) were not significantly different (Figure \@ref(fig:dist), Table \@ref(tab:ttestC)). The variation between subregions appeared to follow a latitudinal gradient, where harbor seal mean $\delta^{13}C$ values were most enriched in $^{13}C$ in the Salish Sea (-12.2 ± 1.5), became more depleted from coastal Washington and into the Gulf of Alaska (Table \@ref(tab:ranges)).
+	
+The relationship between harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values also varied on subregional scales. There was positive linear association between harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values in the combined northeast Pacific basin and Bering Sea model with a slope of 0.12 (Figure \@ref(fig:hiermod)A). For the hierarchical subregion model, the eastern Bering Sea and coastal Washington demonstrated similar relationship, with slopes of 0.08 (95% CI [0.05, 0.11]) and 0.07 (95% CI [0.05, 0.09]) respectively. Similarly, harbor seals in both Gulf of Alaska subregions demonstrated comparable coupling of $\delta^{15}N_{Phe}$ and $\delta^{13}C$, with slopes of 0.13 (95% CI [0.11, 0.14]) for the northern subregion and 0.12 (95% CI [0.10, 0.14]) for the southeastern subregion. Salish Sea harbor seals had a distinct relationship between $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values relative to other subregions with a slope of only 0.02 that was not significantly different from 0 (95% CI [0.0, 0.04]) (Figure \@ref(fig:hiermod)B).
+	
+For both $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values there was substantial support for models including environmental indices rather than null or subregion only models. The relationship between environmental indices and harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values in the northeast Pacific varied on regional scales. For Washington, the best model to predict harbor seal $\delta^{15}N_{Phe}$ values included Columbia River discharge in high flow months, summer upwelling, and subregion. There was substantial model uncertainty for $\delta^{15}N_{Phe}$ values in the Washington region, however 90% of model weight supported the inclusion of Columbia River discharge (Figure \@ref(fig:coefres)A). The model for harbor seal $\delta^{13}C$ values with the most support indicated a positive association between PDO, spring upwelling, and freshwater discharge in the Washington region (Figure \@ref(fig:coefres)B). In the Gulf of Alaska, the summer upwelling model had the most support as a predictor of harbor seal $\delta^{15}N_{Phe}$ values with some model support for inclusion of the NPGO (North Pacific Gyre Oscillation), although the coefficients for this covariate did not differ substantially from 0 (Figure \@ref(fig:coefres)C). The best model for harbor seal $\delta^{13}C$ values for the Gulf of Alaska included subregion, PDO (Pacific Decadal Oscillation), and NPGO (Figure \@ref(fig:coefres)D). In contrast to Washington, the Gulf of Alaska models supported a negative association between δ13C values and PDO. The null model for $\delta^{15}N_{Phe}$ values in the eastern Bering Sea had the most support (Figure \@ref(fig:coefres)E). Lack of model support for environmental covariates in the eastern Bering Sea may have been a result of the small sample size in the region. Cross-shelf wind was included as a predictor in the best model (Figure \@ref(fig:coefres)F) for $\delta^{13}C$ values in the eastern Bering Sea and was supported by 76% of the model weight. 
+	
+PDO and Kuskokwim river discharge during high flow months were found to be highly collinear (VIF > 10) and PDO was omitted from the candidate model set for the eastern Bering Sea analysis. All other models containing multiple environmental predictors with relative support had variance inflation factors of less than 2 indicating only moderate collinearity across covariates. Model residuals for the best models did not show trends through time (Figure \@ref(fig:linresid)). This indicates that there were no trends associated with other potential ecosystem changes, such as harbor seal foraging strategy for example, after accounting for ocean condition. Model results did not change when using $\delta^{13}C$ data that were not corrected for the regional Seuss Effect.
+	
+The GPDFA analysis showed temporal synchronies and shared trends across environmental conditions and stable isotope values in the northeast Pacific. In the Gulf of Alaska, the data supported three latent trends (Figure \@ref(fig:GDFAAK)). Both $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values had the highest loadings for trend 1, which showed an increase starting in 1965 until 1980 followed by the trend oscillating at approximately 25% above the long-term average. The harbor seal $\delta^{15}N_{Phe}$ values for the southeast subregion, harbor seal $\delta^{13}C$ values, and spring upwelling had negative loadings on trend 1; loadings of $\delta^{15}N_{Phe}$ values were generally weaker relative to loadings of $\delta^{13}C$ values. For the other two trends (2-3), loadings were clustered by environmental driver category. Latent trend 2 oscillated around the long-term average and was uninformative. Trend 3 was below average starting in 1985 with strong loadings for climate time series, spring and summer upwelling, and discharge in high flow months (Figure \@ref(fig:GDFAAK)). Annual discharge, autumn upwelling, Oceanic Niño Index and Northern Oscillation Index did not demonstrate strong loadings for any trend. In Washington, there was support for two latent trends. Latent trend 1 shows a rapid increase in the 1940’s to 25% above the long-term mean then a gradual decline until 1986 to approximately 40% below the long-term mean, with values below the mean starting in 1977 (Figure \@ref(fig:GDFAWA)). Trend loadings for harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values were stronger for coastal seals and trend 1 had stronger loadings for freshwater discharge than trend 2. Trend 2 had strong loadings for $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values for both Salish Sea and coastal Washington harbor seals. Trend 2 oscillated above and below the long-term mean and had large loadings for sea surface temperature, summer upwelling, Fraser River discharge and climate indices (Figure \@ref(fig:GDFAWA)).
+
+To validate this approach of applying a 1-year lag, 0- and 2-year lags were also applied to the best models of each region an compared to the 1-year lag using AIC. Additionally, month was tested as a smoothed predictor with 12 knots for stable isotope data in Washington samples using a generalized additive model (GAM). Support for a significant smoothing term would identify and seasonality in the data, which would be expected if tissue turnover time is less than a year. A one-year tissue turnover time was confirmed as a suitable assumption for harbor seal bone collagen, as 0- and 2- year lags had similar or less model support. There was no support for a smoothing effect by month in generalized additive models of $\delta^{15}N_{Phe}$ and $\delta^{13}C$ which would have indicated any seasonal variability in isotope composition and thus a turnover time of less than or greater than a year (p < 0.05; Figure \@ref(fig:Length)) and thus a 1-year lag was applied to isotope data for all temporal analyses.
+
+##Discussion
+
+We analyzed bone collagen $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values from harbor seal museum specimens collected between 1928 and 2014 as indices of change in food web assimilated nitrogen and carbon. Based on previous research [@Sherwood2014; @delaVega2019; @Lorrain2020], we interpret $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values as primarily representing nitrogen and carbon resource utilization, and growth and community composition of primary producers at the base of the food web. Our data show the relationship between indices of primary production and nitrogen resources assimilated into food webs varies regionally across the northeast Pacific. By pairing these data with environmental time series data, we provide new insights into large scale environmental forcing that impacts the base of the food web and is transferred to higher trophic levels. Specifically, oceanic conditions associated with climate regimes and upwelling explain significant temporal variation in $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values of coastal predators in northeast Pacific (Figure \@ref(fig:coefres); Figure \@ref(fig:linresid)). This analysis demonstrates $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values are useful indicators of resources assimilated by coastal food webs.  
+
+###Spatial variation in stable isotope indices
+
+The geographically widespread association between harbor seal $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values indicates food web assimilated primary production is coupled with nitrogen resources in most regions of the northeast Pacific, with the Salish Sea as a notable exception (Figure \@ref(fig:hiermod)). Short-term studies in coastal Washington showed phytoplankton respond considerably to nitrogen inputs and are frequently nitrogen limited [@Dortch1989; @Kudela2009]. Similarly, short term studies of the inner Gulf of Alaska shelf demonstrated primary production is generally nitrogen limited, and size, growth rates, and community composition are all tightly coupled with nutrient availability [@Strom2006]. A significant relationship between bulk $\delta^{15}N$ and $\delta^{13}C$ values was also observed in the tissues of some gorgonian corals over the same time period in coastal Gulf of Alaska [@Williams2007]. Given the evidence of nitrogen limitations and its relationship with phytoplankton growth and community composition in these coastal environments, the association between $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values could be the result of nitrogen limiting growth at the base of the food web. Alternatively, the $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ coupling could be driven by covariance with an untested environmental variable that impacts most of the northeast Pacific but not the Salish Sea.
+	 
+The coastal Washington and the Salish Sea food webs assimilate different nitrogen and carbon sources (Figure \@ref(fig:coefres) A & B). Salish Sea harbor seals have higher $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values compared to individuals on the outer coast, which is likely due to significant contributions of intertidal producers and the legacy of anthropogenic N in the Salish Sea food web. Intertidal macrophytes (seagrass and algae) have similar δ13C values (~ -10‰) compared to harbor seals in the Salish Sea, while other potential sources are much lower (i.e., marine derived sources ~ -20‰, terrestrial derived sources ~ -30‰) [@Conway2015; @Howe2015]. Incorporation of intertidal producers into the Salish Sea food web explains the difference in carbon stable isotope signatures between Salish Sea and coastal Washington harbor seals (~1.4‰, Figure \@ref(fig:coefres)A). However, it does not explain the higher $\delta^{15}N_{Phe}$ values (Figure \@ref(fig:coefres)B, Table \@ref(tab:ranges)). Surface nitrate was observed to be 8‰ – 12‰ off the coast of Washington in spring 1993 [@Wu1997] which was exceeded by harbor seals in both coastal Washington and the Salish Sea (Table \@ref(tab:ranges)). It is likely anthropogenically derived nitrogen sources contribute to the higher observed $\delta^{15}N_{Phe}$ values both directly and indirectly, particularly in the Salish Sea where harbor seal $\delta^{15}N_{Phe}$ values were up to 2.4‰ higher than coastal Washington seals. Wastewater treatment facilities and agriculture runoff contribute substantial amounts (~32%) of nitrogen in the Salish Sea (Mohamedali et al. 2011) and are enriched in $^{15}N$. In recent decades, Salish Sea waters have also been characterized by low dissolved oxygen and hypoxic events (PSEMP 2019) from human derived nitrogen loading. Anoxic conditions are conducive to denitrification, another potential indirect source of $^{15}N$ from human activities in the region. 
+
+###Ocean condition and stable isotope indices
+
+Washington state food webs exhibit environmentally induced changes in assimilated primary production and nitrogen sources. The isotope-ocean condition relationship in the region can be explained by introduction of terrestrial derived nutrients and climatically induced changes in phytoplankton community structure observed in previous studies [@Du2015; @Du2014; @Kudela2008]. For example, the PDO has been associated with phytoplankton community shifts between dinoflagellates and diatoms in the northern California Current [@Du2015]. Similarly, the phytoplankton community composition is distinct in the early (spring) upwelling season compared to the late (summer) upwelling season [@Du2014]. This could explain the inversely related associations between bulk $\delta^{13}C$ values and summer and spring upwelling (Figure \@ref(fig:coefres)B). Shifts in phytoplankton community structure are therefore a mechanism to explain the relationship between harbor seal bulk $\delta^{13}C$ values and ocean condition. In addition, freshwater discharge explains 16% of variation observed in both $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values in Washington. The Columbia River Plume introduces terrestrial derived nutrients, including nitrogen, and has been associated with increased primary production and fish production [@Kudela2008]. The covariation between $\delta^{15}N_{Phe}$, bulk $\delta^{13}C$, and discharge indicates isotopically distinct nitrogen resources introduced by freshwater discharge alters primary production which is then assimilated into the Washington food web, and ultimately harbor seals. 
+
+In the eastern Bering Sea, our results suggest ice-born algae and $^{15}N$ enriched nitrogen from the inner shelf are important for supporting the coastal food web. Recent evidence supports that consumer $\delta^{15}N_{Phe}$ values reflect nitrate $\delta^{15}N$ values in the arctic (de la Vega et al. 2020). However, our $\delta^{15}N_{Phe}$ values from harbor seals of the eastern Bering Sea were high relative to previous studies of summer nitrate (5 to 9‰) [@Lehmann2005] and plankton nitrogen isotope signatures (6-12‰) [@Smith2002] from the outer and mid Bering Sea shelf. @Morales2014 subsequently found the stable isotope composition of nitrogen in diatoms ranged from 5-21‰ in late winter and early spring. These values also increased in association to sea ice with a positive shoreward gradient [@Morales2014]. The range of sea-ice algae $\delta^{15}N$ values observed by @Morales2014 are consistent with our observed $\delta^{15}N_{Phe}$ values in harbors seals (\@ref(tab:ranges)). Furthermore, the harbor seals in this study were located near the inner shelf in an area that has been partially covered by sea ice from January to May during the past century [@Stabeno2007]. Together this indicates ice algae as a significant contributor to the coastal food web. The disconnect between the $\delta^{15}N$ values of offshore nitrate [@Lehmann2005] and harbor seals also highlights the problem in assuming spatially and temporally discrete nitrate or phytoplankton measurements are representative of resources utilized by, and assimilated into, coastal food webs. Consumer $\delta^{15}N_{Phe}$ measurements by their nature represent the N assimilated into the food web and integrated over relatively long time scales, while discrete measurements of nitrate may be spatially or temporally biased. 
+
+A short term (1998-2011) study of abiotic drivers in the Gulf of Alaska found chlorophyll-a anomalies were positive when downwelling favorable winds were low and had a negative relationship with sea level [@Waite2013]. Similarly, @Espinasse2020 found chlorophyll-a, SST, and sea level anomalies were the best predictors of carbon and nitrogen isotope data for secondary consumers over the past two decades. Our results agree with these studies as NPGO (an index of sea level) is negatively associated with both harbor seal $\delta^{15}N_{Phe}$ (Figure \@ref(fig:coefres)C) and $\delta^{13}C$ values (Figure \@ref(fig:coefres) D) in the Gulf of Alaska. Similarly, summer upwelling is positively associated with our $\delta^{15}N_{Phe}$ values (Figure \@ref(fig:coefres)C). Based on our results, these environmentally induced changes represent long-term ecosystem dynamics that extend beyond merely the base of the food web and ultimately impact resources assimilated by top predators. In addition, regional climate indices characterize nutrient and primary production assimilated annually into the food web better than sea surface temperature data alone. It is possible that other untested abiotic factors such as cross-shelf exchanges via eddy propagation or local wind stress [@Waite2013] may be important to food web assimilated nitrogen and primary production in the Gulf of Alaska. Regardless, local variability in upwelling and basin scale indices of sea surface height and temperature (i.e., NPGO) ultimately determine resource assimilation in Gulf of Alaska food web in which harbor seals forage.
+
+By comparing consumer stable isotope values against environmental covariates across multiple sub basins we show environmental forcing on coastal food webs is regionally distinct. For example, climate indices (i.e., PDO) in the Gulf of Alaska were inversely associated with food web-assimilated primary production (Figure \@ref(fig:coefres)D, Figure \@ref(fig:GDFAAK) Trend 1-2) and positively associated in Washington (Figure \@ref(fig:coefres)B, Figure \@ref(fig:GDFAWA) Trends 1-2). This agrees with previous studies where the Pacific Decadal Oscillation has been associated with alternating salmon production in the northeast Pacific [@Mantua1997]. In cool phase years (i.e., 1947-1977), Washington stocks experience above average production and Alaska stocks experience below average production. Our results show that $\delta^{13}C$ values for Washington and Gulf of Alaska also indicate alternating primary production between the two regions in association with PDO. Surprisingly, $\delta^{13}C$ values are higher in cool phase years for the Gulf of Alaska (Figure \@ref(fig:coefres)D) and lower in cool phase years for Washington (Figure \@ref(fig:coefres)B). This suggests there is lower phytoplankton growth in Washington and higher in Gulf of Alaska in cool phase years. This is contrary to results of previous studies, assuming 1) higher $\delta^{13}C$ values represent higher growth rates and 2) PDO is inhibiting growth at the base of the food web and indirectly constraining higher trophic levels such as salmon [@Mantua1997]. It is likely the relationship between PDO, salmon production, and $\delta^{13}C$ values of harbors seals is instead caused by phytoplankton community structure constraining higher trophic levels rather than growth. 
+
+Common temporal trends in harbor seal stable isotopes and ocean condition empirically derived from the GPDFA analysis (Figures 6 & 7) show changes in biogeochemical cycling and food web-assimilated production in recent decades that are associated with climatic variables. Since 1975, shared trends in environmental time series and stable isotope data in the Gulf of Alaska are above average for temperature, discharge, and NPGO and below average for assimilated $\delta^{13}C$ values (as indicated by its negative loadings; Figure \@ref(fig:GDFAAK)). Trends 2 and 3 in the Gulf of Alaska (Figure \@ref(fig:GDFAAK)) show a distinct change in environmental indices starting in 1988. Loadings on these trends were higher for environmental indices than stable isotope data, suggesting a decoupling of environment-food web relationship in the region starting around 1988, which has also been observed between climate regimes and fish species [@Litzow2020]. This environmental-food web decoupling was not observed in Washington (Figure \@ref(fig:GDFAWA)) in our study or others [@Litzow2020]. 
+
+###Using stable isotopes as food web indicators
+
+Previous research has shown lower trophic levels are sensitive to environmental variation in bottom-up drivers of productivity [@Frank2015; @Jennings2010], but few studies have demonstrated how the impact of these changes span entire food webs on long time scales. By applying CSSIA to museum specimens of a generalist predators, we provide a novel piece of the ecological puzzle not previously available. First, these data provide a measure of changing nitrogen resources and phytoplankton dynamics that are spatially and temporally integrated for food web resource assimilation, rather than measuring the availability of inorganic nutrients or lower trophic level biomass and assuming an associated food web response. Dominant species of marine zooplankton exhibit selective foraging, particularly when resources are highly available [@Bi2020; @Jungbluth2017; @Boersma2015] thus discrete measures of resources are not necessarily representative of what is utilized by the food web. Second, studies directly measuring primary production are often temporally limited to short time scales and recent decades. CSSIA of historic specimens allows for retrospective analyses that span long time scales [@McMahon2019; @Sherwood2011] and thus identify long-term environmental forcing on food webs. 
+
+Despite these benefits, CSSIA (and stable isotope analysis data more generally) is limited in its ability to discern different mechanistic processes for isotopic enrichment in observational studies. Multiple mechanisms of fractionation often operate in tandem (Figure 2.1) and can be both additive and subtractive. For example, both the isotopic composition of dissolved inorganic nitrogen sources (primarily $NO_3^-$, but also urea and $NH_4^+$) and the relative uptake of these sources impact the isotopic composition of nitrogen in primary producers [@Graham2010; @Ohkouchi2017]. As a result, these data on their own are limited in their ability to track exact mechanisms of fractionation and specific biogeochemical changes through time or space. Regardless, stable isotope signatures of nitrogen from source amino acids and bulk carbon can be used to trace variations in nitrogen sources at the base of the food web [@Sherwood2014; @delaVega2019] and changes in phytoplankton dynamics (i.e., production) [@delaVega2019; @Lorrain2020] broadly. In addition, CSSIA of carbon is also emerging as reliable proxy for phytoplankton community composition [@Larsen2013]. We also assume a constant and small trophic enrichment factor for both bulk $\delta^{13}C$ and  $\delta^{15}N_{Phe}$ values. While trophic enrichment in $\delta^{13}C$ and $\delta^{15}N_{Phe}$ values is minimal [@Hobson1996; @Bocherens2003; @Germain2013; @Ohkouchi2017], and thus unlikely to impact overall correlations between datasets, it can produce enriched absolute isotope values and increased variation between observations, which was not accounted for in this study. Nonetheless, ours is among a number of supporting studies that show food webs are impacted by changing environmental conditions in the northeast Pacific [@Cunningham2018; @Puerta2019; @Stachura2014]. 
+	
+Climate change will alter nutrient distributions and primary production throughout the worlds’ oceans [@Marinov2010; @Kwiatkowski2017]. Based on analysis of historical patterns of consumer isotopic variation with environmental forcing, we anticipate there will be region-specific spatial variability in how primary production and its dependent food webs respond to environmental change throughout the northeast Pacific over the next century. As environmental conditions (i.e., sea surface temperature, discharge, anthropogenic nitrogen) continue to change, so will resources available to and assimilated by food webs. Given both resource availability and community composition of resources impact the function and stability of food webs [@Narwani2012] it is likely that ecosystem interactions will change in response to environmentally induced shifts in resources. Understanding dynamics influencing food web responses to their environment is important, as it provides information useful for predicting climate change impacts to aquatic resources and the communities and economies that depend on them.
+
+\clearpage
+
+##Tables
+
+**Table** \@ref(tab:ranges): Range of $\delta^{13}C$ and $\delta^{15}N_{Phe}$ values observed in harbor seals for each of the five northeast Pacific subregions. 
+
+```{r ranges,echo=FALSE}
+supp1 <- read.csv("data/Ch2/Table3.csv")
+ supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
+                  caption = "Ranges of stable isotope data",
+                  longtable = TRUE, booktabs = TRUE
+                  ),font_size = 8)
+kableExtra::column_spec(supp1, column=2:4, width = "10em")
+```
+
+\clearpage
+
+\begin{landscape}
+Table 2.2: Environmental datasets. SST data was obtained from NOAA ERSST V5 data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at https://www.esrl.noaa.gov/psd/ 
+
+
+```{r envvar,echo=FALSE}
+supp1 <- read.csv("data/Ch2/Table1.csv")
+ supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
+                  caption = "Environmental Datasets",
+                  longtable = TRUE, booktabs = TRUE
+                  ),font_size = 8)
+kableExtra::column_spec(supp1, column=2:4, width = "20em")
+```
+\end{landscape}
+
+
+**Table** \@ref(tab:reduced): Reduced time series  for linear models by regions.
+
+
+```{r reduced,echo=FALSE}
+supp1 <- read.csv("data/Ch2/Table2.csv")
+ supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
+                  caption = "Reduced Time Series",
+                  longtable = TRUE, booktabs = TRUE
+                  ),font_size = 8)
+kableExtra::column_spec(supp1, column=2:4, width = "15em")
+```
+
+\clearpage
+
+
+**Table** \@ref(tab:ttestN): Pairwise t-test by sub region with bonferroni correction and pooled standard deviation for $\delta^{15}N_{Phe}$.
+
+
+```{r ttestN,echo=FALSE}
+supp1 <- read.csv("data/Ch2/Table4.csv")
+ supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
+                  caption = "Nitrogen Phenylalanine T-Test",
+                  longtable = TRUE, booktabs = TRUE
+                  ),font_size = 8)
+kableExtra::column_spec(supp1, column=2:4, width = "10em")
+```
+
+\clearpage
+
+**Table** \@ref(tab:ttestC): Pairwise t-test by sub region with bonferroni correction and pooled standard deviation for $\delta^{13}C$.
+
+
+```{r ttestC,echo=FALSE}
+supp1 <- read.csv("data/Ch2/Table5.csv")
+ supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
+                  caption = "Bulk Carbon T-Test",
+                  longtable = TRUE, booktabs = TRUE
+                  ),font_size = 8)
+kableExtra::column_spec(supp1, column=2:4, width = "10em")
+```
+
+\clearpage
+
+##Figures
+
+\begin{landscape}
+
+Figure 2.1: Mechanisms of environmentally induced changes in resources (A-D) assimilated into stable isotope ratios of primary producers (1-2), which are conserved when assimilated into higher trophic levels in the food web (3).\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1.1\textwidth]{figure/Ch2/Figure1.pdf}
+  \caption{Mechanisms of stable isotope change}
+  (\#fig:theo)
+\end{figure}
+\end{landscape}
+\clearpage
+
+
+**Figure** \@ref(fig:map): Spatial and temporal distributions of northeast Pacific harbor seal specimens by subregion analyzed for $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values. Subplot colors correspond to map locations and x-axis (years) is the same for each subplot.\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1.2\textwidth]{figure/Ch2/Fig2_Map.pdf}
+  \caption{Distribution of harbor seal specimens}
+  (\#fig:map)
+\end{figure}
+\clearpage
+
+**Figure** \@ref(fig:dist): Variability in $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values based on sub region and sex. * denotes a significant difference in isotopic signature between males and females for that region (colors correspond to \@ref(fig:map)). 
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1\textwidth]{figure/Ch2/Figure3_SexLocation.pdf}
+  \caption{Distribution of harbor seal specimens}
+  (\#fig:dist)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:hiermod): Relationship between nitrogen sources ($\delta^{15}N_{Phe}$) and primary production ($\delta^{13}C$) assimilated into the food web for A. a single linear model for the combined data across the northeast Pacific and eastern Bering Sea and B. a mixed effects model with random slope and intercept by sub region (colors correspond to  \@ref(fig:map)). 
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1\textwidth]{figure/Ch2/hiermod.pdf}
+  \caption{Hierarchical $\delta^{15}N_{Phe}$ and $\delta^{13}C$ Models}
+  (\#fig:hiermod)
+\end{figure}
+
+\clearpage
+
+
+**Figure** \@ref(fig:coefres): Coefficients of environmental covariates for models with relative support ($\Delta AIC_c$ < 2) for harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values in three regions of the northeast Pacific: Washington, Gulf of Alaska, and the eastern Bering Sea. Color indicates model support based on AIC~c~ weight, points are the coefficient estimates for each environmental covariate included in an individual model, and bars show two standard deviations from the coefficient estimate. 
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.9\textwidth]{figure/Ch2/Figure5_CoefPlot.pdf}
+  \caption{Coefficients of Evironmental Covariates}
+  (\#fig:coefres)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:GDFAAK): Common trends in environmental condition and food web assimilated stable isotope values for the regional Gulf of Alaska gaussian-dynamic factor analysis model. The solid lines represent the modelled trends, where 0 is the long-term average and 1 and -1 represent the maximum and minimum possible values respectively; the dash line is the 90% credible interval. Factor loadings can be interpreted as coefficients, representing the strength of association between the modelled trend and each observed environmental time series (colors represent a priori driver category). Values close to 0 mean the observed time series did not correlate to the corresponding trend, while values close to 1 show the observed time series closely matched the modelled trend.  Negative loadings indicate an inverse relationship between the observed time series and modelled trend. Stable isotope times series are modelled separately for the northern (N. $\delta^{15}N_{Phe}$; N. $\delta^{13}C$) and southeast (S. $\delta^{15}N_{Phe}$; S. $\delta^{13}C$) subregions.  
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.9\textwidth]{figure/Ch2/Figure6_AK.GDFA.pdf}
+  \caption{Alaska GDFA Results}
+  (\#fig:GDFAAK)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:GDFAWA): Common trends in environmental condition and food web assimilated stable isotope values for the regional Washington gaussian-dynamic factor analysis model. Stable isotope times series are modelled separately for the coastal (C. $\delta^{15}N_{Phe}$; C. $\delta^{13}C$) and Salish Sea (S.S. $\delta^{15}N_{Phe}$; S.S. $\delta^{13}C$) subregions. See \@ref(fig:GDFAAK) caption for further interpretation.  
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.9\textwidth]{figure/Ch2/Figure7_WA.GDFA.pdf}
+  \caption{Washington GDFA Results}
+  (\#fig:GDFAWA)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:Month): Analysis of a) $\delta^{15}N_{Phe}$ and b) $\delta^{13}C$ values by month. For both models, s(month) p > 0.1 indicating no seasonality of harbor seal bone collagen stable isotope signature.  
+\newline 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{figure/Ch2/figures2.png}
+  \caption{Bone collagen stable isotope seasonality analysis}
+  (\#fig:Month)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:Length): Analysis of a) $\delta^{15}N_{Phe}$ and b) $\delta^{13}C$ values by length. For both models, there was no significant slope (p>0.1)
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.8\textwidth]{figure/Ch2/FigureS2.pdf}
+  \caption{Bone collagen stable isotope length analysis}
+  (\#fig:Length)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:TSphe): Bone collagen $\delta^{15}N$ values of phenylalanine from archival harbor seal specimens collected in the northeastern Pacific in five subregions.
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS3.pdf}
+  \caption{Time series of $\delta^{15}N_{Phe}$ data}
+  (\#fig:TSphe)
+\end{figure}
+
+\clearpage
+
+
+**Figure** \@ref(fig:nonSuess): Bone collagen bulk $\delta^{13}C$ values of archival harbor seal specimens collected in the northeastern Pacific in five subregions.These values are not corrected for the Suess effect.
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS4.pdf}
+  \caption{Time series of $\delta^{13}C$ data}
+  (\#fig:nonSuess)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:Suess): Bone collagen bulk $\delta^{13}C$ values of archival harbor seal specimens collected in the northeastern Pacific in five subregions.These values are corrected for the Seuss effect.
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS5.pdf}
+  \caption{Time series of $\delta^{13}C$ data corrected for Suess effect}
+  (\#fig:Suess)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:bulkN): Bone collagen bulk $\delta^{15}N$ values of archival harbor seal specimens collected in the
+northeastern Pacific in five subregions.
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS6.pdf}
+  \caption{Time series of bulk $\delta^{15}N$ data}
+  (\#fig:bulkN)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:linresid): Residuals for the model with the most support (\@ref(fig:coefres)) plotted by year. A trend in model residuals would indicate environmental variables do not account for all temporal variation in harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values.
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[height=0.85\textwidth]{figure/Ch2/FigureS7.pdf}
+  \caption{Residuals trends for linear models with the most support}
+  (\#fig:linresid)
+\end{figure}
+
+\clearpage
+
+
+Figure 2.15: Model residual plots for the models with the most support from the candidate model set. Note: EBS phenylalanine is an intercept only model, GOA phenylalanine only contains a 2-factor location as a covariate.
+\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS8.pdf}
+  \caption{Residuals for linear models with the most support}
+  (\#fig:linresid2)
+\end{figure}
