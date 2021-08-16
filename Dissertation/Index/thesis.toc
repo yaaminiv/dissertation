@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\@textofLoF }{iii}{chapter*.2}%
+\contentsline {chapter}{\@textofLoF }{iv}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\@textofLoT }{v}{chapter*.3}%
+\contentsline {chapter}{\@textofLoT }{vi}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
@@ -72,14 +72,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Anything else?}{89}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{90}{chapter*.7}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{90}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{91}{appendix.A}%
+\contentsline {section}{\numberline {4.1}Abstract}{90}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{91}{section.A.1}%
+\contentsline {section}{\numberline {4.2}Introduction}{91}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{93}{appendix.B}%
+\contentsline {section}{\numberline {4.3}Methods}{94}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Colophon}{94}{appendix*.8}%
+\contentsline {subsection}{\numberline {4.3.1}Sample collection and analysis}{94}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{98}{appendix*.9}%
+\contentsline {subsection}{\numberline {4.3.2}Trophic position calculation}{96}{subsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Model framework}{97}{subsection.4.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Results}{98}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Common trends in Alaskan pinniped trophic position}{99}{subsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Spatial and temporal differences in pinniped trophic structure}{100}{subsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Discussion}{101}{section.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Regional and species trends in harbor seal trophic position}{102}{subsection.4.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Recent trophic position changes in the Gulf of Alaska}{103}{subsection.4.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Considerations and limitations for CSIA analyses}{105}{subsection.4.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Conclusions and Implications}{106}{subsection.4.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Tables}{107}{section.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{109}{chapter*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{110}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{110}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{112}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Colophon}{113}{appendix*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{117}{appendix*.9}%
