@@ -1,62 +1,14 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\@textofLoF }{iv}{chapter*.2}%
+\contentsline {chapter}{\@textofLoF }{iii}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\@textofLoT }{vi}{chapter*.3}%
+\contentsline {chapter}{\@textofLoT }{v}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Riparian soil nitrogen cycling and isotopic enrichment in response to a long-term salmon carcass manipulation experiment}{3}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Abstract}{3}{section.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Introduction}{4}{section.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Methods}{9}{section.1.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}\emph {Site Description and Sample Collection}}{9}{subsection.1.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}\emph {Soil nitrogen concentrations and transformations}}{10}{subsection.1.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}\emph {Stable isotope analysis}}{11}{subsection.1.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}\emph {Statistical analyses}}{13}{subsection.1.3.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Results}{15}{section.1.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Discussion}{17}{section.1.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Tables}{23}{section.1.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Figures}{28}{section.1.7}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change}{33}{chapter.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Abstract}{33}{section.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Introduction}{34}{section.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Methods}{37}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Sample Collection and Analysis}{37}{subsection.2.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Quantifying effects of ocean condition on food web isotope indices}{40}{subsection.2.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Gaussian Process Dynamic Factor Analysis (GPDFA)}{42}{subsection.2.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Results}{45}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Discussion}{48}{section.2.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Spatial variation in stable isotope indices}{49}{subsection.2.5.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Ocean condition and stable isotope indices}{50}{subsection.2.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Using stable isotopes as food web indicators}{53}{subsection.2.5.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Tables}{56}{section.2.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Figures}{62}{section.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{79}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -73,36 +25,6 @@
 \contentsline {section}{\numberline {3.6}Anything else?}{89}{section.3.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{90}{chapter.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Abstract}{90}{section.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Introduction}{91}{section.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Methods}{94}{section.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Sample collection and analysis}{94}{subsection.4.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Trophic position calculation}{96}{subsection.4.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Model framework}{97}{subsection.4.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Results}{98}{section.4.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Common trends in Alaskan pinniped trophic position}{99}{subsection.4.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Spatial and temporal differences in pinniped trophic structure}{100}{subsection.4.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Discussion}{101}{section.4.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Regional and species trends in harbor seal trophic position}{102}{subsection.4.5.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Recent trophic position changes in the Gulf of Alaska}{103}{subsection.4.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Considerations and limitations for CSIA analyses}{105}{subsection.4.5.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}Conclusions and Implications}{106}{subsection.4.5.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Tables}{107}{section.4.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusion}{109}{chapter*.7}%
 \defcounter {refsection}{0}\relax 

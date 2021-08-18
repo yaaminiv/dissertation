@@ -1,21 +1,19 @@
 ---
 # UW thesis fields
-title: "Applied ecosystem chemistry: linking biogeochemical and physiological processes to ecological interactions and management practices"
-author: "Megan L Feddern"
+title: "Molecular techniques for resilient Pacific oyster (*Crassostrea gigas*) aquaculture"
+author: "Yaamini R. Venkataraman"
 year: "2021"
 program: "School of Aquatic and Fishery Sciences"
-chair: "Gordon W. Holtgrieve"
-chairtitle: "Assistant Professor"
-signature1: "Eric J. Ward"
-signature2: "Tim Essington"
-signature3: "Sarah Converse"
-signature4: "Cecilia Bitz"
+chair: "Steven B. Roberts"
+chairtitle: "Associate Professor"
+signature1: "Jonathan P. Davis"
+signature2: "Jacqueline Padilla-Gamiño"
 abstract: |
   "Here is my abstract"
 acknowledgments: |
   "My acknowledgments"
 dedication: |
-  "My dedication"
+  "To my Appa, Dr. Shankar Venkataraman, whose Appa reminded himn not to forget to complete his Ph.D, so that mine could do the same."
 # End of UW thesis fields
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
