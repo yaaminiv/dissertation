@@ -1,7 +1,7 @@
-﻿Protein,Function,
-Peroxiredoxin-5 (PRX),Scavenges ROS located in mitochondria using cysteine residuals to reduce substrates,
-Catalase (CAT),Degrades hydrogen peroxide into water and oxygen,
-NAD(P) transhydrogenase (NADPt),Involved in maintenance of cellular redox state,
-Carbonic anhydrase (CA),Maintenance of acid-base balance by catalyzing CO2 conversion to HCO3- ,
-Glucose-6-phosphate 1-dehydrogenase (G6PD),Catalyzes first step in the pentose phosphate pathway and controls rate of pathway’s oxidative portion,
-Protein disulfide-isomerase 1 (PDI1) and Protein disulfide-isomerase 2 (PDI2),General chaperone protein that aids in protein disulfide bond formation and isomerization,
+﻿Protein,Function
+Peroxiredoxin-5 (PRX),Scavenges ROS located in mitochondria using cysteine residuals to reduce substrates
+Catalase (CAT),Degrades hydrogen peroxide into water and oxygen
+NAD(P) transhydrogenase (NADPt),Involved in maintenance of cellular redox state
+Carbonic anhydrase (CA),Maintenance of acid-base balance by catalyzing CO2 conversion to HCO3- 
+Glucose-6-phosphate 1-dehydrogenase (G6PD),Catalyzes first step in the pentose phosphate pathway and controls rate of pathway’s oxidative portion
+Protein disulfide-isomerase 1 (PDI1) and Protein disulfide-isomerase 2 (PDI2),General chaperone protein that aids in protein disulfide bond formation and isomerization

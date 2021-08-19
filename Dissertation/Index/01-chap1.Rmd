@@ -44,7 +44,7 @@ Tissue samples were homogenized in a solution of 50 mM NH4HCO3 with 6M Urea (500
 
 #### Protein Digestion
 
-Protein digestion followed the protocol outlined in @Timmins-Schiffman2013. To each sample of 30 µg protein,1.5 M Tris pH 8.8 buffer (6.6 µL) and 200 mM TCEP (2.5 µL) were added. After solvent additions, each sample’s pH was verified to be basic (pH ≥ 8), and placed on a 37ºC heating block for one hour. Iodoacetamide (200 mM, 20 µL) was then added to each sample to maximize digestion enzyme access to protein cleavage sites. Samples were covered with aluminum foil to incubate in the dark for 1 hour at room temperature. Afterwards, diothiolthreitol (200 mM, 20 µL) was added and samples were incubated at room temperature for one hour. Lysyl Endopeptidase (Wako Chemicals) was then added to each sample in a 1 µg enzyme:30 µg oyster protein ratio, followed by one hour of incubation at room temperature. Urea was diluted with NH4HCO3 (25 mM, 800 µL) and HPLC grade methanol (200 µL). Trypsin (Promega) was added to each sample in a 1 µg trypsin: 30 µg oyster protein ratio for overnight digestion at room temperature.
+Protein digestion followed the protocol outlined in @Timmins-Schiffman2013. To each sample of 30 µg protein,1.5 M Tris pH 8.8 buffer (6.6 µL) and 200 mM TCEP (2.5 µL) were added. After solvent additions, each sample’s pH was verified to be basic (pH ≥ 8), and placed on a 37ºC heating block for one hour. Iodoacetamide (200 mM, 20 µL) was then added to each sample to maximize digestion enzyme access to protein cleavage sites. Samples were covered with aluminum foil to incubate in the dark for 1 hour at room temperature. Afterwards, diothiolthreitol (200 mM, 20 µL) was added and samples were incubated at room temperature for one hour. Lysyl Endopeptidase (Wako Chemicals) was then added to each sample in a 1 µg enzyme:30 µg oyster protein ratio, followed by one hour of incubation at room temperature. Urea was diluted with NH~4~HCO~3~ (25 mM, 800 µL) and HPLC grade methanol (200 µL). Trypsin (Promega) was added to each sample in a 1 µg trypsin: 30 µg oyster protein ratio for overnight digestion at room temperature.
 
 #### Peptide Isolation
 
@@ -70,7 +70,7 @@ Unknown peptide spectra from mass spectrometry samples were matched with known p
 
 The PECAN-generated spectral library (.blib) file was used to detect peptides of interest in raw DIA files in Skyline [@MacLean2010]. Skyline identified peptides using chromatogram peak picking, where ions that elute at the same time and mass are detected as a peptide (file available at Panorama Public). All PRTC peptides and approximately 100 different oyster proteins and their peptide transitions were manually checked for retention time and peak area ratio consistency to determine a Skyline auto peak picker error rate (24.3% ± 25%, range: 0% to 100%).
 
-Proteins had to satisfy four criteria to be considered appropriate targets for the study. 1) After an extensive literature search, functions related to oxidative stress, hypoxia, heat shock, immune resistance, shell formation, growth, and cellular maintenance were determined useful for evaluating environmental response. Proteins with annotations matching these functions were considered potential targets. 2) Protein data was then evaluated in Skyline to ensure there was no missing data for any peptide or sample. 3) Peaks with significant interference from other peptides were not considered. 4) Proteins needed at least two peptides with three transitions per peptide to quality as a potential target for downstream assays. The fifteen proteins (41 peptides and 123 transitions) that matched all of these criteria were selected as targets (Table \@ref(tab:targets)).
+Proteins had to satisfy four criteria to be considered appropriate targets for the study. 1) After an extensive literature search, functions related to oxidative stress, hypoxia, heat shock, immune resistance, shell formation, growth, and cellular maintenance were determined useful for evaluating environmental response. Proteins with annotations matching these functions were considered potential targets. 2) Protein data was then evaluated in Skyline to ensure there was no missing data for any peptide or sample. 3) Peaks with significant interference from other peptides were not considered. 4) Proteins needed at least two peptides with three transitions per peptide to quality as a potential target for downstream assays. The fifteen proteins (41 peptides and 123 transitions) that matched all of these criteria were selected as targets (Table 1.2).
 
 ### Selected Reaction Monitoring Assay
 
@@ -131,6 +131,7 @@ While this study is limited to one system, the results that N transformations ca
 Salmon provide critical food resources to many of terrestrial and aquatic consumers [@Cederholm1999; @Gende2002; @Schindler2003], but the evidence that MDN stimulate terrestrial primary production is less certain. The salmon carcass manipulation experiment described here and in @Quinn2018 represents an extreme case of carcass addition and depletion to riparian areas, as measured by bulk $\delta^{15}N$ and estimated percent contribution was approximately twice previous studies for both trees and soils [@Helfield2002; @Bartz2005]. Generally, results of this manipulation were equivocal for soils and a statistically significant but ecologically small effect on trees [@Quinn2018]. Simultaneously, other recent changes to boreal forest systems, such as moisture and temperature, appear to have a greater potential than MDN to alter biogeochemical pathways and primary production in these systems [@Chapin2006; @Yarie2008; @Lloyd2013; @Wright2018]. This study also demonstrates the importance of testing biogeochemical and site similarity between experimental and control sites in nutrient subsidy studies, as even banks on the same creek can have landscape and soil variability that alter N concentration, transformations, and vegetative growth. Altogether, while salmon have clear benefits for consumers, management of salmon populations or application of compensatory restoration strategies based on terrestrial productivity response to salmon inputs may be unfounded for some systems, and at least, hard to predict. 
 
 ## Tables
+
 **Table** \@ref(tab:deployment):  Latitude and longitude of *C. gigas* outplants, as well as time of day and tidal height at collection. Oysters were placed at five locations sites: Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), and Willapa Bay (WB).
 
 ```{r deployment,echo=FALSE}
@@ -142,7 +143,8 @@ deployment <- read.csv("data/Ch1/Table1.1.csv")
 \clearpage
 
 \begin{landscape}
-**Table** \@ref(tab:targets): Proteins used as targets for a Selected Reaction Monitoring Assay (SRM). Targets were identified based on differential abundance and stress-related annotations. At least two peptides and six transitions were included in the assy for each protein. The protein Catalase had two isoforms under separate proteome IDs — CHOYP_CATA.1.3|m.11120 and CHOYP_CATA.3.3|m.21642 — and target peptides were chosen from both IDs. A total of four peptides and twelve associated transitions were used as SRM targets.
+
+Table 1.2: Proteins used as targets for a Selected Reaction Monitoring Assay (SRM). Targets were identified based on differential abundance and stress-related annotations. At least two peptides and six transitions were included in the assay for each protein. The protein Catalase had two isoforms under separate proteome IDs and target peptides were chosen from both IDs. A total of four peptides and twelve associated transitions were used as SRM targets.
 
 ```{r targets,echo=FALSE}
 targets <- read.csv("data/Ch1/Table1.2.csv")
@@ -150,7 +152,9 @@ targets <- read.csv("data/Ch1/Table1.2.csv")
                   caption = "Target peptides used for Selected Reaction Monitoring Assay (SRM)",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
+
 \end{landscape}
+
 \clearpage
 
 **Table** \@ref(tab:outplantenv): Environmental conditions (mean ± standard deviation) at outplant locations (Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), Willapa Bay (WB).
@@ -204,7 +208,8 @@ RDA <- read.csv("data/Ch1/Table1.7.csv")
 \clearpage
 
 \begin{landscape}
-**Table** \@ref(tab:protfunctions): Functions of differentially abundant proteins.
+
+Table 1.8: Functions of differentially abundant proteins.
 
 ```{r protfunctions, echo=FALSE}
 protfunctions <- read.csv("data/Ch1/Table1.8.csv")
@@ -213,6 +218,7 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
 \end{landscape}
+
 \clearpage
 
 ##Figures

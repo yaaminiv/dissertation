@@ -276,7 +276,7 @@ Tissue samples were homogenized in a solution of 50 mM NH4HCO3 with 6M Urea (500
 \hypertarget{protein-digestion}{%
 \subsubsection{Protein Digestion}\label{protein-digestion}}
 
-Protein digestion followed the protocol outlined in \protect\hyperlink{ref-Timmins-Schiffman2013}{Timmins-Schiffman, O'Donnell, Friedman, \& Roberts} (\protect\hyperlink{ref-Timmins-Schiffman2013}{2013}). To each sample of 30 µg protein,1.5 M Tris pH 8.8 buffer (6.6 µL) and 200 mM TCEP (2.5 µL) were added. After solvent additions, each sample's pH was verified to be basic (pH ≥ 8), and placed on a 37ºC heating block for one hour. Iodoacetamide (200 mM, 20 µL) was then added to each sample to maximize digestion enzyme access to protein cleavage sites. Samples were covered with aluminum foil to incubate in the dark for 1 hour at room temperature. Afterwards, diothiolthreitol (200 mM, 20 µL) was added and samples were incubated at room temperature for one hour. Lysyl Endopeptidase (Wako Chemicals) was then added to each sample in a 1 µg enzyme:30 µg oyster protein ratio, followed by one hour of incubation at room temperature. Urea was diluted with NH4HCO3 (25 mM, 800 µL) and HPLC grade methanol (200 µL). Trypsin (Promega) was added to each sample in a 1 µg trypsin: 30 µg oyster protein ratio for overnight digestion at room temperature.
+Protein digestion followed the protocol outlined in \protect\hyperlink{ref-Timmins-Schiffman2013}{Timmins-Schiffman, O'Donnell, Friedman, \& Roberts} (\protect\hyperlink{ref-Timmins-Schiffman2013}{2013}). To each sample of 30 µg protein,1.5 M Tris pH 8.8 buffer (6.6 µL) and 200 mM TCEP (2.5 µL) were added. After solvent additions, each sample's pH was verified to be basic (pH ≥ 8), and placed on a 37ºC heating block for one hour. Iodoacetamide (200 mM, 20 µL) was then added to each sample to maximize digestion enzyme access to protein cleavage sites. Samples were covered with aluminum foil to incubate in the dark for 1 hour at room temperature. Afterwards, diothiolthreitol (200 mM, 20 µL) was added and samples were incubated at room temperature for one hour. Lysyl Endopeptidase (Wako Chemicals) was then added to each sample in a 1 µg enzyme:30 µg oyster protein ratio, followed by one hour of incubation at room temperature. Urea was diluted with NH\textsubscript{4}HCO\textsubscript{3} (25 mM, 800 µL) and HPLC grade methanol (200 µL). Trypsin (Promega) was added to each sample in a 1 µg trypsin: 30 µg oyster protein ratio for overnight digestion at room temperature.
 
 \hypertarget{peptide-isolation}{%
 \subsubsection{Peptide Isolation}\label{peptide-isolation}}
@@ -306,7 +306,7 @@ Unknown peptide spectra from mass spectrometry samples were matched with known p
 
 The PECAN-generated spectral library (.blib) file was used to detect peptides of interest in raw DIA files in Skyline (\protect\hyperlink{ref-MacLean2010}{\textbf{MacLean2010?}}). Skyline identified peptides using chromatogram peak picking, where ions that elute at the same time and mass are detected as a peptide (file available at Panorama Public). All PRTC peptides and approximately 100 different oyster proteins and their peptide transitions were manually checked for retention time and peak area ratio consistency to determine a Skyline auto peak picker error rate (24.3\% ± 25\%, range: 0\% to 100\%).
 
-Proteins had to satisfy four criteria to be considered appropriate targets for the study. 1) After an extensive literature search, functions related to oxidative stress, hypoxia, heat shock, immune resistance, shell formation, growth, and cellular maintenance were determined useful for evaluating environmental response. Proteins with annotations matching these functions were considered potential targets. 2) Protein data was then evaluated in Skyline to ensure there was no missing data for any peptide or sample. 3) Peaks with significant interference from other peptides were not considered. 4) Proteins needed at least two peptides with three transitions per peptide to quality as a potential target for downstream assays. The fifteen proteins (41 peptides and 123 transitions) that matched all of these criteria were selected as targets (Table \ref{tab:targets}).
+Proteins had to satisfy four criteria to be considered appropriate targets for the study. 1) After an extensive literature search, functions related to oxidative stress, hypoxia, heat shock, immune resistance, shell formation, growth, and cellular maintenance were determined useful for evaluating environmental response. Proteins with annotations matching these functions were considered potential targets. 2) Protein data was then evaluated in Skyline to ensure there was no missing data for any peptide or sample. 3) Peaks with significant interference from other peptides were not considered. 4) Proteins needed at least two peptides with three transitions per peptide to quality as a potential target for downstream assays. The fifteen proteins (41 peptides and 123 transitions) that matched all of these criteria were selected as targets (Table 1.2).
 
 \hypertarget{selected-reaction-monitoring-assay}{%
 \subsection{Selected Reaction Monitoring Assay}\label{selected-reaction-monitoring-assay}}
@@ -383,8 +383,9 @@ WB & 46.49448 & -124.0261 & 9:28 & -1.7\\
 \end{longtable}
 \endgroup{}
 \clearpage
+\begin{landscape}
 
-\textbf{Table} \ref{tab:targets}: Proteins used as targets for a Selected Reaction Monitoring Assay (SRM). Targets were identified based on differential abundance and stress-related annotations. At least two peptides and six transitions were included in the assy for each protein. The protein Catalase had two isoforms under separate proteome IDs --- CHOYP\_CATA.1.3\textbar m.11120 and CHOYP\_CATA.3.3\textbar m.21642 --- and target peptides were chosen from both IDs. A total of four peptides and twelve associated transitions were used as SRM targets.
+Table 1.2: Proteins used as targets for a Selected Reaction Monitoring Assay (SRM). Targets were identified based on differential abundance and stress-related annotations. At least two peptides and six transitions were included in the assay for each protein. The protein Catalase had two isoforms under separate proteome IDs and target peptides were chosen from both IDs. A total of four peptides and twelve associated transitions were used as SRM targets.
 
 \begingroup\fontsize{8}{10}\selectfont
 \begin{longtable}[t]{llrr}
@@ -414,6 +415,8 @@ Puromysin-sensitive amirase & CHOYP\_PSA.1.1|m.27259 & 3 & 9\\
 \bottomrule
 \end{longtable}
 \endgroup{}
+
+\end{landscape}
 \clearpage
 
 \textbf{Table} \ref{tab:outplantenv}: Environmental conditions (mean ± standard deviation) at outplant locations (Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), Willapa Bay (WB).
@@ -518,25 +521,27 @@ Residual & 19 & NA &  & \\
 \end{longtable}
 \endgroup{}
 \clearpage
+\begin{landscape}
 
-\textbf{Table} \ref{tab:protfunctions}: Functions of differentially abundant proteins.
+Table 1.8: Functions of differentially abundant proteins.
 
 \begingroup\fontsize{8}{10}\selectfont
-\begin{longtable}[t]{lll}
+\begin{longtable}[t]{ll}
 \caption{\label{tab:protfunctions}Protein functions}\\
 \toprule
-Protein & Function & X\\
+Protein & Function\\
 \midrule
-Peroxiredoxin-5 (PRX) & Scavenges ROS located in mitochondria using cysteine residuals to reduce substrates & NA\\
-Catalase (CAT) & Degrades hydrogen peroxide into water and oxygen & NA\\
-NAD(P) transhydrogenase (NADPt) & Involved in maintenance of cellular redox state & NA\\
-Carbonic anhydrase (CA) & Maintenance of acid-base balance by catalyzing CO2 conversion to HCO3-  & NA\\
-Glucose-6-phosphate 1-dehydrogenase (G6PD) & Catalyzes first step in the pentose phosphate pathway and controls rate of pathway’s oxidative portion & NA\\
+Peroxiredoxin-5 (PRX) & Scavenges ROS located in mitochondria using cysteine residuals to reduce substrates\\
+Catalase (CAT) & Degrades hydrogen peroxide into water and oxygen\\
+NAD(P) transhydrogenase (NADPt) & Involved in maintenance of cellular redox state\\
+Carbonic anhydrase (CA) & Maintenance of acid-base balance by catalyzing CO2 conversion to HCO3- \\
+Glucose-6-phosphate 1-dehydrogenase (G6PD) & Catalyzes first step in the pentose phosphate pathway and controls rate of pathway’s oxidative portion\\
 \addlinespace
-Protein disulfide-isomerase 1 (PDI1) and Protein disulfide-isomerase 2 (PDI2) & General chaperone protein that aids in protein disulfide bond formation and isomerization & NA\\
+Protein disulfide-isomerase 1 (PDI1) and Protein disulfide-isomerase 2 (PDI2) & General chaperone protein that aids in protein disulfide bond formation and isomerization\\
 \bottomrule
 \end{longtable}
 \endgroup{}
+\end{landscape}
 \clearpage
 
 \#\#Figures
@@ -1316,7 +1321,7 @@ This document was typeset using the XeTeX typesetting system, and the \href{http
 
 The source files for this thesis, along with all the data files, have been organised into an R package, xxx, which is available at \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found in the University of Washington library.
 
-This version of the thesis was generated on 2021-08-19 00:56:05. The repository is currently at this commit:
+This version of the thesis was generated on 2021-08-19 01:12:49. The repository is currently at this commit:
 
 The computational environment that was used to generate this version is as follows:
 \begin{verbatim}
