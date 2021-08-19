@@ -124,7 +124,8 @@ Table 3.1: Summary of published studies examining the impact of environmental st
 oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
   kableExtra:::kable_styling(knitr::kable(oystermethstudies, "latex",col.names = gsub("[.]", " ", names(oystermethstudies)), 
                   caption = "Previous oyster methylation studies",
-                  longtable = TRUE, booktabs = TRUE), font_size = 5)
+                  longtable = TRUE, booktabs = TRUE), font_size = 5, bootstrap_options = c("striped")) %>%
+    kableExtra::kable_paper(full_width = F)
 ```
 
 \end{landscape}
