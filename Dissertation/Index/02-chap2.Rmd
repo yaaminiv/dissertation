@@ -28,7 +28,7 @@ Prior to the pH exposure trial, twenty randomly selected *C. gigas* were lethall
 
 Twice a week, water samples (1L) were collected from each header and oyster experimental tank. For each sample, salinity was measured with a Bench/Portable Conductivity Meter (Model 23226-505, VWR), pH (mV) was measured with a Combination pH Electrode (Model 11278-220, Mettler Toledo), and temperature (ºC) was measured using a Traceable Digital Thermometer (Model 15-077, Fisher). To calibrate the pH probe, a Tris buffer (0.08 M, 28.0 salinity) was prepared using 0.3603 mol of NaCl (J.T. Baker), 0.0106 mol of KCl (Fisher Scientific), 0.0293 mol MgSO4-(H2O)7 (Fisher Scientific), 0.0107 mol of CaCl2-2(H2O) (MP Biomedicals), 0.0401 HCl (J.T. Baker), and 0.0799 mol of Tris base (Fisher Scientific). Deionized water was added for a final volume of 1L. Salinity, temperature, and pH measurements for the Tris buffer were obtained at five temperatures before measuring samples to generate a standard curve. This standard curve was used to calibrate the pH electrode and convert measured millivolts to pH units.
 
-For total alkalinity measurements, duplicate seawater samples (250 mL) were collected from experimental tanks twice weekly and dosed with mercuric chloride (50 µL of 0.18 M solution) to preserve samples [@Bandstra2006]. Samples from days 5, 33, and 48 were run on a T5 Excellence titrator (Mettler Toledo) to determine alkalinity. Salinity from discrete samples was used to calculate total alkalinity, using the `seacarb` library in R [@Gattuso2018]. Calculated pH, total alkalinity, temperature, and salinity were also used in `seacarb` to calculate in situ pH, pCO~2~, dissolved organic carbon (DIC), calcite saturation (Ωcalcite), and aragonite saturation (Ωaragonite) for days 5, 33, and 48. R code used to calculate water chemistry parameters is available in the [Github repository](https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure).
+For total alkalinity measurements, duplicate seawater samples (250 mL) were collected from experimental tanks twice weekly and dosed with mercuric chloride (50 µL of 0.18 M solution) to preserve samples [@Bandstra2006]. Samples from days 5, 33, and 48 were run on a T5 Excellence titrator (Mettler Toledo) to determine alkalinity. Salinity from discrete samples was used to calculate total alkalinity, using the `seacarb` library in R [@Gattuso2018]. Calculated pH, total alkalinity, temperature, and salinity were also used in `seacarb` to calculate in situ pH, pCO~2~, dissolved organic carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for days 5, 33, and 48. R code used to calculate water chemistry parameters is available in the [Github repository](https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure).
 
 ### Histological analysis
 
@@ -48,17 +48,17 @@ Fertilization was carried out in plastic beakers (1L) for 20 minutes with static
 
 ### Statistical analyses
 
-Differences in in situ pH, total alkalinity, pCO~2~, DIC, Ωcalcite, and Ωaragonite between pH treatments were evaluated with a one-way ANOVA. Because tissue samples were confounded during histological processing, a binomial GLM model was used to compare gonad maturation between pH treatments. Differences in sex ratios between pH treatments were evaluated using a chi-squared test of homogeneity. To identify differences in D-hinge larval counts, a linear mixed model was used, with sire and female egg pool as random effects. Differences in D-hinge larval counts by female treatment were assessed using a similar linear mixed model, with only sire as a random effect. Normality of data, as well as independence and homoscedasticity, were verified visually. All statistical analyses were carried out in R (Version 3.4.0). R Scripts are available in the supplementary [Github repository](https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure).
+Differences in in situ pH, total alkalinity, pCO~2~, DIC, Ω~calcite~, and Ω~aragonite~ between pH treatments were evaluated with a one-way ANOVA. Because tissue samples were confounded during histological processing, a binomial GLM model was used to compare gonad maturation between pH treatments. Differences in sex ratios between pH treatments were evaluated using a chi-squared test of homogeneity. To identify differences in D-hinge larval counts, a linear mixed model was used, with sire and female egg pool as random effects. Differences in D-hinge larval counts by female treatment were assessed using a similar linear mixed model, with only sire as a random effect. Normality of data, as well as independence and homoscedasticity, were verified visually. All statistical analyses were carried out in R (Version 3.4.0). R Scripts are available in the supplementary [Github repository](https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure).
 
 ## Results
 
 ### Water chemistry
 
-Pacific oysters exposed to low pH experienced different water chemistry parameters than those in the ambient pH treatment (Table 1). Using water samples from days 5, 33, and 48, pH (One-way ANOVA; F1, 16 = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ωcalcite (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ωaragonite (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower in the low pH treatment. Total alkalinity, however, was not significantly different between pH treatments (One-way ANOVA; F~1, 16~ = F = 1.382, p = 0.2570).
+Pacific oysters exposed to low pH experienced different water chemistry parameters than those in the ambient pH treatment (Table \@ref(tab:carbchem)). Using water samples from days 5, 33, and 48, pH (One-way ANOVA; F1, 16 = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower in the low pH treatment. Total alkalinity, however, was not significantly different between pH treatments (One-way ANOVA; F~1, 16~ = F = 1.382, p = 0.2570).
 
 ### Gonad maturation
 
-A binomial GLM was used to compare gonad maturation of individuals sampled before and immediately after pH exposure, but before reproductive conditioning. The most parsimonious model included only sampling time (before or after pH treatment). Gonad maturation status was not significantly different between *C. gigas* sampled before and after pH treatment (binomial GLM; F~2, 37~ = 0.7973, p = 0.3442). Additionally, maturation status was not different between pH treatments (binomial GLM; F~3, 36~ = 2.2675, p = 0.1408). No sampled oysters possessed fully mature gametes, but some males sampled appeared to be undergoing resorption (Table S1; Figure S1). Sex ratios were also similar between low and ambient pH treatments (Chi-squared test for homogeneity; X^2^~2~ = 3.2279; p = 0.1942).
+A binomial GLM was used to compare gonad maturation of individuals sampled before and immediately after pH exposure, but before reproductive conditioning. The most parsimonious model included only sampling time (before or after pH treatment). Gonad maturation status was not significantly different between *C. gigas* sampled before and after pH treatment (binomial GLM; F~2, 37~ = 0.7973, p = 0.3442). Additionally, maturation status was not different between pH treatments (binomial GLM; F~3, 36~ = 2.2675, p = 0.1408). No sampled oysters possessed fully mature gametes, but some males sampled appeared to be undergoing resorption (supplemental information available in the [Github repository](https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure)). Sex ratios were also similar between low and ambient pH treatments (Chi-squared test for homogeneity; X^2^~2~ = 3.2279; p = 0.1942).
 
 ### Larval Survival 
 
@@ -88,73 +88,13 @@ Significant decreases in larval abundance four months after broodstock were expo
 
 ## Tables
 
-**Table** \@ref(tab:ranges): Range of $\delta^{13}C$ and $\delta^{15}N_{Phe}$ values observed in harbor seals for each of the five northeast Pacific subregions. 
+**Table** \@ref(tab:carbchem): Average (± SE) pH, total alkalinity (µmol/kg), pCO~2~ (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
 
-```{r ranges,echo=FALSE}
-supp1 <- read.csv("data/Ch2/Table3.csv")
- supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Ranges of stable isotope data",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
-kableExtra::column_spec(supp1, column=2:4, width = "10em")
-```
-
-\clearpage
-
-\begin{landscape}
-Table 2.2: Environmental datasets. SST data was obtained from NOAA ERSST V5 data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at https://www.esrl.noaa.gov/psd/ 
-
-
-```{r envvar,echo=FALSE}
-supp1 <- read.csv("data/Ch2/Table1.csv")
- supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Environmental Datasets",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
-kableExtra::column_spec(supp1, column=2:4, width = "20em")
-```
-\end{landscape}
-
-
-**Table** \@ref(tab:reduced): Reduced time series  for linear models by regions.
-
-
-```{r reduced,echo=FALSE}
-supp1 <- read.csv("data/Ch2/Table2.csv")
- supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Reduced Time Series",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
-kableExtra::column_spec(supp1, column=2:4, width = "15em")
-```
-
-\clearpage
-
-
-**Table** \@ref(tab:ttestN): Pairwise t-test by sub region with bonferroni correction and pooled standard deviation for $\delta^{15}N_{Phe}$.
-
-
-```{r ttestN,echo=FALSE}
-supp1 <- read.csv("data/Ch2/Table4.csv")
- supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Nitrogen Phenylalanine T-Test",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
-kableExtra::column_spec(supp1, column=2:4, width = "10em")
-```
-
-\clearpage
-
-**Table** \@ref(tab:ttestC): Pairwise t-test by sub region with bonferroni correction and pooled standard deviation for $\delta^{13}C$.
-
-
-```{r ttestC,echo=FALSE}
-supp1 <- read.csv("data/Ch2/Table5.csv")
- supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Bulk Carbon T-Test",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
-kableExtra::column_spec(supp1, column=2:4, width = "10em")
+```{r carbchem,echo=FALSE}
+carbchem <- read.csv("data/Ch2/Table2.1.csv")
+  kableExtra:::kable_styling(knitr::kable(deployment, "latex",col.names = gsub("[.]", " ", names(carbchem)), 
+                  caption = "Carbonate chemistry parameters",
+                  longtable = TRUE, booktabs = TRUE), font_size = 10, bootstrap_options = c("striped"))
 ```
 
 \clearpage
