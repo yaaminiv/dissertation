@@ -6,36 +6,53 @@
 If you feel it necessary to include an appendix, it goes here.
 -->
 
-
 # Appendix 1
-## Full analytical details for bulk stable isotopes
 
-Collagen samples have been analyzed for both CSSIA and bulk $\delta^{15}N$ which require 10 mg of purified collagen (100 mg of bone). Preliminary analyses were conducted to determine the highest rate of collagen return from bone sampled from different parts of the skull to minimize destruction. Samples were taken from the internal occipital shelf to maintain external integrity. Bone was decalcified using 0.2 M HCl for 24-72 hours depending on bone thickness, followed by centrifugation and nanopure water rinse. Removal of humic acids was conducted using 0.125 M NaOH for 20 hours. Samples were washed to a neutral pH, then solubilized in 0.01N HCl. Once solubilized samples were blown down under N2 to prevent isotopic fractionation, and freeze dried. Freeze dried collagen was be analyzed for bulk isotopic composition of nitrogen by the UW IsoLab (isolab.ess.washington.edu) using a coupled elemental analyzer-isotope ratio mass spectrometer following the standard protocols of the laboratory. C:N ratios were calculated from this data, which is a measure of the quality for carbon and nitrogen analyses of bone collagen for isotopic analysis. Only three observations were outside of the acceptable rang of 2.7-3.6; indicating there was no substantial loss of glycine or addition of nitrogen due to microbial processing from mortality, decay, curation, and analysis. 
-	
-$\delta^{15}N$ of eleven amino acids  were measured in the UW Facility for Compound-Specific Isotope Analysis of Environmental Samples. Samples were prepared following the procedures developed by Popp Marine Lab at University of Hawaii Manoa. Briefly, proteins were hydrolyzed in 6N HCl and purified using a cation exchange column. Amino acids were esterified using isopropanol acetyl chloride, and derivatized via acylation with 4:1 toluene: pivaloyl chloride. Samples were brought up in ethyl acetate and analyzed using a coupled gas chromatography-combustion-isotope ratio mass spectrometer system (GC-C-irMA; Thermo Scientific Trace GC + GC IsoLink coupled to a Delta V irMS) in continuous flow mode monitoring masses (m/z) 28 and 29 using a db-35 column. For each run a 12 amino acid external standard with known isotopic composition was injected three times followed by sample injections. Samples were injected in triplicate, with the 12 amino acid standard injected every two samples (or six injections). A two-hour column oxidation was performed after 6 samples (25 injections). Samples and standards included norleucine as an internal standard.
-	
-For each machine run, a linear model was fit for each individual amino acid using the following equation:
-	
-\begin{equation} 
-  Std_{aa} = m_{aa}t + b_{aa}
-  (\#eq:std)
-\end{equation} 
+Data accessibility information and additional materials for each dissertation chapter can be found below.
 
-Where m represents the slope of the precision drift, *t* represents the injection number since last column oxidation, and *Std* represents the $\delta^{15}N$ of an individual amino acid for a standard observation. The data was then corrected using the following equations:
+## Chapter 1: Characterization of Pacific oyster (*Crassostrea gigas*) proteomic response to natural environmental differences
 
-\begin{equation} 
-  D_{aa, t} = Std_{aa,t} - True
-  (\#eq:diff)
-\end{equation} 
+Raw data can be accessed in the PeptideAtlas under accession PASS01304 and PASS01305. Skyline documents can be found on Panorama Public. All scripts and workflows can be found in the associated Github repository (https://github.com/RobertsLab/paper-gigas-DNR-proteomics).
 
-Where $D_{aa,t}$ is the difference between an observed standard $\delta^{15}N$ of $Std_{aa,t}$ for a given amino acid at a given injection number and the true $\delta^{15}N$ for that standard. Then:
+## Chapter 2: Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)
 
-\begin{equation} 
-  Sample_{corrected,aa,t} = Sample_{obs,aa,t} - D_{aa,t}
-  (\#eq:sampcorr)
-\end{equation} 
+All scripts and workflows can be found in the associated Github repository (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure). 
 
-Where the drift value, $D_{aa,t}$, is subtracted from the sample value for a given amino acid and a given injection to correct the observed sample values for precision drift since last column oxidation. Mean sample corrected values for the triplicate injections were used for all amino acid $\delta^{15}N$. 
+Additional histology can be found in this repository, including microscope images (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure/tree/master/images/Gigas-gonad-histology) and specific sex information for each individual sampled (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure/blob/master/data/2017-Adult-Gigas-Tissue-Sampling/2018-02-27-Gigas-Histology-Classification.csv).
 
+## Chapter 3: Low pH influences methylation patterns of gonad growth genes in the Pacific oyster (*Crassostrea gigas*)
 
-# The Second Appendix, for Fun
+All data, scripts, workflows, and outputs can be found in the associated Github repository (https://github.com/RobertsLab/project-gigas-oa-meth), including:
+
+- A summary of sequencing and trimming information: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/12-functional-enrichment/all-CC-EnrichedGO-DML-withTranscript.csv
+- Chi-squared test output comparing genomic locations of highly methylated CpGs against all CpGs with 5x data: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/09-methylation-landscape/CpG-location-statResults.txt
+- Principal Components Analysis visualizing global methylation patterns: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/06-methylKit/figures/all-sample-PCA.pdf
+- Plot of pairwise Pearson's Correlations for global methylation: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/06-methylKit/general-stats/Full-Sample-Pearson-Correlation-Plot-FilteredCov5Destrand.jpeg
+- Chromosomal distribution of DML, including number of DML in scaffolds not placed in any chromosome: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/06-methylKit/DML/All-DML-by-chr.csv
+- Number of DML in genes: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/10_DML-characterization/Number-of-DML-per-Gene.csv
+- Chi-squared test output comparing genomic locations of DML against all CpGs with 5x data: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/10_DML-characterization/CpG-location-statResults-All.txt
+- `simplifyEnrichment` figure for enriched cellular components: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/12-functional-enrichment/figures/simplifyEnrichment-CC.pdf
+- Enriched biological process GO terms and associated gene and transcript information: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/12-functional-enrichment/all-BP-EnrichedGO-DML-withTranscript.csv
+- Enriched cellular component GO terms and associated gene and transcript information: https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/12-functional-enrichment/all-CC-EnrichedGO-DML-withTranscript.csv
+
+## Chapter 4: Polyploidy and environmental stress have distinct impacts on Pacific oyster (*Crassostrea gigas*) ctenidia methylomes
+
+All data, scripts, workflows, and outputs can be found in the associated Github repository (https://github.com/RobertsLab/project-oyster-oa), including:
+
+- Chi-squared test output comparing genomic locations of highly methylated CpGs against all CpGs with 5x data: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_06-methylation-landscape/CpG-location-statResults.txt
+- Plot of pairwise Pearson's Correlations for global methylation: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-methylKit/general-stats/Full-Sample-Pearson-Correlation-Plot-FilteredCov5Destrand.jpeg
+- Chromosomal distribution of ploidy-DML, including number of ploidy-DML in scaffolds not placed in any chromosome: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-DSS/DML/ploidy-DML-by-chr.csv
+- Chromosomal distribution of pH-DML, including number of pH-DML in scaffolds not placed in any chromosome: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-DSS/DML/pH-DML-by-chr.csv
+- Chromosomal distribution of interaction-DML, including number of interaction-DML in scaffolds not placed in any chromosome: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_04-DSS/DML/ploidypH-DML-by-chr.csv
+- Number of ploidy-DML in genes: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_07-DML-characterization/Number-of-ploidy-DML-per-Gene.csv
+- Number of pH-DML in genes: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_07-DML-characterization/Number-of-pH-DML-per-Gene.csv
+- Number of interaction-DML in genes: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_07-DML-characterization/Number-of-ploidypH-DML-per-Gene.csv
+- Chi-squared test output comparing genomic locations of ploidy-DML against all CpGs with 5x data: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_07-DML-characterization/CpG-location-statResults-ploidy.txt
+- Chi-squared test output comparing genomic locations of pH-DML against all CpGs with 5x data: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_07-DML-characterization/CpG-location-statResults-pH.txt
+- Chi-squared test output comparing genomic locations of interaction-DML against all CpGs with 5x data: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_07-DML-characterization/CpG-location-statResults-ploidypH.txt
+- `simplifyEnrichment` figure for enriched biological process terms associated with ploidy-DML: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_09-functional-enrichment/figures/simplifyEnrichment-ploidy-BP.pdf
+- Enriched biological process GO terms and associated gene and transcript information for ploidy-DML: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_09-functional-enrichment/ploidy-BP-FisherTestResults.csv
+- `simplifyEnrichment` figure for enriched biological process terms associated with pH-DML: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_09-functional-enrichment/figures/simplifyEnrichment-pH-BP.pdf
+- Enriched biological process GO terms and associated gene and transcript information for pH-DML: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_09-functional-enrichment/pH-BP-FisherTestResults.csv
+- `simplifyEnrichment` figure for enriched molecular function terms associated with pH-DML: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_09-functional-enrichment/figures/simplifyEnrichment-pH-MF.pdf
+- Enriched molecular function GO terms and associated gene and transcript information for pH-DML: https://github.com/RobertsLab/project-oyster-oa/blob/master/analyses/Haws_09-functional-enrichment/pH-MF-FisherTestResults.csv
