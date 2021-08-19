@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 13:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -767,14 +767,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 148.
 \@quotelevel=\count441
 \@quotereset=\count442
-(./thesis.aux
-
-LaTeX Warning: Label `eq:linsex' multiply defined.
-
-
-LaTeX Warning: Label `eq:linsex' multiply defined.
-
-)
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
@@ -958,11 +951,11 @@ Crassostrea gigas\TU/lmr/m/n/12 ) proteomic
 
 
 
-])
+] [2])
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
-[2] [3] (./thesis.lof)
+[3] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
@@ -1017,17 +1010,17 @@ Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
 [21] [22] [23] [24
 
+] [25
+
 
 ]
-Overfull \hbox (17.92484pt too wide) in paragraph at lines 413--413
+Overfull \hbox (17.92484pt too wide) in paragraph at lines 415--415
 []\TU/lmtt/m/n/12 Warning in read.table(file = file, header = header, sep = sep
 , quote = quote, :[] 
  []
 
-[25
+[26
 
-
-] [26
 
 ] [27
 
@@ -1035,24 +1028,26 @@ Overfull \hbox (17.92484pt too wide) in paragraph at lines 413--413
 
 ] [29
 
+] [30
+
 ]
-Overfull \hbox (94.07013pt too wide) in alignment at lines 516--529
+Overfull \hbox (94.07013pt too wide) in alignment at lines 518--531
  [] [] 
  []
 
-[30
+[31
 
 
 ]
 File: figure/Ch1/fig1.1.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.1.pdf>
-[31
+[32
 
 
 ]
 File: figure/Ch1/fig1.2.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.2.pdf>
-[32
+[33
 
 ]
 File: figure/Ch1/fig1.3.pdf Graphic file (type pdf)
@@ -1060,73 +1055,73 @@ File: figure/Ch1/fig1.3.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33
+[34
 
-] [34]
+] [35]
 File: figure/Ch1/fig1.4.png Graphic file (type bmp)
 <figure/Ch1/fig1.4.png>
-[35
+[36
 
 ]
 <<2>>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[36
+[37
 
-] [37] [38] [39] [40]
+] [38] [39] [40] [41]
 Underfull \vbox (badness 2671) has occurred while \output is active []
-
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43] [44]
+[43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45]
+[44] [45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [46]
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[48]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[49]
+[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[50] [51] [52
+[49]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[51] [52] [53
 
 ]
-Overfull \hbox (86.10521pt too wide) in alignment at lines 693--702
+Overfull \hbox (86.10521pt too wide) in alignment at lines 695--704
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[53
+[54
 
-] [54
+] [55
 
 
 ]
 File: figure/Ch2/Figure2.1.jpg Graphic file (type bmp)
 <figure/Ch2/Figure2.1.jpg>
 
-Overfull \hbox (8.41493pt too wide) in paragraph at lines 715--716
+Overfull \hbox (8.41493pt too wide) in paragraph at lines 717--718
  [][] 
  []
 
-[55
+[56
 
 ]
 File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure2.2.pdf>
-[56
+[57
 
 
 ]
@@ -1134,59 +1129,59 @@ File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[57
+[58
 
 
-] [58]
+] [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[59] [60] [61]
-Overfull \hbox (11.58589pt too wide) in paragraph at lines 772--773
+[60] [61] [62]
+Overfull \hbox (11.58589pt too wide) in paragraph at lines 774--775
 \TU/lmr/m/n/12 Nuclear ([][]\TU/lmr/bx/n/12 Peñaloza2021?[][]\TU/lmr/m/n/12 ) (
 NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
  []
 
-[62]
-Underfull \hbox (badness 1112) in paragraph at lines 779--780
+[63]
+Underfull \hbox (badness 1112) in paragraph at lines 781--782
 \TU/lmr/bx/n/12 tin2011?[][]\TU/lmr/m/n/12 ). Known Illumina adapter sequences 
 were removed (\TU/lmtt/m/n/12 --illumina\TU/lmr/m/n/12 ), along
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 779--780
+Underfull \hbox (badness 1430) in paragraph at lines 781--782
 \TU/lmr/m/n/12 with 10 bp from both the 5’ (\TU/lmtt/m/n/12 --clip_R1 10 \TU/lm
 r/m/n/12 and \TU/lmtt/m/n/12 --clip_R2 10\TU/lmr/m/n/12 ) and 3’ ends of
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 779--780
+Underfull \hbox (badness 2318) in paragraph at lines 781--782
 \TU/lmr/m/n/12 150 bp paired-end reads (\TU/lmtt/m/n/12 --three_prime_clip_R1 1
 0 \TU/lmr/m/n/12 and \TU/lmtt/m/n/12 --three_prime_clip_R2
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 779--780
+Underfull \hbox (badness 2359) in paragraph at lines 781--782
 \TU/lmtt/m/n/12 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\TU/lmr/m/n/1
 2 ). Sequence quality was as-
  []
 
-[63] [64] [65]
-Underfull \hbox (badness 1314) in paragraph at lines 810--811
+[64] [65] [66]
+Underfull \hbox (badness 1314) in paragraph at lines 812--813
 \TU/lmr/m/n/12 was annotated. A \TU/lmtt/m/n/12 blastx \TU/lmr/m/n/12 was perfo
 rmed against the Uniprot-SwissProt database
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 810--811
+Underfull \hbox (badness 1221) in paragraph at lines 812--813
 \TU/lmr/m/n/12 (accessed June 01, 2021) to get Uniprot Accession information fo
 r each transcript
  []
 
-[66] [67] [68] [69] [70]
+[67] [68] [69] [70] [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[71]
-Underfull \hbox (badness 1308) in paragraph at lines 853--854
+[72]
+Underfull \hbox (badness 1308) in paragraph at lines 855--856
 \TU/lmr/m/n/12 acidification ([][]\TU/lmr/bx/n/12 ChandraRajan2021?[][]\TU/lmr/
 m/n/12 ; [][]\TU/lmr/bx/n/12 Downey-Wall2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/b
 x/n/12 Lim2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/12 Venkatara-
@@ -1195,36 +1190,36 @@ x/n/12 Lim2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/12 Venkatara-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[72]
+[73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[73] [74] [75
+[74] [75] [76
 
 ]
-Overfull \hbox (2.66501pt too wide) in paragraph at lines 878--878
+Overfull \hbox (2.66501pt too wide) in paragraph at lines 880--880
 []|\TU/lmr/m/n/5 Exposure 
  []
 
 
-Overfull \hbox (3.04001pt too wide) in paragraph at lines 881--881
+Overfull \hbox (3.04001pt too wide) in paragraph at lines 883--883
 []|\TU/lmr/m/n/5 Venkataraman 
  []
 
 
-Overfull \hbox (7.8pt too wide) in paragraph at lines 883--883
+Overfull \hbox (7.8pt too wide) in paragraph at lines 885--885
 []|\TU/lmr/m/n/5 Pediveliger|  
  []
 
-[76
+[77
 
-] [77]
+] [78]
 Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
 ex-text;!
 File: figure/Ch3/Figure3.1.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.1.pdf>
-[78
+[79
 
 
 ]
@@ -1233,108 +1228,134 @@ File: figure/Ch3/Figure3.2.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
-[79
+[80
 
 ]
 File: figure/Ch3/Figure3.3.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.3.pdf>
-[80
+[81
 
 ]
 File: figure/Ch3/Figure3.4.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.4.pdf>
-[81
+[82
 
 ]
 File: figure/Ch3/Figure3.5.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.5.pdf>
-[82
+[83
 
 ]
 <<4>>
-
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
-[83
+[84
 
 
-]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[84]
+] [85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[85]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[86] [87]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[88]
-
-LaTeX Warning: Command \textperthousand invalid in math mode on input line 977.
-
-
-[89]
-
-LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 994.
-
-
-LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 994.
-
-[90]
-Missing character: There is no α ("3B1) in font cmmi8!
-Missing character: There is no α ("3B1) in font cmmi8!
-
-Underfull \vbox (badness 1308) has occurred while \output is active []
-
-[91] [92] [93] [94]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[95]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[96]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[97]
-Missing character: There is no β (U+03B2) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[98] [99] [100
-
-]
-Overfull \hbox (10.17705pt too wide) in alignment at lines 1079--1092
- [] [] [] [] [] 
+[86]
+Underfull \hbox (badness 1418) in paragraph at lines 960--961
+[]\TU/lmr/m/n/12 Ocean acidification, can also influence methylomes ([][]Eirin-
+Lopez & Putnam, 2018[][]),
  []
 
-[101
 
-] [102
+Underfull \hbox (badness 2103) in paragraph at lines 960--961
+\TU/lmr/m/n/12 with pteropods ([][]\TU/lmr/bx/n/12 Bogan2020?[][]\TU/lmr/m/n/12
+ ), corals ([][]\TU/lmr/bx/n/12 Liew2018?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/
+12 Putnam2016?[][]\TU/lmr/m/n/12 ), and urchins
+ []
 
+
+Underfull \hbox (badness 1019) in paragraph at lines 960--961
+\TU/lmr/m/n/12 conditions exhibited significantly different transcriptional cha
+nges when compared to
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[87]
+Missing character: There is no ʻ (U+02BB) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[88]
+Overfull \hbox (11.58589pt too wide) in paragraph at lines 984--985
+\TU/lmr/m/n/12 Nuclear ([][]\TU/lmr/bx/n/12 Peñaloza2021?[][]\TU/lmr/m/n/12 ) (
+NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[89]
+Underfull \hbox (badness 1163) in paragraph at lines 991--992
+\TU/lmr/m/n/12 Prior to alignment, 150 bp paired-end reads generated for each s
+ample underwent
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 991--992
+\TU/lmr/m/n/12 from both the 5’ (\TU/lmtt/m/n/12 --clip_R1 10 \TU/lmr/m/n/12 an
+d \TU/lmtt/m/n/12 --clip_R2 10\TU/lmr/m/n/12 ) and 3’ ends of paired reads
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 991--992
+\TU/lmr/m/n/12 (\TU/lmtt/m/n/12 --three_prime_clip_R1 10 \TU/lmr/m/n/12 and \TU
+/lmtt/m/n/12 --three_prime_clip_R2 10\TU/lmr/m/n/12 ). Remaining adapters
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[90] [91]
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[92]
+Underfull \hbox (badness 2027) in paragraph at lines 1007--1008
+[]\TU/lmr/m/n/12 Methylation patterns were compared between treatments using \T
+U/lmtt/m/n/12 methylKit \TU/lmr/m/n/12 v.1.17.4
+ []
+
+[93]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[94]
+Overfull \hbox (1.76503pt too wide) in paragraph at lines 1028--1029
+\TU/lmr/m/n/12 quence from the genome (GCF_902806645.1_cgigas_uk_roslin_v1_rna_
+from_genomic.fna
+ []
+
+[95] [96]
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[97] [98] [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[100] [101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[102]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[103] [104] [105
+
+] [106
+
+] [107
 
 ]
-<<A>>
-[103
-
-] [104]
-<<B>>
-[105
-
-]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1235--1235
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1249--1249
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[106
+[108
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1235--1235
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1249--1249
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1342,22 +1363,16 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1235--1235
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[107]
+[109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[108] [109]
+[110] [111]
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
-[110
+[112
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[111]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[112]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [113]
@@ -1366,23 +1381,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [114]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[115] [116] (./thesis.aux)
+[115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: There were multiply-defined labels.
+[116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[117] [118] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5647B582356606E984EFC055D5BB49F6;2578.
+(rerunfilecheck)             Checksum: 20C94AB9E15F6BFD646E869A9DEEDA4A;2777.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22926 strings out of 478475
- 427771 string characters out of 5858192
- 1203035 words of memory out of 5000000
- 42915 multiletter control sequences out of 15000+600000
- 413105 words of font info for 83 fonts, out of 8000000 for 9000
+ 22900 strings out of 478475
+ 427728 string characters out of 5858192
+ 1203401 words of memory out of 5000000
+ 42908 multiletter control sequences out of 15000+600000
+ 409220 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 73i,8n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,7n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (127 pages).
+Output written on thesis.pdf (129 pages).
