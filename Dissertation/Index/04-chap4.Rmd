@@ -98,7 +98,7 @@ Transposable elements contained the second highest amount of DML (pH: 86; 48.3%,
 
 ### Functional Enrichment Analysis
 
-A series of Fisher’s exact tests identified 21 significantly enriched GOterms total in genes that do not overlap with C/T SNPs. A total of 84 genes annotated with GOterms containing 104 ploidy-DML were used to identify three enriched biological process terms associated with dephosphorylation and cell-cell binding. The enriched GOterms were found in eight unique genes and 29 unique transcripts. The remaining enriched GOterms were associated with pH-DML. For pH-DML, 69 genes with GOterm annotations and containing 87 DML were used for the analysis. Ten enriched biological process terms were identified, and were related to apoptotic processes. An additional eight molecular function terms were related to myosin and cytoskeletal binding, ubiquitin activity, and zinc ion binding.
+A series of Fisher’s exact tests identified 21 significantly enriched GOterms total in genes that do not overlap with C/T SNPs (Table \@ref(tab:enrichedterms)). A total of 84 genes annotated with GOterms containing 104 ploidy-DML were used to identify three enriched biological process terms associated with dephosphorylation and cell-cell binding. The enriched GOterms were found in eight unique genes and 29 unique transcripts. The remaining enriched GOterms were associated with pH-DML. For pH-DML, 69 genes with GOterm annotations and containing 87 DML were used for the analysis. Ten enriched biological process terms were identified, and were related to apoptotic processes. An additional eight molecular function terms were related to myosin and cytoskeletal binding, ubiquitin activity, and zinc ion binding.
 
 ## Discussion
 
@@ -128,39 +128,15 @@ It is critical to understand the molecular mechanisms underpinning genomic regul
 
 ## Tables
 
-**Table** \@ref(tab:paramval): Parameter values for trophic discrimination factors between a trophic amino acid (*i*) and phenylalanine (*o*) for harbor seals ($TDF_{(i-o), j}$), for an average consumer (TDF(i-o) ), and for primary producers ($\beta_{(i-o)}$)  derived from previous studies to apply a multi amino acid framework to equation 2.
+**Table** \@ref(tab:enrichedterms): Significantly enriched GOterms identified using a Fisher’s exact test. There were 3 biological process terms associated with ploidy-DML, 10 biological process terms associated with pH-DML, and 8 molecular function terms associated with pH-DML. Biological process terms for ploidy-DML were broadly associated with cell-cell adhesion and dephosphorylation, while apopotis was enriched in pH-DML. Molecular functions overrepresented in genes with pH-DML were associated with protein ubiquitination, cytoskeletal proteins, and zinc ion binding.
 
-```{r paramval,echo=FALSE}
-supp1 <- read.csv("data/Ch4/Table1.csv")
-colnames(supp1) <- c("Trophic Amino Acid (i)",
-                           "$\\overline{\\beta}_{(i-o)}$",
-                           "$TDF_{(i-o),j}$",
-                           "$\\overline{TDF}_{(i-o)}$")
-supp1 <- kableExtra:::kable_styling(knitr::kable(supp1, "latex", escape = FALSE,
-caption = "Trophic position parameter values for Equation 2",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
- 
-kableExtra::column_spec(supp1, column=2:4, width = "10em")
-
+```{r enrichedterms,echo=FALSE}
+enrichedterms <- read.csv("data/Ch4/Table4.1.csv")
+  kableExtra:::kable_styling(knitr::kable(enrichedterms, "latex",col.names = gsub("[.]", " ", names(enrichedterms)), 
+                  caption = "Enriched GO terms for ploidy- and pH-DML",
+                  longtable = TRUE, booktabs = TRUE), font_size = 10, bootstrap_options = c("striped"))
 ```
 
 \clearpage
 
-
-
-**Table** \@ref(tab:candmodels): Candidate models for identifying spatial and temporal trophic structure of Alaskan pinnipeds. Assumptions define how the model describes trophic structure with regards to decade and classification and LOOIC describes the support of each candidate models. The best model (6) is italicized.
-
-```{r candmodels,echo=FALSE}
-supp1 <- read.csv("data/Ch4/Table2.csv")
-
- supp1<-  kableExtra:::kable_styling(knitr::kable(supp1, "latex", escape = FALSE, col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Candidate Models",
-                  longtable = TRUE, booktabs = TRUE
-                  ),font_size = 8)
-supp1 <- kableExtra::row_spec(supp1,6,italic=T)
-kableExtra::column_spec(supp1, column=2:4, width = "13em")
-
-```
-
-\clearpage
+## Figures
