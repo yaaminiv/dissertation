@@ -136,7 +136,7 @@ It is critical to understand the molecular mechanisms underpinning genomic regul
 enrichedterms <- read.csv("data/Ch4/Table4.1.csv")
   kableExtra:::kable_styling(knitr::kable(enrichedterms, "latex",col.names = gsub("[.]", " ", names(enrichedterms)), 
                   caption = "Enriched GO terms for ploidy- and pH-DML",
-                  longtable = TRUE, booktabs = TRUE), font_size = 10, bootstrap_options = c("striped"))
+                  longtable = TRUE, booktabs = TRUE), font_size = 6, bootstrap_options = c("striped"))
 ```
 
 \clearpage
