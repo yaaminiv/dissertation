@@ -10,32 +10,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Abstract}{3}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change}{33}{chapter.2}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change}{32}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{79}{chapter.3}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{77}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Tables}{79}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Tables}{77}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Figures}{81}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Figures}{79}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{85}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{83}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{86}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{84}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Bibliographies}{87}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Bibliographies}{85}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Anything else?}{89}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Anything else?}{87}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{90}{chapter.4}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{88}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{109}{chapter*.7}%
+\contentsline {chapter}{Conclusion}{107}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{110}{appendix.A}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{108}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{110}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{108}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{112}{appendix.B}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{110}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Colophon}{113}{appendix*.8}%
+\contentsline {chapter}{Colophon}{111}{appendix*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{117}{appendix*.9}%
+\contentsline {chapter}{References}{115}{appendix*.9}%
