@@ -148,7 +148,7 @@ oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.1.pdf}
+  \includegraphics[width=1\textwidth]{figure/Ch3/Figure3.1.pdf}
   \caption{Genomic location of various CpG categories}
   (\#fig:fembackground)
 \end{figure}
@@ -159,7 +159,7 @@ oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.2.pdf}
+  \includegraphics[width=1\textwidth]{figure/Ch3/Figure3.2.pdf}
   \caption{Heatmap of DML}
   (\#fig:femheatmap)
 \end{figure}
@@ -170,7 +170,7 @@ oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.3.pdf}
+  \includegraphics[width=1\textwidth]{figure/Ch3/Figure3.3.pdf}
   \caption{Distribution of DML in main chromosomes}
   (\#fig:chromdistr)
 \end{figure}
@@ -181,7 +181,7 @@ oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.4.pdf}
+  \includegraphics[width=1\textwidth]{figure/Ch3/Figure3.4.pdf}
   \caption{Genomic location of DML}
   (\#fig:locDML)
 \end{figure}
@@ -192,7 +192,7 @@ oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.5.pdf}
+  \includegraphics[width=1\textwidth]{figure/Ch3/Figure3.5.pdf}
   \caption{Significantly enriched GOterms}
   (\#fig:simplifyEnrichment)
 \end{figure}

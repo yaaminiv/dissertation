@@ -142,16 +142,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.8}Figures}{78}{section.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{81}{chapter.4}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{83}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{100}{chapter*.13}%
+\contentsline {chapter}{Conclusion}{102}{chapter*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{101}{appendix.A}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{103}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{101}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{103}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{103}{appendix.B}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{105}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Colophon}{104}{appendix*.14}%
+\contentsline {chapter}{Colophon}{106}{appendix*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{108}{appendix*.15}%
+\contentsline {chapter}{References}{110}{appendix*.15}%

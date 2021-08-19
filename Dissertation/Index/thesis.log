@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 12:34
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,12 +769,6 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 148.
 \@quotereset=\count442
 (./thesis.aux
 
-LaTeX Warning: Label `fig:expdesign' multiply defined.
-
-
-LaTeX Warning: Label `fig:carryoverboxplot' multiply defined.
-
-
 LaTeX Warning: Label `eq:linsex' multiply defined.
 
 
@@ -1223,110 +1217,124 @@ Overfull \hbox (7.8pt too wide) in paragraph at lines 883--883
 
 [76
 
-] [77] [78
+] [77]
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
+ex-text;!
+File: figure/Ch3/Figure3.1.pdf Graphic file (type pdf)
+<use figure/Ch3/Figure3.1.pdf>
+[78
 
 
 ]
-File: figure/Ch2/Figure2.1.jpg Graphic file (type bmp)
-<figure/Ch2/Figure2.1.jpg>
+File: figure/Ch3/Figure3.2.pdf Graphic file (type pdf)
+<use figure/Ch3/Figure3.2.pdf>
 
-Overfull \hbox (8.41493pt too wide) in paragraph at lines 902--903
- [][] 
- []
+Underfull \vbox (badness 2126) has occurred while \output is active []
 
 [79
 
 ]
-File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
-<use figure/Ch2/Figure2.2.pdf>
+File: figure/Ch3/Figure3.3.pdf Graphic file (type pdf)
+<use figure/Ch3/Figure3.3.pdf>
 [80
 
+]
+File: figure/Ch3/Figure3.4.pdf Graphic file (type pdf)
+<use figure/Ch3/Figure3.4.pdf>
+[81
+
+]
+File: figure/Ch3/Figure3.5.pdf Graphic file (type pdf)
+<use figure/Ch3/Figure3.5.pdf>
+[82
 
 ]
 <<4>>
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
-[81
+[83
 
 
 ]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[82]
+[84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[83]
+[85]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[84] [85]
+[86] [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[86]
+[88]
 
-LaTeX Warning: Command \textperthousand invalid in math mode on input line 952.
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 977.
 
 
-[87]
+[89]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 969.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 994.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 969.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 994.
 
-[88]
+[90]
 Missing character: There is no α ("3B1) in font cmmi8!
 Missing character: There is no α ("3B1) in font cmmi8!
 
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
-[89] [90] [91] [92]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[93]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[94]
+[91] [92] [93] [94]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[96]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[97]
 Missing character: There is no β (U+03B2) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[96] [97] [98
+[98] [99] [100
 
 ]
-Overfull \hbox (10.17705pt too wide) in alignment at lines 1054--1067
+Overfull \hbox (10.17705pt too wide) in alignment at lines 1079--1092
  [] [] [] [] [] 
  []
 
-[99
+[101
 
-] [100
+] [102
 
 
 ]
 <<A>>
-[101
-
-] [102]
-<<B>>
 [103
 
+] [104]
+<<B>>
+[105
+
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1235--1235
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[104
+[106
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1235--1235
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1334,22 +1342,16 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1210--1210
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[105]
+[107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[106] [107]
+[108] [109]
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
-[108
+[110
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[109]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [111]
@@ -1358,7 +1360,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [112]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[113] [114] (./thesis.aux)
+[113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[115] [116] (./thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1369,12 +1377,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22874 strings out of 478475
- 426465 string characters out of 5858192
- 1202750 words of memory out of 5000000
- 42869 multiletter control sequences out of 15000+600000
+ 22926 strings out of 478475
+ 427771 string characters out of 5858192
+ 1203035 words of memory out of 5000000
+ 42915 multiletter control sequences out of 15000+600000
  413105 words of font info for 83 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,8n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (125 pages).
+Output written on thesis.pdf (127 pages).
