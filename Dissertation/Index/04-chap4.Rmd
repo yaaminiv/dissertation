@@ -76,7 +76,7 @@ Gene enrichment analysis was conducted with `topGO` v.2.34.0 in R [@Alexa2010]. 
 
 ### Sequence Alignment
 
-Whole genome bisulfite sequencing produced 2.5 x 10^9^ total 150 bp paired-end reads. After trimming, 2.4 x 10^9^ total reads remained. Poly-G tails were present in the second paired read for all samples, and constituted 1-2% of reads removed. Of the trimmed paired-end reads, 7.4 x 10^8^ (61.0%) were uniquely aligned to the *C. gigas* genome and appended mitochondrial sequence. Across samples, 3.5 x 10^8^ cytosines (11.6%) were methylated in a CpG context. Coverage between diploid and triploid samples were distributed similarly (Figure 1A-B). Of the 12,794,074 total CpG loci with 1x coverage in at least one sample, 5,395,386 had higher average coverage in triploids, and 6,956,658 had equal or lower average coverage in triploids.
+Whole genome bisulfite sequencing produced 2.5 x 10^9^ total 150 bp paired-end reads. After trimming, 2.4 x 10^9^ total reads remained. Poly-G tails were present in the second paired read for all samples, and constituted 1-2% of reads removed. Of the trimmed paired-end reads, 7.4 x 10^8^ (61.0%) were uniquely aligned to the *C. gigas* genome and appended mitochondrial sequence. Across samples, 3.5 x 10^8^ cytosines (11.6%) were methylated in a CpG context. Coverage between diploid and triploid samples were distributed similarly (Figure \@ref(fig:coveragemeth)A-B). Of the 12,794,074 total CpG loci with 1x coverage in at least one sample, 5,395,386 had higher average coverage in triploids, and 6,956,658 had equal or lower average coverage in triploids.
 
 ### SNP Identification
 
@@ -84,15 +84,15 @@ Possible SNP variants were identified in WGBS data to determine if genomic diffe
 
 ### Global Methylation Characterization
 
-Global methylation patterns were first characterized using 10,497,320 CpG loci (79.2% of 13,246,547 total CpGs in *C. gigas* genome) with at least 5x coverage in each sample from the union BEDgraph. Of these loci, 989,453 (9.4%) were highly methylated (≥ 50%), 848,655 (8.1%) were moderately methylated (10-50%), and 8,659,212 (82.5%) were lowly methylated. Both diploid and triploid samples were predominantly lowly methylated (Figure 1C-D), with 2,735,188 loci having higher percent methylation in triploids and 6,605,916 loci with equal or lesser percent methylation in triploids. The highly methylated CpGs were found primarily in genes (932,568; 94.3%), with 526,656 (53.2%) genic CpGs in introns, followed by 353,333 (35.7%) in CDS, then 55,067 (5.6%) CpGs in exon UTR (Figure 2). More highly methylated CpGs were found in transposable elements (295,204; 29.8%) than intergenic regions (32,028; 3.2%), downstream flanking regions, (21,839; 2.2%), lncRNA (17,023; 1.7%), or upstream flanking regions (4,683; 0.5%). The proportion of highly methylated CpGs in various genome features was significantly different than the proportion of 5x CpGs in those same features.
+Global methylation patterns were first characterized using 10,497,320 CpG loci (79.2% of 13,246,547 total CpGs in *C. gigas* genome) with at least 5x coverage in each sample from the union BEDgraph. Of these loci, 989,453 (9.4%) were highly methylated (≥ 50%), 848,655 (8.1%) were moderately methylated (10-50%), and 8,659,212 (82.5%) were lowly methylated. Both diploid and triploid samples were predominantly lowly methylated (Figure \@ref(fig:coveragemeth)C-D), with 2,735,188 loci having higher percent methylation in triploids and 6,605,916 loci with equal or lesser percent methylation in triploids. The highly methylated CpGs were found primarily in genes (932,568; 94.3%), with 526,656 (53.2%) genic CpGs in introns, followed by 353,333 (35.7%) in CDS, then 55,067 (5.6%) CpGs in exon UTR (Figure \@ref(fig:cpglocations)). More highly methylated CpGs were found in transposable elements (295,204; 29.8%) than intergenic regions (32,028; 3.2%), downstream flanking regions, (21,839; 2.2%), lncRNA (17,023; 1.7%), or upstream flanking regions (4,683; 0.5%). The proportion of highly methylated CpGs in various genome features was significantly different than the proportion of 5x CpGs in those same features.
 
-Methylation patterns were compared between ploidy and pH treatments using CpG loci with at least 5x coverage and eight samples per ploidy treatment in the CpG background. Pairwise Pearson’s correlation coefficients were consistently between 0.87 and 0.93 for all samples. A global Principal Component Analysis did not separate samples based on pH treatment or ploidy status (Figure 1E).
+Methylation patterns were compared between ploidy and pH treatments using CpG loci with at least 5x coverage and eight samples per ploidy treatment in the CpG background. Pairwise Pearson’s correlation coefficients were consistently between 0.87 and 0.93 for all samples. A global Principal Component Analysis did not separate samples based on pH treatment or ploidy status (Figure \@ref(fig:coveragemeth)E).
 
 ### Differential Methylation Characterization
 
-Using a Bayesian hierarchical modeling approach, a total of 178 pH-DML, 154 ploidy-DML, and 53 interaction-DML were identified from 12,794,074 total CpG loci with 1x coverage in at least one sample (Figure 3A-C). Of these DML, 21 overlapped between pH and ploidy treatments, 11 between pH and ploidy:pH, 17 between ploidy and ploidy:pH. Additionally, 25 DML were common between all lists. A small number of DML — with five (2.8%) pH-DML, three (1.9%) ploidy-DML, and one (1.9%) interaction-DSS — were present in unique C/T SNPs. The DML were identified in the ten main chromosomes, as well as other unplaced scaffolds. The ninth chromosome contained the most DML even though it has the fewest genes (Figure 3D).
+Using a Bayesian hierarchical modeling approach, a total of 178 pH-DML, 154 ploidy-DML, and 53 interaction-DML were identified from 12,794,074 total CpG loci with 1x coverage in at least one sample (Figure \@ref(fig: multiheatmap)A-C). Of these DML, 21 overlapped between pH and ploidy treatments, 11 between pH and ploidy:pH, 17 between ploidy and ploidy:pH. Additionally, 25 DML were common between all lists. A small number of DML — with five (2.8%) pH-DML, three (1.9%) ploidy-DML, and one (1.9%) interaction-DSS — were present in unique C/T SNPs. The DML were identified in the ten main chromosomes, as well as other unplaced scaffolds. The ninth chromosome contained the most DML even though it has the fewest genes (Figure \@ref(fig: multiheatmap)D).
 
-The DML were primarily in genes (Figure 4). For pH-DML, 123 (69.1%) DML were found in 94 unique genes, the majority of which were in intron sequences (104; 58.4%), followed by CDS (15; 8.4%) and exon UTR (4; 2.2%). Ploidy-DML and interaction-DML were similarly distributed between introns (ploidy: 114; 74.0% and interaction: 41; 77.4%), CDS (ploidy: 26; 16.9% and interaction: 6; 11.3%), and exon UTR (ploidy: 8; 5.2% and interaction: 3; 5.7%). Ploidy-DML and interaction-DML were also predominantly in 109 and 29 unique genes, respectively (ploidy: 145; 94.2% and interaction: 48; 90.1%). Most genes contained only one pH-DML, ploidy-DML, or interaction-DML. However, several genes contained multiple DML, with genes containing up to 8 pH-DML, 8 ploidy-DML, or 23 interaction-DML.
+The DML were primarily in genes (Figure \@ref(fig: DMLgenomicloc)). For pH-DML, 123 (69.1%) DML were found in 94 unique genes, the majority of which were in intron sequences (104; 58.4%), followed by CDS (15; 8.4%) and exon UTR (4; 2.2%). Ploidy-DML and interaction-DML were similarly distributed between introns (ploidy: 114; 74.0% and interaction: 41; 77.4%), CDS (ploidy: 26; 16.9% and interaction: 6; 11.3%), and exon UTR (ploidy: 8; 5.2% and interaction: 3; 5.7%). Ploidy-DML and interaction-DML were also predominantly in 109 and 29 unique genes, respectively (ploidy: 145; 94.2% and interaction: 48; 90.1%). Most genes contained only one pH-DML, ploidy-DML, or interaction-DML. However, several genes contained multiple DML, with genes containing up to 8 pH-DML, 8 ploidy-DML, or 23 interaction-DML.
 
 Transposable elements contained the second highest amount of DML (pH: 86; 48.3%, ploidy: 66; 42.9%, interaction: 14; 26.4%), followed by intergenic regions (pH: 27; 15.2%, ploidy: 18; 11.7%, interaction: 5; 9.4%). Few DML were found in lncRNA (pH: 4; 2.2%, ploidy: 1; 0.6%, interaction: 2; 3.8%), upstream flanking regions (pH: 2; 1.1% and ploidy: 8; 5.2%), or downstream flanks (pH: 2; 1.1% and ploidy: 8; 5.2%). No interaction-DML were found in either flanking region. The distribution of DML in the genome differed significantly from that of all CpGs with 5x data: specifically, the number of ploidy-DML in introns and intergenic regions, the number of pH-DML in introns, transposable elements, and intergenic regions, and the number of interaction-DML in introns and intergenic regions.
 
@@ -143,10 +143,46 @@ enrichedterms <- read.csv("data/Ch4/Table4.1.csv")
 
 ## Figures
 
+**Figure** \@ref(fig:coveragemeth): Coverage and global methylation information for diploid and triploid samples. Average coverage for A) diploid and B) triploids. Coverage was calculated using information for CpGs with at least 1x coverage. Percent methylation distribution for C) diploids and D) triploids. Percent methylation was calculated using information for CpGs with at least 5x coverage in all samples.\newline
 
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1\textwidth]{figure/Ch4/Figure4.1.pdf}
+  \caption{Diploid and triploid coverage and global methylation}
+  (\#fig:coveragemeth)
+\end{figure}
 
+\clearpage
 
+**Figure** \@ref(fig:cpglocations): Percent of total CpGs present in distinct *C. gigas* genome features for various CpG categories (from left to right: all CpGs with at least 5x coverage in all samples, highly methylated CpGs, moderately methylated CpGs, and lowly methylated CpGs).\newline
 
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1\textwidth]{figure/Ch4/Figure4.2.pdf}
+  \caption{Genome distribution of various CpG categories}
+  (\#fig:cpglocations)
+\end{figure}
 
+\clearpage
 
+**Figure** \@ref(fig:multiheatmap): Heatmap of A) ploidy-, B) pH-, and C) interaction-DML identified, and D) distribution in *C. gigas* chromosomes. Density plots associated with heatmaps quantify the number of DML in various methylation bins.\newline
 
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1\textwidth]{figure/Ch4/Figure4.3.pdf}
+  \caption{DML heatmaps and chromosomal distribution}
+  (\#fig:multiheatmap)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:DMLgenomicloc): Distribution of all 5x CpGs, ploidy-DML, pH-DML, and interaction-DML in various *C. gigas* genome features.\newline
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1\textwidth]{figure/Ch4/Figure4.4.pdf}
+  \caption{DML heatmaps and chromosomal distribution}
+  (\#fig:DMLgenomicloc)
+\end{figure}
+
+\clearpage
