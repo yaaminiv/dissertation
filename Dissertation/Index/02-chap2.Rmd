@@ -54,7 +54,7 @@ Differences in in situ pH, total alkalinity, pCO~2~, DIC, Ω~calcite~, and Ω~ar
 
 ### Water chemistry
 
-Pacific oysters exposed to low pH experienced different water chemistry parameters than those in the ambient pH treatment (Table \@ref(tab:carbchem)). Using water samples from days 5, 33, and 48, pH (One-way ANOVA; F1, 16 = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower in the low pH treatment. Total alkalinity, however, was not significantly different between pH treatments (One-way ANOVA; F~1, 16~ = F = 1.382, p = 0.2570).
+Pacific oysters exposed to low pH experienced different water chemistry parameters than those in the ambient pH treatment (Table 2.1). Using water samples from days 5, 33, and 48, pH (One-way ANOVA; F1, 16 = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower in the low pH treatment. Total alkalinity, however, was not significantly different between pH treatments (One-way ANOVA; F~1, 16~ = F = 1.382, p = 0.2570).
 
 ### Gonad maturation
 
@@ -88,14 +88,18 @@ Significant decreases in larval abundance four months after broodstock were expo
 
 ## Tables
 
-**Table** \@ref(tab:carbchem): Average (± SE) pH, total alkalinity (µmol/kg), pCO~2~ (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
+\begin{landscape}
+
+Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO~2~ (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
 
 ```{r carbchem,echo=FALSE}
 carbchem <- read.csv("data/Ch2/Table2.1.csv")
-  kableExtra:::kable_styling(knitr::kable(deployment, "latex",col.names = gsub("[.]", " ", names(carbchem)), 
+  kableExtra:::kable_styling(knitr::kable(carbchem, "latex",col.names = gsub("[.]", " ", names(carbchem)), 
                   caption = "Carbonate chemistry parameters",
                   longtable = TRUE, booktabs = TRUE), font_size = 10, bootstrap_options = c("striped"))
 ```
+
+\end{landscape}
 
 \clearpage
 
