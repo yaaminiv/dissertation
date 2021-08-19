@@ -64,6 +64,7 @@ if(!require(devtools))
 if(!require(huskydown))
   devtools::install_github("benmarwick/huskydown")
 library(huskydown)
+library(dplyr)
 ```
 
 <!-- The {.unnumbered} option here means that the introduction will be "Chapter 0." You can also use {-} for no numbers on chapters. -->
