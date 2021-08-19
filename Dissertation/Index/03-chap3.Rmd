@@ -80,17 +80,17 @@ C/T SNP variants were identified from WGBS data to determine if genomic differen
 
 ### Global Methylation Patterns
 
-When data were combined, using a 5x coverage threshold 11,238,223 CpG loci (84.8% of 13,246,547 total CpGs in *C. gigas* genome) were characterized. The majority of CpGs, 9,201,922 loci (81.9%) were lowly methylated, followed by 1,029,894 highly methylated (9.2%) and 1,006,406 moderately methylated (9.0%) CpGs. Highly methylated CpGs were found primarily in genic regions (964,976 CpGs, 93.7%), with 57,896 (5.6%) in exon UTR, 355,575 (34.5%) in CDS, and 554,093 (53.8%) in introns (Figure 1). The distribution of highly methylated CpGs was significantly different than all 5x CpGs detected by WGBS. A Principal Component Analysis (PCA) did not demonstrate any clear separation of samples by treatment, and consistently high Pairwise Pearson’s correlation coefficients support the lack of global percent methylation differences between pH treatments.
+When data were combined, using a 5x coverage threshold 11,238,223 CpG loci (84.8% of 13,246,547 total CpGs in *C. gigas* genome) were characterized. The majority of CpGs, 9,201,922 loci (81.9%) were lowly methylated, followed by 1,029,894 highly methylated (9.2%) and 1,006,406 moderately methylated (9.0%) CpGs. Highly methylated CpGs were found primarily in genic regions (964,976 CpGs, 93.7%), with 57,896 (5.6%) in exon UTR, 355,575 (34.5%) in CDS, and 554,093 (53.8%) in introns (Figure \@ref(fig:fembackground)). The distribution of highly methylated CpGs was significantly different than all 5x CpGs detected by WGBS. A Principal Component Analysis (PCA) did not demonstrate any clear separation of samples by treatment, and consistently high Pairwise Pearson’s correlation coefficients support the lack of global percent methylation differences between pH treatments.
 
 ### DML Characterization
 
-A total of 1,599 DML were identified using a 50% methylation difference threshold (Figure 2), which were evenly split between 793 (49.6%) hypomethylated and 806 (50.4%) hypermethylated DML (Figure 2). Of these DML, 315 (19.7%) overlapped with C/T SNPs. The DML were distributed amongst the ten main chromosomes, as well as scaffolds not placed in any chromosome (Figure 3).
+A total of 1,599 DML were identified using a 50% methylation difference threshold (Figure \@ref(fig:femheatmap)), which were evenly split between 793 (49.6%) hypomethylated and 806 (50.4%) hypermethylated DML (Figure \@ref(fig:femheatmap)). Of these DML, 315 (19.7%) overlapped with C/T SNPs. The DML were distributed amongst the ten main chromosomes, as well as scaffolds not placed in any chromosome (Figure \@ref(fig: chromdistr)).
 
-The majority of DML (1,478; 92.4%) were located in genic regions (Figure 4), consisting of 1080 unique genes. Most genes only contained one DML; however, several genes contained multiple DML, ranging from 2-104 DML in one gene. The genic DML were primarily located in introns (941; 58.8%), followed by CDS (442; 27.6%) and exon UTR (95; 5.9%). Putative promoter regions upstream of transcription start sites contained DML (12; 0.8%), but more were located in downstream flanking regions (73; 4.6%). Additionally, 297 of the 1,478 genic DML overlapped with C/T SNPs in 283 unique genes. The DML were also found in transposable elements (496; 31.0%), lncRNA (9; 0.6%), and intergenic regions (42; 2.6%). The number of DML in all genome features differed significantly from all 5x CpGs. 
+The majority of DML (1,478; 92.4%) were located in genic regions (Figure \@ref(fig: locDML)), consisting of 1080 unique genes. Most genes only contained one DML; however, several genes contained multiple DML, ranging from 2-104 DML in one gene. The genic DML were primarily located in introns (941; 58.8%), followed by CDS (442; 27.6%) and exon UTR (95; 5.9%). Putative promoter regions upstream of transcription start sites contained DML (12; 0.8%), but more were located in downstream flanking regions (73; 4.6%). Additionally, 297 of the 1,478 genic DML overlapped with C/T SNPs in 283 unique genes. The DML were also found in transposable elements (496; 31.0%), lncRNA (9; 0.6%), and intergenic regions (42; 2.6%). The number of DML in all genome features differed significantly from all 5x CpGs. 
 
 ### Enrichment Analysis
 
-We identified 10 biological processes and 4 molecular function GOterms significantly enriched in genes containing DML that did not overlap with C/T SNPs (Figure 5). A total of 339 genes with GOterm annotations containing 437 DML were used for this analysis. The enriched biological process GOterms were involved in motility (ex. cilium-dependent cell motility, cilium movement) and development (insta larval or pupal development, post-embryonic development), while the cellular component GOterms were involved in microtubule-associated and histone acetyltransferase complexes. A total of 7 unique genes and 34 unique transcripts were associated with the biological process terms, and 2 unique genes and 15 unique transcripts were associated with cellular component terms.
+We identified 10 biological processes and 4 molecular function GOterms significantly enriched in genes containing DML that did not overlap with C/T SNPs (Figure \@ref(fig: simplifyEnrichment)). A total of 339 genes with GOterm annotations containing 437 DML were used for this analysis. The enriched biological process GOterms were involved in motility (ex. cilium-dependent cell motility, cilium movement) and development (insta larval or pupal development, post-embryonic development), while the cellular component GOterms were involved in microtubule-associated and histone acetyltransferase complexes. A total of 7 unique genes and 34 unique transcripts were associated with the biological process terms, and 2 unique genes and 15 unique transcripts were associated with cellular component terms.
 
 ## Discussion
 
@@ -144,25 +144,57 @@ oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
 
 ## Figures
 
-\begin{landscape}
-
-Figure 2.1: Pacific oysters (n = 140) were acclimated for 15 days, then twenty were randomly sampled for histological analyses. Remaining oysters were divided into ambient pH or low pH treatments for seven weeks. Three experimental tanks for each treatment were used with 20 oysters per tank for a total of 60 oysters per treatment. At the end of the pH exposure, a total of ten oysters were randomly selected from each treatment and sampled for histological analyses. All remaining oysters were then held in ambient pH conditions for 3 months. Finally, oysters were reproductively conditioned and strip spawned. Larvae were counted eighteen hours post-fertilization.\newline 
+**Figure** \@ref(fig:fembackground): Location of all CpGs with 5x coverage, highly methylated (≥ 50%), moderately methylated (10-50%), and lowly methylated (≤ 10%) CpGs in various genome features.\newline 
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=1.3\textwidth]{figure/Ch2/Figure2.1.jpg}
-  \caption{Experimental timeline}
-  (\#fig:expdesign)
+  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.1.pdf}
+  \caption{Genomic location of various CpG categories}
+  (\#fig:fembackground)
 \end{figure}
-\end{landscape}
+
 \clearpage
 
-**Figure** \@ref(fig:carryoverboxplot): Proportion of live D-hinge larvae eighteen hours post-fertilization by female treatment. Each box represents proportions of live larvae between the first and third quartiles for half-sibling families where the female was exposed to either ambient or low pH conditions. Horizontal lines outside the box indicate the minimum value before the lower fence and the maximum value before the upper fence, with the solid line indicating the median. Circles represent outliers. A proportion of 1.0 indicates that all eggs in a cross were successfully fertilized and developed into D-hinge larvae. A linear mixed model, with sire as a random effect, indicated significantly fewer D-hinge larvae were present in half-sibling families where females were exposed to low pH conditions (t = -2.999; p = 0.0119). Significantly different proportions are indicated by a letter.\newline 
+**Figure** \@ref(fig:femheatmap): Percent methylation values for DML created using an euclidean distance matrix. Samples in low pH conditions are represented by black, and samples in ambient pH conditions are represented by grey, with maturation stage along the bottom (0 = indeterminate, 3 = mature female). Darker colors indicate higher percent methylation, and a density plot depicts the distribution of percent methylation values for a panel. A total of 1599 DML were identified using a logistic regression, using a chi-squared test and 50% methylation difference cut-off.\newline 
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.85\textwidth]{figure/Ch2/Figure2.2.pdf}
-  \caption{Larval survival 18 hours post-fertilization}
-  (\#fig:carryoverboxplot)
+  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.2.pdf}
+  \caption{Heatmap of DML}
+  (\#fig:femheatmap)
 \end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:chromdistr): Number of DML normalized by number of CpG in each chromosome (bars) and number of genes (line) in each chromosome. Additional DML were identified in scaffolds that were not mapped to any of the ten main linkage groups.\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.3.pdf}
+  \caption{Distribution of DML in main chromosomes}
+  (\#fig:chromdistr)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:locDML): Distribution of all CpGs with 5x coverage and DML in various genome features.\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.4.pdf}
+  \caption{Genomic location of DML}
+  (\#fig:locDML)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:simplifyEnrichment): Biological process GOterms enriched in genes containing DML. A semantic similarity matrix was generated using “Relevance” measures, then clustered using the binary cut method. The GOterms associated with each cluster are displayed in the word cloud, with the size of the word representing frequency in the dataset. Darker colors represent GOterms that have higher semantic similarity.\newline 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.8\textwidth]{figure/Ch3/Figure3.5.pdf}
+  \caption{Significantly enriched GOterms}
+  (\#fig:simplifyEnrichment)
+\end{figure}
+
 \clearpage
