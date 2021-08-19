@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 11:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,13 +1207,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [73] [74] [75
 
 ]
-Overfull \hbox (3745.57204pt too wide) in alignment at lines 875--889
- [] [] [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (2.66501pt too wide) in paragraph at lines 878--878
+[]|\TU/lmr/m/n/5 Exposure 
+ []
+
+
+Overfull \hbox (3.04001pt too wide) in paragraph at lines 881--881
+[]|\TU/lmr/m/n/5 Venkataraman 
+ []
+
+
+Overfull \hbox (7.8pt too wide) in paragraph at lines 883--883
+[]|\TU/lmr/m/n/5 Pediveliger|  
  []
 
 [76
 
-] [77
+] [77] [78
 
 
 ]
@@ -1224,12 +1234,12 @@ Overfull \hbox (8.41493pt too wide) in paragraph at lines 902--903
  [][] 
  []
 
-[78
+[79
 
 ]
 File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure2.2.pdf>
-[79
+[80
 
 
 ]
@@ -1237,27 +1247,27 @@ File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
-[80
+[81
 
 
 ]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[81]
+[82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[82]
+[83]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[83] [84]
+[84] [85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[85]
+[86]
 
 LaTeX Warning: Command \textperthousand invalid in math mode on input line 952.
 
 
-[86]
+[87]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 969.
@@ -1266,46 +1276,46 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 969.
 
-[87]
+[88]
 Missing character: There is no α ("3B1) in font cmmi8!
 Missing character: There is no α ("3B1) in font cmmi8!
 
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
-[88] [89] [90] [91]
+[89] [90] [91] [92]
 Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [93]
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [94]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[95]
 Missing character: There is no β (U+03B2) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[95] [96] [97
+[96] [97] [98
 
 ]
 Overfull \hbox (10.17705pt too wide) in alignment at lines 1054--1067
  [] [] [] [] [] 
  []
 
-[98
+[99
 
-] [99
+] [100
 
 
 ]
 <<A>>
-[100
+[101
 
-] [101]
+] [102]
 <<B>>
-[102
+[103
 
 ]
 Overfull \hbox (11.7445pt too wide) in paragraph at lines 1210--1210
@@ -1313,7 +1323,7 @@ Overfull \hbox (11.7445pt too wide) in paragraph at lines 1210--1210
 -----------------[] 
  []
 
-[103
+[104
 
 ]
 Overfull \hbox (11.74449pt too wide) in paragraph at lines 1210--1210
@@ -1324,19 +1334,16 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1210--1210
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[104]
+[105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[105] [106]
+[106] [107]
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
-[107
+[108
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [109]
@@ -1348,7 +1355,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [111]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[112] [113] (./thesis.aux)
+[112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[113] [114] (./thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1361,10 +1371,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  22874 strings out of 478475
  426465 string characters out of 5858192
- 1201807 words of memory out of 5000000
+ 1202750 words of memory out of 5000000
  42869 multiletter control sequences out of 15000+600000
  413105 words of font info for 83 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,8n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (124 pages).
+Output written on thesis.pdf (125 pages).
