@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 10:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,7 +1117,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [50] [51] [52
 
 ]
-Overfull \hbox (86.10521pt too wide) in alignment at lines 724--733
+Overfull \hbox (86.10521pt too wide) in alignment at lines 725--734
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1127,15 +1127,20 @@ Overfull \hbox (86.10521pt too wide) in alignment at lines 724--733
 
 
 ]
-File: figure/Ch2/Figure1.pdf Graphic file (type pdf)
-<use figure/Ch2/Figure1.pdf>
+File: figure/Ch2/Figure2.1.jpg Graphic file (type bmp)
+<figure/Ch2/Figure2.1.jpg>
+
+Overfull \hbox (8.41493pt too wide) in paragraph at lines 746--747
+ [][] 
+ []
+
 [55
 
 ]
 File: figure/Ch2/Fig2_Map.pdf Graphic file (type pdf)
 <use figure/Ch2/Fig2_Map.pdf>
 
-Overfull \hbox (94.05756pt too wide) in paragraph at lines 755--756
+Overfull \hbox (94.05756pt too wide) in paragraph at lines 756--757
  [][] 
  []
 
@@ -1161,7 +1166,7 @@ File: figure/Ch2/Figure5_CoefPlot.pdf Graphic file (type pdf)
 File: figure/Ch2/Figure6_AK.GDFA.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure6_AK.GDFA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--799
+Underfull \hbox (badness 10000) in paragraph at lines 792--800
 
  []
 
@@ -1174,7 +1179,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure/Ch2/Figure7_WA.GDFA.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure7_WA.GDFA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--809
+Underfull \hbox (badness 10000) in paragraph at lines 802--810
 
  []
 
@@ -1184,7 +1189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 801--809
 File: figure/Ch2/figures2.png Graphic file (type bmp)
 <figure/Ch2/figures2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--819
+Underfull \hbox (badness 10000) in paragraph at lines 812--820
 
  []
 
@@ -1224,7 +1229,7 @@ File: figure/Ch2/FigureS7.pdf Graphic file (type pdf)
 File: figure/Ch2/FigureS8.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS8.pdf>
 
-Overfull \hbox (31.35918pt too wide) in paragraph at lines 886--887
+Overfull \hbox (31.35918pt too wide) in paragraph at lines 887--888
  [][] 
  []
 
@@ -1236,7 +1241,7 @@ Overfull \hbox (31.35918pt too wide) in paragraph at lines 886--887
 
 ]
 
-LaTeX Warning: Reference `tab:maxdelays' on page 72 undefined on input line 919
+LaTeX Warning: Reference `tab:maxdelays' on page 72 undefined on input line 920
 .
 
 [72]
@@ -1246,7 +1251,7 @@ File: figure/uw.png Graphic file (type bmp)
 
 ] [74]
 
-LaTeX Warning: Reference `rmd-basics' on page 75 undefined on input line 941.
+LaTeX Warning: Reference `rmd-basics' on page 75 undefined on input line 942.
 
 File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/delaysboxplot-1.pdf>
@@ -1261,23 +1266,23 @@ File: figure/subdivision.pdf Graphic file (type pdf)
 
 ] [78]
 
-LaTeX Warning: Reference `rmd-basics' on page 79 undefined on input line 995.
+LaTeX Warning: Reference `rmd-basics' on page 79 undefined on input line 996.
 
 
-LaTeX Warning: Reference `r-chunks' on page 79 undefined on input line 997.
+LaTeX Warning: Reference `r-chunks' on page 79 undefined on input line 998.
 
 
-LaTeX Warning: Reference `rmd-basics' on page 79 undefined on input line 997.
+LaTeX Warning: Reference `rmd-basics' on page 79 undefined on input line 998.
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1006--1007
+Underfull \hbox (badness 1509) in paragraph at lines 1007--1008
 \TU/lmr/m/n/12 talks about using BibTeX, at [][]$[][][][] [] [] [] [][][] [] []
 [][][] [] [][][] [] [][][] [] [][][][] [] [][][][][] [] [][][][][][] [] [][][][
 ]$[][]),
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 1006--1007
+Underfull \hbox (badness 5345) in paragraph at lines 1007--1008
 \TU/lmr/m/n/12 needs, at [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] []
  [][][] [] [][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][]$[][])
  and \TU/lmr/m/it/12 bibman
@@ -1307,17 +1312,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [87]
 
-LaTeX Warning: Command \textperthousand invalid in math mode on input line 1063
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 1064
 .
 
 [88]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 1080.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 1081.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 1080.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 1081.
 
 [89]
 Missing character: There is no α ("3B1) in font cmmi8!
@@ -1343,7 +1348,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [97] [98] [99
 
 ]
-Overfull \hbox (10.17705pt too wide) in alignment at lines 1165--1178
+Overfull \hbox (10.17705pt too wide) in alignment at lines 1166--1179
  [] [] [] [] [] 
  []
 
@@ -1361,7 +1366,7 @@ Overfull \hbox (10.17705pt too wide) in alignment at lines 1165--1178
 [104
 
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1325--1325
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1326--1326
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
@@ -1369,7 +1374,7 @@ Overfull \hbox (11.7445pt too wide) in paragraph at lines 1325--1325
 [105
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1325--1325
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1326--1326
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1415,9 +1420,9 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23156 strings out of 478475
- 432062 string characters out of 5858192
- 1199965 words of memory out of 5000000
+ 23157 strings out of 478475
+ 432071 string characters out of 5858192
+ 1199951 words of memory out of 5000000
  43122 multiletter control sequences out of 15000+600000
  414614 words of font info for 92 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191

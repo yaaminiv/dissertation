@@ -576,6 +576,7 @@ Protein disulfide-isomerase 1 (PDI1) and Protein disulfide-isomerase 2 (PDI2) & 
 
 \textbf{Figure} \ref{fig:sitemap}: Map of outplant locations. Oysters were placed at five sites: Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), and Willapa Bay (WB). Sites in Puget Sound are outlined in a grey box.\newline
 \begin{figure}[h]
+\centering
   \includegraphics[width=0.65\textwidth]{figure/Ch1/fig1.1.pdf}
   \caption{Map of outplant sites}
   \label{fig:sitemap}
@@ -712,7 +713,7 @@ Significant decreases in larval abundance four months after broodstock were expo
 \section{Tables}\label{tables-1}}
 \begin{landscape}
 
-Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO<sub>2</sub> (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
+Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO\textsubscript{2} (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω\textsubscript{calcite}), and aragonite saturation state (Ω\textsubscript{aragonite}) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO\textsubscript{2}, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω\textsubscript{calcite}), and aragonite saturation (Ω\textsubscript{aragonite}) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F\textsubscript{1, 16} = 5838.7810, p = 6.1165e-22), pCO\textsubscript{2} (One-way ANOVA; F\textsubscript{1, 16} = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F\textsubscript{1, 16} = 7.1222, p = 0.0168), Ω\textsubscript{calcite} (One-way ANOVA; F\textsubscript{1, 16} = 528.9468, p = 1.0989e-13), Ω\textsubscript{aragonite} (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F\textsubscript{1, 16} = 1.382, p = 0.2570).
 
 
 ```
@@ -722,7 +723,7 @@ incomplete final line found by readTableHeader on 'data/Ch2/Table2.1.csv'
 
 \begingroup\fontsize{5}{7}\selectfont
 \begin{longtable}[t]{rllllllllllll}
-\caption{\label{tab:carbchem}Carbonate chemistry parameters}\\
+\caption{\label{tab:carbchem}Carbonate chemistry parameters for control (C) and experimental (E) tanks}\\
 \toprule
 Day & C pH & E pH & C Total Alkalinity & E Total Alkalinity & C pCO2 & E pCO2 & C  DIC & E DIC & C Calcite & E Calcite & C Aragonite & E Aragonite\\
 \midrule
@@ -739,12 +740,12 @@ Day & C pH & E pH & C Total Alkalinity & E Total Alkalinity & C pCO2 & E pCO2 & 
 \#\#Figures
 \begin{landscape}
 
-Figure 2.1: Mechanisms of environmentally induced changes in resources (A-D) assimilated into stable isotope ratios of primary producers (1-2), which are conserved when assimilated into higher trophic levels in the food web (3).\newline 
+Figure 2.1: Pacific oysters (n = 140) were acclimated for 15 days, then twenty were randomly sampled for histological analyses. Remaining oysters were divided into ambient pH or low pH treatments for seven weeks. Three experimental tanks for each treatment were used with 20 oysters per tank for a total of 60 oysters per treatment. At the end of the pH exposure, a total of ten oysters were randomly selected from each treatment and sampled for histological analyses. All remaining oysters were then held in ambient pH conditions for 3 months. Finally, oysters were reproductively conditioned and strip spawned. Larvae were counted eighteen hours post-fertilization.\newline 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=1.1\textwidth]{figure/Ch2/Figure1.pdf}
-  \caption{Mechanisms of stable isotope change}
-  \label{fig:theo}
+  \includegraphics[width=1.3\textwidth]{figure/Ch2/Figure2.1.jpg}
+  \caption{Experimental timeline}
+  \label{fig:expdesign}
 \end{figure}
 \end{landscape}
 \clearpage
@@ -1234,7 +1235,7 @@ This document was typeset using the XeTeX typesetting system, and the \href{http
 
 The source files for this thesis, along with all the data files, have been organised into an R package, xxx, which is available at \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found in the University of Washington library.
 
-This version of the thesis was generated on 2021-08-19 10:14:06. The repository is currently at this commit:
+This version of the thesis was generated on 2021-08-19 10:38:21. The repository is currently at this commit:
 
 The computational environment that was used to generate this version is as follows:
 \begin{verbatim}
