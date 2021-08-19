@@ -1,24 +1,6 @@
-﻿Candidate Model Set,Hypothesis
-*y = bank,1
-*y = bank + GW,1
-*y = ln(distance) + GW,1
-*y = ln(distance),1
-*y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW,2
-*y = bank + ln(distance) + bank:ln(distance),1
-*y = bank + ln(distance) + bank:ln(distance) + GW,1
-*y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank,2
-*y = bank + ln(distance) + bank,1
-*y = bank + ln(distance) + bank + GW,1
-*y = GW,3
-y = bank + substrate,1
-y = ln(distance) + substrate,1
-y = bank + GW + substrate,1
-y = bank + ln(distance) + bank:ln(distance) + GW + substrate,2
-y = bank + ln(distacne) + bank:ln(distance) + substrate,1
-y = bank + ln(distance) + bank:ln(distance) + GW + substrate,2
-y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + GW+ substrate,2
-y = bank + ln(distance) + bank:ln(distance) + ln(distance)2:bank + substrate,2
-y = bank + ln(distance) + GW+ substrate,1
-y = bank + ln(distance) + substrate,1
-y = substrate,3
-y = GW + substrate,3
+﻿Location,Latitude,Longitude,Time at Collection,"Tidal Height (MLLW, feet) at Collection"
+CI,47.3579367,-122.7957627,12:15,-1.8
+FB,48.481691,-122.58353,12:12,-1.7
+PG,47.842676,-122.583832,11:11,-1.6
+SK,47.35523,-123.1572,11:51,-1.8
+WB,46.4944789,-124.0261356,9:28,-1.7
