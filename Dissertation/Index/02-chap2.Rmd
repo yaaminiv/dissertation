@@ -16,7 +16,7 @@ The current study is the first to discern how exposure to experimental ocean aci
 
 ### Experimental overview
 
-Experimental trials were conducted at the Kenneth K. Chew Center for Shellfish Research and Restoration at the National Oceanic and Atmospheric Administration (NOAA) Manchester Field Station (47°34'09.1"N 122°33'19.0"W, Manchester, Washington, USA) in 2017. Adult hatchery-raised *C. gigas* (average shell length = 117.46 ± 19.16 cm) were acclimated in the facility for 10 days, then exposed to either low or ambient pH conditions for 48 days (Figure 1). After pH exposure, oysters were held at ambient pH and water temperature conditions for 90 days. Oysters underwent reproductive conditioning for 22 days, then strip-spawned. D-hinge larvae were counted eighteen hours after fertilization occurred.
+Experimental trials were conducted at the Kenneth K. Chew Center for Shellfish Research and Restoration at the National Oceanic and Atmospheric Administration (NOAA) Manchester Field Station (47°34'09.1"N 122°33'19.0"W, Manchester, Washington, USA) in 2017. Adult hatchery-raised *C. gigas* (average shell length = 117.46 ± 19.16 cm) were acclimated in the facility for 10 days, then exposed to either low or ambient pH conditions for 48 days (Figure 2.1). After pH exposure, oysters were held at ambient pH and water temperature conditions for 90 days. Oysters underwent reproductive conditioning for 22 days, then strip-spawned. D-hinge larvae were counted eighteen hours after fertilization occurred.
 
 ### Experimental pH exposure
 
@@ -62,7 +62,7 @@ A binomial GLM was used to compare gonad maturation of individuals sampled befor
 
 ### Larval Survival 
 
-A linear mixed effect model, with female pool and sire as random effects, demonstrated no significant difference in the number of D-hinge larvae counted eighteen hours post-fertilization between all four parental families (Linear mixed effect model; X^2^~3~ = 3.1325; p = 0.1066). Sire and female egg pools accounted for 0.8530% and 3.1623% of total variance, respectively. Significantly fewer D-hinge larvae were present in half-sibling families where females were exposed to low pH conditions (Figure 2; Linear mixed effect model; X^2^~1~ = 8.1781; p = 0.0042), with sire accounting for 0.3116053% of total variance.
+A linear mixed effect model, with female pool and sire as random effects, demonstrated no significant difference in the number of D-hinge larvae counted eighteen hours post-fertilization between all four parental families (Linear mixed effect model; X^2^~3~ = 3.1325; p = 0.1066). Sire and female egg pools accounted for 0.8530% and 3.1623% of total variance, respectively. Significantly fewer D-hinge larvae were present in half-sibling families where females were exposed to low pH conditions (Figure \@ref(fig:carryoverboxplot); Linear mixed effect model; X^2^~1~ = 8.1781; p = 0.0042), with sire accounting for 0.3116053% of total variance.
 
 ## Discussion
 
@@ -90,7 +90,7 @@ Significant decreases in larval abundance four months after broodstock were expo
 
 \begin{landscape}
 
-Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO~2<~ (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
+Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO\textsubscript{2} (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω\textsubscript{calcite}), and aragonite saturation state (Ω\textsubscript{aragonite}) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO\textsubscript{2}, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω\textsubscript{calcite}), and aragonite saturation (Ω\textsubscript{aragonite}) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F\textsubscript{1, 16} = 5838.7810, p = 6.1165e-22), pCO\textsubscript{2} (One-way ANOVA; F\textsubscript{1, 16} = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F\textsubscript{1, 16} = 7.1222, p = 0.0168), Ω\textsubscript{calcite} (One-way ANOVA; F\textsubscript{1, 16} = 528.9468, p = 1.0989e-13), Ω\textsubscript{aragonite} (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F\textsubscript{1, 16} = 1.382, p = 0.2570).
 
 ```{r carbchem,echo=FALSE}
 carbchem <- read.csv("data/Ch2/Table2.1.csv")
@@ -103,186 +103,29 @@ carbchem <- read.csv("data/Ch2/Table2.1.csv")
 
 \clearpage
 
-##Figures
+## Figures
 
 \begin{landscape}
 
-Figure 2.1: Mechanisms of environmentally induced changes in resources (A-D) assimilated into stable isotope ratios of primary producers (1-2), which are conserved when assimilated into higher trophic levels in the food web (3).\newline 
+Figure 2.1: Pacific oysters (n = 140) were acclimated for 15 days, then twenty were randomly sampled for histological analyses. Remaining oysters were divided into ambient pH or low pH treatments for seven weeks. Three experimental tanks for each treatment were used with 20 oysters per tank for a total of 60 oysters per treatment. At the end of the pH exposure, a total of ten oysters were randomly selected from each treatment and sampled for histological analyses. All remaining oysters were then held in ambient pH conditions for 3 months. Finally, oysters were reproductively conditioned and strip spawned. Larvae were counted eighteen hours post-fertilization.\newline 
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=1.1\textwidth]{figure/Ch2/Figure1.pdf}
-  \caption{Mechanisms of stable isotope change}
-  (\#fig:theo)
+  \includegraphics[width=1.3\textwidth]{figure/Ch2/Figure2.1.jpg}
+  \caption{Experimental timeline}
+  (\#fig:expdesign)
 \end{figure}
 \end{landscape}
 \clearpage
 
-
-**Figure** \@ref(fig:map): Spatial and temporal distributions of northeast Pacific harbor seal specimens by subregion analyzed for $\delta^{15}N_{Phe}$ and bulk $\delta^{13}C$ values. Subplot colors correspond to map locations and x-axis (years) is the same for each subplot.\newline 
+**Figure** \@ref(fig:carryoverboxplot): Proportion of live D-hinge larvae eighteen hours post-fertilization by female treatment. Each box represents proportions of live larvae between the first and third quartiles for half-sibling families where the female was exposed to either ambient or low pH conditions. Horizontal lines outside the box indicate the minimum value before the lower fence and the maximum value before the upper fence, with the solid line indicating the median. Circles represent outliers. A proportion of 1.0 indicates that all eggs in a cross were successfully fertilized and developed into D-hinge larvae. A linear mixed model, with sire as a random effect, indicated significantly fewer D-hinge larvae were present in half-sibling families where females were exposed to low pH conditions (t = -2.999; p = 0.0119). Significantly different proportions are indicated by a letter.\newline 
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=1.2\textwidth]{figure/Ch2/Fig2_Map.pdf}
+  \includegraphics[width=1.2\textwidth]{figure/Ch2/Figure2.2.pdf}
   \caption{Distribution of harbor seal specimens}
-  (\#fig:map)
+  (\#fig:carryoverboxplot)
 \end{figure}
 \clearpage
 
-**Figure** \@ref(fig:dist): Variability in $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values based on sub region and sex. * denotes a significant difference in isotopic signature between males and females for that region (colors correspond to \@ref(fig:map)). 
-\newline 
 
-\begin{figure}[h]
-\centering
-  \includegraphics[width=1\textwidth]{figure/Ch2/Figure3_SexLocation.pdf}
-  \caption{Distribution of harbor seal specimens}
-  (\#fig:dist)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:hiermod): Relationship between nitrogen sources ($\delta^{15}N_{Phe}$) and primary production ($\delta^{13}C$) assimilated into the food web for A. a single linear model for the combined data across the northeast Pacific and eastern Bering Sea and B. a mixed effects model with random slope and intercept by sub region (colors correspond to  \@ref(fig:map)). 
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[width=1\textwidth]{figure/Ch2/hiermod.pdf}
-  \caption{Hierarchical $\delta^{15}N_{Phe}$ and $\delta^{13}C$ Models}
-  (\#fig:hiermod)
-\end{figure}
-
-\clearpage
-
-
-**Figure** \@ref(fig:coefres): Coefficients of environmental covariates for models with relative support ($\Delta AIC_c$ < 2) for harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values in three regions of the northeast Pacific: Washington, Gulf of Alaska, and the eastern Bering Sea. Color indicates model support based on AIC~c~ weight, points are the coefficient estimates for each environmental covariate included in an individual model, and bars show two standard deviations from the coefficient estimate. 
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[width=0.9\textwidth]{figure/Ch2/Figure5_CoefPlot.pdf}
-  \caption{Coefficients of Evironmental Covariates}
-  (\#fig:coefres)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:GDFAAK): Common trends in environmental condition and food web assimilated stable isotope values for the regional Gulf of Alaska gaussian-dynamic factor analysis model. The solid lines represent the modelled trends, where 0 is the long-term average and 1 and -1 represent the maximum and minimum possible values respectively; the dash line is the 90% credible interval. Factor loadings can be interpreted as coefficients, representing the strength of association between the modelled trend and each observed environmental time series (colors represent a priori driver category). Values close to 0 mean the observed time series did not correlate to the corresponding trend, while values close to 1 show the observed time series closely matched the modelled trend.  Negative loadings indicate an inverse relationship between the observed time series and modelled trend. Stable isotope times series are modelled separately for the northern (N. $\delta^{15}N_{Phe}$; N. $\delta^{13}C$) and southeast (S. $\delta^{15}N_{Phe}$; S. $\delta^{13}C$) subregions.  
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[width=0.9\textwidth]{figure/Ch2/Figure6_AK.GDFA.pdf}
-  \caption{Alaska GDFA Results}
-  (\#fig:GDFAAK)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:GDFAWA): Common trends in environmental condition and food web assimilated stable isotope values for the regional Washington gaussian-dynamic factor analysis model. Stable isotope times series are modelled separately for the coastal (C. $\delta^{15}N_{Phe}$; C. $\delta^{13}C$) and Salish Sea (S.S. $\delta^{15}N_{Phe}$; S.S. $\delta^{13}C$) subregions. See \@ref(fig:GDFAAK) caption for further interpretation.  
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[width=0.9\textwidth]{figure/Ch2/Figure7_WA.GDFA.pdf}
-  \caption{Washington GDFA Results}
-  (\#fig:GDFAWA)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:Month): Analysis of a) $\delta^{15}N_{Phe}$ and b) $\delta^{13}C$ values by month. For both models, s(month) p > 0.1 indicating no seasonality of harbor seal bone collagen stable isotope signature.  
-\newline 
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch2/figures2.png}
-  \caption{Bone collagen stable isotope seasonality analysis}
-  (\#fig:Month)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:Length): Analysis of a) $\delta^{15}N_{Phe}$ and b) $\delta^{13}C$ values by length. For both models, there was no significant slope (p>0.1)
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[width=0.8\textwidth]{figure/Ch2/FigureS2.pdf}
-  \caption{Bone collagen stable isotope length analysis}
-  (\#fig:Length)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:TSphe): Bone collagen $\delta^{15}N$ values of phenylalanine from archival harbor seal specimens collected in the northeastern Pacific in five subregions.
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS3.pdf}
-  \caption{Time series of $\delta^{15}N_{Phe}$ data}
-  (\#fig:TSphe)
-\end{figure}
-
-\clearpage
-
-
-**Figure** \@ref(fig:nonSuess): Bone collagen bulk $\delta^{13}C$ values of archival harbor seal specimens collected in the northeastern Pacific in five subregions.These values are not corrected for the Suess effect.
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS4.pdf}
-  \caption{Time series of $\delta^{13}C$ data}
-  (\#fig:nonSuess)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:Suess): Bone collagen bulk $\delta^{13}C$ values of archival harbor seal specimens collected in the northeastern Pacific in five subregions.These values are corrected for the Seuss effect.
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS5.pdf}
-  \caption{Time series of $\delta^{13}C$ data corrected for Suess effect}
-  (\#fig:Suess)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:bulkN): Bone collagen bulk $\delta^{15}N$ values of archival harbor seal specimens collected in the
-northeastern Pacific in five subregions.
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS6.pdf}
-  \caption{Time series of bulk $\delta^{15}N$ data}
-  (\#fig:bulkN)
-\end{figure}
-
-\clearpage
-
-**Figure** \@ref(fig:linresid): Residuals for the model with the most support (\@ref(fig:coefres)) plotted by year. A trend in model residuals would indicate environmental variables do not account for all temporal variation in harbor seal $\delta^{15}N_{Phe}$ and $\delta^{13}C$ values.
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[height=0.85\textwidth]{figure/Ch2/FigureS7.pdf}
-  \caption{Residuals trends for linear models with the most support}
-  (\#fig:linresid)
-\end{figure}
-
-\clearpage
-
-
-Figure 2.15: Model residual plots for the models with the most support from the candidate model set. Note: EBS phenylalanine is an intercept only model, GOA phenylalanine only contains a 2-factor location as a covariate.
-\newline 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[height=0.8\textwidth]{figure/Ch2/FigureS8.pdf}
-  \caption{Residuals for linear models with the most support}
-  (\#fig:linresid2)
-\end{figure}
