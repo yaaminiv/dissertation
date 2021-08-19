@@ -1,0 +1,9 @@
+﻿Environmental Variable,Contrast,R statistic,p-value
+pH,Site,0.3281,0.135
+Habitat,0.2125,0.151,
+Dissolved oxygen,Site,0.4063 *,0.0530 *
+Habitat,-0.14375,0.922,
+Salinity,Site,-0.0133,0.482
+Habitat,-0.1667,0.971,
+Temperature,Site,1.0000 **,0.0020 **
+Habitat,-0.192,0.905,

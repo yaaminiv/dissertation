@@ -70,7 +70,7 @@ Unknown peptide spectra from mass spectrometry samples were matched with known p
 
 The PECAN-generated spectral library (.blib) file was used to detect peptides of interest in raw DIA files in Skyline [@MacLean2010]. Skyline identified peptides using chromatogram peak picking, where ions that elute at the same time and mass are detected as a peptide (file available at Panorama Public). All PRTC peptides and approximately 100 different oyster proteins and their peptide transitions were manually checked for retention time and peak area ratio consistency to determine a Skyline auto peak picker error rate (24.3% ± 25%, range: 0% to 100%).
 
-Proteins had to satisfy four criteria to be considered appropriate targets for the study. 1) After an extensive literature search, functions related to oxidative stress, hypoxia, heat shock, immune resistance, shell formation, growth, and cellular maintenance were determined useful for evaluating environmental response. Proteins with annotations matching these functions were considered potential targets. 2) Protein data was then evaluated in Skyline to ensure there was no missing data for any peptide or sample. 3) Peaks with significant interference from other peptides were not considered. 4) Proteins needed at least two peptides with three transitions per peptide to quality as a potential target for downstream assays. The fifteen proteins (41 peptides and 123 transitions) that matched all of these criteria were selected as targets (Table 2).
+Proteins had to satisfy four criteria to be considered appropriate targets for the study. 1) After an extensive literature search, functions related to oxidative stress, hypoxia, heat shock, immune resistance, shell formation, growth, and cellular maintenance were determined useful for evaluating environmental response. Proteins with annotations matching these functions were considered potential targets. 2) Protein data was then evaluated in Skyline to ensure there was no missing data for any peptide or sample. 3) Peaks with significant interference from other peptides were not considered. 4) Proteins needed at least two peptides with three transitions per peptide to quality as a potential target for downstream assays. The fifteen proteins (41 peptides and 123 transitions) that matched all of these criteria were selected as targets (Table \@ref(tab:targets)).
 
 ### Selected Reaction Monitoring Assay
 
@@ -141,34 +141,75 @@ deployment <- read.csv("data/Ch1/Table1.1.csv")
 ```
 \clearpage
 
-**Table** \@ref(tab:suppmod1): Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable, where the most parsimonious models with the most support are shown in bold. Reported are ΔAIC and the hypothesis supported by each model: H1 is a bank effect not caused by salmon manipulation, H2 is a distance effect not caused by salmon manipulation, H3 is both a bank and distance effect indicating a response to salmon manipulation, and H4 indicates support for the other covariates tested. 
+**Table** \@ref(tab:targets): Proteins used as targets for a Selected Reaction Monitoring Assay (SRM). Targets were identified based on differential abundance and stress-related annotations. At least two peptides and six transitions were included in the assy for each protein. The protein Catalase had two isoforms under separate proteome IDs — CHOYP_CATA.1.3|m.11120 and CHOYP_CATA.3.3|m.21642 — and target peptides were chosen from both IDs. A total of four peptides and twelve associated transitions were used as SRM targets.
 
-```{r suppmod1,echo=FALSE}
-supp1 <- read.csv("data/Ch1/Table1.2.csv")
-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(supp1)), 
-                  caption = "Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable",
+```{r targets,echo=FALSE}
+targets <- read.csv("data/Ch1/Table1.2.csv")
+  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(targets)), 
+                  caption = "Target peptides used for Selected Reaction Monitoring Assay (SRM)",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
-
 ```
 \clearpage
 
+**Table** \@ref(tab:outplantenv): Environmental conditions (mean ± standard deviation) at outplant locations (Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), Willapa Bay (WB).
 
-\begin{landscape}
-
-Table 1.3: Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable, where the most parsimonious models with the most support are shown in bold. Reported are ΔAIC and the hypothesis supported by each model: H1 is a bank effect not caused by salmon manipulation, H2 is a distance effect not caused by salmon manipulation, H3 is both a bank and distance effect indicating a response to salmon manipulation, and H4 indicates support for the other covariates tested. 
-```{r suppsumm, echo=FALSE}
-suppsumm <- read.csv("data/Ch1/SuppSummTable1.csv")
-  kableExtra:::kable_styling(knitr::kable(suppsumm, "latex",col.names = gsub("[.]", " ", names(suppsumm)), 
-                  caption = "Summary Statistics of Best Models",
+```{r outplantenv, echo=FALSE}
+outplantenv <- read.csv("data/Ch1/Table1.3.csv")
+  kableExtra:::kable_styling(knitr::kable(outplantenv, "latex",col.names = gsub("[.]", " ", names(outplantenv)), 
+                  caption = "Outplant conditions",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
-
 ```
-
-
-\end{landscape}
-
 \clearpage
 
+**Table** \@ref(tab:envmeans): Analysis of Similarities (ANOSIM) R statistic and p-value for mean values of environmental variables by site and habitat. Values significant at the 0.05 level are marked by a double asterisk, and values significant at the 0.10 level are marked by a single asterisk.
+
+```{r envmeans, echo=FALSE}
+envmeans <- read.csv("data/Ch1/Table1.4.csv")
+  kableExtra:::kable_styling(knitr::kable(envmeans, "latex",col.names = gsub("[.]", " ", names(envmeans)), 
+                  caption = "ANOSIM for mean environmental conditions",
+                  longtable = TRUE, booktabs = TRUE), font_size = 8)
+```
+\clearpage
+
+**Table** \@ref(tab:envvar): Analysis of Similarities (ANOSIM) R statistic and p-value for environmental variable variances by site and habitat. Values significant at the 0.05 level are marked by a double asterisk, and values significant at the 0.10 level are marked by a single asterisk.
+
+```{r envvar, echo=FALSE}
+envvar <- read.csv("data/Ch1/Table1.5csv")
+  kableExtra:::kable_styling(knitr::kable(envvar, "latex",col.names = gsub("[.]", " ", names(envvar)), 
+                  caption = "ANOSIM for variance of environmental conditions",
+                  longtable = TRUE, booktabs = TRUE), font_size = 8)
+```
+\clearpage
+
+**Table** \@ref(tab:protANOSIM): Results of pairwise ANOSIM tests between sites for protein abundance data. R values are listed above the diagonal, and p values are listed below the diagonal. Values significant at the 0.05 level are marked by a double asterisk, and values significant at the 0.10 level are marked by a single asterisk.
+
+```{r protANOSIM, echo=FALSE}
+protANOSIM <- read.csv("data/Ch1/Table1.6.csv")
+  kableExtra:::kable_styling(knitr::kable(protANOSIM, "latex",col.names = gsub("[.]", " ", names(protANOSIM)), 
+                  caption = "Pairwise ANOSIM for protein abundance",
+                  longtable = TRUE, booktabs = TRUE), font_size = 8)
+```
+\clearpage
+
+**Table** \@ref(tab:RDA): Significance of each predictor in the RDA. Salinity mean and variance were not included due to missing values. Predictors significant at the 0.10 level are marked by a single asterisk.
+
+```{r RDA, echo=FALSE}
+RDA <- read.csv("data/Ch1/Table1.7.csv")
+  kableExtra:::kable_styling(knitr::kable(RDA, "latex",col.names = gsub("[.]", " ", names(RDA)), 
+                  caption = "RDA Results",
+                  longtable = TRUE, booktabs = TRUE), font_size = 8)
+```
+\clearpage
+
+**Table** \@ref(tab:protfunctions): Functions of differentially abundant proteins.
+
+```{r protfunctions, echo=FALSE}
+protfunctions <- read.csv("data/Ch1/Table1.8.csv")
+  kableExtra:::kable_styling(knitr::kable(protfunctions, "latex",col.names = gsub("[.]", " ", names(protfunctions)), 
+                  caption = "Protein functions",
+                  longtable = TRUE, booktabs = TRUE), font_size = 8)
+```
+\clearpage
 
 ##Figures
 

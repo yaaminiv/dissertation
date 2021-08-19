@@ -1,0 +1,8 @@
+﻿Environmental Variable,Df,Variance,F,Pr(>F)
+Temperature Mean,1,0.0014,2.3275 *,0.0650 *
+Temperature Variance,1,0.0013,2.1627 *,0.0670 *
+pH Mean,1,0.0003,0.5264,0.781
+pH Variance,1,0.0007,1.2171,0.301
+Dissolved Oxygen Mean,1,0.0006,1.0354,0.349
+Dissolved Oxygen Variance,1,0.0003,0.5692,0.725
+Residual,19,,,
