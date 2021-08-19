@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 14:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,7 +969,7 @@ Crassostrea gigas\TU/lmr/m/n/12 ) proteomic
 
 ] [6
 
-] [7
+] [7] [8
 
 ] [1
 
@@ -1014,7 +1014,7 @@ ex-text;!
 
 
 ]
-Overfull \hbox (17.92484pt too wide) in paragraph at lines 415--415
+Overfull \hbox (17.92484pt too wide) in paragraph at lines 419--419
 []\TU/lmtt/m/n/12 Warning in read.table(file = file, header = header, sep = sep
 , quote = quote, :[] 
  []
@@ -1031,7 +1031,7 @@ Overfull \hbox (17.92484pt too wide) in paragraph at lines 415--415
 ] [30
 
 ]
-Overfull \hbox (94.07013pt too wide) in alignment at lines 518--531
+Overfull \hbox (94.07013pt too wide) in alignment at lines 522--535
  [] [] 
  []
 
@@ -1099,7 +1099,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [51] [52] [53
 
 ]
-Overfull \hbox (86.10521pt too wide) in alignment at lines 695--704
+Overfull \hbox (86.10521pt too wide) in alignment at lines 699--708
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1112,7 +1112,7 @@ Overfull \hbox (86.10521pt too wide) in alignment at lines 695--704
 File: figure/Ch2/Figure2.1.jpg Graphic file (type bmp)
 <figure/Ch2/Figure2.1.jpg>
 
-Overfull \hbox (8.41493pt too wide) in paragraph at lines 717--718
+Overfull \hbox (8.41493pt too wide) in paragraph at lines 721--722
  [][] 
  []
 
@@ -1136,43 +1136,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [60] [61] [62]
-Overfull \hbox (11.58589pt too wide) in paragraph at lines 774--775
+Overfull \hbox (11.58589pt too wide) in paragraph at lines 778--779
 \TU/lmr/m/n/12 Nuclear ([][]\TU/lmr/bx/n/12 Peñaloza2021?[][]\TU/lmr/m/n/12 ) (
 NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
  []
 
 [63]
-Underfull \hbox (badness 1112) in paragraph at lines 781--782
+Underfull \hbox (badness 1112) in paragraph at lines 785--786
 \TU/lmr/bx/n/12 tin2011?[][]\TU/lmr/m/n/12 ). Known Illumina adapter sequences 
 were removed (\TU/lmtt/m/n/12 --illumina\TU/lmr/m/n/12 ), along
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 781--782
+Underfull \hbox (badness 1430) in paragraph at lines 785--786
 \TU/lmr/m/n/12 with 10 bp from both the 5’ (\TU/lmtt/m/n/12 --clip_R1 10 \TU/lm
 r/m/n/12 and \TU/lmtt/m/n/12 --clip_R2 10\TU/lmr/m/n/12 ) and 3’ ends of
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 781--782
+Underfull \hbox (badness 2318) in paragraph at lines 785--786
 \TU/lmr/m/n/12 150 bp paired-end reads (\TU/lmtt/m/n/12 --three_prime_clip_R1 1
 0 \TU/lmr/m/n/12 and \TU/lmtt/m/n/12 --three_prime_clip_R2
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 781--782
+Underfull \hbox (badness 2359) in paragraph at lines 785--786
 \TU/lmtt/m/n/12 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\TU/lmr/m/n/1
 2 ). Sequence quality was as-
  []
 
 [64] [65] [66]
-Underfull \hbox (badness 1314) in paragraph at lines 812--813
+Underfull \hbox (badness 1314) in paragraph at lines 816--817
 \TU/lmr/m/n/12 was annotated. A \TU/lmtt/m/n/12 blastx \TU/lmr/m/n/12 was perfo
 rmed against the Uniprot-SwissProt database
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 812--813
+Underfull \hbox (badness 1221) in paragraph at lines 816--817
 \TU/lmr/m/n/12 (accessed June 01, 2021) to get Uniprot Accession information fo
 r each transcript
  []
@@ -1181,7 +1181,7 @@ r each transcript
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [72]
-Underfull \hbox (badness 1308) in paragraph at lines 855--856
+Underfull \hbox (badness 1308) in paragraph at lines 859--860
 \TU/lmr/m/n/12 acidification ([][]\TU/lmr/bx/n/12 ChandraRajan2021?[][]\TU/lmr/
 m/n/12 ; [][]\TU/lmr/bx/n/12 Downey-Wall2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/b
 x/n/12 Lim2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/12 Venkatara-
@@ -1191,22 +1191,22 @@ x/n/12 Lim2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/12 Venkatara-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [73]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [74] [75] [76
 
 ]
-Overfull \hbox (2.66501pt too wide) in paragraph at lines 880--880
+Overfull \hbox (2.66501pt too wide) in paragraph at lines 884--884
 []|\TU/lmr/m/n/5 Exposure 
  []
 
 
-Overfull \hbox (3.04001pt too wide) in paragraph at lines 883--883
+Overfull \hbox (3.04001pt too wide) in paragraph at lines 887--887
 []|\TU/lmr/m/n/5 Venkataraman 
  []
 
 
-Overfull \hbox (7.8pt too wide) in paragraph at lines 885--885
+Overfull \hbox (7.8pt too wide) in paragraph at lines 889--889
 []|\TU/lmr/m/n/5 Pediveliger|  
  []
 
@@ -1251,7 +1251,7 @@ File: figure/Ch3/Figure3.5.pdf Graphic file (type pdf)
 
 
 ]
-Underfull \hbox (badness 1127) in paragraph at lines 956--957
+Underfull \hbox (badness 1127) in paragraph at lines 960--961
 \TU/lmr/m/n/12 levels ([][]\TU/lmr/bx/n/12 Shpigel1992?[][]\TU/lmr/m/n/12 ), tr
 iploid eastern oysters (\TU/lmr/m/it/12 C. virginica\TU/lmr/m/n/12 ) are more s
 ensitive to
@@ -1261,20 +1261,20 @@ ensitive to
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [86]
-Underfull \hbox (badness 1418) in paragraph at lines 960--961
+Underfull \hbox (badness 1418) in paragraph at lines 964--965
 []\TU/lmr/m/n/12 Ocean acidification, can also influence methylomes ([][]Eirin-
 Lopez & Putnam, 2018[][]),
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 960--961
+Underfull \hbox (badness 2103) in paragraph at lines 964--965
 \TU/lmr/m/n/12 with pteropods ([][]\TU/lmr/bx/n/12 Bogan2020?[][]\TU/lmr/m/n/12
  ), corals ([][]\TU/lmr/bx/n/12 Liew2018?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/
 12 Putnam2016?[][]\TU/lmr/m/n/12 ), and urchins
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 960--961
+Underfull \hbox (badness 1019) in paragraph at lines 964--965
 \TU/lmr/m/n/12 conditions exhibited significantly different transcriptional cha
 nges when compared to
  []
@@ -1286,7 +1286,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no ʻ (U+02BB) in font [lmroman12-regular]:mapping=t
 ex-text;!
 [88]
-Overfull \hbox (11.58589pt too wide) in paragraph at lines 984--985
+Overfull \hbox (11.58589pt too wide) in paragraph at lines 988--989
 \TU/lmr/m/n/12 Nuclear ([][]\TU/lmr/bx/n/12 Peñaloza2021?[][]\TU/lmr/m/n/12 ) (
 NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
  []
@@ -1295,19 +1295,19 @@ NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [89]
-Underfull \hbox (badness 1163) in paragraph at lines 991--992
+Underfull \hbox (badness 1163) in paragraph at lines 995--996
 \TU/lmr/m/n/12 Prior to alignment, 150 bp paired-end reads generated for each s
 ample underwent
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 991--992
+Underfull \hbox (badness 1253) in paragraph at lines 995--996
 \TU/lmr/m/n/12 from both the 5’ (\TU/lmtt/m/n/12 --clip_R1 10 \TU/lmr/m/n/12 an
 d \TU/lmtt/m/n/12 --clip_R2 10\TU/lmr/m/n/12 ) and 3’ ends of paired reads
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 991--992
+Underfull \hbox (badness 1152) in paragraph at lines 995--996
 \TU/lmr/m/n/12 (\TU/lmtt/m/n/12 --three_prime_clip_R1 10 \TU/lmr/m/n/12 and \TU
 /lmtt/m/n/12 --three_prime_clip_R2 10\TU/lmr/m/n/12 ). Remaining adapters
  []
@@ -1321,7 +1321,7 @@ ex-text;!
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
 ex-text;!
 [92]
-Underfull \hbox (badness 2027) in paragraph at lines 1007--1008
+Underfull \hbox (badness 2027) in paragraph at lines 1011--1012
 []\TU/lmr/m/n/12 Methylation patterns were compared between treatments using \T
 U/lmtt/m/n/12 methylKit \TU/lmr/m/n/12 v.1.17.4
  []
@@ -1330,7 +1330,7 @@ U/lmtt/m/n/12 methylKit \TU/lmr/m/n/12 v.1.17.4
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [94]
-Overfull \hbox (1.76503pt too wide) in paragraph at lines 1028--1029
+Overfull \hbox (1.76503pt too wide) in paragraph at lines 1032--1033
 \TU/lmr/m/n/12 quence from the genome (GCF_902806645.1_cgigas_uk_roslin_v1_rna_
 from_genomic.fna
  []
@@ -1370,15 +1370,338 @@ File: figure/Ch4/Figure4.4.pdf Graphic file (type pdf)
 
 
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1285--1285
-[]\TU/lmtt/m/n/12 - Session info ----------------------------------------------
------------------[] 
+<<A>>
+
+Underfull \hbox (badness 1112) in paragraph at lines 1203--1204
+\TU/lmr/m/n/12 Skyline documents can be found on Panorama Public. All scripts a
+nd workflows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
+[] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] []
+[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
+\TU/lmr/m/n/12 ([][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][]
+[][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] [] [][][][] []
+ []
+
+
+Overfull \hbox (71.86436pt too wide) in paragraph at lines 1210--1211
+[][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][] []
  []
 
 [111
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1285--1285
+Underfull \hbox (badness 2173) in paragraph at lines 1219--1221
+[]\TU/lmr/m/n/12 A summary of sequencing and trimming information: [][]$[][][][
+][] [] [] [] [][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (38.06444pt too wide) in paragraph at lines 1219--1221
+[][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][] [] [][
+][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][]
+[][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 1221--1223
+[]\TU/lmr/m/n/12 Chi-squared test output comparing genomic locations of highly 
+methylated
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 1221--1223
+\TU/lmr/m/n/12 CpGs against all CpGs with 5x data: [][]$[][][][][] [] [] [] [][
+][][][][] [] [][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1223
+[][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] []
+ [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1225
+[] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][
+][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1227
+[][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
+][] [] [][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [
+]
+ []
+
+
+Overfull \hbox (7.66447pt too wide) in paragraph at lines 1225--1227
+[][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [
+]
+ []
+
+
+Overfull \hbox (16.09535pt too wide) in paragraph at lines 1229--1231
+[]\TU/lmr/m/n/12 Number of DML in genes: [][]$[][][][][] [] [] [] [][][][][][] 
+[] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][]
+[][][] []
+ []
+
+
+Overfull \hbox (38.06444pt too wide) in paragraph at lines 1233--1235
+[][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][] [] [][
+][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][]
+[][][][][][][] []
+ []
+
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 1235--1237
+[][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][]
+[][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][
+][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
+[][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][]
+[][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][
+][][][][] []
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 1246--1248
+[]\TU/lmr/m/n/12 Chi-squared test output comparing genomic locations of highly 
+methylated
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 1246--1248
+\TU/lmr/m/n/12 CpGs against all CpGs with 5x data: [][]$[][][][][] [] [] [] [][
+][][][][] [] [][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1248
+[][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][
+][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1250
+[][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [] [
+][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (7.66447pt too wide) in paragraph at lines 1248--1250
+[][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [
+]
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 1250--1252
+[]\TU/lmr/m/n/12 Chromosomal distribution of ploidy-DML, including number of pl
+oidy-DML in
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 1250--1252
+\TU/lmr/m/n/12 scaffolds not placed in any chromosome: [][]$[][][][][] [] [] []
+ [][][][][][] [] [][][] [] [][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (13.84447pt too wide) in paragraph at lines 1250--1252
+[][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][
+][][][] [] [][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][][][]
+[][][][][][] []
+ []
+
+[113]
+Underfull \hbox (badness 5374) in paragraph at lines 1254--1256
+\TU/lmr/m/n/12 DML in scaffolds not placed in any chromosome: [][]$[][][][][] [
+] [] [] [][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1254--1256
+[][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [] [
+][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (26.45538pt too wide) in paragraph at lines 1256--1258
+[]\TU/lmr/m/n/12 Number of ploidy-DML in genes: [][]$[][][][][] [] [] [] [][][]
+[][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][
+][] []
+ []
+
+
+Overfull \hbox (57.60442pt too wide) in paragraph at lines 1256--1258
+[][][][] [] [][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][
+][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (10.12338pt too wide) in paragraph at lines 1258--1260
+[]\TU/lmr/m/n/12 Number of pH-DML in genes: [][]$[][][][][] [] [] [] [][][][][]
+[] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] 
+[]
+ []
+
+
+Overfull \hbox (32.88445pt too wide) in paragraph at lines 1258--1260
+[][][][] [] [][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][
+][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1262
+[]\TU/lmr/m/n/12 Number of interaction-DML in genes: [][]$[][][][][] [] [] [] [
+][][][][][] [] [][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1262
+[][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][
+][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (38.06444pt too wide) in paragraph at lines 1262--1264
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 1264--1266
+[]\TU/lmr/m/n/12 Chi-squared test output comparing genomic locations of pH-DML 
+against all
+ []
+
+
+Overfull \hbox (13.34447pt too wide) in paragraph at lines 1264--1266
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] []
+ []
+
+
+Overfull \hbox (50.42442pt too wide) in paragraph at lines 1266--1268
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 1268--1270
+[]\TU/lmtt/m/n/12 simplifyEnrichment \TU/lmr/m/n/12 figure for enriched biologi
+cal process terms associated
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 1268--1270
+\TU/lmr/m/n/12 with ploidy-DML: [][]$[][][][][] [] [] [] [][][][][][] [] [][][]
+ [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] 
+[]
+ []
+
+
+Overfull \hbox (74.6324pt too wide) in paragraph at lines 1268--1270
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[114]
+Overfull \hbox (19.01247pt too wide) in paragraph at lines 1270--1272
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1272--1274
+\TU/lmr/m/n/12 pH-DML: [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][
+][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][]
+[][][] []
+ []
+
+
+Overfull \hbox (6.65248pt too wide) in paragraph at lines 1272--1274
+[][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
+][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 1274--1276
+\TU/lmr/m/n/12 tion for pH-DML: [][]$[][][][][] [] [] [] [][][][][][] [] [][][]
+ [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] 
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1276
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1278
+\TU/lmr/m/n/12 pH-DML: [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][
+][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][]
+[][][] []
+ []
+
+
+Overfull \hbox (6.65248pt too wide) in paragraph at lines 1276--1278
+[][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
+][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 1278--1279
+\TU/lmr/m/n/12 tion for pH-DML: [][]$[][][][][] [] [] [] [][][][][][] [] [][][]
+ [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] 
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1278--1279
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[115]
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1376--1376
+[]\TU/lmtt/m/n/12 - Session info ----------------------------------------------
+-----------------[] 
+ []
+
+[116
+
+]
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1376--1376
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1386,44 +1709,44 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1285--1285
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[112]
+[117]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[113] [114]
+[118] [119]
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
-[115
+[120
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[116]
+[121]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[117]
+[122]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[118]
+[123]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[119]
+[124]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[120] [121] (./thesis.aux)
+[125] [126] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 20C94AB9E15F6BFD646E869A9DEEDA4A;2777.
+(rerunfilecheck)             Checksum: 8185B8FCDB987FA95232340F5C07143A;3653.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22945 strings out of 478475
- 428804 string characters out of 5858192
- 1203693 words of memory out of 5000000
- 42948 multiletter control sequences out of 15000+600000
+ 22951 strings out of 478475
+ 429277 string characters out of 5858192
+ 1209785 words of memory out of 5000000
+ 42954 multiletter control sequences out of 15000+600000
  409220 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,7n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (132 pages).
+Output written on thesis.pdf (138 pages).
