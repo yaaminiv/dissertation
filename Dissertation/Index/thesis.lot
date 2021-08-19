@@ -4,31 +4,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {1.1}{Outplant locations and time of day and tidal height at collection}}{23}{table.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.2}{Competing models with relative support (ΔAIC < 2) using AIC analysis for each response variable}}{24}{table.1.2}%
+\contentsline {table}{\numberline {1.2}{Target peptides used for Selected Reaction Monitoring Assay (SRM)}}{24}{table.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.3}{Summary Statistics of Best Models}}{26}{table.1.3}%
+\contentsline {table}{\numberline {1.3}{Outplant conditions}}{25}{table.1.3}%
 \defcounter {refsection}{0}\relax 
-\addvspace {5\p@ }
+\contentsline {table}{\numberline {1.4}{ANOSIM for mean environmental conditions}}{26}{table.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{Ranges of stable isotope data}}{54}{table.2.1}%
+\contentsline {table}{\numberline {1.5}{ANOSIM for variance of environmental conditions}}{27}{table.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{Environmental Datasets}}{55}{table.2.2}%
+\contentsline {table}{\numberline {1.6}{Pairwise ANOSIM for protein abundance}}{28}{table.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{Reduced Time Series}}{57}{table.2.3}%
+\contentsline {table}{\numberline {1.7}{RDA Results}}{29}{table.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.4}{Nitrogen Phenylalanine T-Test}}{58}{table.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.5}{Bulk Carbon T-Test}}{59}{table.2.5}%
+\contentsline {table}{\numberline {1.8}{Protein functions}}{30}{table.1.8}%
 \defcounter {refsection}{0}\relax 
 \addvspace {5\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{ Correlation of Inheritance Factors for Parents and Child}}{77}{table.3.1}%
+\contentsline {table}{\numberline {2.1}{Ranges of stable isotope data}}{58}{table.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{Environmental Datasets}}{59}{table.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{Reduced Time Series}}{61}{table.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.4}{Nitrogen Phenylalanine T-Test}}{62}{table.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.5}{Bulk Carbon T-Test}}{63}{table.2.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {5\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{Trophic position parameter values for Equation 2}}{105}{table.4.1}%
+\contentsline {table}{\numberline {3.1}{ Correlation of Inheritance Factors for Parents and Child}}{81}{table.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{Candidate Models}}{106}{table.4.2}%
+\addvspace {5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{Trophic position parameter values for Equation 2}}{109}{table.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{Candidate Models}}{110}{table.4.2}%
 \defcounter {refsection}{0}\relax 
 \addvspace {5\p@ }
 \defcounter {refsection}{0}\relax 

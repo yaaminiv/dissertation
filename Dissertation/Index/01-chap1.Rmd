@@ -141,14 +141,16 @@ deployment <- read.csv("data/Ch1/Table1.1.csv")
 ```
 \clearpage
 
+\begin{landscape}
 **Table** \@ref(tab:targets): Proteins used as targets for a Selected Reaction Monitoring Assay (SRM). Targets were identified based on differential abundance and stress-related annotations. At least two peptides and six transitions were included in the assy for each protein. The protein Catalase had two isoforms under separate proteome IDs — CHOYP_CATA.1.3|m.11120 and CHOYP_CATA.3.3|m.21642 — and target peptides were chosen from both IDs. A total of four peptides and twelve associated transitions were used as SRM targets.
 
 ```{r targets,echo=FALSE}
 targets <- read.csv("data/Ch1/Table1.2.csv")
-  kableExtra:::kable_styling(knitr::kable(supp1, "latex",col.names = gsub("[.]", " ", names(targets)), 
+  kableExtra:::kable_styling(knitr::kable(targets, "latex",col.names = gsub("[.]", " ", names(targets)), 
                   caption = "Target peptides used for Selected Reaction Monitoring Assay (SRM)",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
+\end{landscape}
 \clearpage
 
 **Table** \@ref(tab:outplantenv): Environmental conditions (mean ± standard deviation) at outplant locations (Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), Willapa Bay (WB).
@@ -171,11 +173,11 @@ envmeans <- read.csv("data/Ch1/Table1.4.csv")
 ```
 \clearpage
 
-**Table** \@ref(tab:envvar): Analysis of Similarities (ANOSIM) R statistic and p-value for environmental variable variances by site and habitat. Values significant at the 0.05 level are marked by a double asterisk, and values significant at the 0.10 level are marked by a single asterisk.
+**Table** \@ref(tab:envvariance): Analysis of Similarities (ANOSIM) R statistic and p-value for environmental variable variances by site and habitat. Values significant at the 0.05 level are marked by a double asterisk, and values significant at the 0.10 level are marked by a single asterisk.
 
-```{r envvar, echo=FALSE}
-envvar <- read.csv("data/Ch1/Table1.5csv")
-  kableExtra:::kable_styling(knitr::kable(envvar, "latex",col.names = gsub("[.]", " ", names(envvar)), 
+```{r envvariance, echo=FALSE}
+envvariance <- read.csv("data/Ch1/Table1.5.csv")
+  kableExtra:::kable_styling(knitr::kable(envvariance, "latex",col.names = gsub("[.]", " ", names(envvariance)), 
                   caption = "ANOSIM for variance of environmental conditions",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
@@ -201,6 +203,7 @@ RDA <- read.csv("data/Ch1/Table1.7.csv")
 ```
 \clearpage
 
+\begin{landscape}
 **Table** \@ref(tab:protfunctions): Functions of differentially abundant proteins.
 
 ```{r protfunctions, echo=FALSE}
@@ -209,6 +212,7 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
                   caption = "Protein functions",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
+\end{landscape}
 \clearpage
 
 ##Figures
