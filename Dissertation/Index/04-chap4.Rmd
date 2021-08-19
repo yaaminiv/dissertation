@@ -126,6 +126,8 @@ The presence of interaction-DML suggests genomic and environmental variation can
 
 It is critical to understand the molecular mechanisms underpinning genomic regulation and environmental response in aquaculture species to improve production. Our single base-pair resolution sequencing of *C. gigas* ctenidia methylomes reveals distinct biological processes and molecular functions impacted by ploidy status and low pH exposure. In particular, pH influenced molecular and cellular degradation processes in both diploid and triploid oysters while ploidy had a smaller impact on cell binding. Interestingly, the lack of gene ontology enrichment in methylation responses associated with both ploidy and pH suggests that genomic and environmental variation have a lesser effect on physiology together than separately. Future studies should examine if the differential methylation observed in this study results in persistent changes in gene expression and stress tolerance phenotypes. If these DML can influence phenotype, environmental hardening in the hatchery may increase oyster resilience to low pH stressors and improve triploid production [@Gavery2017].
 
+\clearpage
+
 ## Tables
 
 **Table** \@ref(tab:enrichedterms): Significantly enriched GOterms identified using a Fisher’s exact test. There were 3 biological process terms associated with ploidy-DML, 10 biological process terms associated with pH-DML, and 8 molecular function terms associated with pH-DML. Biological process terms for ploidy-DML were broadly associated with cell-cell adhesion and dephosphorylation, while apopotis was enriched in pH-DML. Molecular functions overrepresented in genes with pH-DML were associated with protein ubiquitination, cytoskeletal proteins, and zinc ion binding.

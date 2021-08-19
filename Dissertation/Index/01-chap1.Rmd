@@ -142,6 +142,8 @@ Differential abundance of target proteins observed between sibling oysters place
 
 As global climate change continues to rapidly influence estuarine dynamics, this study illustrates the importance of investigating the effect of multiple modes of change on organismal physiology in situ. Our finding that oysters used generalist proteins to ameliorate stressors implies that assays for elucidating responses to multiple drivers in situ should include these conserved responses in addition to specific, stressor-related proteins identified in laboratory experiments. Pacific oysters are grown commercially throughout the Pacific Northwest region of the United States, so it is possible the population used for this study has a broad environmental tolerance. Proteomic assays allow for quantification of that tolerance, which is crucial for aquaculture industry and natural resource management. Future in situ explorations of environmental drivers on physiology should include a longer outplant duration, additional environmental variables, and multiple sampling points to provide a clearer connection between ecosystem dynamics and physiological performance.
 
+\clearpage
+
 ## Tables
 
 **Table** \@ref(tab:deployment):  Latitude and longitude of *C. gigas* outplants, as well as time of day and tidal height at collection. Oysters were placed at five locations sites: Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), and Willapa Bay (WB).
