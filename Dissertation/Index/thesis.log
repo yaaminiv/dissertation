@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 14:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,7 +1250,14 @@ File: figure/Ch3/Figure3.5.pdf Graphic file (type pdf)
 [84
 
 
-] [85]
+]
+Underfull \hbox (badness 1127) in paragraph at lines 956--957
+\TU/lmr/m/n/12 levels ([][]\TU/lmr/bx/n/12 Shpigel1992?[][]\TU/lmr/m/n/12 ), tr
+iploid eastern oysters (\TU/lmr/m/it/12 C. virginica\TU/lmr/m/n/12 ) are more s
+ensitive to
+ []
+
+[85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [86]
@@ -1331,10 +1338,7 @@ from_genomic.fna
 [95] [96]
 Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[97] [98] [99]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[100] [101]
+[97] [98] [99] [100] [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [102]
@@ -1342,20 +1346,39 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [103] [104] [105
 
-] [106
-
-] [107
+]
+File: figure/Ch4/Figure4.1.pdf Graphic file (type pdf)
+<use figure/Ch4/Figure4.1.pdf>
+[106
 
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1249--1249
+File: figure/Ch4/Figure4.2.pdf Graphic file (type pdf)
+<use figure/Ch4/Figure4.2.pdf>
+[107
+
+]
+File: figure/Ch4/Figure4.3.pdf Graphic file (type pdf)
+<use figure/Ch4/Figure4.3.pdf>
+[108
+
+]
+File: figure/Ch4/Figure4.4.pdf Graphic file (type pdf)
+<use figure/Ch4/Figure4.4.pdf>
+[109
+
+] [110
+
+
+]
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1285--1285
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[108
+[111
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1249--1249
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1285--1285
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1363,31 +1386,31 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1249--1249
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[109]
+[112]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[110] [111]
+[113] [114]
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
-[112
+[115
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[113]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[114]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[115]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[117] [118] (./thesis.aux)
+[117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[120] [121] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 20C94AB9E15F6BFD646E869A9DEEDA4A;2777.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1395,12 +1418,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22900 strings out of 478475
- 427728 string characters out of 5858192
- 1203401 words of memory out of 5000000
- 42908 multiletter control sequences out of 15000+600000
+ 22945 strings out of 478475
+ 428804 string characters out of 5858192
+ 1203693 words of memory out of 5000000
+ 42948 multiletter control sequences out of 15000+600000
  409220 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,7n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (129 pages).
+Output written on thesis.pdf (132 pages).
