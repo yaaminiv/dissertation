@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 01:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,78 +1026,74 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 [17] [18]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[20]
-Missing character: There is no  (U+F064) in font [lmroman12-regular]:mapping=t
+[19] [20]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[21]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[22] [23] [24] [25
+[21] [22] [23
 
 
 ]
-Overfull \hbox (17.92484pt too wide) in paragraph at lines 437--437
+Overfull \hbox (17.92484pt too wide) in paragraph at lines 446--446
 []\TU/lmtt/m/n/12 Warning in read.table(file = file, header = header, sep = sep
 , quote = quote, :[] 
  []
 
-[26
+[24
 
+
+] [25
+
+] [26
 
 ] [27
 
 ] [28
 
-] [29
-
-] [30
-
 ]
-Overfull \hbox (94.07013pt too wide) in alignment at lines 540--553
+Overfull \hbox (94.07013pt too wide) in alignment at lines 549--562
  [] [] 
  []
 
-[31
+[29
 
 
 ]
 File: figure/Ch1/fig1.1.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.1.pdf>
 
-Overfull \hbox (3.30663pt too wide) in paragraph at lines 563--564
+Overfull \hbox (3.30663pt too wide) in paragraph at lines 572--573
 [][] 
  []
 
-[32
+[30
 
 
 ]
 
-LaTeX Warning: Reference `tab:suppmod1' on page 33 undefined on input line 569.
+LaTeX Warning: Reference `tab:suppmod1' on page 31 undefined on input line 578.
 
 
 File: figure/Ch1/Figure2_Feddernetal.pdf Graphic file (type pdf)
 <use figure/Ch1/Figure2_Feddernetal.pdf>
-[33
+[31
 
 ]
 
-LaTeX Warning: Reference `tab:suppmod1' on page 34 undefined on input line 577.
+LaTeX Warning: Reference `tab:suppmod1' on page 32 undefined on input line 586.
 
 
 File: figure/Ch1/Figure3_Feddernetal.pdf Graphic file (type pdf)
 <use figure/Ch1/Figure3_Feddernetal.pdf>
-[34
+[32
 
 ]
 
-LaTeX Warning: Reference `tab:suppmod1' on page 35 undefined on input line 585.
+LaTeX Warning: Reference `tab:suppmod1' on page 33 undefined on input line 594.
 
 
 File: figure/Ch1/ch1residuals.pdf Graphic file (type pdf)
@@ -1105,339 +1101,339 @@ File: figure/Ch1/ch1residuals.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[33
+
+] [34]
+<<2>>
 [35
 
 ] [36]
-<<2>>
-[37
-
-] [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[39]
+[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[40] [41]
+[38] [39]
 
-LaTeX Warning: Command \textperthousand invalid in math mode on input line 619.
-
-
-
-LaTeX Warning: Command \textperthousand invalid in math mode on input line 624.
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 628.
 
 
-[42]
+
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 633.
+
+
+[40]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 640.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 649.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 640.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 649.
 
-[43] [44]
+[41] [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45]
+[43]
 Missing character: There is no θ (U+03B8) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[46]
+[44]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[47] [48]
+[45] [46]
 Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[49]
+[47]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[50] [51]
+[48] [49]
 Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[50]
+Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [52]
-Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
-ex-text;!
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
 [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[54]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[56] [57] [58]
+[54] [55] [56]
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman8-regular]:mapping=te
 x-text;!
-[59
+[57
 
 ]
-Overfull \hbox (43.29405pt too wide) in alignment at lines 753--770
+Overfull \hbox (43.29405pt too wide) in alignment at lines 762--779
  [] [] [] [] 
  []
 
-[60
+[58
 
 
-] [61] [62
+] [59] [60
 
 ]
-Overfull \hbox (17.92484pt too wide) in paragraph at lines 800--800
+Overfull \hbox (17.92484pt too wide) in paragraph at lines 809--809
 []\TU/lmtt/m/n/12 Warning in read.table(file = file, header = header, sep = sep
 , quote = quote, :[] 
  []
 
-[63
+[61
 
 ]
-Overfull \hbox (17.92484pt too wide) in paragraph at lines 821--821
+Overfull \hbox (17.92484pt too wide) in paragraph at lines 830--830
 []\TU/lmtt/m/n/12 Warning in read.table(file = file, header = header, sep = sep
 , quote = quote, :[] 
  []
 
-[64
+[62
 
-] [65
+] [63
 
 ]
 File: figure/Ch2/Figure1.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure1.pdf>
-[66
+[64
 
 ]
 File: figure/Ch2/Fig2_Map.pdf Graphic file (type pdf)
 <use figure/Ch2/Fig2_Map.pdf>
 
-Overfull \hbox (94.05756pt too wide) in paragraph at lines 854--855
+Overfull \hbox (94.05756pt too wide) in paragraph at lines 863--864
  [][] 
  []
 
-[67
+[65
 
 
 ]
 File: figure/Ch2/Figure3_SexLocation.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure3_SexLocation.pdf>
-[68
+[66
 
 ]
 File: figure/Ch2/hiermod.pdf Graphic file (type pdf)
 <use figure/Ch2/hiermod.pdf>
-[69
+[67
 
 ]
 File: figure/Ch2/Figure5_CoefPlot.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure5_CoefPlot.pdf>
-[70
+[68
 
 ]
 File: figure/Ch2/Figure6_AK.GDFA.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure6_AK.GDFA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--898
+Underfull \hbox (badness 10000) in paragraph at lines 899--907
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[71
+[69
 
-] [72]
+] [70]
 File: figure/Ch2/Figure7_WA.GDFA.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure7_WA.GDFA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--908
+Underfull \hbox (badness 10000) in paragraph at lines 909--917
 
  []
 
-[73
+[71
 
 ]
 File: figure/Ch2/figures2.png Graphic file (type bmp)
 <figure/Ch2/figures2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--918
+Underfull \hbox (badness 10000) in paragraph at lines 919--927
 
  []
 
-[74
+[72
 
 ]
 File: figure/Ch2/FigureS2.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS2.pdf>
-[75
+[73
 
 ]
 File: figure/Ch2/FigureS3.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS3.pdf>
-[76
+[74
 
 ]
 File: figure/Ch2/FigureS4.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS4.pdf>
-[77
+[75
 
 ]
 File: figure/Ch2/FigureS5.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS5.pdf>
-[78
+[76
 
 ]
 File: figure/Ch2/FigureS6.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS6.pdf>
-[79
+[77
 
 ]
 File: figure/Ch2/FigureS7.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS7.pdf>
-[80
+[78
 
 ]
 File: figure/Ch2/FigureS8.pdf Graphic file (type pdf)
 <use figure/Ch2/FigureS8.pdf>
 
-Overfull \hbox (31.35918pt too wide) in paragraph at lines 985--986
+Overfull \hbox (31.35918pt too wide) in paragraph at lines 994--995
  [][] 
  []
 
-[81
+[79
 
 ]
 <<3>>
-[82
+[80
 
 ]
 
-LaTeX Warning: Reference `tab:maxdelays' on page 83 undefined on input line 101
-8.
+LaTeX Warning: Reference `tab:maxdelays' on page 81 undefined on input line 102
+7.
 
-[83]
+[81]
 File: figure/uw.png Graphic file (type bmp)
 <figure/uw.png>
-[84
+[82
 
-] [85]
+] [83]
 
-LaTeX Warning: Reference `rmd-basics' on page 86 undefined on input line 1040.
+LaTeX Warning: Reference `rmd-basics' on page 84 undefined on input line 1049.
 
 File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/delaysboxplot-1.pdf>
+[84
+
+] [85]
+File: figure/subdivision.pdf Graphic file (type pdf)
+<use figure/subdivision.pdf>
+File: figure/subdivision.pdf Graphic file (type pdf)
+<use figure/subdivision.pdf>
 [86
 
 ] [87]
-File: figure/subdivision.pdf Graphic file (type pdf)
-<use figure/subdivision.pdf>
-File: figure/subdivision.pdf Graphic file (type pdf)
-<use figure/subdivision.pdf>
-[88
 
-] [89]
-
-LaTeX Warning: Reference `rmd-basics' on page 90 undefined on input line 1094.
+LaTeX Warning: Reference `rmd-basics' on page 88 undefined on input line 1103.
 
 
-LaTeX Warning: Reference `r-chunks' on page 90 undefined on input line 1096.
+LaTeX Warning: Reference `r-chunks' on page 88 undefined on input line 1105.
 
 
-LaTeX Warning: Reference `rmd-basics' on page 90 undefined on input line 1096.
+LaTeX Warning: Reference `rmd-basics' on page 88 undefined on input line 1105.
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1105--1106
+Underfull \hbox (badness 1509) in paragraph at lines 1114--1115
 \TU/lmr/m/n/12 talks about using BibTeX, at [][]$[][][][] [] [] [] [][][] [] []
 [][][] [] [][][] [] [][][] [] [][][][] [] [][][][][] [] [][][][][][] [] [][][][
 ]$[][]),
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 1105--1106
+Underfull \hbox (badness 5345) in paragraph at lines 1114--1115
 \TU/lmr/m/n/12 needs, at [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][] []
  [][][] [] [][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][]$[][])
  and \TU/lmr/m/it/12 bibman
  []
 
-[90]
+[88]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[91] [92]
+[89] [90]
 <<4>>
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
-[93
+[91
 
 ]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[94]
+[92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[95]
+[93]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[96] [97]
+[94] [95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[98]
+[96]
 
-LaTeX Warning: Command \textperthousand invalid in math mode on input line 1162
+LaTeX Warning: Command \textperthousand invalid in math mode on input line 1171
 .
 
-[99] [100]
+[97] [98]
 Missing character: There is no α ("3B1) in font cmmi8!
 Missing character: There is no α ("3B1) in font cmmi8!
 
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
-[101] [102] [103] [104]
+[99] [100] [101] [102]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[104]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [105]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[106]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-[107]
 Missing character: There is no β (U+03B2) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[108] [109] [110
+[106] [107] [108
 
 ]
-Overfull \hbox (10.17705pt too wide) in alignment at lines 1264--1277
+Overfull \hbox (10.17705pt too wide) in alignment at lines 1273--1286
  [] [] [] [] [] 
  []
 
-[111
+[109
 
-] [112
+] [110
 
 
 ]
 <<A>>
+[111
+
+] [112]
+<<B>>
 [113
 
-] [114]
-<<B>>
-[115
-
 ]
-Overfull \hbox (11.7445pt too wide) in paragraph at lines 1424--1424
+Overfull \hbox (11.7445pt too wide) in paragraph at lines 1433--1433
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[116
+[114
 
 ]
-Overfull \hbox (11.74449pt too wide) in paragraph at lines 1424--1424
+Overfull \hbox (11.74449pt too wide) in paragraph at lines 1433--1433
 []\TU/lmtt/m/n/12 - Packages --------------------------------------------------
 -----------------[] 
  []
@@ -1445,16 +1441,16 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1424--1424
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[117]
+[115]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[118] [119]
+[116] [117]
 Underfull \vbox (badness 1127) has occurred while \output is active []
 
-[120
+[118
 
 
-] [121] (./thesis.aux)
+] [119] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1468,12 +1464,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23151 strings out of 478475
- 432063 string characters out of 5858192
- 1203165 words of memory out of 5000000
- 43117 multiletter control sequences out of 15000+600000
+ 23154 strings out of 478475
+ 432216 string characters out of 5858192
+ 1203416 words of memory out of 5000000
+ 43120 multiletter control sequences out of 15000+600000
  414614 words of font info for 92 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,10n,81p,3215b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (132 pages).
+Output written on thesis.pdf (130 pages).
