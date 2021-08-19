@@ -72,7 +72,7 @@ Gene enrichment analysis was conducted with `topGO` v.2.34.0 in R [@Alexa2010]. 
 
 ### Sequence Alignment
 
-Whole genome bisulfite sequencing produced 1.38 x 10^9^ total 150 bp paired-end reads. After quality trimming, 1.35 x 10^9^ total paired reads remained ([Supplementary Table 1](https://github.com/RobertsLab/project-gigas-oa-meth/blob/master/output/05-bismark-roslin/sequencing-summary-table.csv)). Of the trimmed paired-end reads, 8.31 x 108 (61.7%) were uniquely aligned to the bisulfite-converted *C. gigas* genome with appended mitochondrial sequence.
+Whole genome bisulfite sequencing produced 1.38 x 10^9^ total 150 bp paired-end reads. After quality trimming, 1.35 x 10^9^ total paired reads remained. Of the trimmed paired-end reads, 8.31 x 108 (61.7%) were uniquely aligned to the bisulfite-converted *C. gigas* genome with appended mitochondrial sequence.
 
 ### SNP Identification
 
@@ -118,12 +118,12 @@ As inheritance of environmentally-induced methylation — and any resulting phen
 
 \begin{landscape}
 
-Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO\textsubscript{2} (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω\textsubscript{calcite}), and aragonite saturation state (Ω\textsubscript{aragonite}) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO\textsubscript{2}, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω\textsubscript{calcite}), and aragonite saturation (Ω\textsubscript{aragonite}) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F\textsubscript{1, 16} = 5838.7810, p = 6.1165e-22), pCO\textsubscript{2} (One-way ANOVA; F\textsubscript{1, 16} = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F\textsubscript{1, 16} = 7.1222, p = 0.0168), Ω\textsubscript{calcite} (One-way ANOVA; F\textsubscript{1, 16} = 528.9468, p = 1.0989e-13), Ω\textsubscript{aragonite} (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F\textsubscript{1, 16} = 1.382, p = 0.2570).
+Table 3.1: Summary of published studies examining the impact of environmental stressors on oyster methylation (NR = not reported).
 
-```{r carbchem,echo=FALSE}
-carbchem <- read.csv("data/Ch2/Table2.1.csv")
-  kableExtra:::kable_styling(knitr::kable(carbchem, "latex",col.names = gsub("[.]", " ", names(carbchem)), 
-                  caption = "Carbonate chemistry parameters for control (C) and experimental (E) tanks",
+```{r oystermethstudies,echo=FALSE}
+oystermethstudies <- read.csv("data/Ch3/Table3.1.csv")
+  kableExtra:::kable_styling(knitr::kable(oystermethstudies, "latex",col.names = gsub("[.]", " ", names(oystermethstudies)), 
+                  caption = "Previous oyster methylation studies",
                   longtable = TRUE, booktabs = TRUE), font_size = 5)
 ```
 
