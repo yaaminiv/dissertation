@@ -96,7 +96,7 @@ The importance of environmental variables for explaining peptide abundance was e
 
 ### Conditions at Outplant Locations
 
-Outplanted oysters experienced environmental variables representative of standard summer conditions in Puget Sound (PS) and WB. Wild or cultured oysters were present at the same tidal elevation as sensors, so outplant conditions represent experiences of non-experimental organisms. NMDS plots revealed mean environmental conditions were more similar among sites than variances. Both NMDS had stress values less than 0.20 and were considered appropriate multivariate representations of environmental data (Mean NMDS: stress = 0.0170, p = 0.0100; Variance NMDS: stress = 0.0340, p = 0.0100). Mean dissolved oxygen and temperature were significantly different between sites (Table \@ref(tab:envmeans); ANOSIM; dissolved oxygen: R = 0.4063, p = 0.0530; temperature: R = 1.0000, p = 0.0020), but not between habitats. Variances of all environmental parameters were significantly different between sites (Table 5; ANOSIM; pH: R = 0.5313, p = 0.0180; dissolved oxygen: R = 0.6800, p = 0.0030; salinity: R = 0.8400, p = 0.0130; temperature: R = 0.9400, p = 0.0010). WB had the warmest, but least variable, temperature of 18.0ºC ± 1.3ºC compared to averages ranging from 14.8ºC ± 1.8ºC to 16.1ºC ± 1.7ºC in PS (Table \@ref(tab:outplantenv); Figure 2). All variance values, mean pH, and mean salinity were not significantly different between habitats (Table \@ref(tab:envmeans); Table \@ref(tab:envvariance)). 
+Outplanted oysters experienced environmental variables representative of standard summer conditions in Puget Sound (PS) and WB. Wild or cultured oysters were present at the same tidal elevation as sensors, so outplant conditions represent experiences of non-experimental organisms. NMDS plots revealed mean environmental conditions were more similar among sites than variances. Both NMDS had stress values less than 0.20 and were considered appropriate multivariate representations of environmental data (Mean NMDS: stress = 0.0170, p = 0.0100; Variance NMDS: stress = 0.0340, p = 0.0100). Mean dissolved oxygen and temperature were significantly different between sites (Table \@ref(tab:envmeans); ANOSIM; dissolved oxygen: R = 0.4063, p = 0.0530; temperature: R = 1.0000, p = 0.0020), but not between habitats. Variances of all environmental parameters were significantly different between sites (Table 5; ANOSIM; pH: R = 0.5313, p = 0.0180; dissolved oxygen: R = 0.6800, p = 0.0030; salinity: R = 0.8400, p = 0.0130; temperature: R = 0.9400, p = 0.0010). WB had the warmest, but least variable, temperature of 18.0ºC ± 1.3ºC compared to averages ranging from 14.8ºC ± 1.8ºC to 16.1ºC ± 1.7ºC in PS (Table \@ref(tab:outplantenv); Figure \@ref(fig:envdatalines)). All variance values, mean pH, and mean salinity were not significantly different between habitats (Table \@ref(tab:envmeans); Table \@ref(tab:envvariance)). 
 
 Although oyster position was standardized by tidal height, outplanted oysters experienced different amounts of exposure at low tide at each site due to differences in tidal amplitude (χ~4~^2^ = 25.29, p < 0.0001). Oysters at FB spent the highest percent of time emersed at tides less than 1 foot MLLW (13.99%; 188 hours), followed by PG (10.93%; 146 hours), SK (10.29%; 138 hours), CI (9.35%; 125 hours), and WB (8.48%; 113 hours). CI and FB outplants (p = 0.0021), FB and SK outplants (p = 0.0324), and FB and WB outplants (p < 0.0001) spent significantly different amounts of time emersed during low tide conditions.
 
@@ -110,7 +110,7 @@ Differential abundance of protein targets was evaluated at the peptide level aft
 
 Rank distances between peptide abundances in multivariate space revealed differences in peptide abundance between WB versus the other four sites (NMDS: stress = 0.0750, p = 0.0099). One-way ANOSIM by site demonstrated no significant differences in peptide abundance (R = 0.0640, p = 0.065), but a one-way ANOSIM by region (PS vs. WB) revealed a trend towards peptide abundance differences (R = 0.2260, p = 0.0530). Peptide abundance was significantly different between FB and Willapa Bay (Table \@ref(tab:protANOSIM); Pairwise ANOSIM; R = 0.2568, p = 0.0350). Environmental variables explained 29% of variance in peptide abundance, but the proportion of variation explained was not significant (ANOVA for RDA; F6,19 = 1.3064; p = 0.1950). Temperature mean and variance were the two most influential environmental predictors of peptide abundance, but were not significant at the 0.05 level (ANOVA on RDA; Table \@ref(tab:RDA); temperature mean: F~1,19~ = 2.2375, p = 0.0650; temperature variance: F~1,19~ = 2.1627, p = 0.0670). Peptides differentially abundant between FB and WB are primarily positively loaded onto temperature mean, with two negatively loaded on temperature variance. Robustness of analysis was evaluated by performing a second RDA to predict peptide abundance based on mean and variance of temperature and pH at time of collection. Due to missing values, dissolved oxygen and salinity could not be included in analysis. Temperature variance was the most influential predictor of peptide abundance at time of collection, but was not significant at the 0.05 level (ANOVA on RDA;  F~1,13~ = 2.2312, p = 0.0800).
 
-Peroxiredoxin-5 (PRX), catalase (EC 1.11.1.6) (CAT), NAD(P) transhydrogenase (NADPt), glucose-6-phosphate 1-dehydrogenase (G6PD), carbonic anhydrase (CA), protein disulfide-isomerase 1 and 2 (PDI) had peptides that were identified as differentially abundant between Willapa Bay and Fidalgo Bay by SIMPER analysis (Figure 3). Fidalgo Bay peptide composition was differentiated by CA abundance, while all other significantly abundant proteins differentiated Willapa Bay. These proteins are involved in general cellular stress responses like reactive oxygen species neutralization or protein folding (Table 1.8). All differentially abundant proteins were detected at higher levels in the WB oysters than in oysters from the other four PS locations (CI, FB, PG, and SK), regardless of protein function (Figure 4). No differences in protein abundance were detected among the PS sites (Table \@ref(tab:protANOSIM)).
+Peroxiredoxin-5 (PRX), catalase (EC 1.11.1.6) (CAT), NAD(P) transhydrogenase (NADPt), glucose-6-phosphate 1-dehydrogenase (G6PD), carbonic anhydrase (CA), protein disulfide-isomerase 1 and 2 (PDI) had peptides that were identified as differentially abundant between Willapa Bay and Fidalgo Bay by SIMPER analysis (Figure \@ref(fig:pepordination)). Fidalgo Bay peptide composition was differentiated by CA abundance, while all other significantly abundant proteins differentiated Willapa Bay. These proteins are involved in general cellular stress responses like reactive oxygen species neutralization or protein folding (Table 1.8). All differentially abundant proteins were detected at higher levels in the WB oysters than in oysters from the other four PS locations (CI, FB, PG, and SK), regardless of protein function (Figure \@ref(fig:protheatmap)). No differences in protein abundance were detected among the PS sites (Table \@ref(tab:protANOSIM)).
 
 ## Discussion
 
@@ -132,7 +132,7 @@ Much like cellular response to ROS, increased levels of protein disulfide isomer
 
 ### Proteomic Responses in Puget Sound and Between Habitats
 
-Due to the observed differences across environmental parameters between Willapa Bay and Puget Sound locations, similar abundances for proteins involved in various environmental responses may be evidence of physiological plasticity. One particular protein that we expected to be differentially abundant was heat shock 70 kDA protein 12A (HSP12A), since Willapa Bay had higher average temperatures (Table \@ref(tab:outplantenv)). However, this trend was not observed. Higher abundances of heat shock proteins (HSPs) are generally induced when organisms are exposed to thermal stress [@Hamdoun2003; @Zhang2015]. In our experiment, average temperatures *C. gigas* experienced were lower than the 30ºC threshold to induce elevated HSP expression in a controlled setting (Figure 2; Table \@ref(tab:outplantenv)), which would explain why we did not see elevated HSP12A expression in WB [@Hamdoun2003]. 
+Due to the observed differences across environmental parameters between Willapa Bay and Puget Sound locations, similar abundances for proteins involved in various environmental responses may be evidence of physiological plasticity. One particular protein that we expected to be differentially abundant was heat shock 70 kDA protein 12A (HSP12A), since Willapa Bay had higher average temperatures (Table \@ref(tab:outplantenv)). However, this trend was not observed. Higher abundances of heat shock proteins (HSPs) are generally induced when organisms are exposed to thermal stress [@Hamdoun2003; @Zhang2015]. In our experiment, average temperatures *C. gigas* experienced were lower than the 30ºC threshold to induce elevated HSP expression in a controlled setting (Figure \@ref(fig:envdatalines); Table \@ref(tab:outplantenv)), which would explain why we did not see elevated HSP12A expression in WB [@Hamdoun2003].
 
 The lack of differential abundance for protein targets — both among Puget Sound sites and between unvegetated and eelgrass habitats — was unexpected. These similar proteomic profiles could be due to four factors. First, it is possible that a different suite of environmental response proteins in the SRM assay could have yielded a different view of acclimatization to the various outplant sites; however, the targets we chose have proven to yield insight into a range of environmental responses in previous studies (ex. Table 1.8). Second, outplant duration could have been too short to capture varied physiological response within Puget Sound, or oysters could have also acclimatized to conditions in their outplant locations. Third, post-translational modifications may have influenced how we detected proteins. Abundance between sites or habitats may have been similar, but addition of post-translational modifications may have varied. Finally, it is possible that the proteomic response was not different because the environmental conditions that would elicit up- or down-regulation of monitored proteins were similar across these five locations. For example, we found no differences in environmental conditions between eelgrass and unvegetated areas, nor any differences in protein responses between these habitats (Table \@ref(tab:envmeans); Table \@ref(tab:envvariance)). Our results suggest that the potential vegetation-based systems of remediation could be limited under current conditions in the field. A recent comparison of stable isotopes and fatty acid composition in *C. gigas* at eelgrass and unvegetated habitats found no differences in δ13C, δ15N, total fatty acids, or proportional fatty composition in WB outplants, providing another line of evidence that suggests habitat may not affect *C. gigas* physiological performance [@Lowe2018]. 
 
@@ -236,38 +236,39 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
 ## Figures
 
 **Figure** \@ref(fig:sitemap): Map of outplant locations. Oysters were placed at five sites: Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), and Willapa Bay (WB). Sites in Puget Sound are outlined in a grey box.\newline
-  
+
 \begin{figure}[h]
-  \includegraphics{figure/Ch1/fig1.1.pdf}
+  \includegraphics[width=0.65\textwidth]{figure/Ch1/fig1.1.pdf}
   \caption{Map of outplant sites}
   (\#fig:sitemap)
 \end{figure}
 
 \clearpage
 
-**Figure** \@ref(fig:modIsotope): Data (closed circles) and predicted values (open circles) for the model with the most support (Table \@ref(tab:suppmod1)) for soil organic  $\delta^{15}N$ and  $\delta^{13}C$,  $\delta^{15}N$ of NH~4~^+^, and C:N for both the salmon-enhanced and the salmondepleted banks of Hansen Creek at 1, 3, 6, 10, and 20 m from the edge of the creek bed with 95% confidence intervals (dashed line) for predicted values. Blue (a and c) denotes measures of marine-derived nitrogen, and green (b and d) denotes site variable factors.\newline
+**Figure** \@ref(fig:envdatalines): Environmental variables for each site (Case Inlet, Fidalgo Bay, Port Gamble Bay, Skokomish River Delta, and Willapa Bay) and habitat (unvegetated and eelgrass) over the course of the 29 day outplant.\newline
 
 \begin{figure}[h]
-  \includegraphics[width=0.85\textwidth]{figure/Ch1/Figure2_Feddernetal.pdf}
-  \caption{Data and predicted values for the model with the most support: Stable Isotopes}
-  (\#fig:modIsotope)
-\end{figure} 
-
-\clearpage
-
-**Figure** \@ref(fig:modConc): Data (closed circles) and predicted values (open circles) for the model with the most support (Table \@ref(tab:suppmod1)) for NH~4~^+^ and NO~3~^-^, net mineralization and nitrification, [N~org~], and gravimetric water content for both the salmon-enhanced and the salmon-depleted banks of Hansen Creek at 1, 3, 6, 10, and 20 m from the edge of the creek bed with 95% confidence intervals (dashed line) for predicted values. Red (a, b, c, d) denotes measures of soil productivity, and green (e and f) denotes site variable factors.\newline 
-
-\begin{figure}[h]
-  \includegraphics[width=0.85\textwidth]{figure/Ch1/Figure3_Feddernetal.pdf}
-  \caption{Data and predicted values for the model with the most support: Concentrations and Transformations}
-  (\#fig:modConc)
+  \includegraphics[width=1\textwidth]{figure/Ch1/fig1.2.pdf}
+  \caption{Environmental data at each site}
+  (\#fig:envdatalines)
 \end{figure}
+
 \clearpage
 
-**Figure** \@ref(fig:ch1resid): Predicted verse observed values and predicted verse residuals for the model with the most support (Table \@ref(tab:suppmod1), Figure \@ref(fig:modIsotope), \@ref(fig:modConc)) for each the response variables. \newline 
-\begin{figure}[h]
-  \includegraphics[width=1\textwidth]{figure/Ch1/ch1residuals.pdf}
-  \caption{Residual Plots for Best Models}
-  (\#fig:ch1resid)
-\end{figure} 
+**Figure** \@ref(fig:pepordination): Ordination results for peptide abundance and environmental data. a) Environmental variables (pH, dissolved oxygen, salinity, and temperature) explained 30% of variance in peptide abundance data; however, redundancy analysis (RDA) for peptide abundance constrained by environmental variable was not significant (ANOVA; F~6,19~ = 1.306, p = 0.195). Temperature mean and variance were the most influential, yet nonsignificant, environmental predictors (ANOVA; temperature mean: F~1,25~ = 2.3275, p = 0.065; temperature variance: F~1,25~ = 2.1527, p = 0.067). Peptides differentially abundant between Fidalgo Bay (FB) and Willapa Bay (WB) are primarily positively loaded onto temperature mean, with two negatively loaded on temperature variance. b) Non-metric multidimensional scaling plot depicting peptide abundance by site and habitat, with 95% confidence ellipses around each site (stress = 0.075, p = 0.0099). c) Peptides that contributed to significant peptide abundance differences between FB and WB, as determined by post-hoc similarity percentage analysis (SIMPER). Peptides denoted 1 correspond to peroxiredoxin-5 (PRX), 2 for carbonic anhydrase (CA), 3 for catalase (CAT), 4 for glucose-6-phosphate 1-dehydrogenase (G6PD), 5 for NADP transhydrogenase (NADPt), and 6 for protein disulfide isomerases 1 and 2 (PDI). FB peptide composition was differentiated by CA abundance, while all other proteins influenced peptide abundances at WB.\newline
 
+\begin{figure}[h]
+  \includegraphics[width=1\textwidth]{figure/Ch1/fig1.3.pdf}
+  \caption{Peptide abundance ordination results}
+  (\#fig:pepordination)
+\end{figure}
+
+\clearpage
+
+**Figure** \@ref(fig:protheatmap): Average protein abundance by constituent peptides across experimental sites from SRM. Peptide abundance data at each site was averaged, then log transformed. Proteins were considered differentially abundant if at least one constituent peptide was significantly different (indicated by an asterisk). There were no significant differences in protein abundance among the Puget Sound locations, or between unvegetated and eelgrass habitats. Proteins were only significantly different between Fidalgo Bay and Willapa Bay or Skokomish River Delta and Willapa Bay.\newline
+
+\begin{figure}[h]
+  \includegraphics[width=1\textwidth]{figure/Ch1/fig1.4.png}
+  \caption{Average protein abundance by site}
+  (\#fig:protheatmap)
+\end{figure}
