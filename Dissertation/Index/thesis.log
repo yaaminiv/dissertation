@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 10:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  19 AUG 2021 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,7 +1117,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [50] [51] [52
 
 ]
-Overfull \hbox (330.84023pt too wide) in alignment at lines 724--733
+Overfull \hbox (86.10521pt too wide) in alignment at lines 724--733
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1417,7 +1417,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  23156 strings out of 478475
  432062 string characters out of 5858192
- 1199977 words of memory out of 5000000
+ 1199965 words of memory out of 5000000
  43122 multiletter control sequences out of 15000+600000
  414614 words of font info for 92 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191

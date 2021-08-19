@@ -90,12 +90,12 @@ Significant decreases in larval abundance four months after broodstock were expo
 
 \begin{landscape}
 
-Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO<sub>2</sub> (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
+Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO~2<~ (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω~calcite~), and aragonite saturation state (Ω~aragonite~) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO~2~, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω~calcite~), and aragonite saturation (Ω~aragonite~) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F~1, 16~ = 5838.7810, p = 6.1165e-22), pCO~2~ (One-way ANOVA; F~1, 16~ = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F~1, 16~ = 7.1222, p = 0.0168), Ω~calcite~ (One-way ANOVA; F~1, 16~ = 528.9468, p = 1.0989e-13), Ω~aragonite~ (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F~1, 16~ = 1.382, p = 0.2570).
 
 ```{r carbchem,echo=FALSE}
-carbchem <- read.csv("data/Ch1/Table2.1.csv")
+carbchem <- read.csv("data/Ch2/Table2.1.csv")
   kableExtra:::kable_styling(knitr::kable(carbchem, "latex",col.names = gsub("[.]", " ", names(carbchem)), 
-                  caption = "Carbonate chemistry parameters",
+                  caption = "Carbonate chemistry parameters for control (C) and experimental (E) tanks",
                   longtable = TRUE, booktabs = TRUE), font_size = 5)
 ```
 
