@@ -249,6 +249,7 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
 **Figure** \@ref(fig:envdatalines): Environmental variables for each site (Case Inlet, Fidalgo Bay, Port Gamble Bay, Skokomish River Delta, and Willapa Bay) and habitat (unvegetated and eelgrass) over the course of the 29 day outplant.\newline
 
 \begin{figure}[h]
+\centering
   \includegraphics[width=1\textwidth]{figure/Ch1/fig1.2.pdf}
   \caption{Environmental data at each site}
   (\#fig:envdatalines)
@@ -259,6 +260,7 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
 **Figure** \@ref(fig:pepordination): Ordination results for peptide abundance and environmental data. a) Environmental variables (pH, dissolved oxygen, salinity, and temperature) explained 30% of variance in peptide abundance data; however, redundancy analysis (RDA) for peptide abundance constrained by environmental variable was not significant (ANOVA; F~6,19~ = 1.306, p = 0.195). Temperature mean and variance were the most influential, yet nonsignificant, environmental predictors (ANOVA; temperature mean: F~1,25~ = 2.3275, p = 0.065; temperature variance: F~1,25~ = 2.1527, p = 0.067). Peptides differentially abundant between Fidalgo Bay (FB) and Willapa Bay (WB) are primarily positively loaded onto temperature mean, with two negatively loaded on temperature variance. b) Non-metric multidimensional scaling plot depicting peptide abundance by site and habitat, with 95% confidence ellipses around each site (stress = 0.075, p = 0.0099). c) Peptides that contributed to significant peptide abundance differences between FB and WB, as determined by post-hoc similarity percentage analysis (SIMPER). Peptides denoted 1 correspond to peroxiredoxin-5 (PRX), 2 for carbonic anhydrase (CA), 3 for catalase (CAT), 4 for glucose-6-phosphate 1-dehydrogenase (G6PD), 5 for NADP transhydrogenase (NADPt), and 6 for protein disulfide isomerases 1 and 2 (PDI). FB peptide composition was differentiated by CA abundance, while all other proteins influenced peptide abundances at WB.\newline
 
 \begin{figure}[h]
+\centering
   \includegraphics[width=1\textwidth]{figure/Ch1/fig1.3.pdf}
   \caption{Peptide abundance ordination results}
   (\#fig:pepordination)
@@ -269,6 +271,7 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
 **Figure** \@ref(fig:protheatmap): Average protein abundance by constituent peptides across experimental sites from SRM. Peptide abundance data at each site was averaged, then log transformed. Proteins were considered differentially abundant if at least one constituent peptide was significantly different (indicated by an asterisk). There were no significant differences in protein abundance among the Puget Sound locations, or between unvegetated and eelgrass habitats. Proteins were only significantly different between Fidalgo Bay and Willapa Bay or Skokomish River Delta and Willapa Bay.\newline
 
 \begin{figure}[h]
+\centering
   \includegraphics[width=1\textwidth]{figure/Ch1/fig1.4.png}
   \caption{Average protein abundance by site}
   (\#fig:protheatmap)

@@ -122,10 +122,8 @@ Figure 2.1: Pacific oysters (n = 140) were acclimated for 15 days, then twenty w
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=1.2\textwidth]{figure/Ch2/Figure2.2.pdf}
-  \caption{Distribution of harbor seal specimens}
+  \includegraphics[width=0.85\textwidth]{figure/Ch2/Figure2.2.pdf}
+  \caption{Larval survival 18 hours post-fertilization}
   (\#fig:carryoverboxplot)
 \end{figure}
 \clearpage
-
-
