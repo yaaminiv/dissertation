@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Protein Quantification}{9}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Protein Digestion}{9}{section*.8}%
+\contentsline {subsubsection}{Protein Digestion}{10}{section*.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Peptide Isolation}{10}{section*.9}%
 \defcounter {refsection}{0}\relax 
@@ -42,7 +42,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Data Independent Acquisition Mass Spectrometry}{16}{subsection.1.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Selected Reaction Monitoring Assay}{16}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.3}Selected Reaction Monitoring Assay}{17}{subsection.1.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Discussion}{18}{section.1.5}%
 \defcounter {refsection}{0}\relax 
@@ -50,38 +50,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.2}Molecular Chaperones Involved in Protein Folding}{20}{subsection.1.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.3}Proteomic Responses in Puget Sound and Between Habitats}{20}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.3}Proteomic Responses in Puget Sound and Between Habitats}{21}{subsection.1.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Tables}{22}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Conclusion}{22}{section.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Figures}{30}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Tables}{23}{section.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change}{35}{chapter.2}%
+\contentsline {section}{\numberline {1.8}Figures}{31}{section.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{80}{chapter.3}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Stable isotope signatures in historic harbor seal bone link food web-assimilated carbon and nitrogen resources to a century of environmental change}{36}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Tables}{80}{section.3.1}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Tables, Graphics, References, and Labels}{81}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Figures}{82}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Tables}{81}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{86}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Figures}{83}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{87}{section.3.4}%
+\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{87}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Bibliographies}{88}{section.3.5}%
+\contentsline {section}{\numberline {3.4}Cross-referencing chapters and sections}{88}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Anything else?}{90}{section.3.6}%
+\contentsline {section}{\numberline {3.5}Bibliographies}{89}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{91}{chapter.4}%
+\contentsline {section}{\numberline {3.6}Anything else?}{91}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{110}{chapter*.13}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Recent divergent changes in Alaskan pinniped trophic position detected using compound-specific stable isotope analysis}{92}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{111}{appendix.A}%
+\contentsline {chapter}{Conclusion}{111}{chapter*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{111}{section.A.1}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Appendix 1}{112}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{113}{appendix.B}%
+\contentsline {section}{\numberline {A.1}Full analytical details for bulk stable isotopes}{112}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Colophon}{114}{appendix*.14}%
+\contentsline {chapter}{\numberline {\@textofAppendix \ B:}The Second Appendix, for Fun}{114}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{118}{appendix*.15}%
+\contentsline {chapter}{Colophon}{115}{appendix*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{119}{appendix*.15}%
