@@ -238,6 +238,7 @@ protfunctions <- read.csv("data/Ch1/Table1.8.csv")
 **Figure** \@ref(fig:sitemap): Map of outplant locations. Oysters were placed at five sites: Case Inlet (CI), Fidalgo Bay (FB), Port Gamble Bay (PG), Skokomish River Delta (SK), and Willapa Bay (WB). Sites in Puget Sound are outlined in a grey box.\newline
 
 \begin{figure}[h]
+\centering
   \includegraphics[width=0.65\textwidth]{figure/Ch1/fig1.1.pdf}
   \caption{Map of outplant sites}
   (\#fig:sitemap)
