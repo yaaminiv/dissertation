@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  20 AUG 2021 00:50
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  20 AUG 2021 01:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,13 +980,13 @@ Crassostrea gigas\TU/lmr/m/n/12 ) proteomic
 [3
 
 ] [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [6] [7]
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [8]
 Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
@@ -994,16 +994,13 @@ ex-text;!
 [9]
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[10] [11] [12] [13]
-Underfull \vbox (badness 2837) has occurred while \output is active []
-
-[14] [15]
+[10] [11] [12] [13] [14] [15]
 Missing character: There is no χ (U+03C7) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[16]
-Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[17] [18]
+Underfull \vbox (badness 6125) has occurred while \output is active []
+
+[16] [17] [18]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [19] [20]
@@ -1011,12 +1008,9 @@ Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no δ (U+03B4) in font [lmroman12-regular]:mapping=t
 ex-text;!
+[21] [22] [23] [24
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[21] [22] [23
-
-] [24
+] [25
 
 
 ]
@@ -1025,10 +1019,8 @@ Overfull \hbox (17.92484pt too wide) in paragraph at lines 419--419
 , quote = quote, :[] 
  []
 
-[25
+[26
 
-
-] [26
 
 ] [27
 
@@ -1036,24 +1028,26 @@ Overfull \hbox (17.92484pt too wide) in paragraph at lines 419--419
 
 ] [29
 
+] [30
+
 ]
 Overfull \hbox (94.07013pt too wide) in alignment at lines 522--535
  [] [] 
  []
 
-[30
+[31
 
 
 ]
 File: figure/Ch1/fig1.1.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.1.pdf>
-[31
+[32
 
 
 ]
 File: figure/Ch1/fig1.2.pdf Graphic file (type pdf)
 <use figure/Ch1/fig1.2.pdf>
-[32
+[33
 
 ]
 File: figure/Ch1/fig1.3.pdf Graphic file (type pdf)
@@ -1061,57 +1055,57 @@ File: figure/Ch1/fig1.3.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33
+[34
 
-] [34]
+] [35]
 File: figure/Ch1/fig1.4.png Graphic file (type bmp)
 <figure/Ch1/fig1.4.png>
-[35
+[36
 
 ]
 <<2>>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[36
+[37
 
-] [37] [38] [39] [40]
+] [38] [39] [40] [41]
 Underfull \vbox (badness 2671) has occurred while \output is active []
-
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43] [44]
+[43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45]
+[44] [45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [46]
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[48]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[49]
+[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[50] [51] [52
+[49]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+[50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[51] [52] [53
 
 ]
 Overfull \hbox (72.03519pt too wide) in alignment at lines 693--702
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[53
+[54
 
-] [54
+] [55
 
 
 ]
@@ -1122,12 +1116,12 @@ Overfull \hbox (8.41493pt too wide) in paragraph at lines 715--716
  [][] 
  []
 
-[55
+[56
 
 ]
 File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
 <use figure/Ch2/Figure2.2.pdf>
-[56
+[57
 
 
 ]
@@ -1135,19 +1129,19 @@ File: figure/Ch2/Figure2.2.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[57
+[58
 
 
-] [58]
+] [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[59] [60] [61]
+[60] [61] [62]
 Overfull \hbox (11.58589pt too wide) in paragraph at lines 772--773
 \TU/lmr/m/n/12 Nuclear ([][]\TU/lmr/bx/n/12 Peñaloza2021?[][]\TU/lmr/m/n/12 ) (
 NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
  []
 
-[62]
+[63]
 Underfull \hbox (badness 1112) in paragraph at lines 779--780
 \TU/lmr/bx/n/12 tin2011?[][]\TU/lmr/m/n/12 ). Known Illumina adapter sequences 
 were removed (\TU/lmtt/m/n/12 --illumina\TU/lmr/m/n/12 ), along
@@ -1171,7 +1165,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 779--780
 2 ). Sequence quality was as-
  []
 
-[63] [64] [65]
+[64] [65] [66]
 Underfull \hbox (badness 1314) in paragraph at lines 810--811
 \TU/lmr/m/n/12 was annotated. A \TU/lmtt/m/n/12 blastx \TU/lmr/m/n/12 was perfo
 rmed against the Uniprot-SwissProt database
@@ -1183,10 +1177,10 @@ Underfull \hbox (badness 1221) in paragraph at lines 810--811
 r each transcript
  []
 
-[66] [67] [68] [69] [70]
+[67] [68] [69] [70] [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[71]
+[72]
 Underfull \hbox (badness 1308) in paragraph at lines 853--854
 \TU/lmr/m/n/12 acidification ([][]\TU/lmr/bx/n/12 ChandraRajan2021?[][]\TU/lmr/
 m/n/12 ; [][]\TU/lmr/bx/n/12 Downey-Wall2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/b
@@ -1196,10 +1190,10 @@ x/n/12 Lim2020?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/12 Venkatara-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[72]
+[73]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[73] [74] [75
+[74] [75] [76
 
 ]
 Overfull \hbox (2.66501pt too wide) in paragraph at lines 878--878
@@ -1216,16 +1210,16 @@ Overfull \hbox (7.8pt too wide) in paragraph at lines 883--883
 []|\TU/lmr/m/n/5 Pediveliger|  
  []
 
-[76
+[77
 
-] [77]
+] [78]
 Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
 ex-text;!
 File: figure/Ch3/Figure3.1.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.1.pdf>
-[78
+[79
 
 
 ]
@@ -1234,26 +1228,26 @@ File: figure/Ch3/Figure3.2.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
-[79
+[80
 
 ]
 File: figure/Ch3/Figure3.3.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.3.pdf>
-[80
+[81
 
 ]
 File: figure/Ch3/Figure3.4.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.4.pdf>
-[81
+[82
 
 ]
 File: figure/Ch3/Figure3.5.pdf Graphic file (type pdf)
 <use figure/Ch3/Figure3.5.pdf>
-[82
+[83
 
 ]
 <<4>>
-[83
+[84
 
 
 ]
@@ -1263,10 +1257,10 @@ iploid eastern oysters (\TU/lmr/m/it/12 C. virginica\TU/lmr/m/n/12 ) are more s
 ensitive to
  []
 
-[84]
+[85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[85]
+[86]
 Underfull \hbox (badness 1418) in paragraph at lines 958--959
 []\TU/lmr/m/n/12 Ocean acidification, can also influence methylomes ([][]Eirin-
 Lopez & Putnam, 2018[][]),
@@ -1288,10 +1282,10 @@ nges when compared to
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[86]
+[87]
 Missing character: There is no ʻ (U+02BB) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[87]
+[88]
 Overfull \hbox (11.58589pt too wide) in paragraph at lines 982--983
 \TU/lmr/m/n/12 Nuclear ([][]\TU/lmr/bx/n/12 Peñaloza2021?[][]\TU/lmr/m/n/12 ) (
 NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
@@ -1300,7 +1294,7 @@ NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[88]
+[89]
 Underfull \hbox (badness 1163) in paragraph at lines 989--990
 \TU/lmr/m/n/12 Prior to alignment, 150 bp paired-end reads generated for each s
 ample underwent
@@ -1321,58 +1315,58 @@ Underfull \hbox (badness 1152) in paragraph at lines 989--990
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[89] [90]
+[90] [91]
 Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[91]
+[92]
 Underfull \hbox (badness 2027) in paragraph at lines 1005--1006
 []\TU/lmr/m/n/12 Methylation patterns were compared between treatments using \T
 U/lmtt/m/n/12 methylKit \TU/lmr/m/n/12 v.1.17.4
  []
 
-[92]
+[93]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[93]
+[94]
 Overfull \hbox (1.76503pt too wide) in paragraph at lines 1026--1027
 \TU/lmr/m/n/12 quence from the genome (GCF_902806645.1_cgigas_uk_roslin_v1_rna_
 from_genomic.fna
  []
 
-[94] [95]
+[95] [96]
 Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[96] [97] [98] [99] [100]
+[97] [98] [99] [100] [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[101]
+[102]
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[102] [103] [104
+[103] [104] [105
 
 ]
 File: figure/Ch4/Figure4.1.pdf Graphic file (type pdf)
 <use figure/Ch4/Figure4.1.pdf>
-[105
+[106
 
 ]
 File: figure/Ch4/Figure4.2.pdf Graphic file (type pdf)
 <use figure/Ch4/Figure4.2.pdf>
-[106
+[107
 
 ]
 File: figure/Ch4/Figure4.3.pdf Graphic file (type pdf)
 <use figure/Ch4/Figure4.3.pdf>
-[107
+[108
 
 ]
 File: figure/Ch4/Figure4.4.pdf Graphic file (type pdf)
 <use figure/Ch4/Figure4.4.pdf>
-[108
+[109
 
-] [109
+] [110
 
 
 ]
@@ -1404,7 +1398,7 @@ Overfull \hbox (71.86436pt too wide) in paragraph at lines 1202--1203
 [][][][][][][][][][][][][][][][][][][] []
  []
 
-[110
+[111
 
 ]
 Underfull \hbox (badness 2173) in paragraph at lines 1211--1213
@@ -1471,7 +1465,7 @@ Overfull \hbox (38.06444pt too wide) in paragraph at lines 1225--1227
 [][][][][][][] []
  []
 
-[111]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 1227--1229
 [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][]
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][] [] [][
@@ -1535,7 +1529,7 @@ Overfull \hbox (13.84447pt too wide) in paragraph at lines 1242--1244
 [][][][][][] []
  []
 
-[112]
+[113]
 Underfull \hbox (badness 5374) in paragraph at lines 1246--1248
 \TU/lmr/m/n/12 DML in scaffolds not placed in any chromosome: [][]$[][][][][] [
 ] [] [] [][][][][][] [] [][][] []
@@ -1637,7 +1631,7 @@ Overfull \hbox (74.6324pt too wide) in paragraph at lines 1260--1262
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[113]
+[114]
 Overfull \hbox (19.01247pt too wide) in paragraph at lines 1262--1264
 [][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][
 ][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -1698,13 +1692,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1270--1271
 ][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[114]
+[115]
 Overfull \hbox (11.7445pt too wide) in paragraph at lines 1368--1368
 []\TU/lmtt/m/n/12 - Session info ----------------------------------------------
 -----------------[] 
  []
 
-[115
+[116
 
 ]
 Overfull \hbox (11.74449pt too wide) in paragraph at lines 1368--1368
@@ -1715,28 +1709,71 @@ Overfull \hbox (11.74449pt too wide) in paragraph at lines 1368--1368
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[116]
+[117]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[117] [118]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[118] [119]
+Underfull \hbox (badness 1540) in paragraph at lines 1394--1396
+ [][]\TU/lmr/m/n/12 Beyer, J., Green, N. W., Brooks, S., Allan, I. J., Ruus, A.
+, Gomes, T., …
+ []
 
-[119
+
+Underfull \vbox (badness 7631) has occurred while \output is active []
+
+[120
 
 
 ]
-Underfull \hbox (badness 1448) in paragraph at lines 1418--1420
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[124]
+Underfull \hbox (badness 1968) in paragraph at lines 1505--1507
+ [][]\TU/lmr/m/n/12 Silvestre, F., Dierick, J.-F., Dumont, V., Dieu, M., Raes, 
+M., & Devos, P.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 1505--1507
+ \TU/lmr/m/n/12 (2006). Differential protein expression profiles in anterior gi
+lls of \TU/lmr/m/it/12 Eriocheir
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1505--1507
+ \TU/lmr/m/it/12 sinensis \TU/lmr/m/n/12 during acclimation to cadmium. \TU/lmr
+/m/it/12 Aquat. Toxicol.\TU/lmr/m/n/12 , \TU/lmr/m/it/12 76\TU/lmr/m/n/12 (1), 
+46–58.
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1514--1516
  [][]\TU/lmr/m/n/12 Timmins-Schiffman, E., Coffey, W. D., Hua, W., Nunn, B. L.,
  Dickinson, G.
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 1418--1420
+Underfull \hbox (badness 1490) in paragraph at lines 1514--1516
  \TU/lmr/m/n/12 H., & Roberts, S. B. (2014). Shotgun proteomics reveals physiol
 ogical re-
  []
 
-[120] (./thesis.aux)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[126] [127] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8185B8FCDB987FA95232340F5C07143A;3653.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1746,10 +1783,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  22951 strings out of 478475
  429277 string characters out of 5858192
- 1210783 words of memory out of 5000000
+ 1209785 words of memory out of 5000000
  42954 multiletter control sequences out of 15000+600000
  409220 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,7n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (132 pages).
+Output written on thesis.pdf (139 pages).
