@@ -74,11 +74,11 @@ Proteins of interest identified from the DIA analysis were used as targets in a 
 
 To ensure SRM assay specificity to oyster peptides of interest, oyster peptides were diluted in a background matrix of similar complexity (Pacific geoduck — *Panopea generosa* — peptides), then analyzed using the oyster SRM assay. An oyster-specific SRM target would decrease in abundance with a decreasing abundance of oyster peptides in a mixture. Non-specific peptides — more likely to be found in background matrix of similar complexity — or peptides susceptible to interference would not correlate with oyster peptide abundance, and therefore, would be uninformative. Five *C. gigas* samples used for SRM were randomly selected and pooled in equal quantities. A ten-sample oyster:geoduck dilution series was prepared and run using the same methods as other SRM samples.
 
-Raw SRM files, a background *C. gigas* proteome, and the PECAN spectral library file from DIA were used to create a Skyline document (Appendix 1). Correct transition peaks were selected based on predicted retention times from DIA results by comparing the relative retention times between identical PRTC peptides in the DIA and SRM datasets (R^2^ = 0.99431). Based on peptide specificity analyses, heat shock protein 70 B2 and one constituent peptide of 
+Raw SRM files, a background *C. gigas* proteome, and the PECAN spectral library file from DIA were used to create a Skyline document (Appendix 1). Correct transition peaks were selected based on predicted retention times from DIA results by comparing the relative retention times between identical PRTC peptides in the DIA and SRM datasets (R^2^ = 0.99431). Based on peptide specificity analyses, heat shock protein 70 B2 and one constituent peptide of
 glucose-6-phosphate 1-dehydrogenase were removed from analyses.
 
 Further filters were applied to the data to maintain only high quality peptides and transitions in the analysis. Coefficients of variation were calculated between technical replicates for each peptide transition. Peptides were removed from the dataset if CV > 20%. To maintain high sample quality, any sample missing data for more than 50% of peptide transitions was deemed poor quality for downstream analyses and excluded. Abundance data was normalized using total ion current (TIC) values from the mass spectrometer. Consistency between technical replicates was verified in remaining samples using a NMDS with TIC-normalized data and a euclidean dissimilarity matrix. Technical replicates were consistent if replicates lay closer together than to other samples in the NMDS. These replicates were then averaged for multivariate analytical methods.
-	
+
 Averaged technical replicate data was used to determine if peptides were differentially abundant between outplant sites and habitats. Before proceeding with analysis, peptide abundances were subjected to a Hellinger transformation to give low weights to any peptides with low counts. A NMDS was used to visually compare relative peptide abundance. One-way ANOSIM tests by site, region (Puget Sound vs. Willapa Bay), and habitat, as well as a two-way ANOSIM test by site and habitat, were used to determine significant differences. Pairwise ANOSIM tests and post-hoc similarity percentage (SIMPER) analyses were conducted for each one- or two-way ANOSIM result significant at the 0.05 level. The first ten SIMPER entries were deemed influential peptides for each significant comparison.
 
 The importance of environmental variables for explaining peptide abundance was evaluated with a redundancy analysis (RDA). For each site and habitat combination, mean and variance were calculated for pH, dissolved oxygen, salinity, and temperature over the course of the entire outplant. Environmental variables were then used as predictors to constrain peptide abundance. Predictors with missing values were not included. A triplot was used to visually assess differences in peptide abundance by site and habitat and the influence of individual peptides and environmental parameters. Analysis of Variance (ANOVA) was used to calculate significance of the RDA and environmental variables, with predictors deemed significant at p < 0.05. Since estuarine sites are highly variable, a second RDA was conducted constraining peptide abundance by environmental conditions on the day of collection to evaluate robustness of proteomic methods. R Scripts are available in the associated Github repository (Appendix 1).
@@ -141,7 +141,7 @@ As global climate change continues to rapidly influence estuarine dynamics, this
 
 ```{r deployment,echo=FALSE}
 deployment <- read.csv("data/Ch1/Table1.1.csv")
-  kableExtra:::kable_styling(knitr::kable(deployment, "latex",col.names = gsub("[.]", " ", names(deployment)), 
+  kableExtra:::kable_styling(knitr::kable(deployment, "latex",col.names = gsub("[.]", " ", names(deployment)),
                   caption = "Outplant locations and time of day and tidal height at collection",
                   longtable = TRUE, booktabs = TRUE), font_size = 10, bootstrap_options = c("striped"))
 ```
@@ -153,7 +153,7 @@ Table 1.2: Proteins used as targets for a Selected Reaction Monitoring Assay (SR
 
 ```{r targets,echo=FALSE}
 targets <- read.csv("data/Ch1/Table1.2.csv")
-  kableExtra:::kable_styling(knitr::kable(targets, "latex",col.names = gsub("[.]", " ", names(targets)), 
+  kableExtra:::kable_styling(knitr::kable(targets, "latex",col.names = gsub("[.]", " ", names(targets)),
                   caption = "Target peptides used for Selected Reaction Monitoring Assay (SRM)",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
@@ -166,7 +166,7 @@ targets <- read.csv("data/Ch1/Table1.2.csv")
 
 ```{r outplantenv, echo=FALSE}
 outplantenv <- read.csv("data/Ch1/Table1.3.csv")
-  kableExtra:::kable_styling(knitr::kable(outplantenv, "latex",col.names = gsub("[.]", " ", names(outplantenv)), 
+  kableExtra:::kable_styling(knitr::kable(outplantenv, "latex",col.names = gsub("[.]", " ", names(outplantenv)),
                   caption = "Outplant conditions",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
@@ -176,7 +176,7 @@ outplantenv <- read.csv("data/Ch1/Table1.3.csv")
 
 ```{r envmeans, echo=FALSE}
 envmeans <- read.csv("data/Ch1/Table1.4.csv")
-  kableExtra:::kable_styling(knitr::kable(envmeans, "latex",col.names = gsub("[.]", " ", names(envmeans)), 
+  kableExtra:::kable_styling(knitr::kable(envmeans, "latex",col.names = gsub("[.]", " ", names(envmeans)),
                   caption = "ANOSIM for mean environmental conditions",
                   longtable = TRUE, booktabs = TRUE), font_size = 10)
 ```
@@ -186,7 +186,7 @@ envmeans <- read.csv("data/Ch1/Table1.4.csv")
 
 ```{r envvariance, echo=FALSE}
 envvariance <- read.csv("data/Ch1/Table1.5.csv")
-  kableExtra:::kable_styling(knitr::kable(envvariance, "latex",col.names = gsub("[.]", " ", names(envvariance)), 
+  kableExtra:::kable_styling(knitr::kable(envvariance, "latex",col.names = gsub("[.]", " ", names(envvariance)),
                   caption = "ANOSIM for variance of environmental conditions",
                   longtable = TRUE, booktabs = TRUE), font_size = 10)
 ```
@@ -196,7 +196,7 @@ envvariance <- read.csv("data/Ch1/Table1.5.csv")
 
 ```{r protANOSIM, echo=FALSE}
 protANOSIM <- read.csv("data/Ch1/Table1.6.csv")
-  kableExtra:::kable_styling(knitr::kable(protANOSIM, "latex",col.names = gsub("[.]", " ", names(protANOSIM)), 
+  kableExtra:::kable_styling(knitr::kable(protANOSIM, "latex",col.names = gsub("[.]", " ", names(protANOSIM)),
                   caption = "Pairwise ANOSIM for protein abundance",
                   longtable = TRUE, booktabs = TRUE), font_size = 10)
 ```
@@ -206,7 +206,7 @@ protANOSIM <- read.csv("data/Ch1/Table1.6.csv")
 
 ```{r RDA, echo=FALSE}
 RDA <- read.csv("data/Ch1/Table1.7.csv")
-  kableExtra:::kable_styling(knitr::kable(RDA, "latex",col.names = gsub("[.]", " ", names(RDA)), 
+  kableExtra:::kable_styling(knitr::kable(RDA, "latex",col.names = gsub("[.]", " ", names(RDA)),
                   caption = "RDA Results",
                   longtable = TRUE, booktabs = TRUE), font_size = 10)
 ```
@@ -218,7 +218,7 @@ Table 1.8: Functions of differentially abundant proteins.
 
 ```{r protfunctions, echo=FALSE}
 protfunctions <- read.csv("data/Ch1/Table1.8.csv")
-  kableExtra:::kable_styling(knitr::kable(protfunctions, "latex",col.names = gsub("[.]", " ", names(protfunctions)), 
+  kableExtra:::kable_styling(knitr::kable(protfunctions, "latex",col.names = gsub("[.]", " ", names(protfunctions)),
                   caption = "Protein functions",
                   longtable = TRUE, booktabs = TRUE), font_size = 8)
 ```
