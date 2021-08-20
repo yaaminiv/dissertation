@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  20 AUG 2021 01:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  20 AUG 2021 02:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1269,7 +1269,7 @@ NCBI GenBank: GCA_902806645.1, RefSeq: GCF_902806645.1)
  []
 
 
-Underfull \vbox (badness 6125) has occurred while \output is active []
+Underfull \vbox (badness 1009) has occurred while \output is active []
 
 [90]
 Underfull \hbox (badness 1163) in paragraph at lines 989--990
@@ -1730,7 +1730,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [128]
-Overfull \hbox (40.08308pt too wide) in paragraph at lines 1574--1576
+Overfull \hbox (40.08308pt too wide) in paragraph at lines 1580--1582
  \TU/lmr/m/n/12 SAMtools. \TU/lmr/m/it/12 Bioinformatics\TU/lmr/m/n/12 , \TU/lm
 r/m/it/12 25\TU/lmr/m/n/12 (16), 2078–2079. http://doi.org/[][]10.1093/bioinfor
 matics/btp352[][] 
@@ -1746,17 +1746,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [131]
-Overfull \hbox (56.07106pt too wide) in paragraph at lines 1655--1657
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[132]
+Overfull \hbox (56.07106pt too wide) in paragraph at lines 1661--1663
  \TU/lmr/m/n/12 genomic features. \TU/lmr/m/it/12 Bioinformatics\TU/lmr/m/n/12 
 , \TU/lmr/m/it/12 26\TU/lmr/m/n/12 (6), 841–842. http://doi.org/[][]10.1093/bio
 informatics/btq033[][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[132]
-Underfull \hbox (badness 1077) in paragraph at lines 1667--1669
+Underfull \hbox (badness 1077) in paragraph at lines 1673--1675
  \TU/lmr/m/n/12 methylation and phenotypic plasticity in invertebrates? \TU/lmr
 /m/it/12 Front. Physiol.\TU/lmr/m/n/12 , \TU/lmr/m/it/12 2\TU/lmr/m/n/12 .
  []
@@ -1765,19 +1765,19 @@ Underfull \hbox (badness 1077) in paragraph at lines 1667--1669
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [133]
-Underfull \hbox (badness 1968) in paragraph at lines 1685--1687
+Underfull \hbox (badness 1968) in paragraph at lines 1691--1693
  [][]\TU/lmr/m/n/12 Silvestre, F., Dierick, J.-F., Dumont, V., Dieu, M., Raes, 
 M., & Devos, P.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1685--1687
+Underfull \hbox (badness 1688) in paragraph at lines 1691--1693
  \TU/lmr/m/n/12 (2006). Differential protein expression profiles in anterior gi
 lls of \TU/lmr/m/it/12 Eriocheir
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 1685--1687
+Underfull \hbox (badness 2253) in paragraph at lines 1691--1693
  \TU/lmr/m/it/12 sinensis \TU/lmr/m/n/12 during acclimation to cadmium. \TU/lmr
 /m/it/12 Aquat. Toxicol.\TU/lmr/m/n/12 , \TU/lmr/m/it/12 76\TU/lmr/m/n/12 (1), 
 46–58.
@@ -1787,25 +1787,25 @@ Underfull \hbox (badness 2253) in paragraph at lines 1685--1687
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [134]
-Underfull \hbox (badness 1436) in paragraph at lines 1703--1705
+Underfull \hbox (badness 1436) in paragraph at lines 1709--1711
  \TU/lmr/m/n/12 Parental environments alter DNA methylation in offspring of the
  purple sea
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1712--1714
+Underfull \hbox (badness 1590) in paragraph at lines 1718--1720
  \TU/lmr/m/n/12 itive Elements in Genomic Sequences. \TU/lmr/m/it/12 Current Pr
 otocols in Bioinformatics\TU/lmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 1715--1717
+Underfull \hbox (badness 1448) in paragraph at lines 1721--1723
  [][]\TU/lmr/m/n/12 Timmins-Schiffman, E., Coffey, W. D., Hua, W., Nunn, B. L.,
  Dickinson, G.
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 1715--1717
+Underfull \hbox (badness 1490) in paragraph at lines 1721--1723
  \TU/lmr/m/n/12 H., & Roberts, S. B. (2014). Shotgun proteomics reveals physiol
 ogical re-
  []
@@ -1816,7 +1816,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [135]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[136] [137] (./thesis.aux)
+[136]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[137] [138] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8185B8FCDB987FA95232340F5C07143A;3653.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1826,10 +1829,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  22951 strings out of 478475
  429277 string characters out of 5858192
- 1210787 words of memory out of 5000000
+ 1209787 words of memory out of 5000000
  42954 multiletter control sequences out of 15000+600000
  409220 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  73i,7n,81p,4138b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (149 pages).
+Output written on thesis.pdf (150 pages).
