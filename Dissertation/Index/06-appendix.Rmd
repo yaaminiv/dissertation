@@ -12,11 +12,11 @@ Data accessibility information and additional materials for each dissertation ch
 
 ## Chapter 1: Characterization of Pacific oyster (*Crassostrea gigas*) proteomic response to natural environmental differences
 
-Raw data can be accessed in the PeptideAtlas under accession PASS01304 and PASS01305. Skyline documents can be found on Panorama Public. All scripts and workflows can be found in the associated Github repository (https://github.com/RobertsLab/paper-gigas-DNR-proteomics).
+Raw data can be accessed in the PeptideAtlas under accession PASS01304 and PASS01305. Skyline documents can be found on Panorama Public. All scripts and workflows can be found in the associated Github repository (https://github.com/RobertsLab/paper-gigas-DNR-proteomics), which is archived on Figshare (https://doi.org/10.6084/m9.figshare.7450997.v2).
 
 ## Chapter 2: Larval response to parental low pH exposure in Pacific oysters (*Crassostrea gigas*)
 
-All scripts and workflows can be found in the associated Github repository (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure). 
+All scripts and workflows can be found in the associated Github repository (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure), which is archived on Figshare (https://doi.org/10.6084/m9.figshare.7155074.v2).
 
 Additional histology can be found in this repository, including microscope images (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure/tree/master/images/Gigas-gonad-histology) and specific sex information for each individual sampled (https://github.com/RobertsLab/paper-gigas-early-gametogenic-exposure/blob/master/data/2017-Adult-Gigas-Tissue-Sampling/2018-02-27-Gigas-Histology-Classification.csv).
 
