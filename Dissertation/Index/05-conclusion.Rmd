@@ -1,8 +1,6 @@
 # Conclusion {-}
 
-If we don't want Conclusion to have a chapter number next to it, we can add the `{-}` attribute.
+While extensive research has been conducted on the impacts of ocean acidification on marine invertebrates, it is difficult to fully comprehend the influence of environmental stressors on organisms without molecular data. My dissertation demonstrates how proteomic and epigenetic analysis can elucidate sub- and nonlethal impacts of low pH on the Pacific oyster, Crassostrea gigas. My findings contribute to our understanding of stress response pathways in this species, which can in turn shape aquaculture practices. For example, my finding that eelgrass presence does not significantly impact stress protein abundance could signify that carbonate chemistry modulation by eelgrass may not create refugia from ocean acidification for oysters. Considering broodstock exposure history before spawning in hatcheries can impact larval yield and production.
 
-**More info**
-
-And here's some other random info: the first paragraph after a chapter title or section head _shouldn't be_ indented, because indents are to tell the reader that you're starting a new paragraph. Since that's obvious after a chapter or section title, proper typesetting doesn't add an indent there.
-
+Importantly, my dissertation helps elucidate the functional role of environmentally-responsive DNA methylation. Using C. gigas as a model organism, I found that somatic and reproductive methylomes have distinct responses to low pH stress. These responses may be linked to maintaining homeostasis under stressful conditions, which would depend on tissue function. If changes to methylation do impact gene expression, then DNA methylation would be critical for acclimation to ocean acidification conditions. With my dissertation as a foundation, future work can explore the role of DNA methylation in modulating carryover effects to environmental stressors, and determine how methylation can interact with gene expression or other epigenomic mechanisms to shape physiological phenotype.
+ 
