@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  20 AUG 2021 01:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.17)  20 AUG 2021 01:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1069,13 +1069,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [37
 
-] [38] [39] [40] [41]
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
-[42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[43]
+] [38] [39] [40] [41] [42] [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [44] [45]
@@ -1091,10 +1085,10 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [49]
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3815) has occurred while \output is active []
 
 [51] [52] [53
 
@@ -1165,7 +1159,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 779--780
 2 ). Sequence quality was as-
  []
 
-[64] [65] [66]
+[64] [65] [66] [67]
 Underfull \hbox (badness 1314) in paragraph at lines 810--811
 \TU/lmr/m/n/12 was annotated. A \TU/lmtt/m/n/12 blastx \TU/lmr/m/n/12 was perfo
 rmed against the Uniprot-SwissProt database
@@ -1177,7 +1171,7 @@ Underfull \hbox (badness 1221) in paragraph at lines 810--811
 r each transcript
  []
 
-[67] [68] [69] [70] [71]
+[68] [69] [70] [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [72]
@@ -1261,25 +1255,6 @@ ensitive to
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [86]
-Underfull \hbox (badness 1418) in paragraph at lines 958--959
-[]\TU/lmr/m/n/12 Ocean acidification, can also influence methylomes ([][]Eirin-
-Lopez & Putnam, 2018[][]),
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 958--959
-\TU/lmr/m/n/12 with pteropods ([][]\TU/lmr/bx/n/12 Bogan2020?[][]\TU/lmr/m/n/12
- ), corals ([][]\TU/lmr/bx/n/12 Liew2018?[][]\TU/lmr/m/n/12 ; [][]\TU/lmr/bx/n/
-12 Putnam2016?[][]\TU/lmr/m/n/12 ), and urchins
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 958--959
-\TU/lmr/m/n/12 conditions exhibited significantly different transcriptional cha
-nges when compared to
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [87]
@@ -1713,18 +1688,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [118] [119]
-Underfull \hbox (badness 1540) in paragraph at lines 1394--1396
- [][]\TU/lmr/m/n/12 Beyer, J., Green, N. W., Brooks, S., Allan, I. J., Ruus, A.
-, Gomes, T., …
- []
-
-
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
 [120
 
 
 ]
+Underfull \hbox (badness 1540) in paragraph at lines 1406--1408
+ [][]\TU/lmr/m/n/12 Beyer, J., Green, N. W., Brooks, S., Allan, I. J., Ruus, A.
+, Gomes, T., …
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [121]
@@ -1737,32 +1712,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [124]
-Underfull \hbox (badness 1968) in paragraph at lines 1505--1507
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[126]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[128]
+Underfull \hbox (badness 1968) in paragraph at lines 1598--1600
  [][]\TU/lmr/m/n/12 Silvestre, F., Dierick, J.-F., Dumont, V., Dieu, M., Raes, 
 M., & Devos, P.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1505--1507
+Underfull \hbox (badness 1688) in paragraph at lines 1598--1600
  \TU/lmr/m/n/12 (2006). Differential protein expression profiles in anterior gi
 lls of \TU/lmr/m/it/12 Eriocheir
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 1505--1507
+Underfull \hbox (badness 2253) in paragraph at lines 1598--1600
  \TU/lmr/m/it/12 sinensis \TU/lmr/m/n/12 during acclimation to cadmium. \TU/lmr
 /m/it/12 Aquat. Toxicol.\TU/lmr/m/n/12 , \TU/lmr/m/it/12 76\TU/lmr/m/n/12 (1), 
 46–58.
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 1514--1516
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[129]
+Underfull \hbox (badness 1448) in paragraph at lines 1613--1615
  [][]\TU/lmr/m/n/12 Timmins-Schiffman, E., Coffey, W. D., Hua, W., Nunn, B. L.,
  Dickinson, G.
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 1514--1516
+Underfull \hbox (badness 1490) in paragraph at lines 1613--1615
  \TU/lmr/m/n/12 H., & Roberts, S. B. (2014). Shotgun proteomics reveals physiol
 ogical re-
  []
@@ -1770,10 +1760,10 @@ ogical re-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[125]
+[130]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[126] [127] (./thesis.aux)
+[131] [132] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8185B8FCDB987FA95232340F5C07143A;3653.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1783,10 +1773,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  22951 strings out of 478475
  429277 string characters out of 5858192
- 1209785 words of memory out of 5000000
+ 1210785 words of memory out of 5000000
  42954 multiletter control sequences out of 15000+600000
  409220 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 73i,7n,81p,3984b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,7n,81p,3982b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (139 pages).
+Output written on thesis.pdf (144 pages).
