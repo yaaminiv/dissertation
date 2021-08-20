@@ -687,19 +687,13 @@ Four months after adult \emph{C. gigas} experienced experimental ocean acidifica
 \section{Tables}\label{tables-1}}
 \begin{landscape}
 
-Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO\textsubscript{2} (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω\textsubscript{calcite}), and aragonite saturation state (Ω\textsubscript{aragonite}) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO\textsubscript{2}, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω\textsubscript{calcite}), and aragonite saturation (Ω\textsubscript{aragonite}) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F\textsubscript{1, 16} = 5838.7810, p = 6.1165e-22), pCO\textsubscript{2} (One-way ANOVA; F\textsubscript{1, 16} = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F\textsubscript{1, 16} = 7.1222, p = 0.0168), Ω\textsubscript{calcite} (One-way ANOVA; F\textsubscript{1, 16} = 528.9468, p = 1.0989e-13), Ω\textsubscript{aragonite} (One-way ANOVA; F~1, 16~ = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F\textsubscript{1, 16} = 1.382, p = 0.2570).
-
-
-```
-Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
-incomplete final line found by readTableHeader on 'data/Ch2/Table2.1.csv'
-```
+Table 2.1: Average (± SE) pH, total alkalinity (µmol/kg), pCO\textsubscript{2} (µatm), dissolved organic carbon (DIC; µmol/kg), calcite saturation state (Ω\textsubscript{calcite}), and aragonite saturation state (Ω\textsubscript{aragonite}) for three timepoints during low pH exposure (Day). The `seacarb` library in R was used to calculate total alkalinity, and in situ pCO\textsubscript{2}, Dissolved Inorganic Carbon (DIC), calcite saturation (Ω\textsubscript{calcite}), and aragonite saturation (Ω\textsubscript{aragonite}) for each oyster tank. Averages for both control (ambient pH) and experimental (low pH) values were calculated from three replicate tanks each. Between all three days, pH (One-way ANOVA; F\textsubscript{1, 16} = 5838.7810, p = 6.1165e-22), pCO\textsubscript{2} (One-way ANOVA; F\textsubscript{1, 16} = 235.4018, p = 5.4421e-11), DIC (One-way ANOVA; F\textsubscript{1, 16} = 7.1222, p = 0.0168), Ω\textsubscript{calcite} (One-way ANOVA; F\textsubscript{1, 16} = 528.9468, p = 1.0989e-13), Ω\textsubscript{aragonite} (One-way ANOVA; F\textsubscript{1, 16} = 526.5207, p =1.1389e-13) were significantly lower experimental treatment. Total alkalinity, however, was not significantly different between treatments (One-way ANOVA; F\textsubscript{1, 16} = 1.382, p = 0.2570).
 
 \begingroup\fontsize{5}{7}\selectfont
 \begin{longtable}[t]{rllllllllllll}
 \caption{\label{tab:carbchem}Carbonate chemistry parameters for control (C) and experimental (E) tanks}\\
 \toprule
-Day & C pH & E pH & C Total Alkalinity & E Total Alkalinity & C pCO2 & E pCO2 & C  DIC & E DIC & C Calcite & E Calcite & C Aragonite & E Aragonite\\
+Day & C pH & E pH & C TA & E TA & C pCO2 & E pCO2 & C DIC & E DIC & C Calcite & E Calcite & C Aragonite & E Aragonite\\
 \midrule
 5 & 7.82 ± 0.004 & 7.33 ± 0.002 & 2307.41 ± 25.45 & 2332.36 ± 31.05 & 747.51 ± 13.94 & 2481.23 ± 29.83 & 2233.41 ± 25.29 & 2408.51 ± 31.76 & 1.86 ± 0.02 & 0.62 ± 0.01 & 1.16 ± 0.012  & 0.58 ± 0.007\\
 33 & 7.81 ± 0.005 & 7.31 ± 0.004 & 2747.00 ± 21.13 & 2917.60 ± 18.36 & 912.22 ± 12.69 & 3309.52 ± 7.22 & 2664.57 ± 19.99 & 3020.99 ± 17.99 & 2.23 ± 0.03 & 0.77 ± 0.02 & 1.40 ± 0.020 & 0.48 ± 0.014\\
@@ -1184,11 +1178,9 @@ pH & MF & GO:0046914 & transition metal ion binding & 41 & 2 & 0.00597\\
 \chapter*{Conclusion}\label{conclusion-4}}
 \addcontentsline{toc}{chapter}{Conclusion}
 
-If we don't want Conclusion to have a chapter number next to it, we can add the \texttt{\{-\}} attribute.
+While extensive research has been conducted on the impacts of ocean acidification on marine invertebrates, it is difficult to fully comprehend the influence of environmental stressors on organisms without molecular data. My dissertation demonstrates how proteomic and epigenetic analysis can elucidate sub- and nonlethal impacts of low pH on the Pacific oyster, Crassostrea gigas. My findings contribute to our understanding of stress response pathways in this species, which can in turn shape aquaculture practices. For example, my finding that eelgrass presence does not significantly impact stress protein abundance could signify that carbonate chemistry modulation by eelgrass may not create refugia from ocean acidification for oysters. Considering broodstock exposure history before spawning in hatcheries can impact larval yield and production.
 
-\textbf{More info}
-
-And here's some other random info: the first paragraph after a chapter title or section head \emph{shouldn't be} indented, because indents are to tell the reader that you're starting a new paragraph. Since that's obvious after a chapter or section title, proper typesetting doesn't add an indent there.
+Importantly, my dissertation helps elucidate the functional role of environmentally-responsive DNA methylation. Using C. gigas as a model organism, I found that somatic and reproductive methylomes have distinct responses to low pH stress. These responses may be linked to maintaining homeostasis under stressful conditions, which would depend on tissue function. If changes to methylation do impact gene expression, then DNA methylation would be critical for acclimation to ocean acidification conditions. With my dissertation as a foundation, future work can explore the role of DNA methylation in modulating carryover effects to environmental stressors, and determine how methylation can interact with gene expression or other epigenomic mechanisms to shape physiological phenotype.
 
 \appendix
 
@@ -1289,7 +1281,7 @@ This document was typeset using the XeTeX typesetting system, and the \href{http
 
 The source files for this thesis, along with all the data files, have been organised into an R package, xxx, which is available at \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found in the University of Washington library.
 
-This version of the thesis was generated on 2021-08-19 15:59:00. The repository is currently at this commit:
+This version of the thesis was generated on 2021-08-19 23:45:14. The repository is currently at this commit:
 
 The computational environment that was used to generate this version is as follows:
 \begin{verbatim}
