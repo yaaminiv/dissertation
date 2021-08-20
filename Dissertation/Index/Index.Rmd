@@ -1,6 +1,6 @@
 ---
 # UW thesis fields
-title: "Molecular techniques for resilient Pacific oyster (*Crassostrea gigas*) aquaculture"
+title: "Ocean acidification influences on physiology and epigenetics in the Pacific oyster (*Crassostrea gigas*)"
 author: "Yaamini R. Venkataraman"
 year: "2021"
 program: "School of Aquatic and Fishery Sciences"
